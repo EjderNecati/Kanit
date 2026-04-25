@@ -1,0 +1,2554 @@
+{
+  "id": "girne-005",
+  "title": "The Last Bet",
+  "subtitle": "Kyrenia, Cyprus 2026",
+  "city": "Girne",
+  "description": "Royal Mediterranean Casino. 02:15 AM. The power went out, cameras went dark, the vault was blown open from the outside. 8 million Euros were taken and loaded into a minibus. The minibus was found abandoned outside Kyrenia - empty. No money, no robber. But here's the real bombshell: 3 km past the minibus, a man was found shot. A casino card in his pocket. Alive, but in a coma.",
+  "coverImage": "girne_gece",
+  "difficulty": 2,
+  "isPremium": true,
+  "characters": [
+    {
+      "id": "suspect_sinan",
+      "name": "Sinan Karadağ",
+      "age": 53,
+      "occupation": "Casino Owner",
+      "relationToVictim": "Founded the Royal Mediterranean Casino 18 years ago. Business has been declining for the last 2 years. Raised the insurance policy to 12 million Euros 3 months ago.",
+      "portraitImage": "portrait_sinan",
+      "isSuspect": true,
+      "alibi": "Was having dinner with a politician in Nicosia on the night of the heist. Restaurant camera footage, waiter testimony, and credit card receipt available. 1.5 hours from Kyrenia."
+    },
+    {
+      "id": "suspect_ozan",
+      "name": "Ozan Ersoy",
+      "age": 41,
+      "occupation": "Casino General Manager",
+      "relationToVictim": "Sinan's right-hand man, 10 years at the casino. Security, staff, operations - everything goes through him. Found on the ground 20 minutes after the heist - face bruised.",
+      "portraitImage": "portrait_ozan",
+      "isSuspect": true,
+      "alibi": "Was at the casino on the night of the heist. Attending to clients in the VIP lounge. Claims he was 'managing the panic' when the power went out. Alleges he was beaten by the robbers."
+    },
+    {
+      "id": "suspect_ferhat",
+      "name": "Ferhat Aksoy",
+      "age": 34,
+      "occupation": "Former Casino Security Guard",
+      "relationToVictim": "Fired from the casino 6 months ago. Drowning in debt, former boxer. Found shot with a single bullet outside Kyrenia. In a coma.",
+      "portraitImage": "portrait_ferhat",
+      "isSuspect": true,
+      "alibi": "In a coma. Cannot speak. An abandoned minibus and a casino entry card were found near him.",
+      "exhaustedText": "Ferhat Aksoy lies motionless in intensive care. The monitors blink, the ventilator hums in its steady rhythm. His eyes are closed, he cannot speak, cannot answer.\n\nWhatever he had to tell you, he buried with the bullet in his shoulder. Everything you could learn from him you have already learned."
+    },
+    {
+      "id": "suspect_derya",
+      "name": "Derya Tuncer",
+      "age": 38,
+      "occupation": "Financial Consultant (Contract)",
+      "relationToVictim": "The casino's financial advisor for 7 years. At the casino 2 days a week. Bespectacled, quiet. Divorce proceedings and alimony debt in the past year.",
+      "portraitImage": "portrait_derya",
+      "isSuspect": true,
+      "alibi": "Was at her mother's house in Famagusta on the night of the heist. Confirmed by her mother, a neighbor, and a friend. Dinner, TV series, went to bed at 23:30. Famagusta is 1.5 hours from Kyrenia."
+    },
+    {
+      "id": "suspect_volkan",
+      "name": "Volkan Arat",
+      "age": 45,
+      "occupation": "Casino Head of Security",
+      "relationToVictim": "Former police officer. 5 years at the casino. Responsible for camera and alarm systems. Was off-duty on the night of the heist. Camera system malfunctioned 4 times in the last 2 weeks. Has a hidden side.",
+      "portraitImage": "portrait_volkan",
+      "isSuspect": true,
+      "alibi": "Was at home. His wife confirms. Netflix viewing history available, between 01:00 and 03:00."
+    },
+    {
+      "id": "suspect_takis",
+      "name": "Takis Andreou",
+      "age": 60,
+      "occupation": "Casino 35% Partner / Real Estate Baron",
+      "relationToVictim": "Greek Cypriot businessman. Wants to shut down the casino and build a hotel on the land. Sinan refuses. Partnership dissolution lawsuit ongoing for 8 months. May have connections in Kyrenia.",
+      "portraitImage": "portrait_takis",
+      "isSuspect": true,
+      "alibi": "Was in a hotel room in Limassol on the night of the heist. Check-in 18:00, restaurant 20:00-23:00, returned to room at 23:30. Border crossing record: entry 16:00, exit next day 10:00."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "olay_yeri_raporu",
+      "title": "Crime Scene Report",
+      "description": "Casino crime scene examination. Electrical panel sabotaged, generator fuel line cut, vault opened with C4 explosives. Traces of a single robber present. Fingerprints belong to Ferhat Aksoy.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "darp_raporu",
+      "title": "Assault Report",
+      "description": "Ozan Ersoy's forensic assault report. Bruises on his face, split lip, cut on the left eyebrow. The timing contradicts Ozan's statement. Critical detail: the timing of bruise formation points to at least 8-10 minutes after the heist.",
+      "image": null,
+      "linkedCharacterId": "suspect_ozan",
+      "eliminates": null
+    },
+    {
+      "id": "minibus_raporu",
+      "title": "Minibus Report",
+      "description": "Ford Transit minibus abandoned outside Kyrenia. Rented with a fake ID, GPS disabled. Ferhat's fingerprints on the steering wheel and doors. A few banknotes left in the trunk turned out to be counterfeit. The money was transferred to another vehicle.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "kamera_arizalari",
+      "title": "Camera Malfunction Logs",
+      "description": "4 camera malfunctions in the casino vault area in the last 2 weeks. All during nighttime hours. Timed scripts triggered from the admin account (Volkan's account). However, Volkan was not on duty on some of those nights.",
+      "image": null,
+      "linkedCharacterId": "suspect_volkan",
+      "eliminates": null
+    },
+    {
+      "id": "kasa_erisim_logu",
+      "title": "Vault Access Log",
+      "description": "Digital entry records for the casino vault. In the last 3 months: Metin (90 entries, 3-4 hours daily), Derya (14 entries, 1-2 per week), Ozan (12 entries), Sinan (8 entries). Derya conducted an unscheduled audit on March 12th.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "sahte_para_analiz",
+      "title": "Counterfeit Money Analysis Report",
+      "description": "Forensic laboratory analysis. Counterfeit banknotes were placed in the vault gradually over a 3-4 week period. Professional printing. Swapped by someone with regular vault access and extended working time.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "sahte_banknot",
+      "title": "Counterfeit Banknote",
+      "description": "All 8 million Euros found in Ferhat's car are counterfeit. Professional printing, quality enough to pass UV and touch tests. However, the paper weight is 2% lighter than real Euros. Serial numbers copied from genuine banknotes. The real money was removed from the vault before the heist.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "denetim_raporlari",
+      "title": "Financial Audit Reports",
+      "description": "Derya Tuncer's vault audit reports from the last 12 months. Until 6 months ago, weight checks were done with a digital scale. In the last 3 months, scale use was discontinued. The scale could have easily detected the 2% weight difference of the counterfeit banknotes.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "sigorta_policesi",
+      "title": "Insurance Policy",
+      "description": "Royal Mediterranean Casino insurance file. Sinan Karadag raised the coverage from 4 million Euros to 12 million Euros 3 months ago. Annual premium increased from 180,000 to 540,000 Euros. Tripling the insurance of a failing casino makes no financial sense.",
+      "image": null,
+      "linkedCharacterId": "suspect_sinan",
+      "eliminates": null
+    },
+    {
+      "id": "benzin_makbuzu",
+      "title": "Gas Station Receipt",
+      "description": "Gas station receipt belonging to Derya Tuncer. Filled up gas in Kyrenia between 10:43-10:48 on the morning of March 12. Station attendant: she was talking on the phone. No call records on her personal line at that time - she may have a second phone.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "nakliye_fisi",
+      "title": "Shipping Receipt",
+      "description": "Derya Tuncer shipped moving belongings from Kyrenia to Famagusta 5 days before the heist. Total 185 kg. Boxes sealed, contents unseen. Delivered to a rental storage unit on Salamis Road in Famagusta. The recipient was not at the storage.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "borc_raporu",
+      "title": "Debt Report",
+      "description": "Derya Tuncer's financial situation. Approximately 890,000 Euros in debt after the divorce: alimony, loans, and rent. Her ex-husband got the house, Derya had to start from scratch. Serious financial motivation.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_telefon",
+      "title": "Ferhat's Phone Records",
+      "description": "Ferhat Aksoy's phone records. Called Ozan Ersoy repeatedly in the days before the heist. The last call came from Ozan at 01:00 on the night of the incident. Ozan initially tried to hide his contact with Ferhat, then explained it as a 'severance dispute.'",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_araba",
+      "title": "Ferhat's Car",
+      "description": "Renault Clio hidden in a wooded area 800 meters past the minibus. Covered with branches, a pre-planned escape. 6 large bags inside (filled with counterfeit money). Ferhat transferred the money from the minibus to his own car, and was not going to the rendezvous point.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_tibbi",
+      "title": "Ferhat Medical Report",
+      "description": "Ferhat Aksoy hospital records. In a coma, unable to speak. Nurse's statement: before losing consciousness, he was deliriously repeating the name 'Ozan.' Personal belongings: cancelled casino entry card, 340 Euros cash, Renault car key.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_ses_kaydi",
+      "title": "Ferhat's Audio Recording",
+      "description": "File found in the voice recorder app on Ferhat's phone. March 14, 19:30, conversation with an unknown person: 'They're going to sell me out, I saw the messages. They're going to dispose of me after the job is done.' The CableSat Premium program 'Cyprus Night' can be heard in the background.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "sinan_telefon",
+      "title": "Sinan's Phone Records",
+      "description": "Phone records of all suspects on the night of the incident. Sinan called Ozan 45 minutes before the heist. At 02:45 he called Kara Cemil (criminal record for assault and threats). Both Sinan and Ozan called the same unknown prepaid number. Derya had no calls on the night of the incident.",
+      "image": null,
+      "linkedCharacterId": "suspect_sinan",
+      "eliminates": null
+    },
+    {
+      "id": "volkan_banka",
+      "title": "Volkan's Bank Accounts",
+      "description": "Volkan Arat's financial history. 59,000 Euros in cash deposits in the last 6 months in an account under his wife Ayse Arat's name. Dates coincide with 1-2 days after VIP gambling nights. Illegal income, but not motivation to be involved in an 8 million Euro heist.",
+      "image": null,
+      "linkedCharacterId": "suspect_volkan",
+      "eliminates": null
+    },
+    {
+      "id": "volkan_vip_kayit",
+      "title": "Volkan's VIP Notebook",
+      "description": "Black-covered notebook found in Volkan's personal locker. Organized 16 off-the-books VIP gambling nights in the last 6 months, shut off cameras himself, took a cut from the table. Critical March 12 note: 'Camera malfunction planned but not my script, someone else set it up. Don't touch.'",
+      "image": null,
+      "linkedCharacterId": "suspect_volkan",
+      "eliminates": null
+    },
+    {
+      "id": "takis_belgeler",
+      "title": "Takis's Documents",
+      "description": "Documents collected by Takis Andreou's lawyer. Sinan's financial irregularities: income concealment, insurance inflation, unexplained expenses. Being used as evidence in the partnership dissolution lawsuit. A file that backs Sinan into a corner.",
+      "image": null,
+      "linkedCharacterId": "suspect_takis",
+      "eliminates": null
+    },
+    {
+      "id": "takis_prepaid",
+      "title": "Takis's Prepaid Line",
+      "description": "Investigation of the unknown number from Ferhat's audio recording. The line was used in both the Kyrenia and Limassol areas; Limassol usage dates match exactly with the days Takis was there. The CableSat Premium sound in the background belongs to Takis's Limassol office. The person Ferhat asked for help was Takis.",
+      "image": null,
+      "linkedCharacterId": "suspect_takis",
+      "eliminates": null
+    },
+    {
+      "id": "takis_ferhat_bulusma",
+      "title": "Takis-Ferhat Meeting",
+      "description": "Security camera at Deniz Cafe in Kyrenia Marina. March 5, 10 days before the heist: Takis and Ferhat met at the same table for 45 minutes. Takis took something out of an envelope and gave it to Ferhat. During questioning Takis said 'I don't know Ferhat' - he lied.",
+      "image": null,
+      "linkedCharacterId": "suspect_takis",
+      "eliminates": null
+    },
+    {
+      "id": "it_forensik",
+      "title": "IT Forensic Report",
+      "description": "In-depth analysis of camera malfunction logs. The scripts were not software errors but manually triggered from the admin panel. Upload times during business hours (14:00-16:00), IP address belongs to the accounting floor. Volkan's office is on a different subnet. Someone hijacked Volkan's account and manipulated the cameras from the accounting floor.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_001",
+      "type": "narration",
+      "background": "girne_gece",
+      "characterId": null,
+      "text": "Kyrenia, Northern Cyprus. 04:30 AM. The phone rings.\n\nKyrenia Police Commissioner: 'The Royal Mediterranean Casino was robbed. Power was cut at 02:15, cameras went dark, the vault was blown open with explosives. 8 million Euros. They escaped in a minibus but it was found abandoned 5 km outside town. Empty.'\n\nHe takes a breath: 'But that's not the main issue. 3 km past the minibus, a man was found shot. Casino entry card in his pocket. Alive but in a coma. Name is Ferhat Aksoy, former casino employee.'\n\nThe commissioner adds: 'We need to solve this case today, detective. If it goes to tomorrow, the suspects will have disappeared from this island with the power of money.'\n\nYou reach Kyrenia at first light. The sea smells of salt, palm trees sway in the wind. The front of the casino is cordoned off with police tape.",
+      "choices": [
+        {
+          "id": "c001a",
+          "text": "Examine the casino",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001b",
+          "text": "Get a briefing from the commissioner",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_002",
+      "type": "investigation",
+      "background": "kumarhane_ic",
+      "characterId": null,
+      "text": "Royal Mediterranean Casino. A flashy building - marble floors, crystal chandeliers, now all dark and covered in dust.\n\nThe electrical panel is outside, at the back of the building. The technician shows you: 'The main breaker was bypassed, professional job. The generator didn't kick in because the fuel line was cut. 12 minutes of darkness.'\n\nThe vault section is on the lower floor. The steel door was blown open with explosives. The forensics team is working: 'C4-based explosive, perfectly dosed - opened the door but didn't damage the vault interior. Whoever did this was either military or trained.'\n\nInside the vault: 8 large bags removed, traces belong to a single person. Fingerprints: Ferhat Aksoy. Footprint: men's size 43 boot.\n\nOutside, tire tracks from a white Ford Transit minibus. Single vehicle.",
+      "choices": [
+        {
+          "id": "c002a",
+          "text": "Examine the VIP lounge",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002b",
+          "text": "Examine the security room",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002c",
+          "text": "Check the vault access logs",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "olay_yeri_raporu",
+      "addCharacterNote": "Casino: electrical panel sabotaged, generator fuel line cut, vault blown with C4. Single robber, fingerprints belong to Ferhat Aksoy.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_003",
+      "type": "narration",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Kyrenia Police Headquarters. Commissioner Hasan Demirci takes you to the briefing room.\n\n'Royal Mediterranean, the biggest casino in Kyrenia. Owner Sinan Karadag, been in this business for 18 years. Tough man. In the last 2 years, rival casinos stole revenue, business was going downhill.'\n\nHe opens the file:\n\n'Staff on duty the night of the heist: General manager Ozan Ersoy was in the VIP lounge. Head of security Volkan Arat was off duty. The vault was breached with explosives, one person, 8 bags of money removed.'\n\n'The minibus was abandoned 5 km outside town. Empty. 3 km further, Ferhat Aksoy found shot. Former casino security guard, fired 6 months ago.'\n\n'We have 6 suspects: the casino owner, general manager, the shot former employee, the financial consultant, the head of security, and the 35% partner.'\n\nDemirci adds: 'I should also mention that Sinan raised his insurance policy to 12 million 3 months ago.'",
+      "choices": [
+        {
+          "id": "c003a",
+          "text": "Examine the forensic report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003b",
+          "text": "Examine the casino",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003c",
+          "text": "Examine the insurance file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003d",
+          "text": "Visit Ferhat at the hospital",
+          "nextSceneId": "scene_010",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sigorta_policesi",
+      "addCharacterNote": "6 suspects. Sinan raised insurance to 12 million 3 months ago. Ferhat is a former employee, fired 6 months ago. Ozan was at the casino the night of the heist.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_004",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Forensic laboratory report. Dr. Aslan presents:\n\n'Ferhat Aksoy, 34 years old. Shot with a single bullet in the left shoulder. 9mm, firing distance 5-8 meters. The bullet shattered the shoulder bone. Removed surgically. In a coma.'\n\n'Estimated time of shooting: between 02:45-03:15. 30-60 minutes after the heist.'\n\n'No gunpowder residue on Ferhat's hands - he didn't fire a weapon. Casino entry card and 340 Euros cash in his pocket.'\n\nOzan Ersoy assault report: 'Bruises on his face, split lip, cut on left eyebrow. Blunt force trauma. Forensic note: The timing of bruise formation points to at least 8-10 minutes after the heist.'\n\nDr. Aslan: 'Ozan says he was beaten by the robbers but the timing doesn't match. The assault occurred after the heist.'",
+      "choices": [
+        {
+          "id": "c004a",
+          "text": "Examine the minibus",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004b",
+          "text": "Examine the casino",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004c",
+          "text": "Visit Ferhat at the hospital",
+          "nextSceneId": "scene_010",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004d",
+          "text": "Examine the phone records",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "darp_raporu",
+      "addCharacterNote": "Ferhat was unarmed, someone shot him. Shot 30-60 min after the heist. Ozan's assault timing doesn't match the heist - he was beaten after the robbery.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_005",
+      "type": "investigation",
+      "background": "kumarhane_vip",
+      "characterId": null,
+      "text": "VIP lounge. Luxury armchairs, private roulette tables, bar. Untouched since the night of the heist.\n\nOzan was attending to clients here. Security guard: 'We saw Mr. Ozan in the VIP lounge when the power went out. He was trying to calm the clients.'\n\nLounge attendant: 'Mr. Ozan was his usual self, calm, controlled. When the power went out he turned on his phone flashlight. Told the clients to stay calm.'\n\nAnother attendant: 'But there was something odd. About 5 minutes before the power went out, around 02:10, Mr. Ozan was on the phone. I couldn't hear what he said but he looked tense. When the call ended he went back to his normal expression.'\n\nBartender: 'When the power went out, chaos broke loose. Mr. Ozan told clients to stay calm, then headed toward the service exit at the back. He was in a hurry. I didn't see him again until security found him on the ground half an hour later.'\n\nThe VIP lounge security camera has footage of Ozan between 02:00-02:12. At 02:12 he puts his phone in his pocket. At 02:15, darkness.",
+      "choices": [
+        {
+          "id": "c005a",
+          "text": "Examine the security room",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005b",
+          "text": "Go to the vault section",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005c",
+          "text": "Talk to Ozan",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan was on the phone 5 min before the heist, looked tense. Hung up at 02:12, power went out at 02:15.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_006",
+      "type": "investigation",
+      "background": "guvenlik_odasi",
+      "characterId": null,
+      "text": "Security control room. 12 monitors, DVR system, alarm panel. All dark - the system crashed when the power went out.\n\nThe IT technician reports: 'Cameras went offline at 02:15 on the night of the heist, along with the power. No UPS - Mr. Sinan had it removed 2 years ago to cut costs.'\n\n'But there's something more interesting. There were 4 camera malfunctions in the last 2 weeks. Always during nighttime hours, always brief, always in the vault area.'\n\nHe shows the logs:\nMarch 1, 23:45-00:02 - Vault area\nMarch 5, 01:10-01:28 - Vault area\nMarch 9, 22:50-23:05 - Vault and corridor\nMarch 12, 21:30-22:15 - Entire vault area (45 minutes)\n\n'All triggered from the admin account. Account holder: Volkan Arat, head of security. But Volkan was not on duty on the nights of malfunctions 1 and 3.'\n\nTechnician: 'As IT we filed software error reports, but thinking about it now... these weren't errors, they were deliberate.'",
+      "choices": [
+        {
+          "id": "c006a",
+          "text": "Request the IT forensic report",
+          "nextSceneId": "scene_014",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006b",
+          "text": "Talk to Volkan",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006c",
+          "text": "Check the vault access logs",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006d",
+          "text": "Examine Volkan's personal locker",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kamera_arizalari",
+      "addCharacterNote": "4 camera malfunctions in the last 2 weeks, all in the vault area, all at night. Triggered from admin account (Volkan). But Volkan was not on duty on some of those nights.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_008",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Insurance file. Correspondence with the AIG Cyprus branch:\n\nOld policy: 4 million Euros coverage, 180,000 Euros annual premium.\nNew policy (3 months ago): 12 million Euros coverage, 540,000 Euros annual premium.\n\nSinan Karadag's signature. Agent's note: 'Client urgently wanted to increase coverage. Stated that large amounts of cash are kept in the vault.'\n\nInsurance expert opinion: 'This premium rate makes no sense given the casino's revenue. Revenue has been declining for the past 2 years, the premium increase would further strain the cash flow. Why would a businessman triple the insurance of a failing casino?'\n\nTakis Andreou's lawyer also collected this document - using it as evidence in the partnership dissolution case.",
+      "choices": [
+        {
+          "id": "c008a",
+          "text": "Examine Takis's lawyer documents",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008b",
+          "text": "Talk to Sinan",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008c",
+          "text": "Examine the phone records",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Insurance raised from 4M to 12M. Premium tripled. Why inflate insurance when business is failing?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_009",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Documents collected by Takis Andreou's lawyer Nikos Papadopoulos:\n\n1) Inconsistencies in casino revenue declarations - declared income is 30% below actual revenue.\n2) Suspicious inflation of the insurance policy.\n3) 1.2 million Euros withdrawn from the casino vault over the last 2 years under 'operational expenses' with no explanation.\n4) Sinan's personal expenses covered from the casino account.\n\nTakis came to the police after hearing about the heist: 'Sinan did this to himself. For the insurance money. This man has been robbing me for 18 years, now he's going to rob the insurance company.'\n\nThe documents show financial irregularities but there's no evidence directly linking them to the heist.",
+      "choices": [
+        {
+          "id": "c009a",
+          "text": "Talk to Takis",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009b",
+          "text": "Talk to Sinan",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009c",
+          "text": "Examine the financial audit reports",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "takis_belgeler",
+      "addCharacterNote": "Takis's lawyer has documented Sinan's financial irregularities. Sinan's income concealment, insurance inflation, unexplained expenses.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_010",
+      "type": "investigation",
+      "background": "hastane",
+      "characterId": null,
+      "text": "Kyrenia State Hospital. Intensive care unit. Ferhat Aksoy lies motionless. Monitors blink.\n\nDoctor: 'Single bullet to the left shoulder. Shoulder bone shattered, we removed it surgically. Significant blood loss, in a coma. I can't say when he'll wake up.'\n\nNurse: 'When this man arrived he was delirious. It wasn't clear but he was repeating a name. Something like Ozan. Then he lost consciousness.'\n\nFerhat's personal belongings: casino entry card (cancelled 6 months ago but the magnetic strip still works), 340 Euros cash, cell phone (dead battery), car key (Renault).\n\nDoctor: 'No gunpowder residue on his hands. This man didn't fire a weapon. Someone shot him.'",
+      "choices": [
+        {
+          "id": "c010a",
+          "text": "Have Ferhat's phone examined",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010b",
+          "text": "Search for Ferhat's car",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010c",
+          "text": "Examine Ferhat's belongings in detail",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010d",
+          "text": "Talk to former colleagues",
+          "nextSceneId": "scene_036",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ferhat_tibbi",
+      "addCharacterNote": "Ferhat is in a coma. Repeated the name 'Ozan' while delirious. Didn't fire a weapon. Belongings: cancelled casino card, Renault car key, phone.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_011",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Ferhat's phone has been charged and taken in for examination.\n\nRecent calls:\n- March 14, 16:20: Called Ozan (3 min 45 sec)\n- March 14, 19:30: Unknown number (4 min 12 sec)\n- March 14, 22:00: Called Ozan (1 min 02 sec)\n- March 15, 01:00: Incoming call from Ozan (45 sec)\n\nA file was found in the voice recorder app. March 14, 19:30, 4 minutes 12 seconds. Ferhat had put a phone call on speaker and recorded it with his own app:\n\nFerhat: 'Brother, they're going to sell me out, I heard them. I saw the messages. They're going to get rid of me after the job is done. I'm taking the money to my own car and leaving, I'm not going to the rendezvous point.'\n\nThe replies from the other party are muffled because they came through the speaker, the words are hard to make out. There's a television sound in the background on the other party's side.\n\nAudio analysis: The TV was broadcasting the 'Cyprus Night' program. This program is part of the CableSat Premium package.",
+      "choices": [
+        {
+          "id": "c011a",
+          "text": "Investigate the CableSat subscriber list",
+          "nextSceneId": "scene_015b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011b",
+          "text": "Confront Ozan",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011c",
+          "text": "Examine the minibus",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ferhat_ses_kaydi",
+      "addCharacterNote": "Ferhat told someone 'they're going to sell me out' 1 day before the heist. He saw Ozan's messages. Planned to take the money to his own car and flee. CableSat Premium program in the background.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_012",
+      "type": "investigation",
+      "background": "minibus_yeri",
+      "characterId": null,
+      "text": "5 km outside Kyrenia. Abandoned white Ford Transit minibus by the roadside. Surrounded by police tape.\n\nThe minibus: rental vehicle, rented on March 12 with a fake ID. Factory GPS disabled. But a second tracking device was found attached to the chassis, installed later. The device was active and transmitted throughout the night of the heist, but we cannot identify the receiving endpoint; it's connected to an unnamed server over an encrypted channel. Someone was tracking the van. Who planted it, who was watching, remains unknown. Fingerprints: Ferhat Aksoy - steering wheel, door handles, rear section.\n\n2 empty bags in the trunk. Same model as the vault bags from the casino. A few banknotes were wedged in the inner lining of the bags. Forensics examines them immediately: 'These banknotes are counterfeit. Professional printing but the paper weight is lighter than real Euros.'\n\nForensics: 'Ferhat drove the minibus, loaded the bags from the vault. Then transferred the money to another vehicle. But the money he transferred was counterfeit.'\n\nA Renault Clio was found in a wooded area 800 meters past the minibus. The car key in Ferhat's belongings fits this car.",
+      "choices": [
+        {
+          "id": "c012a",
+          "text": "Examine Ferhat's car",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012b",
+          "text": "Have Ferhat's phone examined",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012c",
+          "text": "Go to the hospital",
+          "nextSceneId": "scene_010",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "minibus_raporu",
+      "addCharacterNote": "Banknotes left in the minibus turned out to be counterfeit. Rented with a fake ID. Money transferred to another vehicle. Ferhat's Renault Clio found 800 meters ahead.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_013",
+      "type": "investigation",
+      "background": "minibus_yeri",
+      "characterId": null,
+      "text": "Ferhat's Renault Clio. Hidden in a wooded area, covered with branches. A pre-planned escape.\n\nInside the car: 6 large bags. Same model as the bags from the casino vault. The bags are full of money.\n\nThere's Ferhat's bloodstain in the car - shoulder wound. Ferhat reached the car but was shot before he could escape.\n\nForensics: 'Ferhat transferred the money from the minibus to his own car. This was a pre-planned escape. Instead of going to the rendezvous point with the minibus, he planned to flee in his own car.'",
+      "choices": [
+        {
+          "id": "c013a",
+          "text": "Have the money in the bags examined",
+          "nextSceneId": "scene_013b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b_ch",
+          "text": "Examine the phone records",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013c",
+          "text": "Check the vault access logs",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ferhat_araba",
+      "addCharacterNote": "Ferhat transferred the money from the minibus to his own car. Pre-planned escape - he wasn't going to the rendezvous point.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_013b",
+      "type": "investigation",
+      "background": "minibus_yeri",
+      "characterId": null,
+      "text": "The forensics team opens the bags. First bundle... second bundle... third bundle...\n\nThe lead forensic expert stops. Turns on the UV lamp. His expression changes.\n\n'These are fake. All fake. The entire 8 million Euros are counterfeit banknotes.'\n\nProfessional printing, quality enough to pass UV and touch tests. But the paper weight is 2% lighter than real Euros. Serial numbers copied from genuine banknotes.\n\nTeam leader: 'This man blew the vault and stole 8 million Euros worth of counterfeit money. The real money was swapped before leaving the vault. Who swapped it? When? Where is the real 8 million Euros?'",
+      "choices": [
+        {
+          "id": "c013b_a",
+          "text": "Have the counterfeit money examined in detail",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b_b",
+          "text": "Examine the phone records",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b_c",
+          "text": "Check the vault access logs",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sahte_banknot",
+      "addCharacterNote": "All 8 million Euros are counterfeit. Professional printing, 2% lighter weight. Money was swapped before the heist. Where is the real money?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_014",
+      "type": "investigation",
+      "background": "guvenlik_odasi",
+      "characterId": null,
+      "text": "The IT forensics team did an in-depth examination of the camera malfunction logs.\n\nThe lead technician presents the report:\n\n'The malfunctions were not software errors. Timer scripts manually triggered from the admin panel. Simple but effective - puts the camera software into maintenance mode at a specific time, then automatically restores it.'\n\n'The scripts were uploaded to the system during business hours. Upload times: between 14:00-16:00. All 4 scripts in this time window.'\n\n'Script upload IP address: casino internal network, accounting floor. Volkan's security office is on a separate subnet. Different IP blocks.'\n\nThe technician adds: 'So the person who uploaded the scripts was on the accounting floor, during business hours, using Volkan's compromised account. Set the night-time trigger so the camera malfunction would look natural.'",
+      "choices": [
+        {
+          "id": "c014a",
+          "text": "Examine the accounting floor",
+          "nextSceneId": "scene_015c",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c014b",
+          "text": "Talk to Volkan",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c014c",
+          "text": "Examine the financial audit reports",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "it_forensik",
+      "addCharacterNote": "Camera scripts uploaded from the accounting floor during business hours. Volkan's office is on a different network. Someone used Volkan's account to manipulate the cameras from the accounting floor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Derya Tuncer's financial audit reports. Records from the last 12 months:\n\nReports from 6+ months ago: 'Vault counting method: Digital scale for banknote weight check + manual count. Result: 8,000,000 EUR - verified.'\n\nReports from the last 3 months: 'Vault counting method: Manual count. Result: 8,000,000 EUR - verified.'\n\nThe difference: No scale used. Scale appeared in every report for 6 months, then gone for the last 3.\n\nForensic lab note: 'The counterfeit banknotes weigh 2% less than real Euros. 8 million Euros in counterfeit banknotes is approximately 1.5 kg lighter. A digital scale would have easily detected this difference.'\n\nNote from Derya's older reports: 'Scale calibration is regularly checked.' This note is absent in the last 3 months.\n\nCasino management: 'The financial consultant determines the audit method herself. We don't interfere. We've trusted her for 7 years.'",
+      "choices": [
+        {
+          "id": "c015a",
+          "text": "Talk to Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015b",
+          "text": "Investigate the shipping company",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015c",
+          "text": "Check the vault access logs",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "denetim_raporlari",
+      "addCharacterNote": "Derya stopped using the scale in the last 3 months. The scale would have caught the weight difference of the counterfeit banknotes. Why did she change the method?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015b",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "CableSat Premium subscriber list investigation. The background TV sound in Ferhat's audio recording was the 'Cyprus Night' program.\n\n4,300 subscribers have CableSat Premium in Kyrenia. Ferhat's home doesn't have this package.\n\nSuspects' addresses being checked:\n- Sinan Karadag: Has CableSat Premium (Kyrenia)\n- Ozan Ersoy: Has CableSat Premium (Kyrenia)\n- Derya Tuncer: CableSat Standard (Famagusta home). No Premium.\n- Volkan Arat: Digiturk subscriber, no CableSat.\n- Takis Andreou: In Southern Cyprus. Not on the Northern Cyprus subscriber list. Southern side cannot be checked, outside jurisdiction.\n\nBut: Derya has an old office in Kyrenia. Rented as a 'freelance consulting office.' The office has CableSat Premium.\n\nDerya rented this office 8 months ago. Used it frequently in the last 3 months.",
+      "choices": [
+        {
+          "id": "c015b_a",
+          "text": "Investigate Derya's Kyrenia office",
+          "nextSceneId": "scene_015d",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015b_b",
+          "text": "Talk to Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015b_c",
+          "text": "Re-examine Ferhat's phone",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan and Ozan have CableSat Premium. Derya's home doesn't have it BUT her Kyrenia office does. Was the person Ferhat called at this office?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015c",
+      "type": "investigation",
+      "background": "muhasebe_kati",
+      "characterId": null,
+      "text": "Casino accounting floor. Open plan office, 4 desks, 2 shared computers, a meeting room.\n\nDerya's desk is by the window. No personal items - normal for a consultant who comes 2 days a week.\n\nShared computers: Both are older models, open without a password. Anyone can sit down and use them.\n\nComputer 1 browser history: accounting programs, tax websites, normal business use.\n\nComputer 2 browser history: accounting software, email, IT support page. Recent usage dates overlap with Derya's working days but Ozan and the vault clerk also use it.\n\nFloor entry card logs: an average of 8-10 people pass through this floor per week. No access restrictions between this and the security floor, anyone can pass through.",
+      "choices": [
+        {
+          "id": "c015c_a",
+          "text": "Talk to Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015c_b",
+          "text": "Examine the financial audit reports",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015c_c",
+          "text": "Talk to Volkan",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Accounting floor is open plan, shared computers have no passwords. Anyone can pass through. Derya works here 2 days a week.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015d",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Derya's office in Kyrenia is being investigated. A small studio in the Marina area. 1+1 rental apartment used as an office.\n\nInside: desk, computer, filing cabinet, a small TV (CableSat Premium connected). In the kitchen area, a coffee machine, a few cups.\n\nComputer being examined: financial consulting files, client reports, tax declarations. Normal business use.\n\nThe filing cabinet contains copies of casino financial reports, files for 3 different clients, and a box of banknote bands. Financial consultants use bands for counting money, these are also found at the casino.\n\nNeighbor: 'Ms. Derya comes regularly, does her work. Sometimes her lights are on late. Quiet, hardworking person. She's been looking a bit tired lately. I saw her with a muscular man once, but just once.'",
+      "choices": [
+        {
+          "id": "c015d_a",
+          "text": "Talk to Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015d_b",
+          "text": "Investigate the shipping company",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015d_c",
+          "text": "Examine the counterfeit money analysis",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya's Kyrenia office: financial reports, client files, banknote bands (normal for a financial consultant). CableSat Premium connected. Has been looking tired lately.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_016",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Detailed forensic analysis of the counterfeit banknotes:\n\nThe lead forensic expert presents the report:\n\n'All banknotes were printed on the same press, during the same period. Production date: 2-4 weeks ago.'\n\n'The distribution in the vault is not homogeneous. Some bundles are entirely counterfeit. Some are half and half - real and fake banknotes mixed together.'\n\n'This pattern tells us a lot: the money was not swapped all at once. It was gradually swapped over several weeks. Each time, bundles in different sections of the vault were replaced.'\n\n'This points to someone with regular vault access. And someone who had enough time during each visit.'\n\n'The swapping process is estimated to have taken 3-4 weeks. The first counterfeit bundles are the oldest, the most recently swapped are the freshest.'",
+      "choices": [
+        {
+          "id": "c016a",
+          "text": "Check the vault access logs",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c016b",
+          "text": "Examine the financial audit reports",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c016c",
+          "text": "Investigate the shipping company",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sahte_para_analiz",
+      "addCharacterNote": "Counterfeit money was swapped gradually over 3-4 weeks. Someone with regular vault access and enough time.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "Sinan Karadag's office. Top floor of the casino, ocean view. Heavy oak desk, leather armchairs, cigar smell.\n\nSinan lights a cigar, sizing you up.\n\n'Detective. I've been running this casino for 18 years. Never been robbed once. Now 8 million Euros gone in one night.'\n\nHe leans back in his chair: 'I was in Nicosia the night of the heist. Had dinner with MP Ahmet Bey. At the Grand Pasha Hotel restaurant. Camera footage exists, waiter testimony exists, credit card receipt exists. We sat down at 20:30, stayed until 01:00.'\n\nHe sets his cigar on the desk: 'Ozan called, said we'd been robbed. I left immediately. Arrived here at 02:30. Police were already here.'\n\nHe straightens his desk: 'Ask whatever you want to ask. But know that I was in Nicosia.'",
+      "choices": [
+        {
+          "id": "c020a",
+          "text": "Ask about the insurance policy",
+          "nextSceneId": "scene_021",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c020b",
+          "text": "Ask about his relationship with Ozan",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan: was dining with a politician in Nicosia. Left the restaurant at 01:00. Arrived at the casino at 02:30.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_021",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "You ask Sinan about the insurance policy. His fingers pause over his cigar.\n\n'I updated the insurance, yes. 3 months ago. We were keeping a lot of cash in the vault, I wanted to be cautious. Premium went up, I paid it. I'm a businessman, I manage risk.'\n\n'From 4 to 12? Yes, the increase is large. But sometimes there's over 10 million in cash in the vault. Special nights, tournaments, VIP players. 12 million is a reasonable figure.'\n\nHe stubs out his cigar and lights a new one: 'What are you implying? That I had my own casino robbed? That I risked my 18-year reputation for insurance money?'\n\nHis voice hardens: 'Did Takis tell you this? That man has been suing me for 8 months. He wants to shut the casino down and build a hotel on the land. He distorts everything.'\n\n'That's all there is to the insurance matter. Any other questions?'",
+      "choices": [
+        {
+          "id": "c021a",
+          "text": "Ask about his relationship with Ozan",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c021b",
+          "text": "Ask about Derya Tuncer",
+          "nextSceneId": "scene_022b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c021d",
+          "text": "Show the counterfeit banknotes",
+          "nextSceneId": "scene_048",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "sahte_banknot"
+        },
+        {
+          "id": "c021e",
+          "text": "Show the audit reports",
+          "nextSceneId": "scene_052",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "denetim_raporlari"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan defends the insurance increase. 'Cautious businessman.' Blames Takis. Rejects the idea of having his own casino robbed.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_022",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "You ask Sinan about his relationship with Ozan.\n\n'Ozan? My right-hand man for 10 years. Security, staff, operations - everything goes through him. The only man I trust.'\n\nHe takes a puff of his cigar: 'Ozan kept this casino standing alongside me. Business was bad the last 2 years, competitors arrived, revenue dropped. Ozan never complained, worked day and night.'\n\nHe pauses a moment, fingers on the desk: 'What are you implying? That Ozan and I did this together? That I risked my 18-year reputation with Ozan?'\n\nHe leans toward you: 'We're both victims of this heist. Ozan was beaten, I came running from Nicosia. Don't look at us as suspects.'\n\n'This conversation is over. I won't talk again without my lawyer.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan defends Ozan: 'My right-hand man for 10 years, the only man I trust.' Says they're both victims. Won't talk without his lawyer.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_022b",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "You ask Sinan about Derya Tuncer.\n\n'Derya?' He pauses for a moment. His eyes narrow. 'Our financial consultant. Been working for 7 years. Comes 2 days a week, counts the vault, writes the reports. Quiet, knows her job.'\n\nHe takes a puff of his cigar: 'What does she have to do with the heist? The woman is an accountant, not a street thug who blows vaults.'\n\n'Any changes recently? No. She came and went as usual. Her reports were always in order. She said 8 million in the vault, there was 8 million.' He pauses, a shadow crosses his face. 'At least that's what we thought.'\n\nHe slams his fist on the desk: 'I heard about the counterfeit money issue. 8 million Euros turned out to be fake. How is that possible? Derya was counting every week!'\n\nHis voice drops: 'Either Derya missed something, or...'\n\nHe falls silent. Doesn't finish the sentence.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan's eyes narrowed when talking about Derya. Genuine anger about the counterfeit money. 'Either Derya missed something or...' he said but didn't finish. Suspects someone but can't say it.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_023",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "Ozan Ersoy. In the VIP lounge, bruises still on his face. Well-dressed but tense.\n\n'Detective. I was here the night of the heist. Attending to clients in the VIP lounge. At 02:15 the power went out. Panic in the darkness. I turned on my phone flashlight, calmed the clients.'\n\nHe points to the bruises on his face: 'Then I went down to the vault section. Someone jumped me in the dark. Punches, kicks. I fell to the ground. I don't know how long it lasted. When security found me I was lying on the ground.'\n\nHe adjusts his wristwatch: 'Ask whatever you want to know. I'm the victim here.'",
+      "choices": [
+        {
+          "id": "c023a",
+          "text": "Were you the one who fired Ferhat Aksoy?",
+          "nextSceneId": "scene_024",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023b",
+          "text": "Ask about the assault timing",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan: was in the VIP lounge, says robbers beat him. Claims to be the victim.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_024",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "You ask Ozan about Ferhat Aksoy and the firing.\n\nOzan's hand rests on his wristwatch. 'Yes, I fired him. 6 months ago. He showed up to work drunk, got into a fight with a VIP client. He deserved to be fired.'\n\n'What happened after? Ferhat demanded severance pay. Started calling. I refused. But he was persistent, he threatened, begged, yelled.'\n\nHe clears his throat: 'I don't know how many times he called, a lot. I hung up every time. It intensified recently.'\n\n'Why didn't I mention this? I talked to a man I fired, then that man commits the robbery - how does that look? But that's the truth. Severance dispute, nothing more.'\n\nHe looks at you: 'Severance dispute, nothing else. I have nothing more to explain.'",
+      "choices": [
+        {
+          "id": "c024a",
+          "text": "Ask about the assault timing",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c024b",
+          "text": "Ask about his midnight talk with Sinan",
+          "nextSceneId": "scene_025b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c024d",
+          "text": "Show the counterfeit banknotes",
+          "nextSceneId": "scene_049",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "sahte_banknot"
+        }
+      ],
+      "addEvidence": "ferhat_telefon",
+      "addCharacterNote": "Ozan fired Ferhat, then Ferhat called a lot. Says it was a severance dispute. Initially hid it, says he concealed it because of 'how it would look.'",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_025",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "You ask Ozan about the timing in the assault report. The bruises formed 8-10 minutes after the heist.\n\nOzan's jaw tightens.\n\n'Timing? Was I checking my watch in the dark? Everything happened so fast. Power went out, darkness, screaming, then punches. Did it last 2 minutes, 20 minutes, I don't know.'\n\n'Forensics says 8-10 minutes later? Maybe the robber blew the vault first, then found me. That explains the 8-10 minutes.'\n\nHe stands up: 'Don't point accusations at me. I'm the general manager of this casino. I've been here 10 years. I was robbed and beaten. I'm the victim.'\n\nHis voice drops: 'Find Ferhat. Let him come out of the coma and talk. Let him tell you who organized it. I don't know.'\n\nHe crosses his arms: 'Stop asking the same questions over and over. Should I call my lawyer?'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan explains the assault timing as 'time perception is distorted in the dark.' Says 'the robber blew the vault first then found me.' Won't drop the victim act.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_025b",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "You ask Ozan about his relationship with Sinan.\n\n'Mr. Sinan has been my boss for 10 years. I've put my sweat into this casino. Security, staff, operations - I manage it all. Mr. Sinan trusts me.'\n\nHe turns his wristwatch: 'The night of the heist, Mr. Sinan was in Nicosia. I was here, as always. I was the one who reported the robbery. I called the police.'\n\nHe hesitates a moment: 'What are you implying? That we planned it with Sinan? I've been working with this man for 10 years. We're both victims.'\n\nHe walks toward the door: 'Detective, I'm the general manager. I was robbed, beaten, gave my statement to the police. I have nothing more to say. Should I call my lawyer?'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan defends Sinan: 'We've been working together for 10 years, we're both victims.' Says he was the one who reported the robbery.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_026",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "Derya Tuncer. At the accounting floor, at her desk. Glasses on, tablet in hand. Looks tired.\n\n'Hello. Go ahead.' She closes her tablet but her hand trembles slightly.\n\n'The night of the heist? I was at my mother's house in Famagusta. We had dinner, watched a TV series, I went to bed at 23:30. My mother, our neighbor Aunt Ayse, and my friend Selin can confirm. I got the news in the morning, I was shocked.'\n\n'My work at the casino? I come 2 days a week. Financial audit, vault counting, reporting. Same routine for 7 years.'\n\nShe pauses, picks up her coffee cup: 'Do I suspect anyone? I don't know. This isn't my area. I deal with numbers.'\n\n'I heard about the counterfeit money issue. I can't believe it. I was counting the vault every week, I didn't notice anything. I actually feel responsible, I should have caught it.'",
+      "choices": [
+        {
+          "id": "c026a",
+          "text": "Ask why she stopped using the scale",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c026b",
+          "text": "Ask what she was doing in Kyrenia on March 12",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya: was at her mother's in Famagusta. Same routine for 7 years. Feels responsible for not catching the counterfeit money. Solid alibi: mother, neighbor, friend.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_027",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "You ask Derya why she stopped using the scale.\n\nShe takes off her glasses and cleans them. 'The scale? Its calibration went off. It was giving unreliable results. Once it showed a 200 thousand Euro discrepancy, it was nonsensical. Manual counting is more accurate.'\n\n'Didn't you have it calibrated?' She shrugs: 'I told IT but Mr. Sinan went into cost-cutting mode, cancelled maintenance contracts. The scale was on that list. So I continued manually.'\n\nShe looks at her tablet: 'Every report said 8 million in the vault. Because I counted 8 million. How was I supposed to know they were fake? I'm a financial consultant, not a forensic expert. They told me these bills even passed UV tests.'\n\nHer voice rises slightly: 'If I had used the scale, maybe I would have noticed. That's my mistake, I accept that. But is it a crime? I had no issues for 7 years.'",
+      "choices": [
+        {
+          "id": "c027a",
+          "text": "Ask what she was doing in Kyrenia on March 12",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027b",
+          "text": "Ask about the shipping company",
+          "nextSceneId": "scene_028b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027d",
+          "text": "Show the IT forensic report",
+          "nextSceneId": "scene_050",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "it_forensik"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya explains the scale with 'calibration malfunction.' Also points to Sinan's cost-cutting as the reason. Accepts not using the scale as a mistake.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_028",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "You ask Derya about the Kyrenia gas station receipt from March 12.\n\nDerya thinks: 'Yes, I was in Kyrenia on March 12. Had lunch with my friend Selin. Marina Restaurant, 13:00. I came early, walked on the beach.'\n\n'The receipt was issued at 10:45. Meeting at 13:00. 2 hours 15 minutes. What did you do?'\n\n'I walked on the beach. Read a book. Had coffee. I'm going through a divorce, sometimes being alone feels good. Famagusta gets suffocating.'\n\n'Then they called from the casino. Metin found an inconsistency in the vault, they called me in. I did a routine check.'\n\nShe opens her tablet: '14:30-16:15, vault count, 8 million Euros, everything was in order. I can show you my report.'\n\nShe smiles faintly: 'Am I being investigated because of a gas receipt? Is it illegal to come to Kyrenia and have lunch with a friend?'",
+      "choices": [
+        {
+          "id": "c028a",
+          "text": "Ask about the shipping company",
+          "nextSceneId": "scene_028b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c028b",
+          "text": "Ask about the divorce and debts",
+          "nextSceneId": "scene_028c",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya was in Kyrenia on March 12. Lunch with Selin, 13:00. Receipt at 10:45. Gap of 2 hrs 15 min: 'walked on the beach.' Metin called, vault inconsistency. 14:30-16:15 vault count.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_028b",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "You ask Derya about the Mediterranean Logistics shipping receipt.\n\nDerya sighs: 'Yes, I moved my belongings. Because of the divorce. My ex-husband got the house, I moved out. I settled at my mother's but needed to store some of my things. Clothes, books, a rug, old files.'\n\nShe averts her eyes: 'The storage in Famagusta? Yes, I rented it. There's no room at my mother's house. My belongings are there.'\n\n'You can check the contents. You'll find clothes and books.'\n\nShe's silent for a moment, then: 'Divorce is a difficult process. I'm putting my life back together. I don't know what this has to do with the heist but I'll answer your questions.'",
+      "choices": [
+        {
+          "id": "c028b_a",
+          "text": "Ask about the divorce and debts",
+          "nextSceneId": "scene_028c",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya explains the shipping as 'divorce belongings.' Gives permission to check. The divorce process seems to be affecting her emotionally.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_028c",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "You ask Derya about the divorce case and her debts.\n\nFor the first time, her expression changes. Her eyes narrow, she rubs her forehead with her hand.\n\n'My debts? Yes. Around 890 thousand Euros. Alimony, loans, rent. My ex-husband got the house. I started from scratch.'\n\nShe takes a deep breath: 'Why are you asking this? Is being in debt a crime? Who in this country isn't in debt?'\n\n'Do I have the motivation to steal 8 million Euros? Everyone has motivation. Sinan has his 12 million insurance motivation. Ozan has his promotion motivation. Takis has his sell-the-land motivation. Ferhat has his debt motivation.'\n\nShe puts her glasses on: 'I'm a financial consultant. I come 2 days a week. I count the vault. I write the reports. Same thing for 7 years. My debts are my private matter.'\n\n'My personal life is not part of the investigation. If you have no other questions, may I leave?'",
+      "choices": [],
+      "addEvidence": "borc_raporu",
+      "addCharacterNote": "Derya is 890 thousand Euros in debt. Alimony, loans, rent. Divorce hit her financially hard. Reminds us that other suspects also have motives.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_029",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "Volkan Arat. In the security control room, standing upright, hands behind his back. But his eyes glance at his locker for a moment, then quickly look away.\n\n'Detective. I was off duty the night of the heist. At home. My wife can confirm. We watched Netflix, from 01:00 to 03:00.'\n\nHe looks at the monitors: 'I'm responsible for this system. For 5 years. Cameras, alarms, access control. I manage all of it.'\n\n'Camera malfunctions in the last 2 weeks? Yes, 4 times. IT report said software error. System is old, Mr. Sinan wouldn't upgrade it. Same software for 3 years. Said there's no budget.'\n\nHis face hardens: 'I heard the malfunctions were triggered from my account. I can't explain it. I didn't do it. I wasn't even on duty two of those nights.'\n\nHe wipes his forehead, hesitates a moment: 'Someone used my account. How? I don't know. But what I'm going to do is change my password everywhere and this time no one will find it.'\n\nHe goes quiet for a moment, as if he's about to say something more. But he changes his mind.",
+      "choices": [
+        {
+          "id": "c029a",
+          "text": "Ask how his account was compromised",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c029b",
+          "text": "Ask about the camera system vulnerabilities",
+          "nextSceneId": "scene_031",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan: was off duty, watched Netflix. Can't explain the camera malfunctions. Says 'someone used my account.' Looks genuinely bewildered.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_030",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "You ask Volkan how his account was compromised.\n\nVolkan's face turns red. He holds his forehead with his hand.\n\n'How? I don't know. My password... was the same everywhere. Admin account, email, all the same password. I know, a mistake.'\n\nHe punches the desk: 'There was no two-factor authentication. Mr. Sinan said no budget. I've been saying for 3 years to invest in security. Does anyone listen?'\n\nDeep breath: 'I don't know who did it. Anyone could have guessed that password, I was using my name and birth year. Stupid, I know.'\n\nHis gaze hardens: 'But let me tell you something: I did my best for the security of this building. No budget, outdated system, no 2FA. How can you have security in this environment?'",
+      "choices": [
+        {
+          "id": "c030a",
+          "text": "Ask about the camera system vulnerabilities",
+          "nextSceneId": "scene_031",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c030c",
+          "text": "Show the IT forensic report",
+          "nextSceneId": "scene_051",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "it_forensik"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan used the same password everywhere (name + birth year). No 2FA, Sinan wouldn't allocate budget. Anyone could have compromised his account.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_031",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "You ask Volkan about the camera system's vulnerabilities.\n\n'The system is old, yes. 2019 software. We didn't update because Mr. Sinan wouldn't allocate budget. I've been saying for 3 years: upgrade, install a UPS, add 2FA. He refused every time.'\n\n'If there had been a UPS, the cameras would have kept running when the power was cut. The robber would have been recorded. You know why Sinan had the UPS removed? 'Cost savings.' 2 years ago.'\n\nHe wags his finger: 'I'm responsible for this system but my hands are tied. No budget, no updates, no backup power. Then when we get robbed, I'm the one to blame?'\n\nHis face turns red: 'My account was stolen. My password was the same everywhere, yes, a mistake. But I'm not the one who did this. I've been carrying the security of this building on my back for 5 years, Mr. Sinan didn't spend a penny.'\n\nHe crosses his arms: 'This conversation is over. Whoever you find used my account, ask them the questions.'",
+      "choices": [
+        {
+          "id": "c031a",
+          "text": "Investigate Volkan's financial history",
+          "nextSceneId": "scene_039",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan blames Sinan: no budget, had UPS removed, system is old. Says his account was stolen, used the same password. Angry but not pointing fingers at anyone else, just defending himself.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_032",
+      "type": "dialogue",
+      "background": "takis_ofis",
+      "characterId": "suspect_takis",
+      "text": "Takis Andreou. In his Limassol office. Glass building with a sea view, expensive furniture. There's a prepaid phone on the desk; when Takis notices it he tosses it into a drawer.\n\n'Detective, welcome. Turkish coffee or Cypriot coffee?' He smiles.\n\n'I was in Limassol the night of the heist. Kaya Hotel, check-in 18:00. Dinner at the restaurant 20:00-23:00, back to room 23:30. I have border crossing records - entry 16:00, exit next day 10:00. You can't cross from Southern Cyprus to Kyrenia at night, the border is closed.'\n\nHe leans back in his chair: 'When I heard about the heist I laughed. Sinan did this to himself. He raised the insurance to 12 million, then got robbed? Coincidence?'\n\n'I've been filing a partnership dissolution lawsuit for 8 months. I'm a 35% partner but I have no say. Sinan is running the casino into the ground, eating my money.'\n\nHe shows his lawyer's file: 'Financial irregularities, income concealment, insurance inflation. It's all here.'",
+      "choices": [
+        {
+          "id": "c032a",
+          "text": "Ask about his relationship with Sinan",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032b",
+          "text": "Ask why he wants to shut down the casino",
+          "nextSceneId": "scene_034",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Takis: was in Limassol, has border crossing records. Says 'Sinan did this to himself.' Hid the prepaid phone on his desk in a drawer. His lawyer has financial irregularity documents.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_033",
+      "type": "dialogue",
+      "background": "takis_ofis",
+      "characterId": "suspect_takis",
+      "text": "You ask Takis about his relationship with Sinan.\n\n'Sinan? We founded the casino together 18 years ago. I got 35%, he got 65%. The first 10 years went well. Then Sinan changed. He used the casino vault like his personal wallet. Bought a yacht, bought a villa, bribed politicians.'\n\nHe leans on the desk: 'In the last 2 years, competitors arrived. Revenue dropped. What did Sinan do? Instead of cutting costs, he spent more. The casino is sinking, Sinan keeps partying.'\n\n'I said: let's close it, sell the land or build a hotel. The land is worth 25 million Euros. Sinan refused. 'My casino won't close,' he said.'\n\nHe runs his fingers along the desk: 'Then the insurance matter. Raised it to 12 million 3 months ago. Why? Because that's his plan: stage the heist, collect the insurance money, pay off my share too, make everyone happy.'\n\n'But something went wrong apparently. The money turned out to be fake. I don't understand that part.'\n\nHe smiles: 'Sinan's own plan blew up in his face.'",
+      "choices": [
+        {
+          "id": "c033a",
+          "text": "Ask about the plan to shut down the casino",
+          "nextSceneId": "scene_034",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Takis: Sinan used the casino vault like his personal wallet. Land is worth 25 million. Says Sinan's insurance plan 'blew up in his face.'",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_034",
+      "type": "dialogue",
+      "background": "takis_ofis",
+      "characterId": "suspect_takis",
+      "text": "You ask Takis about his plan to shut down the casino.\n\n'The land is in the best spot in Kyrenia. Right on the sea. A failing casino sitting on a 25 million Euro plot of land. Absurd.'\n\n'My hotel plan is ready. I've been talking to an international chain. 5-star, 300 rooms. Return on investment in 7 years. I showed it to Sinan, he refused.'\n\nHe shrugs: 'Sinan is living a casino romance. His 18-year-old baby. But numbers don't lie. The casino is losing money.'\n\n'Do I benefit from the heist? If the casino closes I win too, yes. But the heist doesn't help me - insurance money goes to Sinan, not me. The partnership dissolution case is ongoing.'\n\nHe checks his watch: 'Detective, investigate Sinan's financial irregularities. Insurance fraud is obvious. Whoever staged the heist is Sinan's man. I was 300 km away, in a different country.'\n\n'I need to go now. I have to get back to Limassol before the border closes. Good luck.'",
+      "choices": [
+        {
+          "id": "c034a",
+          "text": "Investigate the marina cafes",
+          "nextSceneId": "scene_045",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Takis makes a logical point: insurance money goes to Sinan, not the partner. Land worth 25M. Has the strongest alibi of all suspects. Says 'look for Sinan's man.'",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_035",
+      "type": "dialogue",
+      "background": "hastane",
+      "characterId": "suspect_ferhat",
+      "text": "Hospital. Ferhat is in a coma. Monitors blinking. Doctor at his side.\n\nFerhat's personal belongings being examined:\n\n- Cell phone: frequent contact with Ozan, audio recording (separate examination)\n- Casino entry card: cancelled 6 months ago but magnetic strip still works\n- 340 Euros cash\n- Renault car key\n- In his gym bag: black clothing, gloves (unused), flashlight\n\nNurse approaches: 'He was delirious last night. Saying things like 'Ozan... you promised... light... this is light...' It wasn't clear but he kept repeating the name Ozan.'\n\nDoctor: 'Delirium is a subconscious response. I can't say when he'll come out of it. Could be days, weeks.'",
+      "choices": [
+        {
+          "id": "c035a",
+          "text": "Listen to Ferhat's audio recording",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035b",
+          "text": "Examine Ferhat's car",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035c",
+          "text": "Confront Ozan",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ferhat delirious: 'Ozan... you promised... light... this is light...' Belongings: black clothes, gloves, flashlight. Planned heist preparation.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_036",
+      "type": "dialogue",
+      "background": "hastane",
+      "characterId": "suspect_ferhat",
+      "text": "Talking to Ferhat's former colleagues. Casino security team:\n\nSecurity guard Mehmet: 'Ferhat was a good kid. Boxer, strong. But he changed in the last months. Started drinking. Had debts apparently. One day he yelled at a VIP client, Ozan fired him.'\n\nSecurity guard Ali: 'He came to the casino a few times after being fired. Told us 'let me in, let me talk to Ozan.' We didn't let him in. Haven't seen him in the last 2 months.'\n\nVault clerk Metin: 'Ferhat knew the vault section. He used to do guard shifts there. He knew the alarm codes, camera angles, entry points. But where did he learn to use explosives?'\n\nSecurity guard Mehmet adds: 'Oh also, Ferhat would sometimes stay on the accounting floor after hours. I asked what he was doing there, he said he was tracking his debt. I don't know.'\n\nFerhat's internet search history: 'C4 explosive usage', 'how to disable an electrical panel', 'generator fuel line'. Searches made in the last 3 weeks.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ferhat knew the vault section (former security guard). Researched explosive usage online. Prepared in the last 3 weeks. But someone organized him.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_040",
+      "type": "investigation",
+      "background": "nakliye_sirketi",
+      "characterId": null,
+      "text": "Mediterranean Logistics shipping company. Small office in Kyrenia's industrial zone.\n\nThe manager opens the records: 'March 10. Moving order. Sender: D. Tuncer. Recipient: Salamis Road No:47, Famagusta. Fee 320 Euros, paid by credit card.'\n\nManifest: 3 large suitcases, 4 boxes, 1 rug roll. Total: 185 kg.\n\nCourier Ali: 'Normal moving job. 3 large blue suitcases, 4 largish boxes and 1 big rug roll. The woman said 'clothes, books, rug.' I took them to Famagusta. Storage door was open, I left them inside. Recipient wasn't there.'\n\n'Did you see what was inside?' Ali: 'No, the boxes were taped shut. What's inside is none of our business, just carry and deliver.'\n\nCredit card record: Garanti Bank card registered to Derya Tuncer. Same card used on the gas station receipt.",
+      "choices": [
+        {
+          "id": "c040b",
+          "text": "Confront Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040c",
+          "text": "Check the gas station",
+          "nextSceneId": "scene_042",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "nakliye_fisi",
+      "addCharacterNote": "Derya shipped moving belongings to Famagusta 5 days before the heist. Total 185 kg. Boxes sealed, contents unseen. Recipient wasn't at the storage. Same credit card as the gas receipt.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_041",
+      "type": "investigation",
+      "background": "magosa_depo",
+      "characterId": null,
+      "text": "Famagusta, Salamis Road No:47. A small rental storage unit. In the industrial zone, nobody around.\n\nStorage door is locked. Rental agreement: D. Tuncer, rented 2 months ago. 400 Euros monthly. ID photocopy: Derya Tuncer.\n\nGoing inside. There are belongings in the storage: in one corner 3 green suitcases (open, containing clothes), 4 boxes (books, kitchen items, old files), a rug roll. Everything is orderly, packed up.\n\nForensics team examines:\n- Belongings are real, consistent with a divorce move\n- Clothes are women's size, matching Derya's style\n- Books: accounting, tax law, a few novels",
+      "choices": [
+        {
+          "id": "c041a",
+          "text": "Talk to Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Famagusta storage has belongings: 3 green suitcases, 4 boxes, 1 rug. Clothes, books, kitchen items. Consistent with a divorce move.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_042",
+      "type": "investigation",
+      "background": "benzin_istasyonu",
+      "characterId": null,
+      "text": "Kyrenia Shell gas station. The March 12 receipt was issued here.\n\nYou show photos to the cashier.\n\nCashier: 'I remember this woman. She came on the morning of March 12. Filled up the tank. 85 Euros. Paid by credit card. She was on the phone, I couldn't hear what she was saying.'\n\n'Her car? Gray Volkswagen Golf. Famagusta plates.'\n\nStation security camera: Volkswagen Golf enters at 10:43. Exits at 10:48. Driver is alone. License plate readable from the camera angle: Famagusta plates, vehicle registered to Derya.\n\nPhone records being checked: No incoming or outgoing calls on Derya's phone between 10:43-10:48 on March 12. But the workplace phone directory has two numbers listed for Derya: one personal, one 'work line.' The work line has a different operator, accessing its records requires a separate request.",
+      "choices": [
+        {
+          "id": "c042a",
+          "text": "Confront Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c042c",
+          "text": "Examine the financial audit reports",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "benzin_makbuzu",
+      "addCharacterNote": "Derya was in Kyrenia on the morning of March 12. Got gas (10:43-10:48). Was on the phone. No record on her personal line but she has two phone numbers: personal and work line.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_043",
+      "type": "investigation",
+      "background": "kumarhane_kasa",
+      "characterId": null,
+      "text": "Casino vault access logs. Digital recording system, card-based entry.\n\nRecords from the last 3 months:\n\nVault Clerk Metin Yilmaz: 90 entries. Daily, morning and evening (3-4 hours).\nDerya Tuncer: 14 entries. 1-2 per week, financial audit (45 min - 2 hours).\nOzan Ersoy: 12 entries. Once a week, operational check (15-30 min).\nSinan Karadag: 8 entries. 2-3 times a month, brief (10-20 min).\n\nMetin spends the most time in the vault, 3-4 hours daily. Derya comes 1-2 days a week, does financial audits and vault counting.\n\nMarch 12 entry: Derya Tuncer, 14:30-16:15 (1 hour 45 min). Note: 'Financial Audit - Routine Check.'\nAccording to Derya's calendar, there was no scheduled audit that day. But management: 'The financial consultant can count the vault whenever she wants, it's routine.'\n\nMetin Yilmaz: 'I've been here 22 years. No debt, clean record. I enter the vault every day, always at the same time, same duration.'",
+      "choices": [
+        {
+          "id": "c043a",
+          "text": "Examine the counterfeit money analysis",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043b",
+          "text": "Examine the financial audit reports",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043c",
+          "text": "Talk to Derya",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kasa_erisim_logu",
+      "addCharacterNote": "Vault access: Metin (90 entries, 3-4 hrs daily), Derya (14 entries, 1-2 per week), Ozan (12), Sinan (8). On March 12 Derya conducted an unscheduled audit.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Phone records analysis. All suspects' traffic on and before the night of the incident:\n\nSinan Karadag:\n- 01:30: Called Ozan (45 min before the heist)\n- 02:45: Called Cemil Karaca (1 min 08 sec) police record: Cemil Karaca, alias 'Kara Cemil' (Dark Cemil). Criminal record for threats, blackmail, and assault. Known to handle Sinan's dirty work.\n- 02:48: Call from Ozan (33 min after the heist)\n- 03:15-03:22: Unknown prepaid line (2 calls)\n\nOzan Ersoy:\n- 01:00: Called Ferhat (1 hour 15 min before the heist)\n- 01:30: Call from Sinan\n- 02:10: Unknown prepaid line (3 min 02 sec) - 5 min before heist, untraceable\n- 02:48: Called Sinan\n- 03:00: Unknown prepaid line call\n\nFerhat Aksoy:\n- 01:00: Incoming call from Ozan (final instructions)\n- No calls after\n\nDerya Tuncer:\n- No calls on the night of the incident. Last call March 14 at 18:00, to her mother.\n\nVolkan Arat:\n- 02:35: Incoming call from the casino (security on duty reported)\n- 02:40: Called Ozan (no answer)\n- 02:55: Called the police\n\nTakis Andreou:\n- No calls on the night of the incident. In Southern Cyprus.",
+      "choices": [
+        {
+          "id": "c044a",
+          "text": "Confront Sinan",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b",
+          "text": "Confront Ozan",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044c",
+          "text": "Investigate the unknown prepaid line",
+          "nextSceneId": "scene_044b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sinan_telefon",
+      "addCharacterNote": "Sinan-Ozan talked both BEFORE and AFTER the heist. Sinan called Kara Cemil at 02:45 - man with criminal record for assault and threats. Ozan-Ferhat talked 1 hour before the heist. Derya had no calls on the night of the incident.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044b",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Unknown prepaid line investigation.\n\nThe number Sinan called at 03:15 and 03:22: prepaid line, unregistered. Purchased with cash from a kiosk in Kyrenia. No cameras at the kiosk.\n\nCell tower analysis: the line was used in the Kyrenia area. Active the night of the heist.\n\nThe unknown number Ozan called at 03:00 is the same line.\n\nSo Sinan and Ozan both called the same unknown prepaid line. Who does this line belong to?\n\nThis number doesn't appear in Ferhat's phone records. Not in Derya's records either. Not in Volkan's or Takis's either.\n\nThe line was only active on the night of the incident. No usage before or after. Single-use line.\n\nPolice note: 'This line most likely belongs to Sinan's men. The ones who followed and shot Ferhat. The line may have been destroyed.'",
+      "choices": [
+        {
+          "id": "c044b_a",
+          "text": "Confront Sinan",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b_b",
+          "text": "Re-examine the forensic report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b_c",
+          "text": "Examine the counterfeit money analysis",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b_d",
+          "text": "Investigate Ferhat's unknown number",
+          "nextSceneId": "scene_046",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "ferhat_ses_kaydi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan and Ozan both called the same unknown prepaid line. Single-use line, active the night of the incident. Likely belongs to the men who shot Ferhat. Sinan's men.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_048",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "You show Sinan the counterfeit banknotes.\n\nSinan's face darkens. Genuine shock. He slams his fist on the desk.\n\n'Counterfeit? 8 million Euros are counterfeit?!'\n\nHe stands up, paces around: 'That's impossible. There was real money in the vault. It was counted every week. Derya counted it, Metin counted it.'\n\nHe stops for a moment. His eyes narrow. He's calculating something.\n\n'Who... who could have swapped them?' His fingers on the desk: 'Four people entered the vault: me, Ozan, Metin, Derya. Ozan and I... we...' He falls silent. Can't finish the sentence.\n\nHe turns to you, his voice drops: 'I was certain the money in the vault was real. Whoever did this... stole my money.'\n\nHe stubs out his cigar: 'Leave. I won't talk anymore. I'm calling my lawyer.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan was genuinely shocked by the counterfeit money news. Said 'Ozan and I... we...' but couldn't finish. Realized his own money was stolen. Starting to suspect Derya but can't say it.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_049",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "You show Ozan the counterfeit banknotes.\n\nOzan freezes. Genuinely freezes. His hand frozen on his wristwatch.\n\n'Counterfeit? 8 million Euros are counterfeit?' He swallows. 'This... how?'\n\nSilence. Ozan is thinking. There's panic on his face.\n\n'The vault was checked every week. Ms. Derya counted it. Metin counted it. How was it not noticed?'\n\nHis gaze shifts for a moment: 'Wait. If the money is fake... Ferhat stole counterfeit money. Where's the real money?'\n\nHe rubs his face with his hands: 'Someone swapped the money in the vault before the heist. We... I mean as a casino... didn't know about this.'\n\nHe hesitates when he says 'we.' Clears his throat.\n\n'I have nothing to say about this. I want my lawyer.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan seems unaware of the counterfeit money - or is acting very well. Started to say 'we' but corrected himself. Said 'as a casino we didn't know.' The panic looks genuine.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_050",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "You show Derya the IT forensic report. Camera scripts were uploaded from the accounting floor.\n\nDerya adjusts her glasses. Looks at her tablet.\n\n'From the accounting floor? A lot of people work on this floor. Me, Mr. Metin, sometimes interns.'\n\n'From the shared computer? Everyone uses that computer. I usually use my own tablet.'\n\nHer voice doesn't change: 'Camera script? I'm a financial consultant. I don't know camera software. I know Excel, I know accounting programs. Camera software is a technical field, outside my expertise.'\n\n'Was I on the accounting floor on February 22? Probably, if I was working that day yes. I come 2 days a week. I can check my calendar.'\n\nShe cleans her glasses: 'Are you accusing me of something? If so, say it clearly. Let me call my lawyer.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Derya is very calm about the IT forensic question. Says 'I don't know camera software.' Prepared for every question. Playing the 'let me call my lawyer' card.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_051",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "You show Volkan the IT forensic report. Accounting floor, different IP block.\n\nVolkan takes a deep breath. You see him relax for the first time.\n\n'Accounting floor. I told you, my office is on the security floor. Different IP blocks. This isn't me.'\n\nBut then his face tenses again: 'The accounting floor... shared computers with no passwords, anyone can sit and use them. I raised it as a security vulnerability but nobody listened.'\n\nHe thinks for a moment: 'Who works on the accounting floor? Vault clerk, accountants, financial consultant... 8-10 people pass through there weekly. But if the script was uploaded during business hours, you need to look for someone who was there during the day.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan relaxed, IT forensics supports him. Everyone passes through the accounting floor, shared computers have no passwords. Need to look for someone who was there during business hours.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_052",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "You ask Sinan about Derya's audit reports and the scale issue.\n\nSinan stops for a moment. Puts down his cigar.\n\n'Derya stopped using the scale? I didn't know. I look at the reports: it says 8 million. I approve them. I don't concern myself with details.'\n\nHis eyes narrow. He's calculating something.\n\n'3 months... She stopped the scale 3 months ago. You're saying the counterfeit money was swapped over 3-4 weeks. I also updated the insurance 3 months ago...'\n\nHe goes silent for a moment. Something changes on his face - anger, disappointment, betrayal.\n\n'7 years. I trusted this woman for 7 years. I entrusted the vault to her. And she...'\n\nHe falls silent. He doesn't want to finish the sentence because if he says it, he'd also be confessing to his own plan.\n\n'Leave. This conversation is over.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan understands Derya. His 7-year trust is broken. But he can't speak because he'd be confessing to 'having his own vault robbed.' Helpless rage.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_038",
+      "type": "investigation",
+      "background": "guvenlik_odasi",
+      "characterId": null,
+      "text": "Back of the security room. Volkan's personal locker. Locked but the key is in the top desk drawer.\n\nInside the locker: spare uniform, a bottle of raki, and a locked drawer. The drawer is opened.\n\nInside, a black-covered notebook. In Volkan's handwriting:\n\n'VIP Night #14, Feb 28: 6 people, total table 340,000 EUR. My cut: 12,000 EUR.'\n'VIP Night #15, March 7: 8 people, total table 520,000 EUR. My cut: 18,500 EUR.'\n'VIP Night #16, March 12: CANCELLED. Camera malfunction planned, risky. Not my script, someone else set it up. Don't touch.'\n\n16 off-the-books VIP gambling nights in the last 6 months. Volkan shut off the cameras and organized illegal high-stakes games for wealthy clients. Took a cut from the table.\n\nThe March 12 note is critical: Volkan knew there would be a camera malfunction that night but he didn't do it. 'Someone else set it up,' he says.",
+      "choices": [],
+      "addEvidence": "volkan_vip_kayit",
+      "addCharacterNote": "Volkan was organizing illegal VIP gambling nights. He shut off cameras himself. On March 12 he noticed someone else had set up a camera script and cancelled his own night.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_039",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Volkan Arat's financial history is being investigated.\n\nOfficial salary: 4,200 EUR per month. Nothing unusual in his personal bank account.\n\nBut there's an account at Northern Cyprus Turkish Bank under his wife Ayse Arat's name. Cash deposits in the last 6 months:\n\nJanuary: 5,000 + 12,000 EUR\nFebruary: 8,500 + 18,500 EUR\nEarly March: 15,000 EUR\nTotal: 59,000 EUR\n\nDeposit dates coincide with 1-2 days after VIP gambling nights in the notebook. Money source: VIP gambling nights.\n\nAyse Arat's statement: 'The money is Volkan's. I'm just the account holder. I didn't ask where it came from.'\n\nPolice note: 59,000 EUR is a serious amount but not motivation to be involved in an 8 million Euro heist. Volkan was already making money illegally, why risk a heist?",
+      "choices": [],
+      "addEvidence": "volkan_banka",
+      "addCharacterNote": "Volkan accumulated 59,000 EUR in his wife's name. From VIP gambling nights. Illegal but not motivation for the heist. He already had a steady income.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_045",
+      "type": "investigation",
+      "background": "marina_kafe",
+      "characterId": null,
+      "text": "Cafes in Kyrenia Marina are being checked one by one. Cell tower data from Ferhat's phone points to this area.\n\nDeniz Cafe. Waiter Ali opens the camera records.\n\nMarch 5, 14:20. Two people on the screen: Takis Andreou and Ferhat Aksoy at the same table.\n\nWaiter Ali: 'I remember them. The older man was wearing an expensive suit, bronze skin. The younger one was athletic, like a boxer. They were talking seriously, no laughing.'\n\nCamera footage reviewed: The meeting lasted 45 minutes. Takis took something out of an envelope and gave it to Ferhat. Ferhat put it in his pocket. Then Takis paid the bill and they left.\n\nWaiter: 'The older man paid with a credit card.' Cafe records: Cardholder 'T. Andreou.'\n\nDuring questioning Takis said 'I don't know Ferhat.' This footage proves otherwise.",
+      "choices": [],
+      "addEvidence": "takis_ferhat_bulusma",
+      "addCharacterNote": "Takis and Ferhat met at a cafe 10 days before the heist. 45 minutes. Takis gave him something from an envelope. But during questioning he said 'I don't know him.' He lied.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_046",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "The unknown number from Ferhat's audio recording is being examined in detail.\n\nThis line is different from the prepaid line Sinan and Ozan called. A second unknown line.\n\nThe kiosk owner examines the photos: 'I remember this man. Older, big build, accented. Had a Greek Cypriot accent. Bought 2 lines, paid cash. About 3 weeks ago.'\n\nCell tower analysis: The line was used in the Kyrenia and Limassol areas. The usage dates in Limassol match exactly with the days Takis was in Limassol.\n\nCritical connection: The background sound in Ferhat's audio recording. 'Cyprus Night' program, CableSat Premium package. Takis's Limassol office has a CableSat Premium subscription.\n\nFerhat called this number on March 14. Said 'They're going to sell me out, help me.' The person he asked for help: Takis Andreou.\n\nThe line was never used again after Ferhat was shot.",
+      "choices": [],
+      "addEvidence": "takis_prepaid",
+      "addCharacterNote": "The person Ferhat asked for help was Takis. The prepaid line belongs to Takis. The CableSat Premium match confirms it. Takis was in secret communication with Ferhat.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_053",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Kyrenia Police Headquarters. The potential sentencing analysis file prepared by legal consultant Attorney Nuri Senol sits on the desk.\n\n'Detective, we don't yet know who did what. But I've prepared the legal consequences each person could face based on their position in this case.'\n\nSinan Karadag (casino owner):\n- The casino and vault belong to him, he's in a victim position\n- In a position to claim insurance compensation\n- No legal liability at this time\n\nOzan Ersoy (general manager):\n- The highest-ranking person on duty the night of the heist, could be held responsible for security negligence: 3-5 years\n- Found beaten at the scene, unclear whether victim or accomplice: 0-12 years\n- Total: 3-17 years (varies by circumstances)\n\nFerhat Aksoy (robber):\n- The person who physically robbed the vault, fingerprints everywhere: armed robbery 10-15 years\n- Use of explosives: 5-8 years\n- Total: 15-23 years\n- In a coma, case suspended.\n\nDerya Tuncer (financial consultant):\n- Financial officer and sole auditor of the vault for 7 years: personally responsible for the authenticity of the money in the vault, even if negligence 6-10 years\n- 8 million Euros in counterfeit money passed through her audits: financial audit negligence or complicity 8-12 years\n- Her reports state 'money counted, everything in order': official document liability 4-6 years\n- Divorce settlement may require her to pay alimony for cheating on her husband with someone from the casino (separate case)\n- Total: 18-28 years\n\nVolkan Arat (head of security):\n- Camera malfunctions were triggered from his admin account: abuse of office 2-4 years\n- Liability for security vulnerabilities: 1-3 years\n- Total: 3-7 years\n\nTakis Andreou (35% partner):\n- Filed a dissolution lawsuit, directly affected party in the heist: in an injured-party position\n- May face allegations of improper evidence gathering: 1-2 years\n- High probability of acquittal.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_accusation",
+      "type": "accusation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Kyrenia Police Headquarters. Chief Hasan Demirci is waiting for you.\n\n'Detective, do you have sufficient evidence? This case has many layers: robbery, insurance fraud, counterfeit money, and a man in a coma. Who are you accusing?'\n\nThis decision cannot be undone. Consider your evidence carefully.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    }
+  ],
+  "endings": [
+    {
+      "id": "correct_perfect",
+      "title": "The Silent Accountant",
+      "description": "You accused Derya Tuncer with all the critical evidence.",
+      "suspectAccused": "suspect_derya",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 3,
+      "epilogueText": "Derya Tuncer was taken into custody. Inside the suitcases at the Famagusta storage unit, 8 million Euros in real banknotes were found hidden in vacuum-sealed bags among the clothes.\n\nDerya had gradually swapped the real money in the vault with counterfeit banknotes over 3-4 weeks. She had compromised Volkan's security account, set up camera malfunctions with timed scripts, and hidden everything behind her financial audit routine. She placed the real money among her moving belongings and shipped it to Famagusta.\n\nHow did she know about the plan? Derya and Ferhat had a secret relationship before Ferhat was fired. Her ex-husband had said in the divorce proceedings 'she cheated on me with someone from the casino.' Ferhat had told Derya about Sinan and Ozan's heist plan. Derya used this information to make her own move.\n\nWhile Sinan and Ozan were planning their own heist, they didn't know the money in the vault had already been stolen. Ferhat stole counterfeit money, Derya had already moved the real bills.\n\nSinan and Ozan were arrested for insurance fraud and organizing the robbery. When Ferhat comes out of his coma, he'll be tried for criminal conspiracy. Volkan was cleared.\n\nThe question of who shot Ferhat: Kara Cemil. When Ferhat didn't show up at the rendezvous, Ozan panicked and called Sinan. Sinan outsourced both jobs to Kara Cemil: he chased Ferhat down, caught him 3 km away, and shot him in the left shoulder to silence him. The same Kara Cemil then went back to the casino and beat Ozan up for show, to set up the 'the robbers beat me' alibi. But the money they stole was already fake. Sinan lost everything."
+    },
+    {
+      "id": "correct_good",
+      "title": "Right Name, Incomplete Picture",
+      "description": "You accused Derya but some critical evidence is missing.",
+      "suspectAccused": "suspect_derya",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 2,
+      "epilogueText": "Derya Tuncer was taken into custody. You found the right person but there are gaps in the chain of evidence.\n\nHere's what happened: Derya swapped the real money in the vault with counterfeit banknotes over 3-4 weeks. As a financial consultant, her coming and going from the vault was normal, no one suspected anything. By discontinuing scale usage, she concealed the weight difference of the counterfeit banknotes. She compromised Volkan's security account and set up camera malfunctions with timed scripts.\n\nShe placed the real 8 million Euros among her moving belongings and shipped them to Famagusta.\n\nShe had learned about the heist plan from Ferhat. The two had a secret relationship before Ferhat was fired - her ex-husband had said in the divorce proceedings 'she cheated on me with someone from the casino.' Ferhat told Derya about Sinan and Ozan's plan, and Derya made her own move with this information.\n\nWhile Sinan and Ozan were planning their own staged heist, they were unaware the money in the vault was already gone. Ferhat stole the counterfeit money and was shot by Ozan while fleeing.\n\nDerya's lawyer managed to discredit some of the evidence. Due to the missing evidence, she may get off with a lighter sentence."
+    },
+    {
+      "id": "correct_weak",
+      "title": "Lucky Guess",
+      "description": "You accused Derya but you had very little evidence.",
+      "suspectAccused": "suspect_derya",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Derya Tuncer was taken into custody but you don't have sufficient evidence.\n\nHere's what happened: Derya was the vault's sole financial officer. She swapped the real money with counterfeit banknotes over 3-4 weeks. She decommissioned the scale, compromised Volkan's account to manipulate the cameras, and shipped the real money to Famagusta disguised as moving belongings.\n\nHow did she know about the plan? She had a secret relationship with Ferhat. Her ex-husband had said in the divorce proceedings 'she cheated with someone from the casino.' Ferhat told Derya about the heist plan, and Derya seized the opportunity.\n\nSinan and Ozan were planning their own staged heist - unaware the money in the vault was already gone. Ferhat stole the counterfeit money and was shot by Ozan while fleeing.\n\nBut your evidence is insufficient. Her lawyer filed for release. A long trial process will begin, and Derya will have time to flee."
+    },
+    {
+      "id": "wrong_sinan",
+      "title": "Wrong Person",
+      "description": "You accused Sinan Karadag.",
+      "suspectAccused": "suspect_sinan",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Sinan Karadag was taken into custody. Yes, he had inflated the insurance policy. Yes, he had planned the heist with Ozan. But he didn't steal the 8 million Euros - his own money was stolen from him.\n\nYou accused the wrong person. The real culprit is out there and has already vanished from this island with the power of money. The 8 million Euros were never found again."
+    },
+    {
+      "id": "wrong_ozan",
+      "title": "Wrong Person",
+      "description": "You accused Ozan Ersoy.",
+      "suspectAccused": "suspect_ozan",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Ozan Ersoy was arrested. He had organized the heist, set up Ferhat, played the victim role. All true. But the 8 million Euros never passed through Ozan's hands.\n\nYou accused the wrong person. The real culprit is out there and has already vanished from this island with the power of money. The 8 million Euros were never found again."
+    },
+    {
+      "id": "wrong_ferhat",
+      "title": "Wrong Person",
+      "description": "You accused Ferhat Aksoy.",
+      "suspectAccused": "suspect_ferhat",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Ferhat Aksoy was arrested when he came out of the coma. He had blown open the vault, yes. But Ferhat was a pawn and every cent he stole was counterfeit.\n\nYou accused the wrong person. The real culprit is out there and has already vanished from this island with the power of money. The 8 million Euros were never found again."
+    },
+    {
+      "id": "wrong_volkan",
+      "title": "Wrong Person",
+      "description": "You accused Volkan Arat.",
+      "suspectAccused": "suspect_volkan",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Volkan Arat was arrested. He had been organizing illegal VIP gambling nights, shutting off cameras. But none of this could be linked to the heist. Volkan confessed to his own crimes but had nothing to do with the 8 million Euros.\n\nYou accused the wrong person. The real culprit is out there and has already vanished from this island with the power of money. The 8 million Euros were never found again."
+    },
+    {
+      "id": "wrong_takis",
+      "title": "Wrong Person",
+      "description": "You accused Takis Andreou.",
+      "suspectAccused": "suspect_takis",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Takis Andreou was taken into custody but his lawyer had him released immediately. Takis was gathering intelligence, he had nothing to do with the heist.\n\nYou accused the wrong person. The real culprit is out there and has already vanished from this island with the power of money. The 8 million Euros were never found again."
+    }
+  ],
+  "hqLocations": [
+    {
+      "sceneId": "scene_002",
+      "label": "Casino (Crime Scene)",
+      "icon": "suit.diamond.fill"
+    },
+    {
+      "sceneId": "scene_004",
+      "label": "Crime Report",
+      "icon": "cross.case.fill"
+    },
+    {
+      "sceneId": "scene_006",
+      "label": "Camera Footage",
+      "icon": "video.fill"
+    },
+    {
+      "sceneId": "scene_008",
+      "label": "Insurance File",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_010",
+      "label": "Ferhat (Hospital)",
+      "icon": "stethoscope"
+    },
+    {
+      "sceneId": "scene_012",
+      "label": "Minibus Investigation",
+      "icon": "car.fill"
+    },
+    {
+      "sceneId": "scene_014",
+      "label": "IT Forensics",
+      "icon": "desktopcomputer"
+    },
+    {
+      "sceneId": "scene_040",
+      "label": "Shipping Company",
+      "icon": "shippingbox.fill"
+    },
+    {
+      "sceneId": "scene_041",
+      "label": "Famagusta Warehouse",
+      "icon": "building.fill"
+    },
+    {
+      "sceneId": "scene_042",
+      "label": "Gas Station",
+      "icon": "fuelpump.fill"
+    },
+    {
+      "sceneId": "scene_043",
+      "label": "Vault Access Logs",
+      "icon": "lock.shield.fill"
+    },
+    {
+      "sceneId": "scene_044",
+      "label": "Phone Records",
+      "icon": "phone.fill"
+    },
+    {
+      "sceneId": "scene_053",
+      "label": "Possible Sentences",
+      "icon": "scalemass.fill"
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "contra_g1",
+      "requires": [
+        "ev_guvenlik_kaydi",
+        "ev_cemil_ifade"
+      ],
+      "statement1": {
+        "source": "Cemil Kaya",
+        "text": "I stayed at the hotel that night, I never went to the marina."
+      },
+      "statement2": {
+        "source": "Security Footage",
+        "text": "Cemil's car entered the marina parking lot at 23:00."
+      },
+      "result": {
+        "text": "Cemil says he stayed at the hotel but his car was at the marina! What was he doing there?"
+      }
+    },
+    {
+      "id": "contra_g2",
+      "requires": [
+        "ev_telefon_kaydi",
+        "ev_ayse_ifade"
+      ],
+      "statement1": {
+        "source": "Ayşe Demir",
+        "text": "I wasn't in contact with anyone that evening, I went to bed early."
+      },
+      "statement2": {
+        "source": "Phone Records",
+        "text": "A message was sent from Ayşe's phone to Cemil at 23:30: 'Is it done?'"
+      },
+      "result": {
+        "text": "Ayşe says she went to bed early but texted Cemil 'Is it done?' at midnight!"
+      }
+    },
+    {
+      "id": "contra_g3",
+      "requires": [
+        "ev_mali_kayit",
+        "ev_tarkan_ifade"
+      ],
+      "statement1": {
+        "source": "Tarkan Öztürk",
+        "text": "The company's finances are fine, there are no problems."
+      },
+      "statement2": {
+        "source": "Bank Records",
+        "text": "2 million TL transferred to Tarkan's offshore account in the last 6 months."
+      },
+      "result": {
+        "text": "Tarkan's secret offshore account exposed! Where is the 2 million TL coming from?"
+      }
+    },
+    {
+      "id": "contra_g4",
+      "requires": [
+        "ev_parmak_izi",
+        "ev_melek_ifade"
+      ],
+      "statement1": {
+        "source": "Melek Yılmaz",
+        "text": "I was never on the boat, I'm afraid of the sea anyway."
+      },
+      "statement2": {
+        "source": "Fingerprint Report",
+        "text": "Melek's fingerprints were found in the boat's helm cabin."
+      },
+      "result": {
+        "text": "Melek says she was never on the boat but her fingerprints are in the helm cabin!"
+      }
+    },
+    {
+      "id": "contra_g5",
+      "requires": [
+        "ev_kamera_kaydi",
+        "ev_cemil_ifade"
+      ],
+      "statement1": {
+        "source": "Cemil Kaya",
+        "text": "I had no problems with the victim, we were business partners."
+      },
+      "statement2": {
+        "source": "Business Contract",
+        "text": "A termination lawsuit was filed between Cemil and the victim 3 million TL compensation claim."
+      },
+      "result": {
+        "text": "Cemil says there were no problems but there's a lawsuit! 3 million TL compensation is a serious motive."
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_ilk_delil",
+      "title": "İlk Adım",
+      "icon": "magnifyingglass",
+      "description": "İlk delili topla",
+      "condition": "evidence_count_1"
+    },
+    {
+      "id": "ach_tum_deliller",
+      "title": "Delil Uzmanı",
+      "icon": "trophy.fill",
+      "description": "Tüm delilleri topla",
+      "condition": "evidence_count_all"
+    },
+    {
+      "id": "ach_ilk_xref",
+      "title": "Bağlantı Kurdum",
+      "icon": "link",
+      "description": "İlk çapraz referansı keşfet",
+      "condition": "xref_count_1"
+    },
+    {
+      "id": "ach_tum_xref",
+      "title": "Örümcek Ağı",
+      "icon": "network",
+      "description": "Tüm çapraz referansları keşfet",
+      "condition": "xref_count_all"
+    },
+    {
+      "id": "ach_tum_supheliler",
+      "title": "Herkesle Konuştum",
+      "icon": "bubble.left.and.bubble.right.fill",
+      "description": "Tüm şüphelilerle konuş",
+      "condition": "all_suspects_interviewed"
+    },
+    {
+      "id": "ach_kusursuz",
+      "title": "Kusursuz Çözüm",
+      "icon": "star.fill",
+      "description": "Tam delille doğru suçlama",
+      "condition": "perfect_ending"
+    },
+    {
+      "id": "ach_yanlis",
+      "title": "Yanlış Kapıyı Çaldın",
+      "icon": "xmark.circle.fill",
+      "description": "Yanlış kişiyi suçla",
+      "condition": "wrong_accusation"
+    },
+    {
+      "id": "ach_hizli",
+      "title": "Hızlı Dedektif",
+      "icon": "bolt.fill",
+      "description": "24 saat içinde çöz",
+      "condition": "speed_solve"
+    },
+    {
+      "id": "ach_sahte_master",
+      "title": "Para Avcısı",
+      "icon": "banknote.fill",
+      "description": "Sahte para izini tamamen çöz",
+      "condition": "xref_count_5"
+    },
+    {
+      "id": "ach_sessiz_katil",
+      "title": "Sessiz Suçlu",
+      "icon": "eye.fill",
+      "description": "Derya'yı tüm delillerle suçla",
+      "condition": "perfect_ending"
+    }
+  ],
+  "evidenceReactions": [
+    {
+      "characterId": "suspect_sinan",
+      "evidenceId": "sigorta_policesi",
+      "reaction": "defensive",
+      "dialogue": "Sinan puroyu masaya bırakıyor. 'Sigortayı güncellemek suç mu? İş adamıyım, tedbirimi alırım.'",
+      "note": "Savunmacı, sigorta sorusu onu rahatsız ediyor."
+    },
+    {
+      "characterId": "suspect_sinan",
+      "evidenceId": "sahte_banknot",
+      "reaction": "shocked",
+      "dialogue": "Sinan'ın yüzü kararıyor. 'Sahte mi? 8 milyon Euro sahte mi?' Masaya yumruk vuruyor. 'Bu imkansız.'",
+      "note": "Sinan gerçekten bilmiyormuş gibi."
+    },
+    {
+      "characterId": "suspect_sinan",
+      "evidenceId": "denetim_raporlari",
+      "reaction": "nervous",
+      "dialogue": "Sinan düşünceli bakıyor. 'Derya'nın raporları... Evet, haftada iki gün gelir, kasayı sayar. 7 yıldır böyle.'",
+      "note": "Derya'nın adı geçince gözleri kısılıyor."
+    },
+    {
+      "characterId": "suspect_ozan",
+      "evidenceId": "ferhat_telefon",
+      "reaction": "nervous",
+      "dialogue": "Ozan kol saatini çeviriyor. 'Ferhat beni arıyordu, eski iş meseleleri. Kovulma tazminatı istiyordu.'",
+      "note": "11 aramayı tazminat ile açıklamaya çalışıyor."
+    },
+    {
+      "characterId": "suspect_ozan",
+      "evidenceId": "sahte_banknot",
+      "reaction": "shocked",
+      "dialogue": "Ozan'ın eli kol saatinde donuyor. 'Sahte mi? 8 milyon Euro sahte mi? Ferhat sahte para mı çalmış?'",
+      "note": "Ozan da habersiz görünüyor ama doğru soruyu soruyor."
+    },
+    {
+      "characterId": "suspect_ozan",
+      "evidenceId": "darp_raporu",
+      "reaction": "nervous",
+      "dialogue": "Ozan dudağını sıvazlıyor. 'Zamanlama? Karanlıkta zaman algısı bozulur.'",
+      "note": "Darp zamanlaması konusunda tutarsız."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "sahte_banknot",
+      "reaction": "sad",
+      "dialogue": "Derya'nın yüzü düşüyor. 'Sahte mi? Ben her hafta o parayı saydım. Hiçbir şey fark etmedim. Bu benim hatam.'",
+      "note": "Sahte para haberi Derya'yı üzmüş görünüyor."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "kamera_arizalari",
+      "reaction": "surprised",
+      "dialogue": "Derya kaşlarını kaldırıyor. 'Kamera arızaları mı? Bundan haberim yoktu. Volkan bey biliyordur.'",
+      "note": "Kamera konusunda bilgisiz görünüyor."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "nakliye_fisi",
+      "reaction": "sad",
+      "dialogue": "Derya iç çekiyor. 'Eşyalarımı taşıdım. Boşanma yüzünden. Bu konu benim için zor.'",
+      "note": "Nakliye sorusu duygusal tepki yaratıyor."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "denetim_raporlari",
+      "reaction": "nervous",
+      "dialogue": "Derya tabletini açıyor. 'Tartının kalibrasyonu bozuktu. Sinan beyin tasarruf kararıyla bakım sözleşmesi iptal oldu.'",
+      "note": "Tartı konusunda Sinan'ın kararını neden gösteriyor."
+    },
+    {
+      "characterId": "suspect_volkan",
+      "evidenceId": "kamera_arizalari",
+      "reaction": "shocked",
+      "dialogue": "Volkan'ın yüzü kızarıyor. 'IT raporu yazılım hatası dedi. Ama hesabımdan tetiklenmesi...' Başını iki eliyle tutuyor.",
+      "note": "Volkan gerçekten habersiz ve şok."
+    },
+    {
+      "characterId": "suspect_volkan",
+      "evidenceId": "it_forensik",
+      "reaction": "calm",
+      "dialogue": "Volkan derin bir nefes alıyor. 'Muhasebe katı... Scriptler muhasebe katından yüklenmiş... Benim ofisim güvenlik katında.'",
+      "note": "IT forensik Volkan'ı temize çıkarıyor."
+    },
+    {
+      "characterId": "suspect_takis",
+      "evidenceId": "sigorta_policesi",
+      "reaction": "excited",
+      "dialogue": "Takis gülüyor. 'Gördünüz mü? Sinan sigortayı şişirmiş. Soygunu kendine yaptı.'",
+      "note": "Takis Sinan'ı suçlamak için fırsat kolluyor."
+    },
+    {
+      "characterId": "suspect_takis",
+      "evidenceId": "sahte_banknot",
+      "reaction": "surprised",
+      "dialogue": "Takis şaşırıyor. 'Sahte para? Bu işler sandığımdan daha karmaşıkmış.'",
+      "note": "Takis sahte para haberini sindirmeye çalışıyor."
+    }
+  ],
+  "microExpressions": [
+    {
+      "id": "me_sinan_derya",
+      "characterId": "suspect_sinan",
+      "triggerScene": "scene_021",
+      "displayText": "Sinan'ın gözleri bir an kısılıyor. Derya'nın adı geçtiğinde bakışları öfkeyle doluyor ama hemen toparlanıyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_ozan_ferhat",
+      "characterId": "suspect_ozan",
+      "triggerScene": "scene_024",
+      "displayText": "Ozan'ın eli refleksif olarak cebine gidiyor, sonra geri çekiyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_derya_tarti",
+      "characterId": "suspect_derya",
+      "triggerScene": "scene_027",
+      "displayText": "Derya gözlüklerini iki kez düzeltiyor. Parmakları masada titriyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_sinan_sahte",
+      "characterId": "suspect_sinan",
+      "triggerScene": "scene_021",
+      "displayText": "Sinan'ın yüzünde bir an gerçek korku beliriyor. Kendi parasının çalındığını anlıyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_derya_nakliye",
+      "characterId": "suspect_derya",
+      "triggerScene": "scene_028b",
+      "displayText": "Derya'nın gözleri bir milisaniye genişliyor. Cevabı çok hızlı geliyor.",
+      "timeWindow": 3.0
+    }
+  ],
+  "suspectNetwork": {
+    "nodes": [
+      {
+        "id": "victim_ferhat",
+        "label": "Ferhat",
+        "type": "victim"
+      },
+      {
+        "id": "suspect_sinan",
+        "label": "Sinan",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_ozan",
+        "label": "Ozan",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_derya",
+        "label": "Derya",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_volkan",
+        "label": "Volkan",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_takis",
+        "label": "Takis",
+        "type": "suspect"
+      },
+      {
+        "id": "npc_cemil",
+        "label": "Kara Cemil",
+        "type": "npc"
+      }
+    ],
+    "connections": [
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_sinan",
+        "type": "business",
+        "label": "Former Boss",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_ozan",
+        "type": "business",
+        "label": "Former Colleague",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_volkan",
+        "type": "business",
+        "label": "Former Crew Mate",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_derya",
+        "type": "romantic",
+        "label": "Secret Affair",
+        "strength": 3,
+        "requires": [
+          "derya_ferhat_ilişkisi"
+        ]
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_ozan",
+        "type": "business",
+        "label": "Owner - General Manager",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_volkan",
+        "type": "business",
+        "label": "Employer",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_takis",
+        "type": "business",
+        "label": "Partner",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_derya",
+        "type": "business",
+        "label": "Accountant",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "npc_cemil",
+        "type": "suspicious",
+        "label": "Enforcer",
+        "strength": 3,
+        "requires": [
+          "kara_cemil_baglantisi"
+        ]
+      },
+      {
+        "from": "suspect_ozan",
+        "to": "suspect_takis",
+        "type": "suspicious",
+        "label": "Gambling Debt",
+        "strength": 2,
+        "requires": [
+          "ozan_takis_borc"
+        ]
+      },
+      {
+        "from": "suspect_ozan",
+        "to": "npc_cemil",
+        "type": "suspicious",
+        "label": "Staged Beating",
+        "strength": 2,
+        "requires": [
+          "kara_cemil_baglantisi"
+        ]
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "npc_cemil",
+        "type": "suspicious",
+        "label": "Shooter",
+        "strength": 3,
+        "requires": [
+          "kara_cemil_baglantisi"
+        ]
+      },
+      {
+        "from": "suspect_derya",
+        "to": "suspect_volkan",
+        "type": "suspicious",
+        "label": "Security Account Hijack",
+        "strength": 3,
+        "requires": [
+          "derya_script"
+        ]
+      }
+    ]
+  },
+  "newspaperArticles": [
+    {
+      "id": "news_initial",
+      "requires": null,
+      "headline": "MAJOR HEIST AT ROYAL MEDITERRANEAN",
+      "subheadline": "8 million euro vault blown from outside",
+      "body": "At 02:15 on the night of the incident, power was cut at Girne's largest casino, Royal Mediterranean, and cameras went dark. The vault was blown from outside, 8 million euro was loaded onto a van and driven away. The van was found empty outside the city. Near the scene, former security guard Ferhat Aksoy was found shot in the shoulder and fell into a coma.",
+      "source": "Cyprus Post"
+    },
+    {
+      "id": "news_investigation",
+      "requires": null,
+      "headline": "CASINO HEIST: POLICE WITHOUT A LEAD",
+      "subheadline": "Inside job theory gains ground",
+      "body": "Investigators have confirmed the power outage at Royal Mediterranean was triggered from the casino's internal network. Officials say 'an outside crew could not have acted this precisely; someone from inside is involved.' The probe is now focused on six suspects.",
+      "source": "Havadis"
+    },
+    {
+      "id": "news_sahte",
+      "requires": [
+        "sahte_banknot"
+      ],
+      "headline": "THE MONEY IN THE VAULT WAS COUNTERFEIT",
+      "subheadline": "Someone had already swapped the real cash before the heist",
+      "body": "A large portion of the banknotes taken in the heist turned out to be professional counterfeits. This suggests the robbers did not steal real money but cash that had already been swapped. The investigation has shifted toward an inside swap operation predating the robbery.",
+      "source": "Cyprus Gazette"
+    },
+    {
+      "id": "news_sinan_interview",
+      "requires": null,
+      "headline": "SINAN KARADAG: 'I AM INNOCENT'",
+      "subheadline": "Casino owner speaks to press",
+      "body": "Royal Mediterranean owner Sinan Karadag said at a press conference yesterday: 'I get nothing from insurance; this heist hurts me too.' Asked about his relationship with Ferhat Aksoy, he gave a short answer: 'Ferhat left us two months ago. That's his life.' That was his only statement.",
+      "source": "Cyprus Today"
+    },
+    {
+      "id": "news_reputation_high",
+      "requires": null,
+      "headline": "DETECTIVE LEADS THE CASE",
+      "subheadline": "Royal Mediterranean heist close to resolution",
+      "body": "The detective handling the investigation is reportedly piecing together critical evidence and close to a breakthrough. Sources say the probe has narrowed to two competing theories of the crime.",
+      "source": "Cyprus Post"
+    },
+    {
+      "id": "news_reputation_low",
+      "requires": null,
+      "headline": "INVESTIGATION STALLED",
+      "subheadline": "Days pass since Royal Mediterranean heist",
+      "body": "The heist investigation has not progressed. Public distrust is growing. 'What is the detective doing?' is a common question in street interviews.",
+      "source": "Havadis"
+    }
+  ],
+  "pressEvents": [
+    {
+      "id": "press_day1",
+      "reporterName": "Ayse Yilmaz",
+      "outlet": "Cyprus Post",
+      "question": "Detective, could someone inside the casino have helped this heist?",
+      "options": [
+        {
+          "text": "We are examining every possibility; it is too early to comment.",
+          "effect": "managed",
+          "reputationDelta": 3,
+          "note": "Professional reply to press."
+        },
+        {
+          "text": "It is clearly an inside job, but I won't name names.",
+          "effect": "leak",
+          "reputationDelta": -5,
+          "note": "Information leaked to press."
+        },
+        {
+          "text": "(Walk away without answering)",
+          "effect": "ignore",
+          "reputationDelta": -2,
+          "note": "Press ignored."
+        }
+      ],
+      "triggerAfterScenes": 3
+    },
+    {
+      "id": "press_day2",
+      "reporterName": "Mehmet Tuncer",
+      "outlet": "Havadis",
+      "question": "Ferhat Aksoy is in a coma. Do you know who shot him?",
+      "options": [
+        {
+          "text": "We are investigating the link between the shooter and the heist; cannot share details.",
+          "effect": "managed",
+          "reputationDelta": 5,
+          "note": "Reassuring answer."
+        },
+        {
+          "text": "I can say there is a hit man involved.",
+          "effect": "hint",
+          "reputationDelta": 0,
+          "note": "Hint given to press."
+        },
+        {
+          "text": "Don't obstruct the investigation.",
+          "effect": "hostile",
+          "reputationDelta": -4,
+          "note": "Harsh reply to press."
+        }
+      ],
+      "triggerAfterScenes": 9
+    }
+  ]
+}

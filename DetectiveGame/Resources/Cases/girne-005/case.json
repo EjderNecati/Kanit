@@ -1,0 +1,2554 @@
+{
+  "id": "girne-005",
+  "title": "Son Bahis",
+  "subtitle": "Girne, Kıbrıs 2026",
+  "city": "Girne",
+  "description": "Royal Akdeniz Kumarhanesi. Gece 02:15. Elektrikler kesildi, kameralar karardı, kasa dışarıdan patlatıldı. 8 milyon Euro çıkarıldı, bir minibüse yüklendi. Minibüs Girne dışında terk edilmiş bulundu - içi boş. Para yok, soyguncu yok. Ama asıl bomba: minibüsün 3 km ilerisinde bir adam vurulmuş halde bulundu. Cebinde kumarhane kartı. Hayatta ama komada.",
+  "coverImage": "girne_gece",
+  "difficulty": 2,
+  "isPremium": true,
+  "characters": [
+    {
+      "id": "suspect_sinan",
+      "name": "Sinan Karadağ",
+      "age": 53,
+      "occupation": "Kumarhane Sahibi",
+      "relationToVictim": "Royal Akdeniz Kumarhanesi'ni 18 yıl önce kurmuş. Son 2 yılda işler kötü. Sigorta poliçesini 3 ay önce 12 milyon Euro'ya çıkardı.",
+      "portraitImage": "portrait_sinan",
+      "isSuspect": true,
+      "alibi": "Soygun gecesi Lefkoşa'da bir politikacıyla yemekteydi. Restoran kamerası, garson ifadesi, kredi kartı fişi mevcut. Girne'ye 1.5 saat mesafe."
+    },
+    {
+      "id": "suspect_ozan",
+      "name": "Ozan Ersoy",
+      "age": 41,
+      "occupation": "Kumarhane Genel Müdürü",
+      "relationToVictim": "Sinan'ın sağ kolu, 10 yıldır kumarhanede. Güvenlik, personel, operasyon hep onun elinden geçer. Soygundan 20 dk sonra yerde bulundu - yüzü morarmış.",
+      "portraitImage": "portrait_ozan",
+      "isSuspect": true,
+      "alibi": "Soygun gecesi kumarhanedeydi. VIP salonunda müşterilerle ilgileniyordu. Elektrikler kesilince 'panik yönetimi' yaptığını söylüyor. Soyguncular tarafından dövüldüğünü iddia ediyor."
+    },
+    {
+      "id": "suspect_ferhat",
+      "name": "Ferhat Aksoy",
+      "age": 34,
+      "occupation": "Eski Kumarhane Güvenlik Görevlisi",
+      "relationToVictim": "6 ay önce kumarhaneden kovulmuş. Borca batık, eski boksör. Girne dışında tek kurşunla vurulmuş halde bulundu. Komada.",
+      "portraitImage": "portrait_ferhat",
+      "isSuspect": true,
+      "alibi": "Komada. Konuşamıyor. Yanında terk edilmiş minibüs ve kumarhane giriş kartı bulundu.",
+      "exhaustedText": "Ferhat Aksoy yoğun bakımda hareketsiz yatıyor. Monitörler yanıp sönüyor, nefes makinesi ritmik bir sesle çalışıyor. Gözleri kapalı, konuşamıyor, cevap veremiyor.\n\nSana söyleyeceklerini omuzundaki kurşunla birlikte içine gömmüş. Ondan öğrenebileceğin her şeyi çoktan öğrendin."
+    },
+    {
+      "id": "suspect_derya",
+      "name": "Derya Tuncer",
+      "age": 38,
+      "occupation": "Mali Müşavir (Sözleşmeli)",
+      "relationToVictim": "7 yıldır kumarhanenin mali danışmanı. Haftada 2 gün kumarhanede. Gözlüklü, sessiz. Son 1 yılda boşanma davası, nafaka borcu.",
+      "portraitImage": "portrait_derya",
+      "isSuspect": true,
+      "alibi": "Soygun gecesi Magosa'da annesinin evindeydi. Annesi, komşu ve bir arkadaşı teyit ediyor. Akşam yemeği, dizi, 23:30'da yattı. Magosa, Girne'ye 1.5 saat mesafe."
+    },
+    {
+      "id": "suspect_volkan",
+      "name": "Volkan Arat",
+      "age": 45,
+      "occupation": "Kumarhane Güvenlik Şefi",
+      "relationToVictim": "Eski polis. 5 yıldır kumarhanede. Kamera ve alarm sistemlerinin sorumlusu. Soygun gecesi izinliydi. Son 2 haftada kamera sistemi 4 kez arıza yapmış. Gizli bir tarafı var.",
+      "portraitImage": "portrait_volkan",
+      "isSuspect": true,
+      "alibi": "Evindeydi. Karısı teyit ediyor. Netflix izleme geçmişi var, 01:00-03:00 arası."
+    },
+    {
+      "id": "suspect_takis",
+      "name": "Takis Andreou",
+      "age": 60,
+      "occupation": "Kumarhane %35 Ortağı / Emlak Baronu",
+      "relationToVictim": "Kıbrıslı Rum iş insanı. Kumarhaneyi kapatıp arsaya otel yapmak istiyor. Sinan reddediyor. 8 aydır ortaklık fesih davası var. Girne'de bağlantıları olabilir.",
+      "portraitImage": "portrait_takis",
+      "isSuspect": true,
+      "alibi": "Soygun gecesi Limasol'da otel odasındaydı. Check-in 18:00, restoran 20:00-23:00, odaya 23:30. Sınır geçiş kaydı: giriş 16:00, çıkış ertesi gün 10:00."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "olay_yeri_raporu",
+      "title": "Olay Yeri Raporu",
+      "description": "Kumarhane olay yeri incelemesi. Elektrik panosu sabote edilmiş, jeneratör yakıt hattı kesilmiş, kasa C4 patlayıcıyla açılmış. Tek soyguncu izleri mevcut. Parmak izleri Ferhat Aksoy'a ait.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "darp_raporu",
+      "title": "Darp Raporu",
+      "description": "Ozan Ersoy'un adli tıp darp raporu. Yüzünde morluklar, dudak patlaması, sol kaşta kesi. Zamanlama Ozan'ın ifadesiyle çelişiyor. Kritik detay: morlukların oluşum zamanı soygundan en az 8-10 dakika sonrasına işaret ediyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_ozan",
+      "eliminates": null
+    },
+    {
+      "id": "minibus_raporu",
+      "title": "Minibüs Raporu",
+      "description": "Girne dışında terk edilmiş Ford Transit minibüs. Sahte kimlikle kiralanmış, GPS devre dışı bırakılmış. Ferhat'ın parmak izleri direksiyonda ve kapılarda. Bagajda kalan birkaç banknot sahte çıktı. Para başka bir araca aktarılmış.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "kamera_arizalari",
+      "title": "Kamera Arıza Kayıtları",
+      "description": "Son 2 haftada kumarhane kasa bölgesinde 4 kamera arızası. Hepsi gece saatlerinde. Admin hesabından (Volkan'ın hesabı) tetiklenmiş zamanlayıcı scriptler. Ancak Volkan bazı arıza gecelerinde nöbetçi değildi.",
+      "image": null,
+      "linkedCharacterId": "suspect_volkan",
+      "eliminates": null
+    },
+    {
+      "id": "kasa_erisim_logu",
+      "title": "Kasa Erişim Logu",
+      "description": "Kumarhane kasasının dijital giriş kayıtları. Son 3 ayda: Metin (90 giriş, günlük 3-4 saat), Derya (14 giriş, haftada 1-2), Ozan (12 giriş), Sinan (8 giriş). Derya 12 Mart'ta planlanmamış bir denetim gerçekleştirmiş.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "sahte_para_analiz",
+      "title": "Sahte Para Analiz Raporu",
+      "description": "Kriminalistik laboratuvar analizi. Sahte banknotlar kasaya kademeli olarak, 3-4 haftalık süreçte yerleştirilmiş. Profesyonel baskı. Kasaya düzenli erişimi ve uzun süreli çalışma imkanı olan biri tarafından değiştirilmiş.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "sahte_banknot",
+      "title": "Sahte Banknot",
+      "description": "Ferhat'ın arabasında bulunan 8 milyon Euro'nun tamamı sahte. Profesyonel baskı, UV ve dokunma testlerini geçecek kalitede. Ancak kağıt gramajı gerçek Euro'dan %2 hafif. Seri numaraları gerçek banknotlardan kopyalanmış. Gerçek para kasadan soygundan önce çıkarılmış.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "denetim_raporlari",
+      "title": "Mali Denetim Raporları",
+      "description": "Derya Tuncer'in son 12 aylık kasa denetim raporları. 6 ay öncesine kadar dijital tartı ile gramaj kontrolü yapılıyordu. Son 3 ayda tartı kullanımı bırakılmış. Tartı, sahte banknotların %2 ağırlık farkını kolayca tespit edebilirdi.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "sigorta_policesi",
+      "title": "Sigorta Poliçesi",
+      "description": "Royal Akdeniz Kumarhanesi sigorta dosyası. Sinan Karadağ 3 ay önce teminatı 4 milyon Euro'dan 12 milyon Euro'ya çıkarmış. Yıllık prim 180.000'den 540.000 Euro'ya yükselmiş. Batan bir kumarhanenin sigortasını 3 katına çıkarmak mali açıdan mantıksız.",
+      "image": null,
+      "linkedCharacterId": "suspect_sinan",
+      "eliminates": null
+    },
+    {
+      "id": "benzin_makbuzu",
+      "title": "Benzin Makbuzu",
+      "description": "Derya Tuncer'e ait benzin istasyonu makbuzu. 12 Mart sabahı 10:43-10:48 arası Girne'de benzin almış. İstasyon görevlisi: telefonla konuşuyordu. Kişisel hattında o saatte arama kaydı yok - ikinci bir telefonu olabilir.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "nakliye_fisi",
+      "title": "Nakliye Fişi",
+      "description": "Derya Tuncer soygundan 5 gün önce Girne'den Magosa'ya taşınma eşyası göndermiş. Toplam 185 kg. Koliler kapalı, içi görülmemiş. Magosa'daki Salamis Yolu'nda kiralık bir depoya teslim edilmiş. Alıcı depoda yoktu.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "borc_raporu",
+      "title": "Borç Raporu",
+      "description": "Derya Tuncer'in mali durumu. Boşanma davası sonrası yaklaşık 890.000 Euro borç: nafaka, kredi ve kira. Eski eşi evi almış, Derya sıfırdan başlamak zorunda kalmış. Ciddi mali motivasyon.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_telefon",
+      "title": "Ferhat'ın Telefon Kayıtları",
+      "description": "Ferhat Aksoy'un telefon dökümleri. Soygundan önceki günlerde Ozan Ersoy'u defalarca aramış. Son arama olay gecesi 01:00'de Ozan'dan gelmiş. Ozan ilk başta Ferhat'la iletişimi gizlemeye çalışmış, sonra 'tazminat kavgası' açıklaması yapmış.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_araba",
+      "title": "Ferhat'ın Arabası",
+      "description": "Minibüsün 800 metre ilerisinde ağaçlık alanda gizlenmiş Renault Clio. Dallarla örtülmüş, önceden hazırlanmış kaçış planı. İçinde 6 büyük çanta (sahte parayla dolu). Ferhat parayı minibüsten kendi arabasına aktarmış, buluşma noktasına gitmeyecekti.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_tibbi",
+      "title": "Ferhat Tıbbi Rapor",
+      "description": "Ferhat Aksoy hastane kayıtları. Komada, konuşamıyor. Hemşire ifadesi: bilincini kaybetmeden önce sayıklayarak 'Ozan' ismini tekrarlamış. Kişisel eşyaları: iptal edilmiş kumarhane giriş kartı, 340 Euro nakit, Renault araba anahtarı.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "ferhat_ses_kaydi",
+      "title": "Ferhat'ın Ses Kaydı",
+      "description": "Ferhat'ın telefonundaki ses kayıt uygulamasından bulunan dosya. 14 Mart 19:30, bilinmeyen biriyle konuşma: 'Beni satacaklar, mesajları gördüm. İş bittikten sonra beni temizleyeceklermiş.' Arka planda CableSat Premium'daki 'Kıbrıs Gecesi' programı duyuluyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_ferhat",
+      "eliminates": null
+    },
+    {
+      "id": "sinan_telefon",
+      "title": "Sinan'ın Telefon Kayıtları",
+      "description": "Tüm şüphelilerin olay gecesi telefon dökümleri. Sinan soygundan 45 dk önce Ozan'ı aramış. 02:45'te Kara Cemil'i aramış (darp ve tehditten sabıkalı). Sinan ve Ozan ikisi de aynı bilinmeyen prepaid hattı aramış. Derya'nın olay gecesi hiç araması yok.",
+      "image": null,
+      "linkedCharacterId": "suspect_sinan",
+      "eliminates": null
+    },
+    {
+      "id": "volkan_banka",
+      "title": "Volkan'ın Banka Hesapları",
+      "description": "Volkan Arat'ın mali geçmişi. Eşi Ayşe Arat adına hesapta son 6 ayda 59.000 Euro nakit yatırım. Tarihleri VIP kumar gecelerinin 1-2 gün sonrasına denk geliyor. Yasadışı gelir ama 8 milyon Euro'luk soyguna karışacak motivasyon değil.",
+      "image": null,
+      "linkedCharacterId": "suspect_volkan",
+      "eliminates": null
+    },
+    {
+      "id": "volkan_vip_kayit",
+      "title": "Volkan'ın VIP Defteri",
+      "description": "Volkan'ın kişisel dolabında bulunan siyah kapaklı defter. Son 6 ayda 16 kayıt dışı VIP kumar gecesi düzenlemiş, kameraları kendisi kapatmış, masadan pay almış. 12 Mart notu kritik: 'Kamera arızası planlandı ama benim scriptim değil, başka biri ayarlamış. Dokunma.'",
+      "image": null,
+      "linkedCharacterId": "suspect_volkan",
+      "eliminates": null
+    },
+    {
+      "id": "takis_belgeler",
+      "title": "Takis'in Belgeleri",
+      "description": "Takis Andreou'nun avukatının topladığı belgeler. Sinan'ın mali usulsüzlükleri: gelir gizleme, sigorta şişirmesi, açıklanamayan giderler. Ortaklık fesih davasında delil olarak kullanılıyor. Sinan'ı köşeye sıkıştıran dosya.",
+      "image": null,
+      "linkedCharacterId": "suspect_takis",
+      "eliminates": null
+    },
+    {
+      "id": "takis_prepaid",
+      "title": "Takis'in Prepaid Hattı",
+      "description": "Ferhat'ın ses kaydındaki bilinmeyen numara araştırması. Hat Girne ve Limasol bölgelerinden kullanılmış, Limasol kullanım tarihleri Takis'in orada olduğu günlerle birebir örtüşüyor. Arka plandaki CableSat Premium sesi Takis'in Limasol ofisine ait. Ferhat yardım istediği kişi Takis'miş.",
+      "image": null,
+      "linkedCharacterId": "suspect_takis",
+      "eliminates": null
+    },
+    {
+      "id": "takis_ferhat_bulusma",
+      "title": "Takis-Ferhat Buluşması",
+      "description": "Girne Marina'daki Deniz Kafe güvenlik kamerası. 5 Mart, soygundan 10 gün önce: Takis ve Ferhat aynı masada 45 dakika görüşmüş. Takis zarftan bir şey çıkarıp Ferhat'a vermiş. Takis sorgulamada 'Ferhat'ı tanımıyorum' demişti - yalan söylemiş.",
+      "image": null,
+      "linkedCharacterId": "suspect_takis",
+      "eliminates": null
+    },
+    {
+      "id": "it_forensik",
+      "title": "IT Forensik Raporu",
+      "description": "Kamera arıza loglarının derinlemesine analizi. Scriptler yazılım hatası değil, admin panelinden manuel tetiklenmiş. Yükleme saatleri mesai saatlerinde (14:00-16:00), IP adresi muhasebe katına ait. Volkan'ın ofisi farklı alt ağda. Birisi Volkan'ın hesabını ele geçirip muhasebe katından kameraları manipüle etmiş.",
+      "image": null,
+      "linkedCharacterId": "suspect_derya",
+      "eliminates": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_001",
+      "type": "narration",
+      "background": "girne_gece",
+      "characterId": null,
+      "text": "Girne, Kuzey Kıbrıs. Gece 04:30. Telefon çalıyor.\n\nGirne Emniyet Müdürü: 'Royal Akdeniz Kumarhanesi soyuldu. Saat 02:15'te elektrikler kesilmiş, kameralar kararmış, kasa patlayıcıyla açılmış. 8 milyon Euro. Minibüsle kaçmışlar ama minibüs 5 km dışında terk edilmiş bulundu. İçi boş.'\n\nBir nefes alıyor: 'Ama asıl mesele bu değil. Minibüsün 3 km ilerisinde bir adam vurulmuş halde bulundu. Cebinde kumarhane giriş kartı. Hayatta ama komada. Adı Ferhat Aksoy, eski kumarhane çalışanıymış.'\n\nMüdür ekliyor: 'Bu davayı bugün çözmemiz lazım dedektif. Yarına kalırsa şüpheliler paranın gücüyle bu adadan çoktan kaybolur.'\n\nSabahın ilk ışıklarında Girne'ye ulaşıyorsun. Deniz tuzlu kokuyor, palmiyeler rüzgarda sallanıyor. Kumarhanenin önü polis şeritleriyle çevrili.",
+      "choices": [
+        {
+          "id": "c001a",
+          "text": "Kumarhaneyi incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001b",
+          "text": "Emniyet müdüründen brifing al",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_002",
+      "type": "investigation",
+      "background": "kumarhane_ic",
+      "characterId": null,
+      "text": "Royal Akdeniz Kumarhanesi. Gösterişli bir bina - mermer zemin, kristal avizeler, şimdi hepsi karanlık ve toz içinde.\n\nElektrik panosu dışarıda, binanın arkasında. Teknisyen gösteriyor: 'Ana sigorta atlatılmış, profesyonel iş. Jeneratör devreye girmemiş çünkü yakıt hattı kesilmiş. 12 dakika karanlık.'\n\nKasa bölümü alt katta. Çelik kapı patlayıcıyla açılmış. Kriminalistik ekip çalışıyor: 'C4 bazlı patlayıcı, dozajı mükemmel - kapıyı açmış ama kasanın içini zarar vermemiş. Bunu yapan ya askerdi ya da eğitim almış.'\n\nKasa içi: 8 büyük çanta çıkarılmış, izler tek kişiye ait. Parmak izi: Ferhat Aksoy. Ayak izi: 43 numara erkek bot.\n\nDışarıda beyaz Ford Transit minibüsün lastik izleri. Tek araç.",
+      "choices": [
+        {
+          "id": "c002a",
+          "text": "VIP salonunu incele",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002b",
+          "text": "Güvenlik odasını incele",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002c",
+          "text": "Kasa erişim loglarını kontrol et",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "olay_yeri_raporu",
+      "addCharacterNote": "Kumarhane: elektrik panosu sabote, jeneratör yakıt hattı kesilmiş, kasa C4 ile patlatılmış. Tek soyguncu, parmak izi Ferhat Aksoy.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_003",
+      "type": "narration",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Girne Emniyet Müdürlüğü. Müdür Hasan Demirci seni brifing odasına alıyor.\n\n'Royal Akdeniz, Girne'nin en büyük kumarhanesi. Sahibi Sinan Karadağ, 18 yıldır bu işte. Sert adam. Son 2 yılda rakip casinolar gelir çaldı, işler kötü gidiyordu.'\n\nDosyayı açıyor:\n\n'Soygun gecesi kadro: Genel müdür Ozan Ersoy VIP salonundaydı. Güvenlik şefi Volkan Arat izinliydi. Kasaya patlayıcıyla girilmiş, tek kişi, 8 çanta para çıkarılmış.'\n\n'Minibüs 5 km dışında terk edilmiş. İçi boş. 3 km ileride Ferhat Aksoy vurulmuş halde. Eski kumarhane güvenlikçisi, 6 ay önce kovulmuş.'\n\n'6 şüphelimiz var: Kumarhane sahibi, genel müdür, vurulan eski çalışan, mali müşavir, güvenlik şefi, ve %35 ortak.'\n\nDemirci ekliyor: 'Sinan'ın sigorta poliçesini 3 ay önce 12 milyona çıkardığını da söyleyeyim.'",
+      "choices": [
+        {
+          "id": "c003a",
+          "text": "Kriminal raporu incele",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003b",
+          "text": "Kumarhaneyi incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003c",
+          "text": "Sigorta dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003d",
+          "text": "Ferhat'ı hastanede ziyaret et",
+          "nextSceneId": "scene_010",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sigorta_policesi",
+      "addCharacterNote": "6 şüpheli. Sinan sigortayı 3 ay önce 12 milyona çıkarmış. Ferhat eski çalışan, 6 ay önce kovulmuş. Ozan soygun gecesi kumarhanedeydi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_004",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Kriminal laboratuvar raporu. Dr. Aslan sunuyor:\n\n'Ferhat Aksoy, 34 yaşında. Sol omuzdan tek kurşunla vurulmuş. 9mm, atış mesafesi 5-8 metre. Kurşun omuz kemiğini parçalamış. Ameliyatla çıkarıldı. Komada.'\n\n'Tahmini vuruluş saati: 02:45-03:15 arası. Soygundan 30-60 dakika sonra.'\n\n'Ferhat'ın ellerinde barut kalıntısı yok - ateş etmemiş. Cebinde kumarhane giriş kartı ve 340 Euro nakit.'\n\nOzan Ersoy darp raporu: 'Yüzünde morluklar, dudak patlaması, sol kaşta kesi. Künt cisim darbesi. Adli tıp notu: Morlukların oluşum zamanı soygundan en az 8-10 dakika sonrasına işaret ediyor.'\n\nDr. Aslan: 'Ozan soyguncular tarafından dövüldüğünü söylüyor ama zamanlama uymuyor. Darp soygundan sonra gerçekleşmiş.'",
+      "choices": [
+        {
+          "id": "c004a",
+          "text": "Minibüsü incele",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004b",
+          "text": "Kumarhaneyi incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004c",
+          "text": "Ferhat'ı hastanede ziyaret et",
+          "nextSceneId": "scene_010",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004d",
+          "text": "Telefon kayıtlarını incele",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "darp_raporu",
+      "addCharacterNote": "Ferhat silahsızmış, birisi vurmuş. Vuruluş soygundan 30-60 dk sonra. Ozan'ın darp zamanlaması soygunla uyuşmuyor - dayak soygundan sonra atılmış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_005",
+      "type": "investigation",
+      "background": "kumarhane_vip",
+      "characterId": null,
+      "text": "VIP salonu. Lüks koltuklar, özel rulet masaları, bar. Soygun gecesinden beri dokunulmamış.\n\nOzan burada müşterilerle ilgileniyordu. Güvenlik: 'Ozan beyi elektrikler kesildiğinde VIP salonunda gördük. Müşterileri sakinleştirmeye çalışıyordu.'\n\nSalon görevlisi: 'Ozan bey her zamanki gibiydi, sakin, kontrollü. Elektrikler kesilince telefonunun fenerini açtı. Müşterilere sakin olmalarını söyledi.'\n\nBaşka bir görevli: 'Ama bir garip şey vardı. Elektrikler kesilmeden 5 dakika önce, saat 02:10 civarı, Ozan bey telefonla konuşuyordu. Sesini duyamadım ama gergin görünüyordu. Konuşma bitince normal ifadesine döndü.'\n\nBarmen: 'Elektrikler kesilince ortalık karıştı. Ozan bey müşterilere sakin olun dedi, sonra arka taraftaki servis çıkışına yöneldi. Acele ediyordu. Bir daha görmedim, ta ki güvenlik onu yarım saat sonra yerde bulana kadar.'\n\nVIP salonunun güvenlik kamerasında Ozan'ın 02:00-02:12 arası görüntüsü var. 02:12'de telefonunu cebine koyuyor. 02:15'te karanlık.",
+      "choices": [
+        {
+          "id": "c005a",
+          "text": "Güvenlik odasını incele",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005b",
+          "text": "Kasa bölümüne git",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005c",
+          "text": "Ozan'la konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan soygundan 5 dk önce telefonla konuşuyormuş, gergin görünüyormuş. 02:12'de telefonu kapatmış, 02:15'te elektrikler kesilmiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_006",
+      "type": "investigation",
+      "background": "guvenlik_odasi",
+      "characterId": null,
+      "text": "Güvenlik kontrol odası. 12 monitör, DVR sistemi, alarm paneli. Hepsi karanlık - elektrik kesildiğinde sistem çökmüş.\n\nIT teknisyeni rapor veriyor: 'Kameralar soygun gecesi 02:15'te kapanmış, elektrikle birlikte. UPS yok - Sinan bey tasarruf için kaldırtmış 2 yıl önce.'\n\n'Ama daha ilginç bir şey var. Son 2 haftada 4 kamera arızası olmuş. Hep gece saatlerinde, hep kısa süreli, hep kasa bölgesinde.'\n\nLogları gösteriyor:\n1 Mart, 23:45-00:02 - Kasa bölgesi\n5 Mart, 01:10-01:28 - Kasa bölgesi\n9 Mart, 22:50-23:05 - Kasa ve koridor\n12 Mart, 21:30-22:15 - Tüm kasa bölgesi (45 dakika)\n\n'Hepsi admin hesabından tetiklenmiş. Hesap sahibi Volkan Arat, güvenlik şefi. Ama Volkan 1 ve 3 numaralı arıza gecelerinde nöbetçi değildi.'\n\nTeknisyen: 'IT olarak yazılım hatası raporu verdik ama şimdi düşününce... bunlar hata değil, kasıtlı.'",
+      "choices": [
+        {
+          "id": "c006a",
+          "text": "IT forensik raporu iste",
+          "nextSceneId": "scene_014",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006b",
+          "text": "Volkan'la konuş",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006c",
+          "text": "Kasa erişim loglarını kontrol et",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006d",
+          "text": "Volkan'ın kişisel dolabını incele",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kamera_arizalari",
+      "addCharacterNote": "Son 2 haftada 4 kamera arızası, hep kasa bölgesinde, hep gece. Admin hesabından tetiklenmiş (Volkan). Ama Volkan bazı gecelerde nöbetçi değildi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_008",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Sigorta dosyası. AIG Cyprus şubesiyle yapılan yazışmalar:\n\nEski poliçe: 4 milyon Euro teminat, yıllık 180.000 Euro prim.\nYeni poliçe (3 ay önce): 12 milyon Euro teminat, yıllık 540.000 Euro prim.\n\nSinan Karadağ'ın imzası. Acente notu: 'Müşteri teminatı acilen artırmak istedi. Kasada yüksek miktarda nakit tutulduğunu belirtti.'\n\nSigorta uzmanı görüşü: 'Kumarhane geliriyle bu prim oranı mantıksız. Son 2 yılda gelirler düşmüş, prim artışı kasayı daha da sıkıştırır. Bir iş insanı neden batan bir kumarhanenin sigortasını 3 katına çıkarır?'\n\nTakis Andreou'nun avukatı da bu belgeyi toplamış - ortaklık fesih davasında delil olarak kullanıyor.",
+      "choices": [
+        {
+          "id": "c008a",
+          "text": "Takis'in avukat belgelerini incele",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008b",
+          "text": "Sinan'la konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008c",
+          "text": "Telefon kayıtlarını incele",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sigorta 4M'den 12M'ye çıkarılmış. Prim 3 katına yükselmiş. İşler kötüyken neden sigorta şişirilir?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_009",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Takis Andreou'nun avukatı Nikos Papadopoulos'un topladığı belgeler:\n\n1) Kumarhane gelir beyanlarında tutarsızlıklar - beyan edilen gelir gerçek gelirin %30 altında.\n2) Sigorta poliçesinin şüpheli şekilde şişirilmesi.\n3) Son 2 yılda kumarhane kasasından 'operasyonel gider' adı altında açıklanamayan 1.2 milyon Euro çekilmesi.\n4) Sinan'ın kişisel harcamalarının kumarhane hesabından karşılanması.\n\nTakis soygunu duyduktan sonra polise gelmiş: 'Sinan bunu kendine yaptı. Sigorta parası için. Bu adam 18 yıldır beni soyuyor, şimdi de sigortacıyı soyacak.'\n\nBelgeler mali usulsüzlükleri gösteriyor ama doğrudan soyguna bağlayan bir kanıt yok.",
+      "choices": [
+        {
+          "id": "c009a",
+          "text": "Takis'le konuş",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009b",
+          "text": "Sinan'la konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009c",
+          "text": "Mali denetim raporlarını incele",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "takis_belgeler",
+      "addCharacterNote": "Takis'in avukatı Sinan'ın mali usulsüzlüklerini belgelemiş. Sinan'ın gelir gizlemesi, sigorta şişirmesi, açıklanamayan giderler.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_010",
+      "type": "investigation",
+      "background": "hastane",
+      "characterId": null,
+      "text": "Girne Devlet Hastanesi. Yoğun bakım ünitesi. Ferhat Aksoy hareketsiz yatıyor. Monitörler yanıp sönüyor.\n\nDoktor: 'Sol omuzdan tek kurşun. Omuz kemiği parçalanmış, ameliyatla çıkardık. Kan kaybı ciddi, komada. Ne zaman çıkar bilemem.'\n\nHemşire: 'Bu adam buraya geldiğinde sayıklıyordu. Net değildi ama bir isim tekrarlıyordu. Ozan gibi bir şeydi. Sonra bilincini kaybetti.'\n\nFerhat'ın kişisel eşyaları: kumarhane giriş kartı (6 ay önce iptal edilmiş ama manyetik şerit hala çalışıyor), 340 Euro nakit, cep telefonu (şarjı bitmiş), araba anahtarı (Renault).\n\nDoktor: 'Ellerinde barut kalıntısı yok. Bu adam ateş etmemiş. Birisi onu vurmuş.'",
+      "choices": [
+        {
+          "id": "c010a",
+          "text": "Ferhat'ın telefonunu incelet",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010b",
+          "text": "Ferhat'ın arabasını ara",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010c",
+          "text": "Ferhat'ın eşyalarını detaylı incele",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010d",
+          "text": "Eski iş arkadaşlarıyla konuş",
+          "nextSceneId": "scene_036",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ferhat_tibbi",
+      "addCharacterNote": "Ferhat komada. Sayıklamasında 'Ozan' adını tekrarlamış. Ateş etmemiş. Eşyaları: iptal edilmiş kumarhane kartı, Renault araba anahtarı, telefon.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_011",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Ferhat'ın telefonu şarj edildi ve incelemeye alındı.\n\nSon aramalar:\n- 14 Mart 16:20: Ozan'ı aramış (3 dk 45 sn)\n- 14 Mart 19:30: Bilinmeyen numara (4 dk 12 sn)\n- 14 Mart 22:00: Ozan'ı aramış (1 dk 02 sn)\n- 15 Mart 01:00: Ozan'dan gelen arama (45 sn)\n\nSes kayıt uygulamasında bir dosya bulundu. 14 Mart 19:30, 4 dakika 12 saniye. Ferhat hoparlöre aldığı bir telefon görüşmesini kendi uygulamasıyla kaydetmiş:\n\nFerhat: 'Abi bunlar beni satacak, duydum. Mesajları gördüm. İş bittikten sonra beni temizleyeceklermiş. Ben parayı kendi arabama alıp gidiyorum, buluşma noktasına gelmiyorum.'\n\nKarşı taraftan gelen cevaplar hoparlör üzerinden kayda girdiği için boğuk, kelimeler net seçilemiyor. Karşı tarafın arka planında televizyon sesi var.\n\nSes analizi: TV'de 'Kıbrıs Gecesi' programı yayınlanıyordu. Bu program CableSat Premium paketinde var.",
+      "choices": [
+        {
+          "id": "c011a",
+          "text": "CableSat abone listesini araştır",
+          "nextSceneId": "scene_015b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011b",
+          "text": "Ozan'la yüzleş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011c",
+          "text": "Minibüsü incele",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ferhat_ses_kaydi",
+      "addCharacterNote": "Ferhat soygundan 1 gün önce birine 'beni satacaklar' demiş. Ozan'ın mesajlarını görmüş. Parayı kendi arabasına alıp kaçmayı planlamış. Arka planda CableSat Premium'daki program var.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_012",
+      "type": "investigation",
+      "background": "minibus_yeri",
+      "characterId": null,
+      "text": "Girne'nin 5 km dışı. Yol kenarında terk edilmiş beyaz Ford Transit minibüs. Etraf polis şeritleriyle çevrili.\n\nMinibüs: kiralık araç, 12 Mart'ta sahte kimlikle kiralanmış. Orijinal GPS devre dışı bırakılmış. Ama araca sonradan monte edilmiş ikinci bir izleme cihazı bulundu. Cihaz aktif ve olay gecesi boyunca sinyal göndermiş ama hangi alıcıya veri aktardığı tespit edilemiyor; şifreli kanal üzerinden tanımlanamayan bir sunucuya bağlı. Birisi minibüsü izliyordu. Kimin kurduğu, kimin izlediği belli değil. Parmak izi: Ferhat Aksoy - direksiyon, kapı kolları, arka bölüm.\n\nBagajda 2 boş çanta. Çantalar kumarhanedeki kasa çantalarıyla aynı model. Çantaların iç astarında birkaç banknot sıkışmış kalmış. Kriminalistik hemen inceliyor: 'Bu banknotlar sahte. Profesyonel baskı ama kağıt gramajı gerçek Euro'dan hafif.'\n\nKriminalistik: 'Ferhat minibüsü kullanmış, kasadan çantaları yüklemiş. Sonra parayı başka bir araca aktarmış. Ama aktardığı para sahte.'\n\nMinibüsün 800 metre ilerisinde ağaçlık alanda bir Renault Clio bulundu. Ferhat'ın eşyalarındaki araba anahtarı bu arabaya ait.",
+      "choices": [
+        {
+          "id": "c012a",
+          "text": "Ferhat'ın arabasını incele",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012b",
+          "text": "Ferhat'ın telefonunu incelet",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012c",
+          "text": "Hastaneye git",
+          "nextSceneId": "scene_010",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "minibus_raporu",
+      "addCharacterNote": "Minibüste kalan banknotlar sahte çıktı. Sahte kimlikle kiralanmış. Para başka araca aktarılmış. 800 metre ileride Ferhat'ın Renault Clio'su bulundu.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_013",
+      "type": "investigation",
+      "background": "minibus_yeri",
+      "characterId": null,
+      "text": "Ferhat'ın Renault Clio'su. Ağaçlık alanda gizlenmiş, dallarla örtülmüş. Önceden hazırlanmış bir kaçış planı.\n\nArabanın içinde 6 büyük çanta. Kumarhane kasasından çıkan çantalarla aynı model. Çantalar parayla dolu.\n\nArabada Ferhat'ın kan lekesi var - omuz yarası. Ferhat arabaya ulaşmış ama kaçamadan vurulmuş.\n\nKriminalistik: 'Ferhat parayı minibüsten kendi arabasına aktarmış. Bu önceden planlanmış bir kaçış. Minibüsle buluşma noktasına gitmek yerine kendi arabasıyla kaçmayı planlamış.'",
+      "choices": [
+        {
+          "id": "c013a",
+          "text": "Çantalardaki parayı incelet",
+          "nextSceneId": "scene_013b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b_ch",
+          "text": "Telefon kayıtlarını incele",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013c",
+          "text": "Kasa erişim loglarını kontrol et",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ferhat_araba",
+      "addCharacterNote": "Ferhat parayı minibüsten kendi arabasına aktarmış. Önceden planlanmış kaçış - buluşma noktasına gitmeyecekti.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_013b",
+      "type": "investigation",
+      "background": "minibus_yeri",
+      "characterId": null,
+      "text": "Kriminalistik ekip çantaları açıyor. İlk deste... ikinci deste... üçüncü deste...\n\nBaş kriminalist duruyor. UV lambasını yakıyor. Yüzü değişiyor.\n\n'Bunlar sahte. Hepsi sahte. 8 milyon Euro'nun tamamı sahte banknot.'\n\nProfesyonel baskı, UV ve dokunma testlerini geçecek kalitede. Ama kağıt gramajı gerçek Euro'dan %2 hafif. Seri numaraları gerçek banknotlardan kopyalanmış.\n\nEkip şefi: 'Bu adam kasayı patlatmış, 8 milyon Euro'luk sahte parayı çalmış. Gerçek para kasadan çıkmadan önce değiştirilmiş. Kim değiştirdi? Ne zaman değiştirdi? Gerçek 8 milyon Euro nerede?'",
+      "choices": [
+        {
+          "id": "c013b_a",
+          "text": "Sahte paraları detaylı incelet",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b_b",
+          "text": "Telefon kayıtlarını incele",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b_c",
+          "text": "Kasa erişim loglarını kontrol et",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sahte_banknot",
+      "addCharacterNote": "8 milyon Euro'nun tamamı sahte. Profesyonel baskı, %2 hafif gramaj. Para soygundan önce değiştirilmiş. Gerçek para nerede?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_014",
+      "type": "investigation",
+      "background": "guvenlik_odasi",
+      "characterId": null,
+      "text": "IT forensik ekibi kamera arıza loglarını derinlemesine inceledi.\n\nBaş teknisyen raporu sunuyor:\n\n'Arızalar yazılım hatası değil. Admin panelinden manuel olarak tetiklenmiş zamanlayıcı scriptler. Basit ama etkili - belirli saatte kamera yazılımını bakım moduna alıyor, sonra otomatik geri açıyor.'\n\n'Scriptler mesai saatlerinde sisteme yüklenmiş. Yükleme saatleri: 14:00-16:00 arası. 4 script de bu zaman diliminde.'\n\n'Script yükleme IP adresi: kumarhane iç ağı, muhasebe katı. Volkan'ın güvenlik ofisi ayrı bir alt ağda. IP blokları farklı.'\n\nTeknisyen ekliyor: 'Yani scriptleri yükleyen kişi muhasebe katında, mesai saatlerinde, Volkan'ın ele geçirilmiş hesabını kullanmış. Gece tetiklenmesini ayarlamış ki kamera arızası doğal görünsün.'",
+      "choices": [
+        {
+          "id": "c014a",
+          "text": "Muhasebe katını incele",
+          "nextSceneId": "scene_015c",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c014b",
+          "text": "Volkan'la konuş",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c014c",
+          "text": "Mali denetim raporlarını incele",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "it_forensik",
+      "addCharacterNote": "Kamera scriptleri muhasebe katından, mesai saatlerinde yüklenmiş. Volkan'ın ofisi farklı ağda. Birisi Volkan'ın hesabını kullanarak muhasebe katından kameraları manipüle etmiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Derya Tuncer'in mali denetim raporları. Son 12 aylık kayıtlar:\n\n6+ ay önceki raporlar: 'Kasa sayım yöntemi: Dijital tartı ile banknot ağırlık kontrolü + manuel sayım. Sonuç: 8.000.000 EUR - doğrulandı.'\n\nSon 3 aydaki raporlar: 'Kasa sayım yöntemi: Manuel sayım. Sonuç: 8.000.000 EUR - doğrulandı.'\n\nFark: Tartı kullanılmamış. 6 aydır her raporda tartı varken son 3 ayda yok.\n\nKriminal laboratuvar notu: 'Sahte banknotların gramajı gerçek Euro'dan %2 hafif. 8 milyon Euro'luk sahte banknot yaklaşık 1.5 kg daha hafif. Dijital tartı bu farkı kolayca tespit ederdi.'\n\nDerya'nın eski raporlarındaki not: 'Tartı kalibrasyonu düzenli kontrol ediliyor.' Son 3 ayda bu not yok.\n\nKumarhane yönetimi: 'Mali müşavir denetim yöntemini kendisi belirler. Biz karışmayız. 7 yıldır güveniyoruz.'",
+      "choices": [
+        {
+          "id": "c015a",
+          "text": "Derya'yla konuş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015b",
+          "text": "Nakliye şirketini araştır",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015c",
+          "text": "Kasa erişim loglarını kontrol et",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "denetim_raporlari",
+      "addCharacterNote": "Derya son 3 ayda tartı kullanmayı bırakmış. Tartı sahte banknotların ağırlık farkını yakalayacaktı. Neden yöntem değiştirdi?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015b",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "CableSat Premium abone listesi araştırması. Ferhat'ın ses kaydındaki arka plan TV sesi 'Kıbrıs Gecesi' programıymış.\n\nGirne'de CableSat Premium paketine sahip 4.300 abone var. Ferhat'ın evinde bu paket yok.\n\nŞüphelilerin adresleri kontrol ediliyor:\n- Sinan Karadağ: CableSat Premium var (Girne)\n- Ozan Ersoy: CableSat Premium var (Girne)\n- Derya Tuncer: CableSat Standard (Magosa'daki ev). Premium yok.\n- Volkan Arat: Digiturk abonesi, CableSat yok.\n- Takis Andreou: Güney Kıbrıs'ta. Kuzey Kıbrıs abone listesinde yok. Güney tarafı kontrol edilemiyor, yetki alanı dışında.\n\nAma: Derya'nın Girne'de eski bir bürosu var. 'Freelance danışmanlık ofisi' olarak kiralamış. Ofiste CableSat Premium mevcut.\n\nDerya bu ofisi 8 ay önce kiralamış. Son 3 ayda sık kullanmış.",
+      "choices": [
+        {
+          "id": "c015b_a",
+          "text": "Derya'nın Girne ofisini araştır",
+          "nextSceneId": "scene_015d",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015b_b",
+          "text": "Derya'yla konuş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015b_c",
+          "text": "Ferhat'ın telefonunu tekrar incele",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan ve Ozan'da CableSat Premium var. Derya'nın evinde yok AMA Girne'deki ofisinde var. Ferhat'ın aradığı kişi bu ofiste miydi?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015c",
+      "type": "investigation",
+      "background": "muhasebe_kati",
+      "characterId": null,
+      "text": "Kumarhane muhasebe katı. Açık plan ofis, 4 masa, 2 ortak bilgisayar, bir toplantı odası.\n\nDerya'nın kullandığı masa pencere kenarında. Kişisel eşya yok - haftada 2 gün gelen danışman için normal.\n\nOrtak bilgisayarlar: İkisi de eski model, şifre gerekmeden açılıyor. Herhangi biri oturup kullanabilir.\n\nBilgisayar 1'in tarayıcı geçmişi: muhasebe programları, vergi siteleri, normal iş kullanımı.\n\nBilgisayar 2'nin tarayıcı geçmişi: muhasebe yazılımı, e-posta, IT destek sayfası. Son kullanım tarihleri Derya'nın çalışma günleriyle örtüşüyor ama Ozan ve kasa sorumlusu da kullanıyor.\n\nKat giriş kartı logları: haftada ortalama 8-10 kişi bu kattan geçiyor. Güvenlik katıyla arasında erişim kısıtlaması yok, herkes geçebilir.",
+      "choices": [
+        {
+          "id": "c015c_a",
+          "text": "Derya'yla konuş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015c_b",
+          "text": "Mali denetim raporlarını incele",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015c_c",
+          "text": "Volkan'la konuş",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Muhasebe katı açık plan, ortak bilgisayarlar şifresiz. Herkes geçebilir. Derya haftada 2 gün burada çalışıyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015d",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Derya'nın Girne'deki ofisi araştırılıyor. Küçük bir büro, Marina bölgesinde. 1+1 kiralık daire, ofis olarak kullanılıyor.\n\nİçeride: masa, bilgisayar, dosya dolabı, küçük bir TV (CableSat Premium bağlı). Mutfak bölümünde kahve makinesi, birkaç bardak.\n\nBilgisayar inceleniyor: mali danışmanlık dosyaları, müşteri raporları, vergi beyannameleri. Normal iş kullanımı.\n\nDosya dolabında kumarhane mali raporlarının kopyaları, 3 farklı müşterinin dosyaları ve bir kutu banknot bandı var. Mali müşavirler para sayımında bant kullanır, kumarhanede de bunlar mevcut.\n\nKomşu: 'Derya hanım düzenli geliyor, iş yapıyor. Bazen geç saate kadar ışıkları yanıyor. Sessiz, çalışkan biri. Son zamanlarda biraz yorgun görünüyordu. Bir keresinde yapılı bir adamla beraber gördüm, ama bir kez sadece.'",
+      "choices": [
+        {
+          "id": "c015d_a",
+          "text": "Derya'yla konuş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015d_b",
+          "text": "Nakliye şirketini araştır",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015d_c",
+          "text": "Sahte para analizini incele",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya'nın Girne ofisi: mali raporlar, müşteri dosyaları, banknot bantları (mali müşavir için normal). CableSat Premium bağlı. Yorgun görünüyormuş son zamanlarda.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_016",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Sahte banknotların detaylı kriminalistik analizi:\n\nBaş kriminalist raporu sunuyor:\n\n'Banknotların hepsi aynı baskı makinesinden, aynı dönemde basılmış. Üretim tarihi: 2-4 hafta öncesi.'\n\n'Kasadaki dağılım homojen değil. Bazı desteler tamamen sahte. Bazıları yarı yarıya karışık - gerçek ve sahte banknotlar iç içe.'\n\n'Bu desen çok şey söylüyor: para tek seferde değiştirilmemiş. Birkaç hafta boyunca kademeli olarak değiştirilmiş. Her seferinde kasanın farklı bölümlerindeki desteler değiştirilmiş.'\n\n'Bu, kasaya düzenli erişimi olan birini işaret ediyor. Ve her erişimde yeterli zamanı olan birini.'\n\n'Değiştirme süreci tahminen 3-4 hafta sürmüş. İlk sahte desteler en eski, son değiştirilenler en taze.'",
+      "choices": [
+        {
+          "id": "c016a",
+          "text": "Kasa erişim loglarını kontrol et",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c016b",
+          "text": "Mali denetim raporlarını incele",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c016c",
+          "text": "Nakliye şirketini araştır",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sahte_para_analiz",
+      "addCharacterNote": "Sahte para kademeli olarak, 3-4 haftada değiştirilmiş. Kasaya düzenli erişimi ve yeterli zamanı olan biri.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "Sinan Karadağ'ın ofisi. Kumarhane üst katında, deniz manzaralı. Ağır meşe masa, deri koltuklar, puro kokusu.\n\nSinan puro yakıyor, seni süzüyor.\n\n'Dedektif. 18 yıldır bu kumarhaneyi işletiyorum. Tek bir soyguna bile uğramadım. Şimdi bir gecede 8 milyon Euro gitti.'\n\nKoltuğuna yaslanıyor: 'Soygun gecesi Lefkoşa'daydım. Milletvekili Ahmet Bey'le yemek yedim. Grand Pasha Hotel restoranında. Kamera kaydı var, garson ifadesi var, kredi kartı fişi var. 20:30'da oturduk, 01:00'e kadar oturduk.'\n\nPurosunu masaya bırakıyor: 'Ozan aradı, soyulduğumuzu söyledi. Hemen yola çıktım. 02:30'da buraya vardım. Zaten polis gelmişti.'\n\nMasasını düzeltiyor: 'Sorun ne soracaksanız sorun. Ama Lefkoşa'daydım, bunu bilin.'",
+      "choices": [
+        {
+          "id": "c020a",
+          "text": "Sigorta poliçesini sor",
+          "nextSceneId": "scene_021",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c020b",
+          "text": "Ozan'la ilişkisini sor",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan: Lefkoşa'da politikacıyla yemekteymiş. 01:00'de restorandan çıkmış. 02:30'da kumarhaneye varmış.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_021",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "Sinan'a sigorta poliçesini soruyorsun. Parmakları puronun üzerinde duraksar.\n\n'Sigortayı güncelledim, evet. 3 ay önce. Kasada çok nakit tutuyorduk, tedbirli olmak istedim. Prim arttı, ödedim. İş insanıyım, riski yönetirim.'\n\n'4'ten 12'ye mi? Evet, artış büyük. Ama kasada bazen 10 milyonun üzerinde nakit oluyor. Özel geceler, turnuvalar, VIP oyuncular. 12 milyon makul bir rakam.'\n\nPuroyu söndürüp yenisini yakıyor: 'Ne ima ediyorsun? Kendi kumarhanemi mi soydurdum? 18 yıllık itibarımı bir sigorta parası için mi riske attım?'\n\nSesi sertleşiyor: 'Takis mi söyledi bunu sana? O adam 8 aydır beni mahkemeye veriyor. Kumarhaneyi kapatıp arsaya otel dikmek istiyor. Her şeyi çarpıtır.'\n\n'Sigorta konusu bu kadar. Başka sorun?'",
+      "choices": [
+        {
+          "id": "c021a",
+          "text": "Ozan'la ilişkisini sor",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c021b",
+          "text": "Derya Tuncer hakkında sor",
+          "nextSceneId": "scene_022b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c021d",
+          "text": "Sahte banknotları göster",
+          "nextSceneId": "scene_048",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "sahte_banknot"
+        },
+        {
+          "id": "c021e",
+          "text": "Denetim raporlarını göster",
+          "nextSceneId": "scene_052",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "denetim_raporlari"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan sigorta artışını savunuyor. 'Tedbirli iş insanı.' Takis'i suçluyor. Kendi kumarhanesini soydurtma fikrini reddediyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_022",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "Sinan'a Ozan'la ilişkisini soruyorsun.\n\n'Ozan mı? 10 yıldır sağ kolum. Güvenlik, personel, operasyon, hepsi onun elinden geçer. Güvendiğim tek adam.'\n\nPurosundan bir nefes alıyor: 'Ozan bu kumarhaneyi benimle birlikte ayakta tuttu. Son 2 yılda işler kötüydü, rakipler geldi, gelirler düştü. Ozan hiç şikayet etmedi, gece gündüz çalıştı.'\n\nBir an duruyor, parmakları masada: 'Ne ima ediyorsun? Ozan'la birlikte mi yaptık? 18 yıllık itibarımı Ozan'la birlikte mi riske attım?'\n\nSana doğru eğiliyor: 'İkimiz de bu soygunun mağduruyuz. Ozan dövüldü, ben Lefkoşa'dan koşa koşa geldim. Bize şüpheli gözüyle bakmayın.'\n\n'Bu konuşma bitti. Avukatım olmadan bir daha konuşmam.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan Ozan'ı savunuyor: '10 yıldır sağ kolum, güvendiğim tek adam.' İkisinin de mağdur olduğunu söylüyor. Avukatı olmadan konuşmayacak.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_022b",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "Sinan'a Derya Tuncer'i soruyorsun.\n\n'Derya mı?' Bir an duraksar. Gözleri kısılıyor. 'Mali müşavirimiz. 7 yıldır çalışıyor. Haftada 2 gün gelir, kasayı sayar, raporları yazar. Sessiz, işini bilir.'\n\nPurosundan bir nefes alıyor: 'Soygunla ne ilgisi var? Kadın muhasebeci, kasa patlatan sokak adamı değil.'\n\n'Son dönemde bir değişiklik mi? Hayır. Her zamanki gibi geldi, gitti. Raporları her zaman düzgündü. Kasada 8 milyon diyordu, 8 milyon vardı.' Bir an duruyor, yüzünde bir gölge geçiyor. 'En azından öyle sanıyorduk.'\n\nMasaya yumruk vuruyor: 'Sahte para meselesini duydum. 8 milyon Euro sahte çıkmış. Bu nasıl olur? Derya her hafta sayıyordu!'\n\nSesi alçalıyor: 'Ya Derya bir şey kaçırdı, ya da...'\n\nSusuyor. Cümleyi bitirmiyor.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan Derya'dan bahsederken gözleri kısıldı. Sahte para konusunda gerçek bir öfke var. 'Ya Derya bir şey kaçırdı ya da...' dedi ama cümleyi bitirmedi. Birini şüpheleniyor ama söyleyemiyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_023",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "Ozan Ersoy. VIP salonunda, yüzünde hala morluklar. Düzgün giyimli ama gergin.\n\n'Dedektif. Soygun gecesi buradaydım. VIP salonunda müşterilerle ilgileniyordum. Saat 02:15'te elektrikler kesildi. Karanlıkta panik oldu. Telefonumun fenerini açtım, müşterileri sakinleştirdim.'\n\nYüzündeki morlukları gösteriyor: 'Sonra kasa bölümüne indim. Karanlıkta birisi üzerime atladı. Yumruklar, tekmeler. Yere düştüm. Ne kadar sürdü bilmiyorum. Güvenlik beni bulduğunda yerde yatıyordum.'\n\nKol saatini düzeltiyor: 'Sorun ne bilmek istiyorsanız sorun. Ben mağdurum burada.'",
+      "choices": [
+        {
+          "id": "c023a",
+          "text": "Ferhat Aksoy'u siz mi kovdunuz?",
+          "nextSceneId": "scene_024",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023b",
+          "text": "Darp zamanlamasını sor",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan: VIP salonundaydım, soyguncular dövdü. Mağdur olduğunu söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_024",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "Ozan'a Ferhat Aksoy'u sorup kovma meselesini soruyorsun.\n\nOzan'ın eli kol saatinde duruyor. 'Evet, ben kovdum. 6 ay önce. İşe sarhoş geldi, VIP müşteriyle kavga etti. Kovulmasını hak etti.'\n\n'Sonra ne oldu mu? Ferhat tazminat istedi. Aramaya başladı. Reddettim. Ama ısrarcıydı, tehdit etti, yalvardı, bağırdı.'\n\nBoğazını temizliyor: 'Ne kadar aradığını bilmiyorum, çok aradı. Her seferinde kapattım. Son zamanlarda yoğunlaştı.'\n\n'Bunu neden söylemedim mi? Kovduğum bir adamla konuşmuşum, sonra o adam soygunu yapıyor, nasıl görünüyor? Ama gerçek bu. Tazminat meselesi, o kadar.'\n\nSana bakıyor: 'Tazminat kavgası, başka bir şey değil. Daha fazla açıklayacak bir şeyim yok.'",
+      "choices": [
+        {
+          "id": "c024a",
+          "text": "Darp zamanlamasını sor",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c024b",
+          "text": "Sinan'la gece yarısı görüşmesini sor",
+          "nextSceneId": "scene_025b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c024d",
+          "text": "Sahte banknotları göster",
+          "nextSceneId": "scene_049",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "sahte_banknot"
+        }
+      ],
+      "addEvidence": "ferhat_telefon",
+      "addCharacterNote": "Ozan Ferhat'ı kovmuş, sonra Ferhat çok aramış. Tazminat kavgası diyor. İlk başta gizledi, 'nasıl görünüyor' diye sakladığını söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_025",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "Ozan'a darp raporundaki zamanlamayı soruyorsun. Morluklar soygundan 8-10 dakika sonra oluşmuş.\n\nOzan'ın çenesi kasılıyor.\n\n'Zamanlama? Karanlıkta saate mi baktım? Her şey çok hızlı oldu. Elektrikler kesildi, karanlık, bağırışlar, sonra yumruklar. 2 dakika mı sürdü, 20 dakika mı, bilmiyorum.'\n\n'Adli tıp 8-10 dakika sonra diyor? Belki soyguncu önce kasayı patlattı, sonra beni buldu. Bu 8-10 dakikayı açıklar.'\n\nAyağa kalkıyor: 'Bana suçlama yöneltmeyin. Ben bu kumarhanenin genel müdürüyüm. 10 yıldır buradayım. Soyuldum ve dövüldüm. Mağdurum.'\n\nSesi alçalıyor: 'Ferhat'ı bulun. Komadan çıksın, konuşsun. O söylesin kim organize etti. Ben bilmiyorum.'\n\nKollarını kavuşturuyor: 'Aynı soruları tekrar tekrar sormayın. Avukatımı çağırayım mı?'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan darp zamanlamasını 'karanlıkta zaman algısı bozulur' diye açıklıyor. 'Soyguncu önce kasayı patlattı sonra beni buldu' diyor. Mağdur rolünü bırakmıyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_025b",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "Ozan'a Sinan'la ilişkisini soruyorsun.\n\n'Sinan bey 10 yıldır patronum. Benim bu kumarhaneye emeğim var. Güvenlik, personel, operasyon, hepsini ben yönetiyorum. Sinan bey güvenir bana.'\n\nKol saatini çeviriyor: 'Soygun gecesi Sinan bey Lefkoşa'daydı. Ben buradaydım, her zamanki gibi. Soygunu ben haber verdim. Polisi ben aradım.'\n\nBir an duraksıyor: 'Ne ima ediyorsunuz? Sinan'la birlikte mi planladık? 10 yıldır bu adamla çalışıyorum. İkimiz de mağduruz.'\n\nKapıya doğru yürüyor: 'Dedektif, ben genel müdürüm. Soyuldum, dövüldüm, polise ifade verdim. Daha fazla söyleyeceğim bir şey yok. Avukatımı çağırayım mı?'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan Sinan'ı savunuyor: '10 yıldır birlikte çalışıyoruz, ikimiz de mağduruz.' Soygunu kendisinin haber verdiğini söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_026",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "Derya Tuncer. Muhasebe katında, masasında. Gözlüklü, elinde tablet. Yorgun görünüyor.\n\n'Merhaba. Buyurun.' Tabletini kapatıyor ama eli biraz titriyor.\n\n'Soygun gecesi mi? Magosa'da annemin evindeydim. Akşam yemeği yedik, dizi izledik, 23:30'da yattım. Annem, komşumuz Ayşe teyze ve arkadaşım Selin teyit edebilir. Haberi sabah aldım, şok oldum.'\n\n'Kumarhanedeki işim? Haftada 2 gün geliyorum. Mali denetim, kasa sayımı, raporlama. 7 yıldır aynı rutin.'\n\nBir an duruyor, kahve fincanını alıyor: 'Şüphelendiğim biri mi? Bilmiyorum. Bu benim alanım değil. Ben rakamlarla uğraşırım.'\n\n'Sahte para konusunu duydum. Aklım almıyor. Kasayı her hafta sayıyordum, hiçbir şey fark etmedim. Kendimi sorumlu hissediyorum aslında, benim yakalamam gerekirdi.'",
+      "choices": [
+        {
+          "id": "c026a",
+          "text": "Tartı kullanmayı neden bıraktığını sor",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c026b",
+          "text": "12 Mart'ta Girne'de ne yaptığını sor",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya: Magosa'da annesindeymiş. 7 yıldır aynı rutin. Sahte parayı yakalayamadığı için kendini sorumlu hissediyormuş. Alibisi sağlam: anne, komşu, arkadaş.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_027",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "Derya'ya tartıyı neden bıraktığını soruyorsun.\n\nGözlüklerini çıkarıp siliyor. 'Tartı mı? Kalibrasyonu bozuldu. Güvenilmez sonuçlar veriyordu. Bir seferinde 200 bin Euro fark çıkardı, anlamsızdı. Manuel sayım daha doğru.'\n\n'Kalibrasyonu yaptırmadınız mı?' Omuz silkiyor: 'IT'ye söyledim ama Sinan bey tasarruf moduna geçti, bakım sözleşmelerini iptal etti. Tartı da o listedeydi. Ben de manuel devam ettim.'\n\nTabletine bakıyor: 'Her raporda kasada 8 milyon yazdım. Çünkü 8 milyon saydım. Sahte olduğunu nasıl anlayayım? Ben mali müşavirim, kriminalist değilim. Bu paraların UV testi bile geçtiğini söylediler.'\n\nSesi biraz yükseliyor: 'Tartıyı kullansaydım belki fark ederdim. Bu benim hatam, kabul ediyorum. Ama suç mu? 7 yıldır hiçbir sorun yaşamadım.'",
+      "choices": [
+        {
+          "id": "c027a",
+          "text": "12 Mart'ta Girne'de ne yaptığını sor",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027b",
+          "text": "Nakliye şirketini sor",
+          "nextSceneId": "scene_028b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027d",
+          "text": "IT forensik raporunu göster",
+          "nextSceneId": "scene_050",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "it_forensik"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya tartıyı 'kalibrasyon bozukluğu' ile açıklıyor. Sinan'ın tasarruf kararını da neden gösteriyor. Tartı kullanmamayı hata olarak kabul ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_028",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "Derya'ya 12 Mart'taki Girne benzin makbuzunu soruyorsun.\n\nDerya düşünüyor: 'Evet, 12 Mart'ta Girne'deydim. Arkadaşım Selin'le yemek yedik. Marina Restaurant, saat 13:00. Ondan önce erken geldim, sahilde yürüdüm.'\n\n'Makbuz 10:45'te kesilmiş. Buluşma 13:00'te. 2 saat 15 dakika. Ne yaptınız?'\n\n'Sahilde yürüdüm. Kitap okudum. Kahve içtim. Boşanma sürecindeyim, bazen yalnız kalmak iyi geliyor. Magosa bunaltıcı oluyor.'\n\n'Sonra kumarhaneden aradılar. Metin kasada bir tutarsızlık bulmuş, beni çağırdılar. Rutin kontrol yaptım.'\n\nTabletini açıyor: '14:30-16:15, kasa sayımı, 8 milyon Euro, her şey tamamdı. Raporumu gösterebilirim.'\n\nHafifçe gülümsüyor: 'Benzin makbuzu yüzünden mi soruşturuluyorum? Girne'ye gelip arkadaşımla yemek yemek yasak mı?'",
+      "choices": [
+        {
+          "id": "c028a",
+          "text": "Nakliye şirketini sor",
+          "nextSceneId": "scene_028b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c028b",
+          "text": "Boşanma ve borçlarını sor",
+          "nextSceneId": "scene_028c",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya 12 Mart'ta Girne'de. Selin'le yemek, 13:00. Makbuz 10:45. Aradaki 2 saat 15 dk: 'sahilde yürüdüm'. Metin aramış, kasada tutarsızlık. 14:30-16:15 kasa sayımı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_028b",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "Derya'ya Akdeniz Lojistik nakliye fişini soruyorsun.\n\nDerya iç çekiyor: 'Evet, eşyalarımı taşıdım. Boşanma yüzünden. Eski eşim evi aldı, ben çıktım. Annemin evine yerleştim ama bazı eşyalarımı depolamamam gerekti. Kıyafetler, kitaplar, halı, eski dosyalar.'\n\nGözlerini kaçırıyor: 'Magosa'daki depo? Evet, kiraladım. Annemin evinde yer yok. Eşyalarım orada.'\n\n'İçlerini kontrol edebilirsiniz. Kıyafet ve kitap bulacaksınız.'\n\nBir an sessiz kalıyor, sonra: 'Boşanma zor bir süreç. Hayatımı toparlıyorum. Bunun soygunla ne ilgisi var bilmiyorum ama sorularınızı cevaplarım.'",
+      "choices": [
+        {
+          "id": "c028b_a",
+          "text": "Boşanma ve borçlarını sor",
+          "nextSceneId": "scene_028c",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Derya nakliyeyi 'boşanma eşyaları' ile açıklıyor. Kontrole izin veriyor. Boşanma süreci onu duygusal olarak etkiliyor görünüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_028c",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "Derya'ya boşanma davasını ve borçlarını soruyorsun.\n\nİlk kez yüzünde bir değişiklik. Gözleri kısılıyor, eliyle alnını ovuşturuyor.\n\n'Borçlarım mı? Evet. 890 bin Euro civarı. Nafaka, kredi, kira. Eski eşim evi aldı. Ben sıfırdan başladım.'\n\nDerin bir nefes alıyor: 'Bunu neden soruyorsunuz? Borçlu olmak suç mu? Bu ülkede borçlu olmayan kim var?'\n\n'8 milyon Euro çalabilecek motivasyonum mu var? Herkesin motivasyonu var. Sinan'ın 12 milyonluk sigorta motivasyonu var. Ozan paragöz bir adamdır, o kadar. Takis'in arsayı satma motivasyonu var. Ferhat'ın borç motivasyonu var.'\n\nGözlüklerini takıyor: 'Ben mali müşavirim. Haftada 2 gün geliyorum. Kasayı sayıyorum. Raporları yazıyorum. 7 yıldır aynı şey. Borçlarım benim özel meselim.'\n\n'Özel hayatım soruşturmanın parçası değil. Başka sorunuz yoksa gidebilir miyim?'",
+      "choices": [],
+      "addEvidence": "borc_raporu",
+      "addCharacterNote": "Derya 890 bin Euro borçlu. Nafaka, kredi, kira. Boşanma onu mali açıdan çok zorlamış. Diğer şüphelilerin de motivasyonu olduğunu hatırlatıyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_029",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "Volkan Arat. Güvenlik kontrol odasında, dik duruyor, eller arkada. Ama gözleri bir an dolabına kayıyor, sonra hemen geri dönüyor.\n\n'Dedektif. Soygun gecesi izinliydim. Evimdeydim. Karım teyit eder. Netflix izledik, gece 01:00'den 03:00'e kadar.'\n\nMonitörlere bakıyor: 'Bu sistemin sorumlusuyum. 5 yıldır. Kameralar, alarmlar, erişim kontrol. Hepsini ben yönetiyorum.'\n\n'Son 2 haftada kamera arızaları? Evet, 4 kez. IT raporu yazılım hatası dedi. Sistem eski, Sinan bey yeniletmiyordu. 3 yıldır aynı yazılım. Bütçe yok diyordu.'\n\nYüzü sertleşiyor: 'Arızaların benim hesabımdan tetiklendiğini duydum. Açıklayamıyorum. Ben yapmadım. O gecelerin ikisinde nöbetçi bile değildim.'\n\nAlnını siliyor, bir an tereddüt ediyor: 'Birisi hesabımı kullanmış. Nasıl? Bilmiyorum. Ama yapacağım şey şu: şifremi her yerde değiştireceğim ve bu sefer kimse bulamaz.'\n\nBir an sessizleşiyor, sanki daha fazla bir şey söyleyecekmiş gibi. Ama vazgeçiyor.",
+      "choices": [
+        {
+          "id": "c029a",
+          "text": "Hesabının nasıl ele geçirildiğini sor",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c029b",
+          "text": "Kamera sisteminin açıklarını sor",
+          "nextSceneId": "scene_031",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan: izinliydi, Netflix izledi. Kamera arızalarını açıklayamıyor. 'Birisi hesabımı kullanmış' diyor. Gerçekten şaşkın görünüyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_030",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "Volkan'a hesabının nasıl ele geçirildiğini soruyorsun.\n\nVolkan'ın yüzü kızarıyor. Eliyle alnını tutuyor.\n\n'Nasıl mı? Bilmiyorum. Şifrem... her yerde aynıydı. Admin hesabı, e-posta, hepsi aynı şifre. Biliyorum, hata.'\n\nMasayı yumrukluyor: 'İki faktörlü doğrulama yoktu. Sinan bey bütçe yok dedi. 3 yıldır söylüyorum, güvenlik yatırımı yapın diye. Dinleyen mi var?'\n\nDerin bir nefes: 'Kim yaptı bilmiyorum. Herkes bu şifreyi tahmin edebilirdi, ismimi ve doğum yılımı kullanıyordum. Aptalca, biliyorum.'\n\nBakışları sertleşiyor: 'Ama bir şey söyleyeyim: ben bu binanın güvenliği için elimden geleni yaptım. Bütçe yok, sistem eski, 2FA yok. Bu ortamda güvenlik mi olur?'",
+      "choices": [
+        {
+          "id": "c030a",
+          "text": "Kamera sisteminin açıklarını sor",
+          "nextSceneId": "scene_031",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c030c",
+          "text": "IT forensik raporunu göster",
+          "nextSceneId": "scene_051",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "it_forensik"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan her yerde aynı şifreyi kullanıyormuş (isim + doğum yılı). 2FA yokmuş, Sinan bütçe vermemiş. Hesabını herkes ele geçirebilirdi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_031",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "Volkan'a kamera sisteminin açıklarını soruyorsun.\n\n'Sistem eski, evet. 2019 model yazılım. Güncelleme yapmadık çünkü Sinan bey bütçe vermedi. 3 yıldır söylüyorum: yenileyin, UPS koyun, 2FA ekleyin. Her seferinde reddetti.'\n\n'UPS olsaydı elektrik kesildiğinde kameralar çalışmaya devam ederdi. Soyguncu kaydedilirdi. Sinan neden UPS kaldırttı biliyor musunuz? 'Tasarruf.' 2 yıl önce.'\n\nParmağını sallıyor: 'Ben bu sistemin sorumlusuyum ama elim kolum bağlı. Bütçe yok, güncelleme yok, yedek güç yok. Sonra soyulunca ben mi suçlu?'\n\nYüzü kızarıyor: 'Hesabım çalınmış. Şifrem her yerde aynıydı, evet, hata. Ama bunu yapan ben değilim. Ben bu binanın güvenliğini 5 yıldır sırtımda taşıyorum, Sinan bey bir kuruş harcamadı.'\n\nKollarını kavuşturuyor: 'Bu konuşma bitti. Hesabımı kullanan kim bulduysa, soruları ona sorun.'",
+      "choices": [
+        {
+          "id": "c031a",
+          "text": "Volkan'ın mali geçmişini araştır",
+          "nextSceneId": "scene_039",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan Sinan'ı suçluyor: bütçe vermedi, UPS kaldırttı, sistem eski. Hesabının çalındığını söylüyor, aynı şifreyi kullanıyormuş. Kızgın ama suçu başkasına atmıyor, sadece savunma yapıyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_032",
+      "type": "dialogue",
+      "background": "takis_ofis",
+      "characterId": "suspect_takis",
+      "text": "Takis Andreou. Limasol'daki ofisinde. Deniz manzaralı cam bina, pahalı mobilyalar. Masanın üstünde bir prepaid telefon var, Takis onu görünce çekmeceye atıyor.\n\n'Dedektif, hoş geldiniz. Türk kahvesi mi, Kıbrıs kahvesi mi?' Gülümsüyor.\n\n'Soygun gecesi Limasol'daydım. Kaya Hotel, check-in 18:00. Restoranda yemek 20:00-23:00, odaya 23:30. Sınır geçiş kaydım var - giriş 16:00, çıkış ertesi gün 10:00. Güney Kıbrıs'tan Girne'ye gece geçiş yapamazsınız, sınır kapalı.'\n\nKoltuğuna yaslanıyor: 'Soygunu duyduğumda güldüm. Sinan bunu kendine yaptı. Sigortayı 12 milyona çıkardı, sonra soyuldu? Tesadüf mü?'\n\n'8 aydır ortaklık fesih davası açıyorum. %35 ortağım ama söz hakkım yok. Sinan kumarhaneyi batırıyor, benim paramı yiyor.'\n\nAvukatının dosyasını gösteriyor: 'Mali usulsüzlükler, gelir gizleme, sigorta şişirme. Hepsi burada.'",
+      "choices": [
+        {
+          "id": "c032a",
+          "text": "Sinan'la ilişkisini sor",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032b",
+          "text": "Kumarhaneyi neden kapatmak istediğini sor",
+          "nextSceneId": "scene_034",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Takis: Limasol'daydı, sınır kaydı var. 'Sinan bunu kendine yaptı' diyor. Masadaki prepaid telefonu çekmeceye sakladı. Avukatının mali usulsüzlük belgeleri var.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_033",
+      "type": "dialogue",
+      "background": "takis_ofis",
+      "characterId": "suspect_takis",
+      "text": "Takis'e Sinan'la ilişkisini soruyorsun.\n\n'Sinan mı? 18 yıl önce kumarhaneyi birlikte kurduk. Ben %35, o %65. İlk 10 yıl iyi gitti. Sonra Sinan değişti. Kumarhane kasasını kendi cüzdanı gibi kullandı. Yat aldı, villa aldı, politikacılara rüşvet verdi.'\n\nMasaya eğiliyor: 'Son 2 yılda rakipler geldi. Gelirler düştü. Sinan ne yaptı? Tasarruf yerine daha çok harcadı. Kumarhane batıyor, Sinan partiye devam ediyor.'\n\n'Ben dedim ki: kapatalım, arsayı satalım veya otel yapalım. Arsa 25 milyon Euro eder. Sinan reddetti. 'Kumarhanem kapanmaz' dedi.'\n\nParmaklarını masada gezdiriyor: 'Sonra sigorta meselesi. 3 ay önce 12 milyona çıkardı. Neden? Çünkü planı bu: soygunu sahneleyecek, sigorta parasını alacak, benim hissemi de öder, herkesi mutlu eder.'\n\n'Ama bir şeyler ters gitmiş anlaşılan. Para sahte çıkmış. Bu kısmı anlamıyorum.'\n\nGülümsüyor: 'Sinan'ın kendi planı kafasında patlamış.'",
+      "choices": [
+        {
+          "id": "c033a",
+          "text": "Kumarhaneyi kapatma planını sor",
+          "nextSceneId": "scene_034",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Takis: Sinan kumarhane kasasını kendi cüzdanı gibi kullanmış. Arsa 25 milyon eder. Sinan'ın sigorta planının 'kafasında patladığını' söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_034",
+      "type": "dialogue",
+      "background": "takis_ofis",
+      "characterId": "suspect_takis",
+      "text": "Takis'e kumarhaneyi kapatma planını soruyorsun.\n\n'Arsa Girne'nin en iyi noktasında. Denize sıfır. 25 milyon Euro'luk arsa üzerinde batan bir kumarhane var. Saçmalık.'\n\n'Otel planım hazır. Uluslararası bir zincirle görüştüm. 5 yıldızlı, 300 oda. Yatırım geri dönüşü 7 yıl. Sinan'a gösterdim, reddetti.'\n\nOmuz silkiyor: 'Sinan kumarhane romantizmi yaşıyor. 18 yıllık bebesi. Ama rakamlar yalan söylemez. Kumarhane zarar ediyor.'\n\n'Soygundan çıkarım mı? Kumarhane kapanırsa ben de kazanıyorum, evet. Ama soygun benim işime yaramıyor - sigorta parası Sinan'a gider, bana değil. Ortaklık fesih davası devam ediyor.'\n\nSaatine bakıyor: 'Dedektif, Sinan'ın mali usulsüzlüklerini araştırın. Sigorta dolandırıcılığı ortada. Soygunu kim sahnelediyse Sinan'ın adamıdır. Ben 300 km ötede, farklı bir ülkedeydim.'\n\n'Artık gitmem gerekiyor. Sınır kapanmadan Limasol'a dönmem lazım. İyi çalışmalar.'",
+      "choices": [
+        {
+          "id": "c034a",
+          "text": "Marina kafelerini araştır",
+          "nextSceneId": "scene_045",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Takis mantıklı konuşuyor: sigorta parası Sinan'a gider, ortağa değil. Arsa 25M eder. Alibisi en güçlü şüpheli. 'Sinan'ın adamını arayın' diyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_035",
+      "type": "dialogue",
+      "background": "hastane",
+      "characterId": "suspect_ferhat",
+      "text": "Hastane. Ferhat komada. Monitörler yanıp sönüyor. Doktor yanında.\n\nFerhat'ın kişisel eşyaları inceleniyor:\n\n- Cep telefonu: Ozan'la yoğun iletişim, ses kaydı (ayrı inceleme)\n- Kumarhane giriş kartı: 6 ay önce iptal edilmiş ama manyetik şerit hala çalışıyor\n- 340 Euro nakit\n- Renault araba anahtarı\n- Spor çantasında: siyah kıyafetler, eldiven (kullanılmamış), el feneri\n\nHemşire yaklaşıyor: 'Dün gece sayıkladı. 'Ozan... söz verdin... hafif... bu hafif...' gibi şeyler. Net değildi ama Ozan ismini tekrar tekrar söyledi.'\n\nDoktor: 'Sayıklama bilinçaltı tepkidir. Ne zaman çıkar bilemem. Günler, haftalar olabilir.'",
+      "choices": [
+        {
+          "id": "c035a",
+          "text": "Ferhat'ın ses kaydını dinle",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035b",
+          "text": "Ferhat'ın arabasını incele",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035c",
+          "text": "Ozan'la yüzleş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ferhat sayıklıyor: 'Ozan... söz verdin... hafif... bu hafif...' Eşyaları: siyah kıyafetler, eldiven, el feneri. Planlı bir soygun hazırlığı.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_036",
+      "type": "dialogue",
+      "background": "hastane",
+      "characterId": "suspect_ferhat",
+      "text": "Ferhat'ın eski iş arkadaşlarıyla konuşuluyor. Kumarhane güvenlik ekibi:\n\nGüvenlikçi Mehmet: 'Ferhat iyi çocuktu. Boksör, güçlü. Ama son aylarda değişti. İçmeye başladı. Borçları varmış. Bir gün VIP müşteriye bağırdı, Ozan kovdu.'\n\nGüvenlikçi Ali: 'Kovulduktan sonra birkaç kez kumarhaneye geldi. Bize 'içeri gireyim, Ozan'la konuşayım' dedi. Biz almadık. Son 2 ayda görmedim.'\n\nKasa sorumlusu Metin: 'Ferhat kasa bölümünü bilirdi. Güvenlikçi olarak vardiya tutuyordu orada. Alarm kodlarını, kamera açılarını, giriş noktalarını biliyordu. Ama patlayıcı kullanmayı nereden öğrendi?'\n\nGüvenlikçi Mehmet ekliyor: 'Ha bir de, Ferhat bazen mesai sonrası muhasebe katında kalırdı. Ne işi var diye sordum, borcumu takip ediyorum demişti. Bilmiyorum.'\n\nİnternette Ferhat'ın arama geçmişi: 'C4 patlayıcı kullanımı', 'elektrik paneli nasıl devre dışı bırakılır', 'jeneratör yakıt hattı'. Aramalar son 3 haftada yapılmış.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ferhat kasa bölümünü biliyordu (eski güvenlikçi). Patlayıcı kullanımını internetten araştırmış. Son 3 haftada hazırlanmış. Ama birisi onu organize etmiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_040",
+      "type": "investigation",
+      "background": "nakliye_sirketi",
+      "characterId": null,
+      "text": "Akdeniz Lojistik nakliye şirketi. Girne sanayi bölgesinde küçük bir ofis.\n\nMüdür kayıtları açıyor: '10 Mart. Taşınma siparişi. Gönderici: D. Tuncer. Alıcı: Salamis Yolu No:47, Magosa. Ücret 320 Euro, kredi kartıyla ödendi.'\n\nManifesto: 3 büyük valiz, 4 koli, 1 halı rulosu. Toplam: 185 kg.\n\nKurye Ali: 'Normal taşınma işi. 3 büyük mavi valiz, 4 tane irice koli ve 1 büyük halı rulosu. Kadın 'kıyafet, kitap, halı' dedi. Magosa'ya götürdüm. Depo kapısı açıktı, içeri bıraktım. Alıcı yoktu.'\n\n'İçini gördünüz mü?' Ali: 'Hayır, koliler bantlıydı. Bize ne var içinde, taşı götür.'\n\nKredi kartı kaydı: Derya Tuncer adına kayıtlı Garanti Bankası kartı. Aynı kart benzin makbuzunda da kullanılmış.",
+      "choices": [
+        {
+          "id": "c040b",
+          "text": "Derya'yla yüzleş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040c",
+          "text": "Benzin istasyonunu kontrol et",
+          "nextSceneId": "scene_042",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "nakliye_fisi",
+      "addCharacterNote": "Derya soygundan 5 gün önce Magosa'ya taşınma eşyası göndermiş. Toplam 185 kg. Koliler kapalı, içi görülmemiş. Alıcı depoda yoktu. Kredi kartı benzin makbuzuyla aynı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_041",
+      "type": "investigation",
+      "background": "magosa_depo",
+      "characterId": null,
+      "text": "Magosa, Salamis Yolu No:47. Küçük bir kiralık depo. Sanayi bölgesinde, etrafta kimse yok.\n\nDepo kapısı kilitli. Kiralama sözleşmesi: D. Tuncer, 2 ay önce kiralanmış. Aylık 400 Euro. Kimlik fotokopisi: Derya Tuncer.\n\nİçeri giriliyor. Depoda eşya var: bir köşede 3 yeşil valiz (açık, içinde kıyafetler), 4 koli (kitaplar, mutfak eşyası, eski dosyalar), bir halı rulosu. Her şey düzenli, toplanmış.\n\nKriminalistik ekip inceliyor:\n- Eşyalar gerçek, boşanma taşınması ile uyumlu\n- Kıyafetler kadın bedeni, Derya'nın tarzıyla örtüşüyor\n- Kitaplar: muhasebe, vergi hukuku, birkaç roman",
+      "choices": [
+        {
+          "id": "c041a",
+          "text": "Derya'yla konuş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Magosa deposunda eşya var: 3 yeşil valiz, 4 koli, 1 halı. Kıyafet, kitap, mutfak eşyası. Boşanma taşınmasıyla uyumlu.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_042",
+      "type": "investigation",
+      "background": "benzin_istasyonu",
+      "characterId": null,
+      "text": "Girne Shell benzin istasyonu. 12 Mart makbuzu burada kesilmiş.\n\nKasiyere fotoğrafları gösteriyorsun.\n\nKasiyer: 'Bu kadını hatırlıyorum. 12 Mart sabahı geldi. Depoyu fulletti. 85 Euro. Kredi kartıyla ödedi. Telefonla konuşuyordu, duyamadım ne dediğini.'\n\n'Arabası? Gri Volkswagen Golf. Magosa plakası.'\n\nİstasyonun güvenlik kamerası: 10:43'te Volkswagen Golf giriyor. 10:48'te çıkıyor. Sürücü yalnız. Kamera açısından plaka okunuyor: Magosa plakası, Derya'nın üzerine kayıtlı araç.\n\nTelefon kayıtları kontrol ediliyor: 12 Mart 10:43-10:48 arası Derya'nın telefonunda gelen veya giden arama yok. Ama işyeri telefon rehberinde Derya'nın iki numarası kayıtlı: biri kişisel, biri 'iş hattı'. İş hattının operatörü farklı, kayıtlarına ulaşmak için ayrı talep gerekiyor.",
+      "choices": [
+        {
+          "id": "c042a",
+          "text": "Derya'yla yüzleş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c042c",
+          "text": "Mali denetim raporlarını incele",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "benzin_makbuzu",
+      "addCharacterNote": "Derya 12 Mart sabahı Girne'de. Benzin almış (10:43-10:48). Telefonla konuşuyormuş. Kişisel hattında kayıt yok ama iki telefon numarası var: kişisel ve iş hattı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_043",
+      "type": "investigation",
+      "background": "kumarhane_kasa",
+      "characterId": null,
+      "text": "Kumarhane kasa erişim logları. Dijital kayıt sistemi, kartlı giriş.\n\nSon 3 aylık kayıtlar:\n\nKasa Sorumlusu Metin Yılmaz: 90 giriş. Günlük, sabah ve akşam (3-4 saat).\nDerya Tuncer: 14 giriş. Haftada 1-2, mali denetim (45 dk - 2 saat).\nOzan Ersoy: 12 giriş. Haftada 1, operasyonel kontrol (15-30 dk).\nSinan Karadağ: 8 giriş. Ayda 2-3 kez, kısa süreli (10-20 dk).\n\nMetin kasada en çok vakit geçiren kişi, günde 3-4 saat. Derya haftada 1-2 gün geliyor, mali denetim ve kasa sayımı yapıyor.\n\n12 Mart girişi: Derya Tuncer, 14:30-16:15 (1 saat 45 dk). Not: 'Mali Denetim - Rutin Kontrol.'\nDerya'nın takvimine göre o gün planlı denetim yoktu. Ama yönetim: 'Mali müşavir istediği zaman kasayı sayabilir, rutin.'\n\nMetin Yılmaz: '22 yıldır buradayım. Borç yok, sicilim temiz. Kasaya her gün giriyorum, her zaman aynı saatte, aynı süre.'",
+      "choices": [
+        {
+          "id": "c043a",
+          "text": "Sahte para analizini incele",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043b",
+          "text": "Mali denetim raporlarını incele",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043c",
+          "text": "Derya'yla konuş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kasa_erisim_logu",
+      "addCharacterNote": "Kasaya erişim: Metin (90 giriş, günlük 3-4 saat), Derya (14 giriş, haftada 1-2), Ozan (12), Sinan (8). 12 Mart'ta Derya plansız denetim yapmış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Telefon kayıtları analizi. Tüm şüphelilerin olay gecesi ve öncesindeki trafiği:\n\nSinan Karadağ:\n- 01:30: Ozan'ı aramış (soygundan 45 dk önce)\n- 02:45: Cemil Karaca'yı aramış (1 dk 08 sn) polis kaydı: Cemil Karaca, lakabı 'Kara Cemil'. Tehdit, şantaj ve darp suçlarından sabıkalı. Sinan'ın kirli işlerini hallettiği bilinen isim.\n- 02:48: Ozan'dan arama (soygundan 33 dk sonra)\n- 03:15-03:22: Bilinmeyen prepaid hat (2 arama)\n\nOzan Ersoy:\n- 01:00: Ferhat'ı aramış (soygundan 1 saat 15 dk önce)\n- 01:30: Sinan'dan arama\n- 02:10: Bilinmeyen prepaid hat (3 dk 02 sn) - soygundan 5 dk önce, izi sürülemeyen hat\n- 02:48: Sinan'ı aramış\n- 03:00: Bilinmeyen prepaid hat araması\n\nFerhat Aksoy:\n- 01:00: Ozan'dan gelen arama (son talimatlar)\n- Sonra arama yok\n\nDerya Tuncer:\n- Olay gecesi arama yok. Son araması 14 Mart 18:00, annesine.\n\nVolkan Arat:\n- 02:35: Kumarhaneden gelen arama (güvenlik nöbetçisi haber vermiş)\n- 02:40: Ozan'ı aramış (cevap yok)\n- 02:55: Polisi aramış\n\nTakis Andreou:\n- Olay gecesi arama yok. Güney Kıbrıs'ta.",
+      "choices": [
+        {
+          "id": "c044a",
+          "text": "Sinan'la yüzleş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b",
+          "text": "Ozan'la yüzleş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044c",
+          "text": "Bilinmeyen prepaid hattı araştır",
+          "nextSceneId": "scene_044b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sinan_telefon",
+      "addCharacterNote": "Sinan-Ozan soygundan önce VE sonra konuşmuş. Sinan 02:45'te Kara Cemil'i aramış - darp ve tehditten sabıkalı adam. Ozan-Ferhat soygundan 1 saat önce konuşmuş. Derya'nın olay gecesi hiç araması yok.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044b",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Bilinmeyen prepaid hat araştırması.\n\nSinan'ın 03:15 ve 03:22'de aradığı numara: prepaid hat, kayıtsız. Girne'deki bir büfeden nakit alınmış. Büfe kamerasız.\n\nBaz istasyonu analizi: hat Girne bölgesinden kullanılmış. Soygun gecesi aktif.\n\nOzan'ın 03:00'de aradığı bilinmeyen numara da aynı hat.\n\nYani Sinan ve Ozan aynı bilinmeyen prepaid hattı aramış. Bu hat kime ait?\n\nFerhat'ın telefon kayıtlarında bu numara yok. Derya'nın kayıtlarında da yok. Volkan ve Takis'te de yok.\n\nHat sadece olay gecesi aktif. Öncesi ve sonrası kullanım yok. Tek kullanımlık hat.\n\nPolis notu: 'Bu hat muhtemelen Sinan'ın gönderdiği adamlara ait. Ferhat'ı takip edip vuran kişiler. Hat imha edilmiş olabilir.'",
+      "choices": [
+        {
+          "id": "c044b_a",
+          "text": "Sinan'la yüzleş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b_b",
+          "text": "Kriminal raporu tekrar incele",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b_c",
+          "text": "Sahte para analizini incele",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c044b_d",
+          "text": "Ferhat'ın bilinmeyen numarasını araştır",
+          "nextSceneId": "scene_046",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "ferhat_ses_kaydi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan ve Ozan aynı bilinmeyen prepaid hattı aramış. Tek kullanımlık hat, olay gecesi aktif. Muhtemelen Ferhat'ı vuran adamlara ait. Sinan'ın adamları.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_048",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "Sinan'a sahte banknotları gösteriyorsun.\n\nSinan'ın yüzü kararıyor. Gerçek bir şok. Masaya yumruk vuruyor.\n\n'Sahte mi? 8 milyon Euro sahte mi?!'\n\nAyağa kalkıyor, volta atıyor: 'Bu imkansız. Kasada gerçek para vardı. Her hafta sayılıyordu. Derya sayıyordu, Metin sayıyordu.'\n\nBir an duruyor. Gözleri kısılıyor. Bir şey hesaplıyor.\n\n'Kim... kim değiştirmiş olabilir?' Parmakları masada: 'Kasaya giren 4 kişi: ben, Ozan, Metin, Derya. Ben ve Ozan... biz...' Susuyor. Cümleyi bitiremez.\n\nSana dönüyor, sesi alçalıyor: 'Ben kasadaki paranın gerçek olduğundan emindim. Bunu yapan kim olursa olsun... benim paramı çalmış.'\n\nPuroyu söndürüyor: 'Git. Daha fazla konuşmam. Avukatımı arıyorum.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan sahte para haberiyle gerçekten şok oldu. 'Ben ve Ozan... biz...' dedi ama cümleyi bitirmedi. Kendi parasının çalındığını anladı. Derya'dan şüphelenmeye başlıyor ama söyleyemiyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_049",
+      "type": "dialogue",
+      "background": "kumarhane_vip",
+      "characterId": "suspect_ozan",
+      "text": "Ozan'a sahte banknotları gösteriyorsun.\n\nOzan donuyor. Gerçekten donuyor. Eli kol saatinde kalmış.\n\n'Sahte? 8 milyon Euro sahte?' Yutkunuyor. 'Bu... nasıl?'\n\nSessizlik. Ozan düşünüyor. Yüzünde panik var.\n\n'Kasada her hafta kontrol yapılıyordu. Derya hanım sayıyordu. Metin sayıyordu. Nasıl fark edilmedi?'\n\nBir an bakışları değişiyor: 'Bir dakika. Para sahte ise... Ferhat sahte parayı çalmış. Gerçek para nerede?'\n\nElleriyle yüzünü sıvazlıyor: 'Birisi kasadaki parayı soygundan önce değiştirmiş. Biz... yani kumarhane olarak... bundan haberimiz yoktu.'\n\n'Biz' derken duraksıyor. Boğazını temizliyor.\n\n'Bu konuda söyleyeceğim bir şey yok. Avukatımı istiyorum.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ozan sahte paradan habersiz - ya da çok iyi oynuyor. 'Biz' diye başladı ama düzeltti. 'Kumarhane olarak haberimiz yoktu' dedi. Panik gerçek görünüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_050",
+      "type": "dialogue",
+      "background": "muhasebe_kati",
+      "characterId": "suspect_derya",
+      "text": "Derya'ya IT forensik raporunu gösteriyorsun. Kamera scriptleri muhasebe katından yüklenmiş.\n\nDerya gözlüklerini düzeltiyor. Tabletine bakıyor.\n\n'Muhasebe katından mı? Bu katta çok kişi çalışıyor. Ben, Metin bey, bazen stajyerler.'\n\n'Ortak bilgisayardan mı? O bilgisayarı herkes kullanır. Ben genelde kendi tabletimi kullanırım.'\n\nSesi değişmiyor: 'Kamera scripti? Ben mali müşavirim. Kamera yazılımından anlamam. Excel bilirim, muhasebe programları bilirim. Kamera yazılımı teknik bir alan, benim dışımda.'\n\n'22 Şubat'ta muhasebe katında mıydım? Muhtemelen, o gün çalıştıysam evet. Haftada 2 gün geliyorum. Takvimime bakabilirim.'\n\nGözlüklerini siliyor: 'Beni bir şeyle mi suçluyorsunuz? Eğer öyleyse açıkça söyleyin. Avukatımı çağırayım.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Derya IT forensik sorusuna çok sakin. 'Kamera yazılımından anlamam' diyor. Her soruya hazırlıklı. 'Avukatımı çağırayım' kartını oynuyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_051",
+      "type": "dialogue",
+      "background": "guvenlik_odasi",
+      "characterId": "suspect_volkan",
+      "text": "Volkan'a IT forensik raporunu gösteriyorsun. Muhasebe katı, farklı IP bloğu.\n\nVolkan derin bir nefes alıyor. İlk kez gevşediğini görüyorsun.\n\n'Muhasebe katı. Ben söyledim size, benim ofisim güvenlik katında. IP blokları farklı. Bu benim değil.'\n\nAma sonra yüzü tekrar geriliyor: 'Muhasebe katı... ortak bilgisayarlar şifresiz, herkes oturur kullanır. Güvenlik açığı diye söyledim ama kimse dinlemedi.'\n\nBir an düşünüyor: 'Muhasebe katında kim çalışıyor? Kasa sorumlusu, muhasebeciler, mali müşavir... Haftada 8-10 kişi geçiyor oradan. Ama mesai saatlerinde script yüklenmişse, gündüz orada olan birini aramanız lazım.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Volkan rahatladı, IT forensik onu destekliyor. Muhasebe katında herkes geçiyor, ortak bilgisayarlar şifresiz. Mesai saatlerinde orada olan birini aramak lazım.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_052",
+      "type": "dialogue",
+      "background": "sinan_ofis",
+      "characterId": "suspect_sinan",
+      "text": "Sinan'a Derya'nın denetim raporlarını ve tartı meselesini soruyorsun.\n\nSinan bir an duruyor. Purosunu bırakıyor.\n\n'Derya tartıyı bırakmış mı? Bilmiyordum. Raporlara bakıyorum: 8 milyon yazıyor. Onay veriyorum. Detaylarla ilgilenmem.'\n\nGözleri kısılıyor. Bir şey hesaplıyor.\n\n'3 ay... Tartıyı 3 ay önce bırakmış. Sahte paralar 3-4 haftada değiştirilmiş diyorsunuz. Sigorta da 3 ay önce güncelledim...'\n\nBir an susuyor. Yüzünde bir şey değişiyor - öfke, hayal kırıklığı, ihanet.\n\n'7 yıl. 7 yıl bu kadına güvendim. Kasayı ona emanet ettim. Ve o...'\n\nSusuyor. Cümleyi bitirmek istemiyor çünkü bunu söylerse kendi planını da itiraf etmiş olur.\n\n'Git. Bu konuşma bitti.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Sinan Derya'yı anlıyor. 7 yıllık güveni kırılmış. Ama konuşamıyor çünkü 'kendi kasasını soydurttuğunu' itiraf etmiş olur. Çaresiz bir öfke.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_038",
+      "type": "investigation",
+      "background": "guvenlik_odasi",
+      "characterId": null,
+      "text": "Güvenlik odasının arka tarafı. Volkan'ın kişisel dolabı. Kilitli ama anahtar masanın üst çekmecesinde.\n\nDolapta: yedek üniforma, bir şişe rakı, ve kilitli bir çekmece. Çekmece açılıyor.\n\nİçinde siyah kapaklı bir defter. Volkan'ın el yazısıyla:\n\n'VIP Gece #14, 28 Şubat: 6 kişi, toplam masa 340.000 EUR. Benim pay: 12.000 EUR.'\n'VIP Gece #15, 7 Mart: 8 kişi, toplam masa 520.000 EUR. Benim pay: 18.500 EUR.'\n'VIP Gece #16, 12 Mart: İPTAL. Kamera arızası planlandı, riskli. Benim scriptim değil, başka biri ayarlamış. Dokunma.'\n\nSon 6 ayda 16 kayıt dışı VIP kumar gecesi. Volkan kameraları kapatıp zengin müşterilere yasadışı yüksek bahisli oyunlar düzenlemiş. Masadan pay almış.\n\n12 Mart notu kritik: Volkan o gece kamera arızası olacağını biliyormuş ama kendisi yapmamış. 'Başka biri ayarlamış' diyor.",
+      "choices": [],
+      "addEvidence": "volkan_vip_kayit",
+      "addCharacterNote": "Volkan yasadışı VIP kumar geceleri düzenliyormuş. Kameraları kendisi kapatıyormuş. 12 Mart'ta başka birinin kamera scripti ayarladığını fark etmiş ve kendi gecesini iptal etmiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_039",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Volkan Arat'ın mali geçmişi araştırılıyor.\n\nResmi maaşı: aylık 4.200 EUR. Kendi adına banka hesabında olağan dışı bir şey yok.\n\nAma eşi Ayşe Arat adına Kuzey Kıbrıs Türk Bankası'nda bir hesap var. Son 6 aydaki nakit yatırımlar:\n\nOcak: 5.000 + 12.000 EUR\nŞubat: 8.500 + 18.500 EUR\nMart başı: 15.000 EUR\nToplam: 59.000 EUR\n\nYatırım tarihleri VIP defterindeki kumar gecelerinin 1-2 gün sonrasına denk geliyor. Para kaynağı: VIP kumar geceleri.\n\nAyşe Arat'ın beyanı: 'Para Volkan'ın. Ben sadece hesap sahibiyim. Nereden geldiğini sormadım.'\n\nPolis notu: 59.000 EUR ciddi bir miktar ama 8 milyon Euro'luk soyguna karıştıracak bir motivasyon değil. Volkan zaten yasadışı yoldan para kazanıyordu, neden riskli bir soyguna bulaşsın?",
+      "choices": [],
+      "addEvidence": "volkan_banka",
+      "addCharacterNote": "Volkan eşinin adına 59.000 EUR biriktirmiş. VIP kumar gecelerinden. Yasadışı ama soyguna motivasyon değil. Zaten düzenli geliri vardı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_045",
+      "type": "investigation",
+      "background": "marina_kafe",
+      "characterId": null,
+      "text": "Girne Marina'daki kafeler tek tek kontrol ediliyor. Ferhat'ın telefonundaki baz istasyonu verileri bu bölgeyi gösteriyor.\n\nDeniz Kafe. Garson Ali kamera kayıtlarını açıyor.\n\n5 Mart, saat 14:20. Ekranda iki kişi: Takis Andreou ve Ferhat Aksoy aynı masada.\n\nGarson Ali: 'İkisini hatırlıyorum. Yaşlı adam pahalı takım elbise giymişti, bronz tenli. Genç olan sportif, boksör gibi. Ciddi konuşuyorlardı, gülme falan yoktu.'\n\nKamera kaydı izleniyor: Buluşma 45 dakika sürmüş. Takis zarftan bir şey çıkarmış, Ferhat'a vermiş. Ferhat cebine koymuş. Sonra Takis hesabı ödemiş ve ayrılmışlar.\n\nGarson: 'Yaşlı adam kredi kartıyla ödedi.' Kafe kayıtları: Kart sahibi 'T. Andreou.'\n\nTakis sorgulamada 'Ferhat'ı tanımıyorum' demişti. Bu görüntü aksini kanıtlıyor.",
+      "choices": [],
+      "addEvidence": "takis_ferhat_bulusma",
+      "addCharacterNote": "Takis ve Ferhat soygundan 10 gün önce kafede buluşmuş. 45 dakika. Takis zarfla bir şey vermiş. Ama sorgulamada 'tanımıyorum' dedi. Yalan söylemiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_046",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Ferhat'ın ses kaydındaki bilinmeyen numara ayrıntılı inceleniyor.\n\nBu hat, Sinan ve Ozan'ın aradığı prepaid hattan farklı. İkinci bir bilinmeyen hat.\n\nBüfe sahibi fotoğrafları inceliyor: 'Bu adamı hatırlıyorum. Yaşlı, iri yapılı, aksanlı. Rum aksanı vardı. 2 hat aldı, nakit ödedi. 3 hafta kadar önce.'\n\nBaz istasyonu analizi: Hat Girne ve Limasol bölgelerinden kullanılmış. Limasol'daki kullanım tarihleri Takis'in Limasol'da olduğu günlerle birebir örtüşüyor.\n\nKritik bağlantı: Ferhat'ın ses kaydındaki arka plan sesi. 'Kıbrıs Gecesi' programı, CableSat Premium paketi. Takis'in Limasol ofisinde CableSat Premium aboneliği var.\n\nFerhat bu numarayı 14 Mart'ta aramış. 'Beni satacaklar, yardım et' demiş. Yardım istediği kişi: Takis Andreou.\n\nHat, Ferhat'ın vurulmasından sonra bir daha hiç kullanılmamış.",
+      "choices": [],
+      "addEvidence": "takis_prepaid",
+      "addCharacterNote": "Ferhat'ın yardım istediği kişi Takis'miş. Prepaid hat Takis'e ait. CableSat Premium eşleşmesi bunu doğruluyor. Takis Ferhat'la gizli iletişim halindeydi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_053",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Girne Emniyet Müdürlüğü, hukuk danışmanı Av. Nuri Şenol'un hazırladığı olası ceza analizi dosyası masada duruyor.\n\n'Dedektif, henüz kimin ne yaptığını bilmiyoruz. Ama bu davada herkesin pozisyonu gereği karşılaşabileceği hukuki sonuçları hazırladım.'\n\nSinan Karadağ (kumarhane sahibi):\n- Kumarhane ve kasa kendisine ait, mağdur konumunda\n- Sigorta tazminatı talep edecek pozisyonda\n- Şu an için hukuki sorumluluğu yok\n\nOzan Ersoy (genel müdür):\n- Soygun gecesi görevde olan en yetkili isim, güvenlik ihmalinden sorumlu tutulabilir: 3-5 yıl\n- Olay yerinde darp edilmiş halde bulundu, mağdur veya iştirakçi belirsiz: 0-12 yıl\n- Toplam: 3-17 yıl (duruma göre değişir)\n\nFerhat Aksoy (soyguncu):\n- Kasayı fiilen soyan kişi, parmak izi her yerde: silahlı soygun 10-15 yıl\n- Patlayıcı madde kullanma: 5-8 yıl\n- Toplam: 15-23 yıl\n- Komada, dava askıda.\n\nDerya Tuncer (mali müşavir):\n- 7 yıldır kasanın mali sorumlusu ve tek denetçisi: kasadaki paranın doğruluğundan kişisel olarak sorumlu, ihmal bile olsa 6-10 yıl\n- 8 milyon Euro'luk sahte para onun denetiminden geçmiş: mali denetim ihmali veya iştirak 8-12 yıl\n- Raporlarında 'para sayıldı, her şey tamam' yazıyor: resmi evrak sorumluluğu 4-6 yıl\n- Boşanmada kumarhaneden biriyle kocasını aldattığı için nafaka ödeyebilir (bağımsız dava)\n- Toplam: 18-28 yıl\n\nVolkan Arat (güvenlik şefi):\n- Kamera arızaları onun admin hesabından tetiklenmiş: görevi kötüye kullanma 2-4 yıl\n- Güvenlik açığından dolayı sorumluluk: 1-3 yıl\n- Toplam: 3-7 yıl\n\nTakis Andreou (%35 ortak):\n- Fesih davası açmış, soygundan doğrudan etkilenen taraf: zarar gören pozisyonunda\n- Usulsüz delil toplama iddiası olabilir: 1-2 yıl\n- Beraat olasılığı yüksek.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_accusation",
+      "type": "accusation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Girne Emniyet Müdürlüğü. Müdür Hasan Demirci seni bekliyor.\n\n'Dedektif, yeterli deliliniz var mı? Bu dava çok katmanlı: soygun, sigorta dolandırıcılığı, sahte para, ve bir adam komada. Kimi suçluyorsunuz?'\n\nBu karar geri alınamaz. Elindeki delilleri dikkatle düşün.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    }
+  ],
+  "endings": [
+    {
+      "id": "correct_perfect",
+      "title": "Sessiz Muhasebeci",
+      "description": "Derya Tuncer'i tüm kritik delillerle suçladınız.",
+      "suspectAccused": "suspect_derya",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 3,
+      "epilogueText": "Derya Tuncer gözaltına alındı. Magosa deposundaki valizlerin içinde, kıyafetlerin arasına gizlenmiş vakumlu poşetlerde 8 milyon Euro gerçek banknot bulundu.\n\nDerya 3-4 hafta boyunca kademeli olarak kasadaki gerçek parayı sahte banknotlarla değiştirmişti. Volkan'ın güvenlik hesabını ele geçirmiş, kamera arızalarını zamanlayıcı scriptlerle ayarlamış ve her şeyi mali denetim rutininin arkasına gizlemişti. Gerçek parayı taşınma eşyalarının arasına koyup Magosa'ya gönderdi.\n\nPeki planı nereden biliyordu? Derya ve Ferhat, Ferhat kovulmadan önce gizli bir ilişki yaşıyordu. Eski kocası boşanma davasında 'beni kumarhaneden biriyle aldattı' demişti. Ferhat, Sinan ve Ozan'ın soygun planını Derya'ya anlatmıştı. Derya bu bilgiyle kendi hamlesini yaptı.\n\nSinan ve Ozan kendi soygunu planlarken kasadaki paranın çoktan çalındığını bilmiyorlardı. Ferhat sahte paraları çaldı, Derya gerçekleri çoktan taşımıştı.\n\nSinan ve Ozan sigorta dolandırıcılığı ve soygunu organize etmekten tutuklandı. Ferhat komadan çıktığında suç ortaklığından yargılanacak. Volkan temize çıktı.\n\nFerhat'ı kimin vurduğu sorusu: Kara Cemil. Ferhat buluşma noktasına gelmeyince Ozan paniğe kapıldı ve Sinan'ı aradı. Sinan her iki işi de Kara Cemil'e havale etti: Ferhat'ı susturmak için peşine düştü, 3 km ileride yakalayıp sol omzundan vurdu. Aynı Kara Cemil ardından kumarhaneye dönüp Ozan'ı göstermelik dövdü ki 'soyguncular beni dövdü' alibisi hazır olsun. Ama çaldıkları para zaten sahteydi. Sinan her şeyi kaybetti."
+    },
+    {
+      "id": "correct_good",
+      "title": "Doğru İsim, Eksik Tablo",
+      "description": "Derya'yı suçladınız ama bazı kritik deliller eksik.",
+      "suspectAccused": "suspect_derya",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 2,
+      "epilogueText": "Derya Tuncer gözaltına alındı. Doğru kişiyi buldunuz ama delil zincirinde boşluklar var.\n\nİşte olan şuydu: Derya 3-4 hafta boyunca kasadaki gerçek parayı sahte banknotlarla değiştirdi. Mali müşavir olarak kasaya girip çıkması normaldi, kimse şüphelenmedi. Tartı kullanımını bıraktırarak sahte banknotların gramaj farkını gizledi. Volkan'ın güvenlik hesabını ele geçirip kamera arızalarını zamanlayıcı scriptlerle ayarladı.\n\nGerçek 8 milyon Euro'yu taşınma eşyalarının arasına koyup Magosa'ya gönderdi.\n\nSoygun planını Ferhat'tan öğrenmişti. İkisi Ferhat kovulmadan önce gizli bir ilişki yaşıyordu eski kocası boşanma davasında 'beni kumarhaneden biriyle aldattı' demişti. Ferhat, Sinan ve Ozan'ın planını Derya'ya anlatmış, Derya bu bilgiyle kendi hamlesini yapmıştı.\n\nSinan ve Ozan kendi sahte soygunlarını planlarken kasadaki paranın çoktan gittiğinden habersizdi. Ferhat sahte parayı çaldı, kaçarken Ozan tarafından vuruldu.\n\nDerya'nın avukatı bazı kanıtları çürütmeyi başardı. Eksik deliller yüzünden daha hafif bir cezayla yırtabilir."
+    },
+    {
+      "id": "correct_weak",
+      "title": "Şanslı Tahmin",
+      "description": "Derya'yı suçladınız ama çok az deliliniz vardı.",
+      "suspectAccused": "suspect_derya",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Derya Tuncer gözaltına alındı ama elinizde yeterli delil yok.\n\nİşte olan şuydu: Derya kasanın tek mali sorumlusuydu. 3-4 hafta boyunca gerçek parayı sahte banknotlarla değiştirdi. Tartıyı devre dışı bıraktı, Volkan'ın hesabını ele geçirip kameraları manipüle etti, gerçek parayı taşınma eşyası diye Magosa'ya gönderdi.\n\nPlanı nereden biliyordu? Ferhat'la gizli bir ilişkisi vardı. Eski kocası boşanma davasında 'kumarhaneden biriyle aldattı' demişti. Ferhat soygun planını Derya'ya anlatmış, Derya bu fırsatı değerlendirmişti.\n\nSinan ve Ozan kendi sahte soygunlarını planlıyordu kasadaki paranın çoktan gittiğinden habersiz. Ferhat sahte parayı çaldı, kaçarken Ozan tarafından vuruldu.\n\nAma delilleriniz yetersiz. Avukatı serbest bırakılma talebinde bulundu. Uzun bir yargılama süreci başlayacak ve Derya'nın kaçma zamanı olacak."
+    },
+    {
+      "id": "wrong_sinan",
+      "title": "Yanlış Kişi",
+      "description": "Sinan Karadağ'ı suçladınız.",
+      "suspectAccused": "suspect_sinan",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Sinan Karadağ gözaltına alındı. Evet, sigorta poliçesini şişirmişti. Evet, Ozan'la soygunu planlamıştı. Ama 8 milyon Euro'yu o çalmadı kendi parası çalınmıştı.\n\nSiz yanlış kişiyi suçladınız. Gerçek suçlu dışarıda ve paranın gücüyle çoktan bu adadan kayboldu. 8 milyon Euro bir daha bulunamadı."
+    },
+    {
+      "id": "wrong_ozan",
+      "title": "Yanlış Kişi",
+      "description": "Ozan Ersoy'u suçladınız.",
+      "suspectAccused": "suspect_ozan",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Ozan Ersoy tutuklandı. Soygunu organize etmişti, Ferhat'ı ayarlamıştı, mağdur rolü oynamıştı. Hepsi doğru. Ama 8 milyon Euro Ozan'ın elinden hiç geçmedi.\n\nSiz yanlış kişiyi suçladınız. Gerçek suçlu dışarıda ve paranın gücüyle çoktan bu adadan kayboldu. 8 milyon Euro bir daha bulunamadı."
+    },
+    {
+      "id": "wrong_ferhat",
+      "title": "Yanlış Kişi",
+      "description": "Ferhat Aksoy'u suçladınız.",
+      "suspectAccused": "suspect_ferhat",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Ferhat Aksoy komadan çıktığında tutuklandı. Kasayı patlatmıştı, evet. Ama Ferhat bir maşaydı ve çaldığı paranın tamamı sahteydi.\n\nSiz yanlış kişiyi suçladınız. Gerçek suçlu dışarıda ve paranın gücüyle çoktan bu adadan kayboldu. 8 milyon Euro bir daha bulunamadı."
+    },
+    {
+      "id": "wrong_volkan",
+      "title": "Yanlış Kişi",
+      "description": "Volkan Arat'ı suçladınız.",
+      "suspectAccused": "suspect_volkan",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Volkan Arat tutuklandı. Yasadışı VIP kumar geceleri düzenliyordu, kameraları kapatıyordu. Ama bunların hiçbiri soyguna bağlanamadı. Volkan kendi suçlarını itiraf etti ama 8 milyon Euro'yla ilgisi yoktu.\n\nSiz yanlış kişiyi suçladınız. Gerçek suçlu dışarıda ve paranın gücüyle çoktan bu adadan kayboldu. 8 milyon Euro bir daha bulunamadı."
+    },
+    {
+      "id": "wrong_takis",
+      "title": "Yanlış Kişi",
+      "description": "Takis Andreou'yu suçladınız.",
+      "suspectAccused": "suspect_takis",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Takis Andreou gözaltına alındı ama avukatı hemen serbest bıraktırdı. Takis bilgi topluyordu, soygunla ilgisi yoktu.\n\nSiz yanlış kişiyi suçladınız. Gerçek suçlu dışarıda ve paranın gücüyle çoktan bu adadan kayboldu. 8 milyon Euro bir daha bulunamadı."
+    }
+  ],
+  "hqLocations": [
+    {
+      "sceneId": "scene_002",
+      "label": "Kumarhane (Olay Yeri)",
+      "icon": "suit.diamond.fill"
+    },
+    {
+      "sceneId": "scene_004",
+      "label": "Kriminal Rapor",
+      "icon": "cross.case.fill"
+    },
+    {
+      "sceneId": "scene_006",
+      "label": "Kamera Kayıtları",
+      "icon": "video.fill"
+    },
+    {
+      "sceneId": "scene_008",
+      "label": "Sigorta Dosyası",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_010",
+      "label": "Ferhat (Hastane)",
+      "icon": "stethoscope"
+    },
+    {
+      "sceneId": "scene_012",
+      "label": "Minibüs İnceleme",
+      "icon": "car.fill"
+    },
+    {
+      "sceneId": "scene_014",
+      "label": "IT Forensik",
+      "icon": "desktopcomputer"
+    },
+    {
+      "sceneId": "scene_040",
+      "label": "Nakliye Şirketi",
+      "icon": "shippingbox.fill"
+    },
+    {
+      "sceneId": "scene_041",
+      "label": "Mağusa Depo",
+      "icon": "building.fill"
+    },
+    {
+      "sceneId": "scene_042",
+      "label": "Benzin İstasyonu",
+      "icon": "fuelpump.fill"
+    },
+    {
+      "sceneId": "scene_043",
+      "label": "Kasa Erişim Logları",
+      "icon": "lock.shield.fill"
+    },
+    {
+      "sceneId": "scene_044",
+      "label": "Telefon Kayıtları",
+      "icon": "phone.fill"
+    },
+    {
+      "sceneId": "scene_053",
+      "label": "Olası Cezalar",
+      "icon": "scalemass.fill"
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "contra_g1",
+      "requires": [
+        "ev_guvenlik_kaydi",
+        "ev_cemil_ifade"
+      ],
+      "statement1": {
+        "source": "Cemil Kaya",
+        "text": "O gece otelde kaldım, marina tarafına hiç gitmedim."
+      },
+      "statement2": {
+        "source": "Güvenlik Kaydı",
+        "text": "Cemil'in arabası 23:00'da marina otoparkına giriş yapmış."
+      },
+      "result": {
+        "text": "Cemil otelde kaldığını söylüyor ama arabası marinada! Ne yapıyordu orada?"
+      }
+    },
+    {
+      "id": "contra_g2",
+      "requires": [
+        "ev_telefon_kaydi",
+        "ev_ayse_ifade"
+      ],
+      "statement1": {
+        "source": "Ayşe Demir",
+        "text": "O akşam kimseyle iletişimde değildim, erkenden yattım."
+      },
+      "statement2": {
+        "source": "Telefon Kayıtları",
+        "text": "Ayşe'nin telefonundan 23:30'da Cemil'e bir mesaj gönderilmiş: 'İş tamam mı?'"
+      },
+      "result": {
+        "text": "Ayşe erkenden yattığını söylüyor ama gece yarısı Cemil'e 'İş tamam mı?' yazıyor!"
+      }
+    },
+    {
+      "id": "contra_g3",
+      "requires": [
+        "ev_mali_kayit",
+        "ev_tarkan_ifade"
+      ],
+      "statement1": {
+        "source": "Tarkan Öztürk",
+        "text": "Şirketin mali durumu iyi, hiçbir sorun yok."
+      },
+      "statement2": {
+        "source": "Banka Kayıtları",
+        "text": "Tarkan'ın offshore hesabına son 6 ayda 2 milyon TL transfer edilmiş."
+      },
+      "result": {
+        "text": "Tarkan'ın gizli offshore hesabı ortaya çıktı! 2 milyon TL nereden geliyor?"
+      }
+    },
+    {
+      "id": "contra_g4",
+      "requires": [
+        "ev_parmak_izi",
+        "ev_melek_ifade"
+      ],
+      "statement1": {
+        "source": "Melek Yılmaz",
+        "text": "Teknede hiç bulunmadım, denizden korkarım zaten."
+      },
+      "statement2": {
+        "source": "Parmak İzi Raporu",
+        "text": "Melek'in parmak izleri teknenin dümen kabininde tespit edildi."
+      },
+      "result": {
+        "text": "Melek teknede bulunmadığını söylüyor ama parmak izleri dümen kabininde!"
+      }
+    },
+    {
+      "id": "contra_g5",
+      "requires": [
+        "ev_kamera_kaydi",
+        "ev_cemil_ifade"
+      ],
+      "statement1": {
+        "source": "Cemil Kaya",
+        "text": "Kurbanla aramda sorun yoktu, iş ortağıydık."
+      },
+      "statement2": {
+        "source": "İş Sözleşmesi",
+        "text": "Cemil ve kurban arasında fesih davası açılmış 3 milyon TL tazminat talebi."
+      },
+      "result": {
+        "text": "Cemil sorun yoktu diyor ama fesih davası var! 3 milyon TL tazminat ciddi bir motif."
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_ilk_delil",
+      "title": "İlk Adım",
+      "icon": "magnifyingglass",
+      "description": "İlk delili topla",
+      "condition": "evidence_count_1"
+    },
+    {
+      "id": "ach_tum_deliller",
+      "title": "Delil Uzmanı",
+      "icon": "trophy.fill",
+      "description": "Tüm delilleri topla",
+      "condition": "evidence_count_all"
+    },
+    {
+      "id": "ach_ilk_xref",
+      "title": "Bağlantı Kurdum",
+      "icon": "link",
+      "description": "İlk çapraz referansı keşfet",
+      "condition": "xref_count_1"
+    },
+    {
+      "id": "ach_tum_xref",
+      "title": "Örümcek Ağı",
+      "icon": "network",
+      "description": "Tüm çapraz referansları keşfet",
+      "condition": "xref_count_all"
+    },
+    {
+      "id": "ach_tum_supheliler",
+      "title": "Herkesle Konuştum",
+      "icon": "bubble.left.and.bubble.right.fill",
+      "description": "Tüm şüphelilerle konuş",
+      "condition": "all_suspects_interviewed"
+    },
+    {
+      "id": "ach_kusursuz",
+      "title": "Kusursuz Çözüm",
+      "icon": "star.fill",
+      "description": "Tam delille doğru suçlama",
+      "condition": "perfect_ending"
+    },
+    {
+      "id": "ach_yanlis",
+      "title": "Yanlış Kapıyı Çaldın",
+      "icon": "xmark.circle.fill",
+      "description": "Yanlış kişiyi suçla",
+      "condition": "wrong_accusation"
+    },
+    {
+      "id": "ach_hizli",
+      "title": "Hızlı Dedektif",
+      "icon": "bolt.fill",
+      "description": "24 saat içinde çöz",
+      "condition": "speed_solve"
+    },
+    {
+      "id": "ach_sahte_master",
+      "title": "Para Avcısı",
+      "icon": "banknote.fill",
+      "description": "Sahte para izini tamamen çöz",
+      "condition": "xref_count_5"
+    },
+    {
+      "id": "ach_sessiz_katil",
+      "title": "Sessiz Suçlu",
+      "icon": "eye.fill",
+      "description": "Derya'yı tüm delillerle suçla",
+      "condition": "perfect_ending"
+    }
+  ],
+  "evidenceReactions": [
+    {
+      "characterId": "suspect_sinan",
+      "evidenceId": "sigorta_policesi",
+      "reaction": "defensive",
+      "dialogue": "Sinan puroyu masaya bırakıyor. 'Sigortayı güncellemek suç mu? İş adamıyım, tedbirimi alırım.'",
+      "note": "Savunmacı, sigorta sorusu onu rahatsız ediyor."
+    },
+    {
+      "characterId": "suspect_sinan",
+      "evidenceId": "sahte_banknot",
+      "reaction": "shocked",
+      "dialogue": "Sinan'ın yüzü kararıyor. 'Sahte mi? 8 milyon Euro sahte mi?' Masaya yumruk vuruyor. 'Bu imkansız.'",
+      "note": "Sinan gerçekten bilmiyormuş gibi."
+    },
+    {
+      "characterId": "suspect_sinan",
+      "evidenceId": "denetim_raporlari",
+      "reaction": "nervous",
+      "dialogue": "Sinan düşünceli bakıyor. 'Derya'nın raporları... Evet, haftada iki gün gelir, kasayı sayar. 7 yıldır böyle.'",
+      "note": "Derya'nın adı geçince gözleri kısılıyor."
+    },
+    {
+      "characterId": "suspect_ozan",
+      "evidenceId": "ferhat_telefon",
+      "reaction": "nervous",
+      "dialogue": "Ozan kol saatini çeviriyor. 'Ferhat beni arıyordu, eski iş meseleleri. Kovulma tazminatı istiyordu.'",
+      "note": "11 aramayı tazminat ile açıklamaya çalışıyor."
+    },
+    {
+      "characterId": "suspect_ozan",
+      "evidenceId": "sahte_banknot",
+      "reaction": "shocked",
+      "dialogue": "Ozan'ın eli kol saatinde donuyor. 'Sahte mi? 8 milyon Euro sahte mi? Ferhat sahte para mı çalmış?'",
+      "note": "Ozan da habersiz görünüyor ama doğru soruyu soruyor."
+    },
+    {
+      "characterId": "suspect_ozan",
+      "evidenceId": "darp_raporu",
+      "reaction": "nervous",
+      "dialogue": "Ozan dudağını sıvazlıyor. 'Zamanlama? Karanlıkta zaman algısı bozulur.'",
+      "note": "Darp zamanlaması konusunda tutarsız."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "sahte_banknot",
+      "reaction": "sad",
+      "dialogue": "Derya'nın yüzü düşüyor. 'Sahte mi? Ben her hafta o parayı saydım. Hiçbir şey fark etmedim. Bu benim hatam.'",
+      "note": "Sahte para haberi Derya'yı üzmüş görünüyor."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "kamera_arizalari",
+      "reaction": "surprised",
+      "dialogue": "Derya kaşlarını kaldırıyor. 'Kamera arızaları mı? Bundan haberim yoktu. Volkan bey biliyordur.'",
+      "note": "Kamera konusunda bilgisiz görünüyor."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "nakliye_fisi",
+      "reaction": "sad",
+      "dialogue": "Derya iç çekiyor. 'Eşyalarımı taşıdım. Boşanma yüzünden. Bu konu benim için zor.'",
+      "note": "Nakliye sorusu duygusal tepki yaratıyor."
+    },
+    {
+      "characterId": "suspect_derya",
+      "evidenceId": "denetim_raporlari",
+      "reaction": "nervous",
+      "dialogue": "Derya tabletini açıyor. 'Tartının kalibrasyonu bozuktu. Sinan beyin tasarruf kararıyla bakım sözleşmesi iptal oldu.'",
+      "note": "Tartı konusunda Sinan'ın kararını neden gösteriyor."
+    },
+    {
+      "characterId": "suspect_volkan",
+      "evidenceId": "kamera_arizalari",
+      "reaction": "shocked",
+      "dialogue": "Volkan'ın yüzü kızarıyor. 'IT raporu yazılım hatası dedi. Ama hesabımdan tetiklenmesi...' Başını iki eliyle tutuyor.",
+      "note": "Volkan gerçekten habersiz ve şok."
+    },
+    {
+      "characterId": "suspect_volkan",
+      "evidenceId": "it_forensik",
+      "reaction": "calm",
+      "dialogue": "Volkan derin bir nefes alıyor. 'Muhasebe katı... Scriptler muhasebe katından yüklenmiş... Benim ofisim güvenlik katında.'",
+      "note": "IT forensik Volkan'ı temize çıkarıyor."
+    },
+    {
+      "characterId": "suspect_takis",
+      "evidenceId": "sigorta_policesi",
+      "reaction": "excited",
+      "dialogue": "Takis gülüyor. 'Gördünüz mü? Sinan sigortayı şişirmiş. Soygunu kendine yaptı.'",
+      "note": "Takis Sinan'ı suçlamak için fırsat kolluyor."
+    },
+    {
+      "characterId": "suspect_takis",
+      "evidenceId": "sahte_banknot",
+      "reaction": "surprised",
+      "dialogue": "Takis şaşırıyor. 'Sahte para? Bu işler sandığımdan daha karmaşıkmış.'",
+      "note": "Takis sahte para haberini sindirmeye çalışıyor."
+    }
+  ],
+  "microExpressions": [
+    {
+      "id": "me_sinan_derya",
+      "characterId": "suspect_sinan",
+      "triggerScene": "scene_021",
+      "displayText": "Sinan'ın gözleri bir an kısılıyor. Derya'nın adı geçtiğinde bakışları öfkeyle doluyor ama hemen toparlanıyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_ozan_ferhat",
+      "characterId": "suspect_ozan",
+      "triggerScene": "scene_024",
+      "displayText": "Ozan'ın eli refleksif olarak cebine gidiyor, sonra geri çekiyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_derya_tarti",
+      "characterId": "suspect_derya",
+      "triggerScene": "scene_027",
+      "displayText": "Derya gözlüklerini iki kez düzeltiyor. Parmakları masada titriyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_sinan_sahte",
+      "characterId": "suspect_sinan",
+      "triggerScene": "scene_021",
+      "displayText": "Sinan'ın yüzünde bir an gerçek korku beliriyor. Kendi parasının çalındığını anlıyor.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_derya_nakliye",
+      "characterId": "suspect_derya",
+      "triggerScene": "scene_028b",
+      "displayText": "Derya'nın gözleri bir milisaniye genişliyor. Cevabı çok hızlı geliyor.",
+      "timeWindow": 3.0
+    }
+  ],
+  "suspectNetwork": {
+    "nodes": [
+      {
+        "id": "victim_ferhat",
+        "label": "Ferhat",
+        "type": "victim"
+      },
+      {
+        "id": "suspect_sinan",
+        "label": "Sinan",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_ozan",
+        "label": "Ozan",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_derya",
+        "label": "Derya",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_volkan",
+        "label": "Volkan",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_takis",
+        "label": "Takis",
+        "type": "suspect"
+      },
+      {
+        "id": "npc_cemil",
+        "label": "Kara Cemil",
+        "type": "npc"
+      }
+    ],
+    "connections": [
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_sinan",
+        "type": "business",
+        "label": "Eski Patron",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_ozan",
+        "type": "business",
+        "label": "Eski Meslektaş",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_volkan",
+        "type": "business",
+        "label": "Eski Ekip Arkadaşı",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "suspect_derya",
+        "type": "romantic",
+        "label": "Gizli İlişki",
+        "strength": 3,
+        "requires": [
+          "derya_ferhat_ilişkisi"
+        ]
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_ozan",
+        "type": "business",
+        "label": "Patron - Genel Müdür",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_volkan",
+        "type": "business",
+        "label": "İşveren",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_takis",
+        "type": "business",
+        "label": "İş Ortağı",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "suspect_derya",
+        "type": "business",
+        "label": "Mali Müşavir",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_sinan",
+        "to": "npc_cemil",
+        "type": "suspicious",
+        "label": "Tetikçi",
+        "strength": 3,
+        "requires": [
+          "kara_cemil_baglantisi"
+        ]
+      },
+      {
+        "from": "suspect_ozan",
+        "to": "suspect_takis",
+        "type": "suspicious",
+        "label": "Kumar Borcu",
+        "strength": 2,
+        "requires": [
+          "ozan_takis_borc"
+        ]
+      },
+      {
+        "from": "suspect_ozan",
+        "to": "npc_cemil",
+        "type": "suspicious",
+        "label": "Göstermelik Darp",
+        "strength": 2,
+        "requires": [
+          "kara_cemil_baglantisi"
+        ]
+      },
+      {
+        "from": "victim_ferhat",
+        "to": "npc_cemil",
+        "type": "suspicious",
+        "label": "Tetikçi",
+        "strength": 3,
+        "requires": [
+          "kara_cemil_baglantisi"
+        ]
+      },
+      {
+        "from": "suspect_derya",
+        "to": "suspect_volkan",
+        "type": "suspicious",
+        "label": "Güvenlik Hesap Ele Geçirme",
+        "strength": 3,
+        "requires": [
+          "derya_script"
+        ]
+      }
+    ]
+  },
+  "newspaperArticles": [
+    {
+      "id": "news_initial",
+      "requires": null,
+      "headline": "ROYAL AKDENİZ'DE BÜYÜK SOYGUN",
+      "subheadline": "8 milyon Euro kasa dışarıdan patlatıldı",
+      "body": "Girne'nin en büyük kumarhanesi Royal Akdeniz'de gece 02:15'te elektrikler kesildi, kameralar karardı. Kasa dışarıdan patlatıldı, 8 milyon Euro yüklenip minibüsle götürüldü. Minibüs şehir dışında boş bulundu. Olay yerine yakın bir mesafede eski güvenlik görevlisi Ferhat Aksoy omzundan vurulmuş halde bulundu ve komaya girdi.",
+      "source": "Kıbrıs Postası"
+    },
+    {
+      "id": "news_investigation",
+      "requires": null,
+      "headline": "KUMARHANE SOYGUNU: POLİS KILSIZ",
+      "subheadline": "İçeriden iş ihtimali güçleniyor",
+      "body": "Royal Akdeniz soygununda elektrik kesintisinin kumarhane iç şebekesinden yapıldığı anlaşıldı. Emniyet yetkilileri 'dış ekip bu kadar detaylı hareket edemez, işin içinde kumarhane personeli var' dedi. Soruşturma şimdi 6 şüpheli üzerinde yoğunlaşıyor.",
+      "source": "Havadis"
+    },
+    {
+      "id": "news_sahte",
+      "requires": [
+        "sahte_banknot"
+      ],
+      "headline": "KASADAKİ PARA SAHTEYDİ",
+      "subheadline": "Soygundan önce biri parayı çoktan değiştirmişti",
+      "body": "Soygunda ele geçirilen banknotların büyük bölümünün profesyonel sahte olduğu ortaya çıktı. Bu, soyguncuların kumarhaneden gerçek parayı çaldığına değil, daha önce biri tarafından değiştirilmiş sahte parayı çaldığına işaret ediyor. Soruşturma içeriden biri tarafından önceden yapılmış bir değiştirme operasyonuna yöneldi.",
+      "source": "Kıbrıs Gazetesi"
+    },
+    {
+      "id": "news_sinan_interview",
+      "requires": null,
+      "headline": "SİNAN KARADAĞ: 'BEN MASUMUM'",
+      "subheadline": "Kumarhane sahibi basına konuştu",
+      "body": "Royal Akdeniz sahibi Sinan Karadağ dün basın toplantısında 'sigortadan alacağım tek kuruş yok, bu soygun bana da zarar verdi' dedi. Gazeteciler Ferhat Aksoy ile ilişkisini sorduğunda kısa bir cevap verdi: 'Ferhat bizden 2 ay önce ayrıldı. Kendi hayatı.' Karadağ'ın tek beyanı bu oldu.",
+      "source": "Cyprus Today"
+    },
+    {
+      "id": "news_reputation_high",
+      "requires": null,
+      "headline": "DEDEKTİF DAVAYA HAKİM",
+      "subheadline": "Royal Akdeniz soygunu çözülmeye yakın",
+      "body": "Soruşturmayı yürüten dedektifin kritik delilleri birleştirdiği ve yakında sonuca varılacağı konuşuluyor. Kaynaklara göre soruşturma artık iki ayrı suç teorisine odaklanmış durumda.",
+      "source": "Kıbrıs Postası"
+    },
+    {
+      "id": "news_reputation_low",
+      "requires": null,
+      "headline": "SORUŞTURMA İLERLEMİYOR",
+      "subheadline": "Royal Akdeniz soygunu üzerinden günler geçti",
+      "body": "Büyük soygun soruşturması bir ilerleme kaydedemedi. Halk kamuoyunda güvensizlik artıyor. 'Dedektif ne yapıyor?' sorusu sokak röportajlarında sıkça duyuluyor.",
+      "source": "Havadis"
+    }
+  ],
+  "pressEvents": [
+    {
+      "id": "press_day1",
+      "reporterName": "Ayşe Yılmaz",
+      "outlet": "Kıbrıs Postası",
+      "question": "Dedektif, bu soyguna kumarhane içinden biri yardım etmiş olabilir mi?",
+      "options": [
+        {
+          "text": "Soruşturma tüm ihtimalleri değerlendiriyor, şimdi konuşmak erken.",
+          "effect": "managed",
+          "reputationDelta": 3,
+          "note": "Basına profesyonel cevap verildi."
+        },
+        {
+          "text": "İçeriden bir el olduğu açık, ama isim vermem.",
+          "effect": "leak",
+          "reputationDelta": -5,
+          "note": "Basına bilgi sızdırıldı."
+        },
+        {
+          "text": "(Cevap vermeden uzaklaş)",
+          "effect": "ignore",
+          "reputationDelta": -2,
+          "note": "Basın görmezden gelindi."
+        }
+      ],
+      "triggerAfterScenes": 3
+    },
+    {
+      "id": "press_day2",
+      "reporterName": "Mehmet Tuncer",
+      "outlet": "Havadis",
+      "question": "Ferhat Aksoy komada. Onu kim vurdu, biliyor musunuz?",
+      "options": [
+        {
+          "text": "Saldırgan ve soygun arasındaki bağlantıyı araştırıyoruz, detay veremem.",
+          "effect": "managed",
+          "reputationDelta": 5,
+          "note": "Soruşturmaya güven veren açıklama."
+        },
+        {
+          "text": "Bir tetikçiden bahsedebilirim.",
+          "effect": "hint",
+          "reputationDelta": 0,
+          "note": "Basına ipucu verildi."
+        },
+        {
+          "text": "Soruşturmayı engellemeyin.",
+          "effect": "hostile",
+          "reputationDelta": -4,
+          "note": "Basına sert cevap."
+        }
+      ],
+      "triggerAfterScenes": 9
+    }
+  ]
+}

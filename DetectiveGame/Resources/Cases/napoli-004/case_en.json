@@ -1,0 +1,2792 @@
+{
+  "id": "napoli-004",
+  "title": "The Silent City",
+  "subtitle": "Naples, 2026",
+  "city": "Naples",
+  "description": "Franco Moretti, the 30-year veteran chief commissioner of the Naples Organized Crime Bureau, was found dead with a single bullet to the head in an abandoned olive oil warehouse in the Campagna region. No weapon at the scene. Only an old photograph in his pocket: dated 1989, taken with a young woman. On the back, handwritten: 'Sempre, L.' Franco had been maintaining 'peace' by making deals with 4 mafia families for years, but in the last 6 months he had been preparing an operation to bring them all down. Someone found out.",
+  "coverImage": "napoli_gece",
+  "difficulty": 3,
+  "isPremium": true,
+  "characters": [
+    {
+      "id": "suspect_enzo",
+      "name": "Don Enzo Ferrante",
+      "age": 71,
+      "occupation": "Head of the Ferrante Family - Port Mafia",
+      "relationToVictim": "Controls the Naples port. Franco had gathered documents in the last 6 months that would dismantle the port operation.",
+      "portraitImage": "portrait_enzo",
+      "isSuspect": true,
+      "alibi": "I'm in a wheelchair, paralyzed. Do you really think a crippled man could commit murder? That night I was at my villa, with my caregiver."
+    },
+    {
+      "id": "suspect_giulia",
+      "name": "Giulia Ferrante",
+      "age": 34,
+      "occupation": "Ferrante Family Lawyer",
+      "relationToVictim": "Enzo's daughter. Handles the family's legal affairs. Her name appears in the documents Franco had collected.",
+      "portraitImage": "portrait_giulia",
+      "isSuspect": true,
+      "alibi": "That night I was at my office, preparing a case file. My secretary was there until 8:00 PM."
+    },
+    {
+      "id": "suspect_tommaso",
+      "name": "Tommaso Ferrante",
+      "age": 28,
+      "occupation": "Port Operations Manager",
+      "relationToVictim": "Enzo's son, the de facto manager of the port. His name appears in the indictment Franco had been preparing.",
+      "portraitImage": "portrait_tommaso",
+      "isSuspect": true,
+      "alibi": "I was at the port, supervising the night shift. At one point I went down to the lower warehouse, personal business."
+    },
+    {
+      "id": "suspect_silvana",
+      "name": "Donna Silvana Conte",
+      "age": 58,
+      "occupation": "Head of the Conte Family - Construction Mafia",
+      "relationToVictim": "Controls Naples' urban renewal projects. Her husband was killed in 2019. Franco had discovered the money laundering network and was reopening the investigation into her husband's death.",
+      "portraitImage": "portrait_silvana",
+      "isSuspect": true,
+      "alibi": "I was at home, I had guests. I hosted a dinner party for 8. They'll all confirm it."
+    },
+    {
+      "id": "suspect_marco",
+      "name": "Marco Conte",
+      "age": 36,
+      "occupation": "Construction Company Director",
+      "relationToVictim": "Silvana's nephew. The official director of the construction company. Paranoid, thinks everyone is following him.",
+      "portraitImage": "portrait_marco",
+      "isSuspect": true,
+      "alibi": "I was at home. I locked the doors, drew the curtains. I saw no one, no one saw me."
+    },
+    {
+      "id": "suspect_ignazio",
+      "name": "Padre Ignazio",
+      "age": 65,
+      "occupation": "Priest - Conte Family Spiritual Advisor",
+      "relationToVictim": "Appears to be Silvana's spiritual advisor. In reality, he launders the family's dirty money through the church foundation.",
+      "portraitImage": "portrait_ignazio",
+      "isSuspect": true,
+      "alibi": "I was at the church, conducting the evening service. It ended at 8:30 PM. After that I had an appointment."
+    },
+    {
+      "id": "suspect_salvatore",
+      "name": "Don Salvatore Luciano",
+      "age": 67,
+      "occupation": "Head of the Luciano Family - Drug Empire",
+      "relationToVictim": "Runs Southern Italy's largest cocaine network. Had a 30-year friendship and arrangement with Franco. Franco betrayed this arrangement.",
+      "portraitImage": "portrait_salvatore",
+      "isSuspect": true,
+      "alibi": "I was at home, hosting a family dinner. My daughter Bianca, my son Alessio, my accountant, and two bodyguards were there."
+    },
+    {
+      "id": "suspect_alessio",
+      "name": "Alessio Luciano",
+      "age": 31,
+      "occupation": "Luciano Family - Field Operations",
+      "relationToVictim": "Salvatore's son. Cocaine addict, unstable. Franco's operation would have dismantled the Luciano network.",
+      "portraitImage": "portrait_alessio",
+      "isSuspect": true,
+      "alibi": "I was at my father's house for dinner. Had a few drinks. At some point I stepped out for some air, don't know how long I was gone."
+    },
+    {
+      "id": "suspect_bianca",
+      "name": "Bianca Luciano",
+      "age": 31,
+      "occupation": "Luciano Family - Head of Accounting",
+      "relationToVictim": "Salvatore's daughter. Manages the family's financial affairs. Quiet, observant, extremely intelligent.",
+      "portraitImage": "portrait_bianca",
+      "isSuspect": true,
+      "alibi": "I was at my father's house for the family dinner. I felt a bit nauseous, I have anemia, so I went up to my room to rest. I came back down about an hour later."
+    },
+    {
+      "id": "suspect_vittorio",
+      "name": "Don Vittorio Navarro",
+      "age": 73,
+      "occupation": "Head of the Navarro Family - Arms Trafficking",
+      "relationToVictim": "Runs arms trade across the Mediterranean. The shadow mayor of Naples. Franco had found the location of their weapons depot. The murder was committed in that depot.",
+      "portraitImage": "portrait_vittorio",
+      "isSuspect": true,
+      "alibi": "I was at the mayor's reception. 200 people saw me. I was there until 11 PM."
+    },
+    {
+      "id": "suspect_elena",
+      "name": "Elena Navarro",
+      "age": 38,
+      "occupation": "Political Liaison - Parliamentarian's Wife",
+      "relationToVictim": "Vittorio's daughter. Married to a parliamentarian. Manages the family's political connections.",
+      "portraitImage": "portrait_elena",
+      "isSuspect": true,
+      "alibi": "I was at a gala with my husband. Hundreds of witnesses. This conversation never happened."
+    },
+    {
+      "id": "suspect_stefano",
+      "name": "Stefano Navarro",
+      "age": 41,
+      "occupation": "Weapons Depot Manager - Former Special Forces",
+      "relationToVictim": "Vittorio's stepson. Manages the weapons depot. Former Italian Special Forces. Cold, military discipline.",
+      "portraitImage": "portrait_stefano",
+      "isSuspect": true,
+      "alibi": "I closed the depot at 7:00 PM, went home. I was alone. I learned about the murder from the news the next day."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "otopsi_raporu",
+      "title": "Autopsy Report",
+      "description": "Franco Moretti's autopsy report. Killed by a single bullet to the left temple. Firing distance 30-50 cm. Time of death between 8:45 PM and 9:15 PM. Franco was left-handed; the killer was standing in front of him. Franco knew his killer.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "balistik_rapor",
+      "title": "Ballistics Report",
+      "description": "Murder weapon: 9mm Beretta 92FS. Serial number filed off, a professional job. The same model guns are present in the Navarro depot, but the Beretta 92FS is an extremely common weapon in Italy.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "guvenlik_kamerası",
+      "title": "Security Camera Recording",
+      "description": "Security camera at the depot entrance. Cable professionally cut. At 8:42 PM a shadow appeared; at 8:43 PM the footage cut out. The cut required military training or technical knowledge.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "parfüm_kalintisi",
+      "title": "Perfume Residue",
+      "description": "An expensive perfume scent detected in the depot. A custom-made or luxury brand with bergamot, jasmine, sandalwood, and musk base notes. Franco didn't wear perfume; the scent belongs to the killer. Consistent with the time of murder.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "eczane_kaydi",
+      "title": "Pharmacy Records",
+      "description": "Bianca Luciano's pharmacy records. Being treated for chronic iron deficiency anemia. Regular medications: Ferrograd C, Folic Acid, Vitamin B12. Hemoglobin 10.2, ferritin 8. Persistent pallor and fatigue.",
+      "image": null,
+      "linkedCharacterId": "suspect_bianca",
+      "eliminates": null
+    },
+    {
+      "id": "cenere_dosyasi",
+      "title": "Operazione Cenere File",
+      "description": "A 200-page investigation report recovered from Franco's secret safe. A detailed 6-month document that would bring down all 4 mafia families. Ferrante port smuggling, Conte money laundering, Luciano cocaine network, Navarro arms trade. Franco's handwritten note: 'I closed my eyes for 30 years. Enough.'",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "bianca_defteri",
+      "title": "Bianca's Personal Journal",
+      "description": "A leather-bound journal found in Bianca Luciano's locked drawer. Poems and notes themed around the sea, loss, and longing. 'Mother, the sea is searching for you again today.' A 1994 Naples-stamped postage stamp and an empty envelope from her mother Rosa Luciano. Dried tear stains on the envelope.",
+      "image": null,
+      "linkedCharacterId": "suspect_bianca",
+      "eliminates": null
+    },
+    {
+      "id": "depo_anahtari",
+      "title": "Depot Key Records",
+      "description": "Key distribution records for the murder scene depot. Official key holders: Don Vittorio Navarro (property owner), Stefano Navarro (depot manager), and Franco Moretti. Lock was not forced; a key was used. Old-style lock, easy to duplicate.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "franco_telefon",
+      "title": "Franco's Phone Records",
+      "description": "Franco's last call record: a 47-second call from an unknown prepaid number at 8:30 PM. The caller was in the Posillipo district. A deleted message was recovered: 'We need to talk about what I know about Lucia. Come to the depot.' Franco was lured to the depot.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "tommaso_telefon",
+      "title": "Tommaso's Phone Records",
+      "description": "Tommaso Ferrante's phone activity on the night of the incident. At 7:30 PM a call from the port warehouse, at 9:00 PM he called his father Enzo. Informant report: during the 9:00 PM call, Tommaso said 'Father, I've taken care of it. There won't be a problem anymore.' The timing matches the murder window.",
+      "image": null,
+      "linkedCharacterId": "suspect_tommaso",
+      "eliminates": null
+    },
+    {
+      "id": "lucia_ölüm",
+      "title": "Lucia Ferrante Death File",
+      "description": "A file recovered from police archives. Lucia Ferrante, age 24, Enzo's younger sister. In 1995, recorded as 'suicide.' The investigation was conducted by Commissioner Franco Moretti, who closed the file in 2 weeks. No autopsy was performed. A relationship between Franco and Lucia has come to light.",
+      "image": null,
+      "linkedCharacterId": "suspect_enzo",
+      "eliminates": null
+    },
+    {
+      "id": "sempre_fotoğraf",
+      "title": "The Sempre Photograph",
+      "description": "An old photograph dated 1989 found in Franco Moretti's pocket. Taken with a young woman. Handwritten note on the back: 'Sempre, L.' The only tangible evidence linking Franco to the mysterious woman from his past.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "salvatore_hastane",
+      "title": "Hospital Records",
+      "description": "Santa Maria Hospital patient records. Blood type list:\n- Salvatore Luciano: O Rh+\n- Rosa Luciano: B Rh+\n- Alessio Luciano: B Rh+\n- Bianca Luciano: AB Rh-\n- Stefano Navarro: AB Rh+\n- Giulia Ferrante: A Rh-\nSalvatore has chronic heart failure and a pacemaker; limited physical activity.",
+      "image": null,
+      "linkedCharacterId": "suspect_salvatore",
+      "eliminates": null
+    },
+    {
+      "id": "kilise_vakfi",
+      "title": "Church Foundation Financial Records",
+      "description": "San Gennaro Church Foundation bank accounts. 4.7 million euros laundered over the last 3 years. Money flowed to the foundation through 23 different companies, then transferred to Swiss and Maltese accounts. Padre Ignazio is the sole authorized signatory. The Conte family's money laundering network.",
+      "image": null,
+      "linkedCharacterId": "suspect_ignazio",
+      "eliminates": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_001",
+      "type": "narration",
+      "background": "napoli_gece",
+      "characterId": null,
+      "text": "Naples. Late afternoon. A city sweating in the shadow of Vesuvius.\n\nThe phone rang just as you were about to close a case in Rome. The Naples police chief called: 'Chief Commissioner Franco Moretti has been found dead. In an abandoned olive oil warehouse in Campagna. Single bullet to the head. No weapon. The scene is clean too clean.'\n\nFranco Moretti. For 30 years, he was the chief commissioner of the Naples Organized Crime Bureau. A man said to have 'kept the peace' by making deals with 4 mafia families. In the last 6 months, he had been preparing a major operation: Operazione Cenere. A plan to bring down all 4 families at once. Someone found out.\n\nThe city is silent. The mafia isn't talking. The police aren't talking. Naples is as tight-lipped as ever.\n\nThe taxi takes you straight to the crime scene.",
+      "choices": [
+        {
+          "id": "c001a",
+          "text": "Examine the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001b",
+          "text": "Get a briefing from the police chief",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_002",
+      "type": "investigation",
+      "background": "depo_dis",
+      "characterId": null,
+      "text": "The Campagna district. Outside the city, among olive groves, an abandoned warehouse. The area is cordoned off with police tape. The warehouse's stone walls gleam with dampness under the yellowish glow of the night lamps.\n\nThe warehouse is a large, two-story old structure. The front door is open the lock wasn't forced. You step inside.\n\nThe floor is dusty, but footprints are visible in places. Old olive oil barrels lean against the wall. In the center of the warehouse is where Franco Moretti's body was found now removed, but forensic markers and measurements remain in place.\n\nAn old security camera hangs on the wall, its cable cut. And there's something strange in the air: a faint but distinct scent that shouldn't exist in this dusty, abandoned depot.",
+      "choices": [
+        {
+          "id": "c002a",
+          "text": "Examine the security camera",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002c",
+          "text": "Investigate the strange scent",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002d",
+          "text": "Examine the depot's lock",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Depot: lock not forced, camera cable cut, a strange perfume scent lingers in the air.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_003",
+      "type": "narration",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Naples Police Headquarters. Chief Ferrara takes you to the briefing room.\n\n'Franco Moretti, 62 years old, was the chief commissioner of this bureau for 30 years. Everyone knew him, everyone feared him, everyone owed him. Something changed in the last 6 months. He was preparing a secret operation: Operazione Cenere. A plan to bring down all 4 mafia families at once.'\n\nFerrara opens the file:\n\n'There are 4 families: Ferrante runs the port, Conte runs construction, Luciano runs drugs, Navarro runs weapons. They all had motive to silence Franco. The murder was committed in the Navarro's old depot, but that's too obvious a trail.'\n\n'There was an old photograph in Franco's pocket. Dated 1989, taken with a young woman. On the back, in handwriting: Sempre, L. We don't know who the woman is.'\n\nFerrara looks at you: 'Everyone lies in this city. Your job is to find the truth.'",
+      "choices": [
+        {
+          "id": "c003a",
+          "text": "Examine the autopsy report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003b",
+          "text": "Examine the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003c",
+          "text": "Examine Franco's phone",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003d",
+          "text": "Examine the Cenere file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sempre_fotoğraf",
+      "addCharacterNote": "4 mafia families, all with motive. Old photograph with 'Sempre, L.' in Franco's pocket. Murder at the Navarro depot.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_004",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "The forensic laboratory. Dr. Calabrese presents the autopsy report:\n\n'Cause of death: single gunshot wound. Entry through the left temple, exit through the right temple. Firing distance 30-50 cm, close range. Gunpowder residue is concentrated around the left temple.'\n\n'Based on body temperature and rigor mortis findings, estimated time of death: between 8:45 PM and 9:15 PM.'\n\n'General health: 62-year-old male, mild hypertension, fatty liver. No trace of alcohol or drugs in the body. Stomach contents: last meal taken approximately 4-5 hours prior pasta and red wine.'\n\n'Blood type: A Rh negative.'\n\nDr. Calabrese adds: 'An important detail: Franco was a left-handed man. A bullet entering the left temple indicates the killer was standing in front of him. Franco knew his killer.'",
+      "choices": [
+        {
+          "id": "c004a",
+          "text": "Examine the ballistics report",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004b",
+          "text": "Examine the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004c",
+          "text": "Check Franco's phone",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004d",
+          "text": "Examine the Cenere file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "otopsi_raporu",
+      "addCharacterNote": "Franco was killed by a single bullet to the left temple. He was left-handed; the killer stood facing him. Time of death: 8:45-9:15 PM.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_005",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "The ballistics laboratory. Expert Ferretti presents the report:\n\n'The bullet extracted from the victim's skull: 9mm Parabellum, full metal jacket. Rifling analysis points to a Beretta 92FS model.'\n\n'The weapon was not found at the scene. The serial number had been filed off.'\n\n'At least 12 Beretta 92FS models were identified in the Navarro family's weapons depot. However, this model is extremely common in Italy millions have been produced for both civilian and military use.'\n\nFerretti adds: 'The filed serial number indicates a professional job. But committing a murder with a Beretta 92FS in Naples is like driving a Fiat everyone uses them.'",
+      "choices": [
+        {
+          "id": "c005a",
+          "text": "Investigate the Navarro depot",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005b",
+          "text": "Examine the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005c",
+          "text": "Look at Franco's phone",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005d",
+          "text": "Go to the police archives",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "balistik_rapor",
+      "addCharacterNote": "Bullet: 9mm Beretta 92FS. Navarro depot has the same model, but it's an extremely common weapon. Serial number filed off professional job.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_006",
+      "type": "investigation",
+      "background": "depo_ic",
+      "characterId": null,
+      "text": "You examine the security camera at the depot entrance. An old model, bolted to the wall. Its cable has been cut.\n\nThe forensic technician stands beside you: 'See the cable? A single cut, clean, at precisely the right point. Whoever did this knew exactly where to cut. This wasn't random.'\n\nThe camera's recording device isn't in the depot it's at a neighboring farm 200 meters away. You obtain the recordings from the farm owner.\n\nThe footage: normal operation until 8:42 PM. At 8:42, a shadow appears but the face isn't visible. At 8:43, the picture goes dead. The cut is abrupt.\n\nThe technician: 'A professional cut. Requires military training or technical knowledge. Though you could also learn it from the internet it's not that difficult.'",
+      "choices": [
+        {
+          "id": "c006b",
+          "text": "Investigate the strange scent",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006c",
+          "text": "Check the autopsy report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006d",
+          "text": "Examine the depot lock",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "guvenlik_kamerası",
+      "addCharacterNote": "Camera cable was professionally cut. Shadow at 8:42 PM, footage cut at 8:43 PM. Military or technical knowledge indicated.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_007",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "You examine Franco's mobile phone. Police technical unit report:\n\nLast call record: a 47-second incoming call from an unknown number at 8:30 PM. The number is a registered prepaid line owner unidentifiable.\n\nCell tower analysis: the caller was in the Posillipo district. One of Naples' affluent neighborhoods.\n\nThree more short calls from the same number in previous days: 15, 22, and 8 seconds. Short calls the pattern of arranging a meeting.\n\nA deleted message was recovered: 'We need to talk about what I know about Lucia. Come to the depot.'\n\nThe message was sent from the same prepaid line.\n\nThe police chief: 'Who is Lucia? Is there a Lucia in Franco's past? This needs to be investigated.'",
+      "choices": [
+        {
+          "id": "c007a",
+          "text": "Search for Lucia in the police archives",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c007b",
+          "text": "Investigate the woman in the photograph",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c007c",
+          "text": "Return to the briefing notes",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c007d",
+          "text": "Examine the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "franco_telefon",
+      "addCharacterNote": "The person who lured Franco to the depot used Lucia's name. Caller was from the Posillipo district. Prepaid line, owner unknown.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_008",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "The file recovered from Franco's secret safe at his home: Operazione Cenere.\n\nA 200-page detailed investigation report. 6 months of work.\n\nFerrante family: drug smuggling through the port. Tommaso's name appears in 14 different shipments.\n\nConte family: money laundering through urban renewal projects. The church foundation connection documented in detail.\n\nLuciano family: Southern Italy's cocaine distribution network. A 20-year list of Salvatore's business partners.\n\nNavarro family: Mediterranean arms trade. Depot locations, hidden arsenals.\n\nOn the last page, a note in Franco's handwriting: 'When this file is complete, it will take them all down. I closed my eyes for 30 years. Enough.'\n\nLast updated: 3 days before the murder.",
+      "choices": [
+        {
+          "id": "c008a",
+          "text": "Examine the pages on the Ferrante family",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008b",
+          "text": "Check Franco's phone",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008c",
+          "text": "Examine the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008d",
+          "text": "Examine the autopsy report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "cenere_dosyasi",
+      "addCharacterNote": "Franco was preparing an operation to bring down all 4 families. A detailed 6-month document. Every family has an extremely strong motive.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_009",
+      "type": "investigation",
+      "background": "depo_ic",
+      "characterId": null,
+      "text": "You investigate the strange scent in the depot. A faint but distinct perfume lingers a scent that has no place in this dusty, abandoned warehouse.\n\nForensic scent analysis specialist Dott. Ferretti is called in. He analyzes the airborne compounds with a specialized device.\n\n'A perfume with bergamot, jasmine, sandalwood, and musk base. Custom-made or a very expensive brand. There are dozens of brands on the market using this combination found in both men's and women's fragrances.'\n\nFerretti continues: 'Based on the scent concentration and dispersal pattern, this perfume was left 2-3 hours ago. Consistent with the time of the murder. The scent is most concentrated where the victim was found meaning the killer was standing very close to Franco.'\n\n'We checked whether Franco wore perfume. According to the autopsy report, Franco did not wear perfume. This scent belongs to the killer.'\n\nFerretti adds a final note: 'We can't determine the exact brand, but this is no ordinary fragrance. Whoever wears this is wealthy and has refined taste.'",
+      "choices": [
+        {
+          "id": "c009b",
+          "text": "Check the security camera",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009c",
+          "text": "Examine the depot lock",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009d",
+          "text": "Check the autopsy report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "parfüm_kalintisi",
+      "addCharacterNote": "Expensive perfume scent detected in the depot. Franco didn't wear perfume the scent belongs to the killer. Consistent with the time of murder. Brand unidentifiable.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_011",
+      "type": "investigation",
+      "background": "depo_ic",
+      "characterId": null,
+      "text": "The depot's lock is old but functional. Locksmith expert Ferrara conducts an examination:\n\n'The lock wasn't forced. A key was used clean entry. No scratches inside the lock, no pick marks.'\n\nDepot records: property owned by the Navarro family. Official key distribution:\n1. Don Vittorio Navarro (property owner)\n2. Stefano Navarro (depot manager)\n3. Franco Moretti (per an old arrangement)\n\nThe expert adds: 'A copy of this type of old lock can be easily made. Any locksmith could duplicate it in 5 minutes. So whether someone with a key gave a copy to someone else we can't know.'\n\nNote: Franco reportedly used the depot for occasional private meetings. An old habit.",
+      "choices": [
+        {
+          "id": "c011b",
+          "text": "Check the security camera",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011c",
+          "text": "Examine Franco's phone",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011d",
+          "text": "Go to the police archives",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "depo_anahtari",
+      "addCharacterNote": "Depot key held by 3 people: Vittorio, Stefano, Franco. Lock not forced a key was used. Easy to duplicate.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_012",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "The police archives. You search through dusty filing cabinets for Lucia Ferrante.\n\nFile found: Lucia Ferrante, age 24. Enzo Ferrante's younger sister.\n\nMarch 17, 1995: found dead in her home. Official cause of death: suicide by hanging.\n\nThe file was closed within 2 weeks. The investigating commissioner: Franco Moretti.\n\nThe file is thin nearly empty. No autopsy was performed; burial authorization was granted directly at the family's request. A single witness statement: a neighbor saying 'she seemed unhappy in recent days.'\n\nA note at the end of the file: 'At the family's request, further investigation was deemed unnecessary. File closed. Commissioner Franco Moretti.'\n\nAttached to the file is a yellowed form: 'Patient follow-up form. Lucia F., Santa Maria Hospital, February-March 1995, multiple visits. Blood type: B Rh+.' The form is actually a photocopy, placed into the police file by the commissioner's office back in 1995. The original records now requested from the hospital are marked as missing from the archives; nothing remains except this photocopy.\n\nCivil registry: Lucia Ferrante, single, no children.\n\nAdditional note: Lucia's personal belongings are kept at Enzo Ferrante's residence. In a suitcase.",
+      "choices": [
+        {
+          "id": "c012a",
+          "text": "Talk to Enzo Ferrante",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012b",
+          "text": "Re-examine Franco's phone",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012c",
+          "text": "Examine the Cenere file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012d",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "lucia_ölüm",
+      "addCharacterNote": "Lucia Ferrante 'committed suicide' in 1995. Franco ran the investigation and closed the file quickly. No autopsy. Her belongings are at Enzo's house.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_013",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Phone operator records have arrived. All suspects' phone activity on the night of the murder:\n\nTommaso Ferrante stands out:\n- 7:30 PM: Called the warehouse manager at the port (3 min 47 sec)\n- 9:00 PM: Called his father Enzo (1 min 23 sec)\n- 10:15 PM: Called his sister Giulia (45 sec)\n\nInformant report: during the 9:00 PM call, Tommaso said: 'Father, I've taken care of it. There won't be a problem anymore.'\n\nOther records:\n- Salvatore Luciano: made no calls that night\n- Stefano Navarro: ordered pizza at 6:45 PM (his last call)\n- Bianca Luciano: called the pharmacy at 7:00 PM (2 min, likely checking on medication)\n\nThe police chief: 'Tommaso's timing is interesting. He says he took care of it at 9:00 PM. Franco died between 8:45 and 9:15 PM.'",
+      "choices": [
+        {
+          "id": "c013a",
+          "text": "Check the autopsy report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013c",
+          "text": "Examine the Cenere file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013d",
+          "text": "Search the police archives",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "tommaso_telefon",
+      "addCharacterNote": "Tommaso called his father at 9:00 PM saying 'I've taken care of it.' The timing matches the murder window. Bianca called the pharmacy at 7:00 PM.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_enzo",
+      "text": "Don Enzo Ferrante's villa in Posillipo. A room overlooking the sea. Enzo sits in his wheelchair, turned toward the window. His caregiver waits by the door.\n\nEnzo slowly turns. His eyes narrow when he sees you: 'Detective. So Franco Moretti's been killed, has he?'\n\nNo grief in his voice only ice: 'That man walked untouchable through this city for 30 years. Everyone's friend, everyone's protector. But I know what that man truly was.'\n\nHis hands grip the armrests of the wheelchair, knuckles turning white: 'Franco Moretti ruined my sister. Lucia... she was 24 years old. That bastard started an affair with her, then abandoned her. The great commissioner of Naples came along and toyed with my sister's life.'\n\nHis voice begins to tremble: 'Then Lucia died. And you know who closed the file? Franco Moretti. He closed it himself. Didn't even order an autopsy. We buried my sister, the file was shut in 2 weeks. I've carried this hatred for 30 years, Detective.'\n\nHe turns his wheelchair toward you: 'But look at me. I'm like this. A paralyzed man. How would I get to the depot? Who would carry me? That night I was at my villa with my caregiver. Ask him.'\n\nIn a cold, broken voice: 'I didn't kill Franco. But I'd shake the hand of whoever did. Ask Salvatore they were friends for 30 years. Broken friendships are the most dangerous.'",
+      "choices": [
+        {
+          "id": "c020a",
+          "text": "I want to talk about Lucia Ferrante",
+          "nextSceneId": "scene_048",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "lucia_ölüm"
+        },
+        {
+          "id": "c020b",
+          "text": "Let's discuss the port operations",
+          "nextSceneId": "scene_049",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "cenere_dosyasi"
+        },
+        {
+          "id": "c020c",
+          "text": "Talk to Giulia",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c020d",
+          "text": "Talk to Tommaso",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Enzo: despises Franco. Says he had an affair with his sister Lucia and closed her death file. In a wheelchair, paralyzed. Claims he was with his caregiver.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_022",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_giulia",
+      "text": "Giulia Ferrante is in the villa's study, surrounded by files. She sets down her pen when she sees you.\n\n'Detective. You know I won't speak on behalf of my clients. But personally, I can say this: Franco Moretti maintained the balance of this city for years. Now that balance is broken.'\n\nHer eyes harden: 'Franco wasn't a clean man. He took a cut from every family for years. And now suddenly he has a crisis of conscience and prepares an operation? Don't make me laugh. Either someone was using him, or he was playing his own game.'\n\nShe pauses for a moment: 'That night I was at my office, preparing a case file. My secretary Carla was there until 8:00 PM, then I sent her home. After that...' She begins turning her pen: 'After 8:00 PM I worked alone. I had some documents to... organize. Confidential documents, the family's legal strategy. Nobody needs to know about this.'\n\nHer voice drops: 'But let me tell you something. That night was the anniversary of the death of Silvana Conte's husband. Franco wanted to reopen that file. If Silvana found out... that woman would have someone killed with a smile on her face.'\n\nShe picks up her pen again: 'If you have no further questions, I need to get back to work.'",
+      "choices": [
+        {
+          "id": "c022a",
+          "text": "Talk to Enzo",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c022b",
+          "text": "Talk to Tommaso",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c022c",
+          "text": "Talk to the Conte family",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c022d",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Giulia: secretary left at 8:00 PM, then she was alone. Says she was 'organizing confidential documents' but gives no details. After 8:00 PM is unverifiable. Points to Silvana Conte.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_023",
+      "type": "dialogue",
+      "background": "liman",
+      "characterId": "suspect_tommaso",
+      "text": "Naples port. Among stacks of containers, Tommaso Ferrante greets you. Two intimidating men stand behind him.\n\n'So you're that detective, huh? Look, I'll tell you once listen carefully.'\n\nHe leans against the table: 'Franco Moretti was a dog. He fed off us for years, and now he was going to turn us in. The Cenere file? Yeah, we heard about it. Everyone heard about it. But I didn't kill him.'\n\nHis voice rises: 'That night I was at the port. Supervising the night shift. Check the cameras, ask my men they'll all confirm. I was here from 6 PM to 11 PM.'\n\nHe pauses for a moment, his eyes shifting: 'It's just... between 8:00 PM and 9:30 PM I was in the lower warehouse. There are no cameras down there. There was a special shipment I can't tell you what it was. But I was there, my men know.' His voice drops: 'I'd rather this part didn't go on the record.'\n\nHe points his finger at you: 'I said I took care of it on the phone, yes. There was a container arriving overnight I arranged for someone to handle customs so there wouldn't be a raid. This kind of thing goes on here every night. What did you think, that I was confessing to murder on the phone?'\n\nIn a sharp tone: 'The murder happened at the Navarro depot. With Navarro's weapons. Don't look at me look at Stefano. That man comes from Special Forces, a cold-blooded machine. He cut the camera cable using military techniques, filed off the serial number. Those are his methods.'",
+      "choices": [
+        {
+          "id": "c023a",
+          "text": "Talk to Enzo",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023b",
+          "text": "Talk to the Navarro family",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023c",
+          "text": "Examine the ballistics report",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_005"
+          ]
+        },
+        {
+          "id": "c023d",
+          "text": "Check the port cameras",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Tommaso: claims he was at the port but was in a camera-free lower warehouse from 8:00-9:30 PM, says 'special shipment,' gives no details. 'Took care of it' was about a container shipment, he says. Points to Stefano.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_025",
+      "type": "dialogue",
+      "background": "conte_malikane",
+      "characterId": "suspect_silvana",
+      "text": "The Conte estate. On the Vomero hill, a magnificent villa overlooking the city. Donna Silvana greets you on the garden veranda. Tea has been served.\n\nSilvana smiles: 'Detective, welcome. Would you like some tea? The finest Earl Grey in Naples.'\n\nAs she hands you a teacup: 'Franco Moretti is dead. Sad news. But everyone dies in this city eventually, don't they? What matters is how you lived.'\n\nHer eyes harden but her smile doesn't waver: 'That night I hosted a dinner for 8 guests here. I have guests, I have names they can all confirm. I had no business with Franco. My husband's death is a closed case. Whatever Franco was digging into is none of my concern.'\n\nShe takes a sip of tea: 'But if you're wondering who did it, look at the Ferrante boy, Tommaso. That kid was screaming on the phone for hours that night, from what I hear. Uncontrolled, aggressive a perfect murder profile.'\n\nShe gestures toward you: 'And Detective, a piece of advice: in this city, people who ask too many questions get too many answers. Sometimes it's better not to know.'",
+      "choices": [
+        {
+          "id": "c025a",
+          "text": "Let's talk about your husband's death",
+          "nextSceneId": "scene_050",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "cenere_dosyasi"
+        },
+        {
+          "id": "c025b",
+          "text": "Talk to Marco",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c025c",
+          "text": "Talk to Padre Ignazio",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c025d",
+          "text": "Talk to the Ferrante family",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Silvana: dinner party for 8 as alibi. Views her husband's death as a closed case. Points to Tommaso.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_027",
+      "type": "dialogue",
+      "background": "santiye",
+      "characterId": "suspect_marco",
+      "text": "The construction site in Vomero. Marco Conte is in the prefab office, curtains drawn, door locked. He checks behind him as he lets you in.\n\n'Come in, quick. They're watching me.'\n\nOnce seated, he begins whispering: 'Franco Moretti knew everything. The family's business, the bank accounts, the foundation money. Everything. And now he's dead. Coincidence? No.'\n\nHis hands are trembling: 'I just build things. I don't get involved in the dealings between my aunt Silvana and Padre Ignazio. Don't drag me into this. The foundation accounts are not my affair.'\n\nSuddenly his voice rises: 'They're all watching me! Silvana, Ignazio, the police, you! Everyone! So Franco was watching too is my name in the Cenere file?'\n\nHe calms down: 'That night I was at home. I locked the doors, drew the curtains. I saw no one, no one saw me. But let me tell you something: Padre Ignazio says he was at the church that night, but that man isn't at the church every night. Some nights he can't be found anywhere.'",
+      "choices": [
+        {
+          "id": "c027a",
+          "text": "Talk to Silvana",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027b",
+          "text": "Talk to Padre Ignazio",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027c",
+          "text": "Investigate the church foundation accounts",
+          "nextSceneId": "scene_041",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027d",
+          "text": "Examine the Cenere file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_008"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Marco: paranoid, thinks everyone is watching him. Home alone alibi, no one to verify. Says Padre Ignazio goes missing some nights.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_028",
+      "type": "dialogue",
+      "background": "kilise",
+      "characterId": "suspect_ignazio",
+      "text": "San Gennaro Church. Padre Ignazio greets you among the pews. Candles flicker, incense hangs in the air.\n\n'Welcome to the house of God, Detective. Is this a confession or an investigation?'\n\nHe smiles: 'Franco Moretti's death saddened us all. A sinful man, yes, but before God we are all sinners. I pray for him.'\n\nHe clasps his hands: 'That night I conducted the evening service. The congregation is my witness. It started at 7:00 PM, ended at 8:30 PM.'\n\nHis eyes dart to the door for a moment: 'After that... I had an appointment. Church foundation financial matters a meeting with a benefactor. I cannot reveal who I met; donor confidentiality. I returned to my quarters around 10:00 PM.' He folds his hands: 'You shouldn't ask beyond that, Detective. Church matters are church matters.'\n\nHis voice drops: 'Franco came to me in recent months. He wanted to confess. He seemed genuinely remorseful. He wanted to cleanse 30 years of sins. But of course, the contents of a confession are sacred I cannot tell you.'\n\nHe pauses: 'But I can tell you this: in this city, friends who betray are never forgiven. Salvatore Luciano was Franco's closest friend. And Franco was about to sell him out. An old friend's knife cuts the deepest. God forgives, but men do not.'",
+      "choices": [
+        {
+          "id": "c028a",
+          "text": "Let's discuss the church foundation accounts",
+          "nextSceneId": "scene_051",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "kilise_vakfi"
+        },
+        {
+          "id": "c028b",
+          "text": "Talk to Silvana",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c028c",
+          "text": "Talk to the Luciano family",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c028d",
+          "text": "Go to the police archives",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_012"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ignazio: service ended at 8:30 PM, then a 'confidential donor meeting' won't say who. 8:30-10:00 PM unverifiable. Points to Salvatore.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_030",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_salvatore",
+      "text": "The Luciano villa in Posillipo. A magnificent terrace overlooking the sea. Don Salvatore lights his cigar, gazing at the water.\n\n'Detective. Sit down.' His voice is heavy, weary.\n\n'Franco Moretti was my friend. For 30 years. I know what you're thinking: a broken friendship the most dangerous weapon. Yes, Franco was going to turn me in. I heard about the Cenere file. Everyone heard.'\n\nHe takes a deep drag from his cigar: 'But I don't kill friends, Detective. We have rules. There is honor, there is respect. Franco betrayed me, but I didn't kill him. I wouldn't end a 30-year friendship with a bullet.'\n\nSuddenly his voice hardens: 'And don't ask me these questions. He was my friend, do you understand? 30 years together. We ate together, we drank together, our children grew up at the same table. Franco was part of this family. No one in this city knew him better than I did.' He sets his cigar on the table, his hands trembling: 'You can't understand the bond between us, Detective. Some things are sacred.'\n\nHe takes a breath and calms down: 'That night we had a family dinner here. My daughter Bianca, my son Alessio, my accountant Roberto, two bodyguards. Everyone was here. Bianca felt a bit ill said her stomach was upset. She went up to her room for a while. Poor girl has anemia takes regular medication.'\n\nHe suddenly grows serious: 'The murder happened at the Navarro depot. With Navarro weapons. The camera was cut using their military methods. Vittorio puts on the shadow mayor act, but that man is the most dangerous person in this city. 73 years old, but his mind is 30.'",
+      "choices": [
+        {
+          "id": "c030a",
+          "text": "Do you recognize the woman in the photograph?",
+          "nextSceneId": "scene_052",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "sempre_fotoğraf"
+        },
+        {
+          "id": "c030b",
+          "text": "Talk to Alessio",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c030c",
+          "text": "Talk to Bianca",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c030d",
+          "text": "Talk to the Navarro family",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Salvatore: became defensive when asked about Franco, describes the relationship as sacred. 30-year friendship, children grew up at the same table. Family dinner alibi. Bianca fell ill (anemia). Points to Vittorio.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_032",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_alessio",
+      "text": "The back garden of the Luciano villa. Alessio sits by the pool, eyes bloodshot, hands trembling. A bottle of whiskey is more than half empty.\n\nHe laughs when he sees you: 'Oh, the detective is here! Welcome, welcome. Care for a drink? Life is short you've got to drink.'\n\nSuddenly serious: 'Uncle Franco is dead. Am I sad? I don't know. That man sat at our table for years, raised glasses with my father. And then he was sharpening a knife behind our backs? The Cenere file? Well, well.'\n\nHe stands up, wobbling: 'That night I was here for dinner. I drank a lot. Father, Bianca, accountant Roberto, the bodyguards. We were all here.'\n\nHe wipes his nose, eyes wandering: 'After dinner... I went out for some air. To the back of the garden. I don't know how long I was gone maybe 45 minutes. I was wasted.' His voice drops: 'I was going to meet someone, pick up some stuff you know what I mean. If my father hears about this, he'll kill me. Anyway, when I got back, Bianca had gone up to her room too said her stomach was upset, she has anemia. She was gone for about an hour. Then she came down looked pale, she always looks pale.'\n\nHis eyes light up: 'But if you ask me who did it, I say Stefano Navarro. That man kills like a machine. Cold-blooded, calculating, ex-Special Forces. Cutting camera cables, filing serial numbers, killing with a single shot. Those are his methods. Not street work a military operation.'",
+      "choices": [
+        {
+          "id": "c032a",
+          "text": "Talk to Salvatore",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032b",
+          "text": "Talk to Bianca",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032c",
+          "text": "Talk to the Navarro family",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032d",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Alessio: drunk and unstable. Went out for 45 min 'to get air' (drug buy), unverifiable. Said Bianca was also in her room for 1 hour. Points to Stefano.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_033",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_bianca",
+      "text": "The library of the Luciano villa. Bianca sits at the desk, journals and spreadsheets before her. She looks up when she sees you calm.\n\n'Detective, please.'\n\nQuiet, measured. She weighs every word: 'I've known Uncle Franco for years. He was my father's friend. His death saddened us all.'\n\n'That night I was at my father's house for a family dinner. Father, my brother Alessio, our accountant Roberto, the bodyguards. We were all together. During dinner I felt a bit nauseous I have anemia, you know, I take regular medication. I went up to my room to rest. I lay down for about an hour, then came back down.'\n\nHer eyes look at you, expressionless: 'I had no personal issue with Uncle Franco. I handle the family's accounting. I deal with numbers, not people.'\n\nShe pauses for a moment: 'The murder happened at the Navarro depot. The weapon is from the Navarro inventory. The camera was cut using military methods. Isn't that enough evidence?'\n\nIn a calm voice: 'If you're going to ask about my health, I have anemia. I get regular blood tests. I take iron supplements. Sometimes I get dizzy that's why I felt unwell at dinner too.'",
+      "choices": [
+        {
+          "id": "c033a",
+          "text": "Talk to Salvatore",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033b",
+          "text": "Talk to the Navarro family",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033c",
+          "text": "Investigate pharmacy records",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033d",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Bianca: very calm, expressionless. Family dinner alibi, rested in her room for 1 hour (anemia). Mentioned anemia. Pointed to the Navarro depot.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_035",
+      "type": "dialogue",
+      "background": "navarro_ofis",
+      "characterId": "suspect_vittorio",
+      "text": "An old palazzo in Spaccanapoli. Don Vittorio Navarro's office. Antique furniture, old maps of Naples on the walls. Vittorio greets you standing with his cane.\n\n'Detective. Please sit.'\n\nHe strikes his cane on the floor: 'Yes, the murder happened in my depot. Yes, the bullet matches my inventory. And yes, the camera was cut on my property. Every arrow points at me. How convenient, wouldn't you say?'\n\nHis eyes narrow: 'I'm 73 years old. I've lived in this city for 50 years. If I wanted someone killed, would I do it in my own depot, with my own weapons, in front of my own camera? Am I a fool?'\n\nHe sits down in his chair: 'That night I was at the mayor's reception. 200 people saw me. I was there until 11 PM. There are photographs, records, dozens of witnesses.'\n\nHe takes a deep breath: 'Franco had a key, per an old arrangement. Anyone who wanted could enter that depot. But the killer chose it to frame me. Someone is pointing at me, Detective. The question is: who, and why?'\n\nHe strikes his cane on the table: 'Look at Salvatore Luciano. A 20-year friendship turned sour. Broken friendships are the most dangerous weapons.'",
+      "choices": [
+        {
+          "id": "c035a",
+          "text": "Let's discuss the depot key",
+          "nextSceneId": "scene_053",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "depo_anahtari"
+        },
+        {
+          "id": "c035b",
+          "text": "Talk to Elena",
+          "nextSceneId": "scene_037",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035c",
+          "text": "Talk to Stefano",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035d",
+          "text": "Talk to the Luciano family",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Vittorio: mayor's reception alibi, 200 witnesses. Says he wouldn't be foolish enough to commit murder in his own depot. Claims he's being framed.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_037",
+      "type": "dialogue",
+      "background": "navarro_ofis",
+      "characterId": "suspect_elena",
+      "text": "Elena Navarro is in the side room of her father's office. A Gucci dress, pearl necklace. She greets you with a cold smile.\n\n'Detective. This conversation never happened you know that, don't you?'\n\nShe crosses her legs: 'My husband is a parliamentarian. I deal with politics. Franco Moretti's death could cause a political earthquake. If the Cenere file leaks to the press, everyone burns: politicians, police, businessmen. Everyone.'\n\nHer voice drops: 'That night I was at a gala with my husband. Hundreds of witnesses, photographs, social media posts. My alibi is rock solid.'\n\nShe pauses: 'But let me tell you something. In his last weeks, Franco was secretly meeting someone. I have my sources in this city. Franco kept going to the same place: that depot in the Campagna district. But not alone he was meeting someone. I don't know who, but word is it was a woman.'\n\nShe stands up: 'Look at Silvana Conte. That woman has the blood of ten people on every finger. What do you think she would do to Franco, who was reopening the investigation into her husband's death?'",
+      "choices": [
+        {
+          "id": "c037a",
+          "text": "Talk to Vittorio",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c037b",
+          "text": "Talk to Stefano",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c037c",
+          "text": "Talk to the Conte family",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c037d",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elena: gala alibi, hundreds of witnesses. Said Franco was meeting a woman at the depot. Points to Silvana Conte.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_038",
+      "type": "dialogue",
+      "background": "navarro_depo",
+      "characterId": "suspect_stefano",
+      "text": "The Navarro weapons depot. Stefano greets you at a metal table. Racks full of crates behind him. He sits upright military bearing.\n\n'Detective. Ask what you need to ask. My time is limited.'\n\nCold, measured: 'I locked up the depot that evening at 7:00 PM. Lock secure, inventory complete, no one inside. I went home, alone. I learned about the murder from the news the next day.'\n\n'Yes, I have a Special Forces background. Yes, I know how to cut a camera cable. Yes, I know how to handle a weapon. But if it had been me, I would have removed the camera entirely, not left a cut cable. And I wouldn't commit murder in my own depot, with my own weapons. This is amateur work.'\n\nHis jaw tightens: 'A Beretta 92FS? There are 12 in the depot. All registered, all accounted for. I ran an inventory check no missing weapons. The killer brought their own weapon.'\n\nWith a hard stare: 'Franco had a key to the depot he could come and go as he pleased. I don't know who he was meeting. But look at Tommaso Ferrante. Aggressive, uncontrolled. That kid tries to solve everything with brute force. A perfect murder profile.'\n\nHe stands: 'If you have further questions, relay them through my lawyer. This interview is over.'",
+      "choices": [
+        {
+          "id": "c038a",
+          "text": "Talk to Vittorio",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c038b",
+          "text": "Talk to the Ferrante family",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c038c",
+          "text": "Re-examine the ballistics report",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_005"
+          ]
+        },
+        {
+          "id": "c038d",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Stefano: locked the depot at 7:00 PM, went home alone, no one to verify. Entirely unverifiable from 7:00 PM to morning. Says inventory is complete. Points to Tommaso.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_040",
+      "type": "investigation",
+      "background": "eczane",
+      "characterId": null,
+      "text": "The Posillipo Central Pharmacy. Pharmacist Signor Bianchi opens the records.\n\n'Bianca Luciano, yes, she's a regular customer. Chronic iron deficiency anemia. She comes every month, picks up her medications. A very kind girl.'\n\nHe shows the records: 'Prescription medications: Ferrograd C iron supplement, Folic Acid 5mg, monthly Vitamin B12 injection. Last visit was 3 days before the incident.'\n\n'Her file also contains the latest blood test results. Hemoglobin 10.2, still low. Hematocrit 31 percent. MCV 72, microcytic anemia. Iron 28, low. Ferritin 8, very low.'\n\nThe pharmacist adds: 'A follow-up appointment was scheduled for 2 weeks later. Poor girl she always looks pale. Dizziness, fatigue. Anemia is a difficult condition.'",
+      "choices": [
+        {
+          "id": "c040a",
+          "text": "Investigate hospital records",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040b",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040c",
+          "text": "Go to the police archives",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040d",
+          "text": "Examine the Cenere file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "eczane_kaydi",
+      "addCharacterNote": "Bianca: chronic anemia, regular medication. Blood test results on file.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_041",
+      "type": "investigation",
+      "background": "kilise",
+      "characterId": null,
+      "text": "San Gennaro Church Foundation bank accounts. You examine the financial crimes unit report.\n\nDonations to the foundation over the last 3 years: a total of 4.7 million euros.\n\nDonors: 23 different companies. All linked to the Conte family's construction holding. Company names differ, but the founding partners, addresses, and accountants are the same.\n\nExpenditures from the foundation: transfers to various accounts under the name of 'charitable works.' Most of these accounts are in Switzerland and Malta. The money circled back and was withdrawn as cash.\n\nMoney flow diagram: construction companies > church foundation > offshore accounts > cash withdrawal.\n\nPadre Ignazio is the foundation's sole authorized signatory. Every transfer bears his signature.\n\nFranco Moretti had documented this scheme page by page in the Operazione Cenere file. This evidence alone would be enough to send Silvana and Ignazio to prison for decades.",
+      "choices": [
+        {
+          "id": "c041a",
+          "text": "Talk to Padre Ignazio",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c041b",
+          "text": "Talk to Silvana",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c041c",
+          "text": "Examine the Cenere file",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c041d",
+          "text": "Return to the crime scene",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kilise_vakfi",
+      "addCharacterNote": "4.7 million euros laundered through the church foundation. Padre Ignazio is the sole signatory. From Conte family companies to the foundation, then overseas.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_042",
+      "type": "investigation",
+      "background": "luciano_villa",
+      "characterId": null,
+      "text": "A thorough search is conducted at the Luciano villa. The search warrant is valid; the bodyguards protest but step aside.\n\nThe living room, kitchen, guest rooms are searched one by one. Expensive furniture, paintings, antique vases. A wealthy family's villa, but no concrete evidence of the crime.\n\nSalvatore's study is locked. His lawyer objects it cannot be opened without a judge's order.\n\nAlessio's room is messy. Empty whiskey bottles, ashtrays. A small bag of white powder in the nightstand drawer. Cocaine. No surprise logged, but unrelated to the murder.\n\nAccountant Roberto's guest room is spotless. Nothing there.\n\nMoving to Bianca's room. Orderly, simple. Italian literary classics on the bookshelf, anemia medications on the desk, and a few old newspapers. But a locked drawer catches your attention. The locksmith opens it.\n\nInside: a leather-bound journal. Italian poems and personal notes. Most themed around the sea, loss, and longing.\n\nOne page: 'Mother, the sea is searching for you again today. The waves whisper but no one hears.'\n\nAnother page: 'Some lies are so old they become truth. But the sea does not forget. The waves bring everything back.'\n\nThe last page, undated: 'I'm tired. This silence is consuming me.'\n\nBetween the journal's pages: a dried flower and an old postage stamp. The stamp is dated 1994, with a Naples postmark.\n\nAt the bottom of the drawer, an empty envelope. Sender: Rosa Luciano. Recipient: Bianca Luciano. Empty no letter. Dried tear stains on the envelope.\n\nNothing noteworthy found in the rest of the villa.",
+      "choices": [],
+      "addEvidence": "bianca_defteri",
+      "addCharacterNote": "Luciano villa searched. Cocaine found in Alessio's room. In Bianca's room: old newspapers and a personal journal in a locked drawer themes of the sea and loss, 1994 postage stamp.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_043",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Naples Santa Maria Hospital records. Medical histories of individuals related to the investigation.\n\nDon Salvatore Luciano, 67 years old:\nChronic heart failure (NYHA Class II), type 2 diabetes, hypertension, mild renal failure.\nRegular medications: Metformin 1000mg, Lisinopril 20mg, Aspirin 100mg, Furosemide 40mg.\nBlood type: O Rh positive.\nPacemaker follow-up: 2 months ago. Doctor's note: physical activity should be limited.\n\nGiulia Ferrante, 34 years old:\nRoutine checkup: 6 months ago. Blood type: A Rh negative. Mild migraines, stress-related. Medication: Sumatriptan as needed.\n\nRosa Luciano (deceased 2019, pancreatic cancer):\nBlood type: B Rh positive.\nAllergy: Penicillin.\nFinal treatment: chemotherapy, 6 cycles.\n\nStefano Navarro, 41 years old:\nEmergency room record: 8 months ago, dislocated shoulder during training. Blood type: AB Rh positive. Excellent overall health, military standards.\n\nBianca Luciano, 31 years old:\nChronic iron deficiency anemia. Under regular monitoring. Blood type: AB Rh negative.\n\nAlessio Luciano, 31 years old:\nEmergency room record: 4 months ago, broken hand from a bar fight. History of alcohol and substance use. Blood type: B Rh positive. Psychiatric consultation recommended, patient declined.\n\nElena Navarro, 38 years old:\nGynecological checkup: 3 months ago. Blood type: B Rh negative. Good overall health.",
+      "choices": [
+        {
+          "id": "c043a",
+          "text": "Examine pharmacy records",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043b",
+          "text": "Examine the Lucia Ferrante file",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043c",
+          "text": "Talk to Bianca",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043d",
+          "text": "Examine the autopsy report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "salvatore_hastane",
+      "addCharacterNote": "Hospital records: Salvatore O Rh+, Rosa B Rh+, Alessio B Rh+, Stefano AB Rh+, Giulia A Rh-, Elena B Rh-. Bianca under chronic anemia monitoring. Salvatore has a heart condition, limited physical activity.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044",
+      "type": "investigation",
+      "background": "ferrante_villa",
+      "characterId": null,
+      "text": "A thorough search is conducted at the Ferrante villa. Enzo watches from his wheelchair with a cold stare: 'Go ahead, search. We have nothing to hide here.'\n\nIn Enzo's study: 30 years of photographs politicians, judges, businessmen. A visual history of the power network, but not directly related to the investigation.\n\nIn Tommaso's room, a locked steel safe is found. Opened with the search warrant. Inside: a pistol Glock 19, 9mm. Licensed. The ballistics team examines it immediately, but the murder weapon was a Beretta 92FS this Glock doesn't match. Tommaso's closet contains port maps and container tracking lists. Could be evidence of smuggling, but not murder evidence.\n\nIn Giulia's office, a document shredder catches attention. In the nearby trash bin are paper shreds but the strips are cut too fine to reassemble. Giulia destroyed something after the murder. Family legal documents or something else unclear.\n\nNothing relevant to the investigation found in the rest of the villa.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ferrante villa searched. Glock 19 found in Tommaso's room but doesn't match the murder weapon. Giulia shredded documents contents unknown.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_045",
+      "type": "investigation",
+      "background": "conte_malikane",
+      "characterId": null,
+      "text": "A search is conducted at the Conte estate. Silvana smiles and grants permission: 'Go ahead, look everywhere. We have nothing to hide.'\n\nIn Silvana's bedroom, photographs of her husband Alberto are everywhere. A letter on the nightstand, in Silvana's handwriting: 'Someday there will be a reckoning.' Dated 2020, one year after her husband's death. A clear sentiment of vengeance but directed at whom is unclear.\n\nMarco's room is a museum of paranoia. Naples maps on the walls with colored pins and strings. Surveillance photographs: streets, buildings, license plate numbers. Marco watches everyone. Among the photographs are several of Franco Moretti, but they are lost among the others no special focus.\n\nIn Padre Ignazio's guest room at the estate, an expensive suitcase draws attention. Inside: a Swiss-made watch, Italian silk ties, and custom-tailored suits. Too luxurious for a priest. But not murder evidence.\n\nNothing relevant to the investigation found in the rest of the estate.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Conte estate searched. Silvana's revenge letter found but unclear who it targets. Marco surveils everyone. Ignazio's luxurious lifestyle is notable.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_046",
+      "type": "investigation",
+      "background": "navarro_ofis",
+      "characterId": null,
+      "text": "The Navarro family's office in Spaccanapoli and the adjacent depot are searched. Vittorio stands at the door with his cane: 'Everything is legal, everything is registered. Go ahead.'\n\nIn Stefano's office: military decorations, commando certificates, and old unit photographs. A gun cleaning kit is found in a drawer last use date unclear. But Stefano is the weapons depot manager a gun cleaning kit is normal.\n\nIn Vittorio's office: draft letters to politicians. The mayor, governor, parliamentarians. Vittorio's political network is extensive, but these are official correspondence not bribery evidence.\n\nThe depot's inventory records are examined. As Stefano stated, all weapons are registered and accounted for. There are 12 Beretta 92FS models all present. No missing weapons. The murder weapon didn't come from this depot or Stefano corrected the inventory. Impossible to prove.\n\nIn Elena's office drawer: a media contacts file. Journalists, editors, television producers. Elena controls the flow of information, but it's not murder evidence.\n\nNothing found in the search to advance the investigation.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Navarro property searched. No missing weapons in the inventory. Stefano has a gun cleaning kit but it's normal for his job. Elena controls media contacts.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_047",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "The newspaper archive at the Naples Municipal Library. Dusty microfilm machines and yellowed newspaper collections. You search for Franco Moretti, the Naples mafia, and names connected to the investigation.\n\n--- Il Mattino, April 12, 1995 ---\n'Ferrante Family Head and Commissioner's Secret Meeting'\nDon Enzo Ferrante and Chief Commissioner Franco Moretti met at a private restaurant in Posillipo. The content of the meeting is unknown. Sources say the meeting lasted 2 hours. Neither party made a statement.\n\n--- Il Mattino, June 14, 1997 ---\n'Grave Accusation from the Ferrante Family'\nDon Enzo Ferrante held a press conference, holding Chief Commissioner Franco Moretti responsible for the death of his sister Lucia Ferrante. The Ferrante family made no further comment.\n\n--- Corriere del Mezzogiorno, March 8, 2003 ---\n'Naples Mafia Trial: 47 Defendants in Court'\n47 defendants were tried at the Naples Criminal Court. The case involved drug trafficking in the Campagna district. 12 defendants were convicted; the rest were acquitted for insufficient evidence. The Ferrante and Luciano families were among those mentioned but not prosecuted.\n\n--- La Repubblica Napoli, October 22, 2005 ---\n'Port Raid: 200 Kilos of Cocaine Seized'\nIn an operation at the Naples port, 200 kilos of cocaine were found in a container. Chief Commissioner Franco Moretti told the press: 'There is no tolerance for crime in this city.' 3 people were arrested all low-level couriers.\n\n--- Il Mattino, November 5, 2016 ---\n'Naples Society's Night Life'\nPhotograph: Chief Commissioner Franco Moretti and businessman Don Salvatore Luciano dining together at Ristorante Don Alfonso. An intimate atmosphere, raising glasses. Caption: 'Two of Naples' most recognized figures were spotted at Don Alfonso last Saturday evening.'\n\n--- Corriere del Mezzogiorno, February 3, 2024 ---\n'Naples' Young Society: Love or Business?'\nTommaso Ferrante and Bianca Luciano were photographed together at a cafe in Posillipo. The closeness between the Ferrante and Luciano families sparked gossip. When journalist Marco Ferretti tried to get a comment, Bianca Luciano became very angry and gave a brief reply: 'In this city, journalists who ask too many questions don't live long.' The Ferrante and Luciano families made no comment on the matter.\n\nNo other noteworthy articles found in the archives.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Newspaper archive: in 1995, Enzo and Franco met in secret. In 1997, Enzo blamed Franco for Lucia's death. In 2016, Franco and Salvatore at an intimate dinner. In 2024, Tommaso and Bianca were seen together; Bianca reacted very angrily to the journalist.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_048",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_enzo",
+      "text": "You show Enzo Lucia's death file. His face tightens when he sees it.\n\n'Where did you find this?' His voice begins to tremble. 'I haven't seen that file in 30 years.'\n\nHe stares at the file for a long time: 'My sister was 24 years old. They said suicide. I never believed it. Franco closed that file in two weeks. Why did he rush it? I've been asking that question for 30 years.'\n\nHe slams his hand on the table: 'I hired lawyers, went to journalists. Filed with the prosecutor's office. No result. In this city, nobody could reopen a file that Franco Moretti had closed.'\n\nHe turns his wheelchair toward the window: 'What are you going to do with this file, Detective? Lucia has been in the ground for 30 years. You can't bring her back.'\n\nHe motions you toward the door: 'Go. I don't want to discuss this any further.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Enzo: became very agitated seeing Lucia's death file. Says he never believed the suicide story for 30 years. Tried to have the file reopened but failed.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_049",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_enzo",
+      "text": "You mention the Cenere file and port operations to Enzo. His eyes narrow.\n\n'Operation Cenere?' With a cold smile: 'For 30 years Franco made deals with every one of these families. He knew everyone's dirty laundry. And then what happened? He decided to play hero.'\n\nHe points his finger at you: 'I control the port, yes. That's no secret. Franco knew it too has known for 30 years. So why now? Why prepare an operation after being silent for 30 years?'\n\nHe shakes his head: 'Someone cornered Franco. Someone forced him to prepare the operation. He didn't do this of his own free will. Franco was a man who loved his comfort.'\n\nHe gestures toward the door: 'The port issue is no longer my concern. I'm in this chair. Ask the right questions, Detective.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Enzo: believes the Cenere operation wasn't Franco's own decision. Implies someone forced Franco into it.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_050",
+      "type": "dialogue",
+      "background": "conte_malikane",
+      "characterId": "suspect_silvana",
+      "text": "You ask Silvana about the Cenere file and her husband's death. Her smile vanishes.\n\n'My husband?' She slowly sets down her teacup. 'Antonio died 8 years ago. Heart attack. That's what the official report says.'\n\nHer eyes harden: 'I don't know what the Cenere file says, and I don't want to know. Franco Moretti managed all these families for years. He made deals with everyone, took a cut from everyone. Now someone killed him and everyone is looking at each other.'\n\nShe runs her fingers along the table: 'My husband was an honest businessman. Yes, the construction sector is tough. But Antonio didn't kill anyone, and no one killed him. He had a heart attack at 54. That's all.'\n\nShe stands: 'Don't bring up this subject again, Detective. Let my husband rest in peace. If you're looking for Franco's killer, look among the living.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Silvana: presents her husband's death as a heart attack, refuses any other explanation. Says she's not interested in the Cenere file.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_051",
+      "type": "dialogue",
+      "background": "kilise",
+      "characterId": "suspect_ignazio",
+      "text": "You ask Ignazio about the discrepancies in the church foundation accounts. His smile fades.\n\n'The foundation accounts?' He clasps his hands. 'Detective, the church foundation is an institution that has existed for centuries. Donations come in, they are spent on charitable works. Every cent is recorded.'\n\nHe pauses: 'Yes, some donors prefer to keep their identities confidential. That is their right. As a priest, I am bound to protect this confidentiality. A vow made before God cannot be broken.'\n\nHis voice drops: 'If you see a discrepancy in the accounts, there is a simple explanation. There may be accounting errors, old records may be incomplete. These are not crimes they are human errors.'\n\nHe opens his prayer book: 'Everyone has a sin in this city, Detective. My sin is forgiving too much. If you have no further questions, I need to prepare for the evening service.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ignazio: explains discrepancies in the foundation accounts as accounting errors. Values donor confidentiality, gives no names.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_052",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_salvatore",
+      "text": "You show Salvatore the photograph from Franco's pocket. The old photograph with 'Sempre, L.' written on the back.\n\nSalvatore looks at it. He lowers his cigar for a moment.\n\n'This photograph?' Something flickers across his face, but he recovers quickly. 'An old photograph. Dated 1989. Franco was a social man when he was young he met many women.'\n\nHe takes a drag from his cigar: 'The letter L? There are hundreds of names starting with L in this city. Laura, Luisa, Lina... I don't know who she is.'\n\nHe sets the photograph on the table: 'Franco was my friend, but I didn't know all his secrets. Everyone has a private life. I look after my own family he lived his own life.'\n\nHe gazes at the sea: 'Are you looking for a connection between this photograph and the murder? What could a photograph from 1989 have to do with a murder in 2026? Some things should stay in the past.'\n\nHe puts out his cigar: 'I can't help you with this.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Salvatore: says he doesn't recognize the woman in the photograph, but something flickered across his face for a moment. Lists random names for the letter L, avoids saying Lucia.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_053",
+      "type": "dialogue",
+      "background": "navarro_ofis",
+      "characterId": "suspect_vittorio",
+      "text": "You ask Vittorio about the depot key. He strikes his cane on the floor.\n\n'The key? Yes, I have the depot key. My son Stefano has one too. And Franco also had one per an old arrangement.'\n\nHe rises from his chair and walks to a map on the wall: 'That depot hasn't been actively used for 15 years. It was an old warehouse we emptied it. Franco asked for a key, so I gave him one. He would come and go from time to time I don't know what he was doing.'\n\nHe points to the Campagna district on the map: 'But let me tell you this: making a copy of that key is a 5-minute job. Any locksmith can do it. Have you checked the lock? It's an old-style lock zero security.'\n\nHe turns to you: 'I last entered that depot 3 years ago. Stefano hasn't been in a long time either. But Franco was going there regularly.'\n\nHe leans his cane against the table and sits down: 'Find who copied the key, and you'll find the killer. But that's not easy no locksmith keeps records in this neighborhood.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Vittorio: says duplicating the depot key is easy. 3 key holders: Vittorio, Stefano, Franco. But anyone could have made a copy.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_accusation",
+      "type": "accusation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Naples Police Headquarters. Chief Ferrara is waiting for you.\n\n'Detective, do you have enough evidence? Who are you accusing?'\n\nThis decision cannot be undone. Consider your evidence carefully.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    }
+  ],
+  "endings": [
+    {
+      "id": "correct_perfect",
+      "title": "The Silent City's Secret",
+      "description": "Bianca Luciano was arrested as Franco Moretti's killer. All evidence is complete.",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 3,
+      "epilogueText": "Bianca Luciano was arrested. The medical records revealed everything: Salvatore's blood type is O, Rosa's blood type is B. According to genetic principles, parents with O and B blood types cannot produce a child with AB blood type. But Bianca's blood type is AB Rh negative. Franco's blood type was A Rh negative, and Lucia Ferrante was type B. Parents with A and B blood types can produce an AB child. Bianca was not Salvatore's daughter she was the illegitimate child of Franco and Lucia. Two years ago, she discovered letters among her mother's old belongings and learned the truth. She held Franco responsible for her mother's death in 1995. She found the depot key among Lucia's belongings, lured Franco to the depot using Lucia's name, and standing face to face, killed him with a single bullet. At her trial, Bianca spoke only one sentence: 'He killed my mother. I simply settled the account.' Naples is silent once more."
+    },
+    {
+      "id": "correct_good",
+      "title": "Excellent Work, Detective!",
+      "description": "You found the right person and built a strong case!",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 2,
+      "epilogueText": "Bianca Luciano was arrested and sentenced to 20 years in prison. Outstanding work, Detective! Here is the true story: Bianca's blood type is AB, but her father Salvatore's blood type is O and her mother Rosa's blood type is B. Genetically, parents with O and B blood types cannot produce an AB child. Bianca's real father was Franco (blood type A), and her mother was Lucia Ferrante (blood type B). Two years ago, Bianca found letters among her mother's old belongings and discovered the truth. She held Franco responsible for her mother's death in 1995. She found the depot key among Lucia's belongings, lured Franco to the depot using Lucia's name, and killed him with a single bullet. A few more critical pieces of evidence and a life sentence could have been secured. But you accomplished the most important thing: Franco's killer was brought to justice!"
+    },
+    {
+      "id": "correct_weak",
+      "title": "Weak Case",
+      "description": "You found the right name but the evidence is insufficient.",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Bianca Luciano was taken into custody, but her lawyer demonstrated insufficient evidence. The court acquitted Bianca for lack of evidence. Bianca was released and left the country. Franco's killer was never officially convicted."
+    },
+    {
+      "id": "wrong_stefano",
+      "title": "False Trail",
+      "description": "You accused Stefano Navarro. Everything pointed to him, but he is innocent.",
+      "suspectAccused": "suspect_stefano",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Stefano Navarro was taken into custody. The depot was under his management, the camera cable was cut with military precision, the Beretta was from his inventory. Everything pointed to him. But a neighboring business's camera confirmed that Stefano left the depot at 7:00 PM that night. The real killer had carefully planned to direct all evidence toward Stefano. The real killer remained free."
+    },
+    {
+      "id": "wrong_tommaso",
+      "title": "False Confession",
+      "description": "You accused Tommaso Ferrante. What he 'took care of' was something else entirely.",
+      "suspectAccused": "suspect_tommaso",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Tommaso Ferrante was taken into custody. He had said 'I've taken care of it,' the timing matched, he had motive. But his witnesses confirmed that Tommaso was in the lower warehouse that night. He was in the camera-free lower warehouse between 8:00 and 9:30 PM, yes, but he appears on cameras before and after. What he 'took care of' was a smuggled container shipment overnight. Tommaso was released; the real killer was never caught."
+    },
+    {
+      "id": "wrong_salvatore",
+      "title": "An Old Friend's Grief",
+      "description": "You accused Don Salvatore. A broken friendship wasn't sufficient motive.",
+      "suspectAccused": "suspect_salvatore",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Salvatore Luciano was taken into custody. His 30-year friendship with Franco had soured; the operation would have brought him down. His motive was strong. But Salvatore's pacemaker records confirmed he was at home between 8:00 and 10:00 PM that night (pacemaker GPS data). The witnesses at the dinner table also supported his alibi. Salvatore was released."
+    },
+    {
+      "id": "wrong_vittorio",
+      "title": "The Shadow Mayor",
+      "description": "You accused Don Vittorio. It's his depot, but he wasn't there.",
+      "suspectAccused": "suspect_vittorio",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Vittorio Navarro was taken into custody. It was his depot, he had motive. But 200 people saw him at the mayor's reception he was there until 11 PM. Photographic evidence, reception records, dozens of witnesses. Vittorio's alibi proved rock solid. The real killer was never caught."
+    },
+    {
+      "id": "wrong_enzo",
+      "title": "The Paralyzed Chair",
+      "description": "You accused Don Enzo. A paralyzed man could not commit murder.",
+      "suspectAccused": "suspect_enzo",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Enzo Ferrante was taken into custody. His sister's death, old scores to settle with Franco... he had motive. But Enzo is wheelchair-bound and paralyzed from the waist down. Medical reports confirm this. Could he have had someone else do it? Unproven. Enzo was released."
+    },
+    {
+      "id": "wrong_silvana",
+      "title": "The Elegant Threat",
+      "description": "You accused Donna Silvana. She had motive but no evidence.",
+      "suspectAccused": "suspect_silvana",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Silvana Conte was taken into custody. Her husband's death, money laundering, Franco's investigation. Her motive was very strong. But 8 witnesses confirmed that she hosted a dinner for 8 that night. Silvana was released with a smile. 'I told you, Detective. You were looking at the wrong person.' The real killer was never caught."
+    },
+    {
+      "id": "wrong_bianca_weak",
+      "title": "Insufficient Evidence",
+      "description": "You accused Bianca but could not present enough evidence.",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "You accused Bianca, but all you had was suspicion. Her lawyer dismantled every piece of evidence one by one. Bianca was released and left the country. You found the right name, but justice requires evidence, Detective."
+    },
+    {
+      "id": "wrong_giulia",
+      "title": "Wrong Target",
+      "description": "You accused Giulia Ferrante. The family lawyer, but not the killer.",
+      "suspectAccused": "suspect_giulia",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Giulia Ferrante was taken into custody. Her name appeared in Franco's documents; she knew the family's affairs. But security footage confirmed she was in her office with her secretary that night. The real killer had already burned their black gloves. Giulia was released. The case was closed, but the truth never came out."
+    },
+    {
+      "id": "wrong_marco",
+      "title": "The Paranoid Innocent",
+      "description": "You accused Marco Conte. His paranoia made him suspicious, but he wasn't the killer.",
+      "suspectAccused": "suspect_marco",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Marco Conte was arrested. Closed curtains, seeing no one, his ties to the construction company — everything looked suspicious. But his home phone records showed Silvana called him four times that night — Marco was home the whole time. The real killer was escaping during those calls. Marco's paranoia turned out to be justified, but too late."
+    },
+    {
+      "id": "wrong_ignazio",
+      "title": "The Priest With Secrets",
+      "description": "You accused Padre Ignazio. He's involved in the laundering but didn't commit murder.",
+      "suspectAccused": "suspect_ignazio",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Padre Ignazio was detained. It was clear he helped launder money through the church, had ties to the Conte family. But hundreds of parishioners confirmed he led the evening mass. It was 20:30 when he left the church — the murder had already been committed. His dirty dealings came to light, but he wasn't the killer you were after."
+    },
+    {
+      "id": "wrong_alessio",
+      "title": "The Unstable Innocent",
+      "description": "You accused Alessio Luciano. An addict, unstable, but not the killer.",
+      "suspectAccused": "suspect_alessio",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Alessio Luciano was arrested. He claimed he'd stepped out for \"fresh air\" during dinner at his father's — the weakest alibi. The Luciano family's hatred of Franco was obvious. But his phone pinged a tower 3 km from the villa — the cocaine addict was high by a riverbank, crying at midnight. The real killer escaped during those hours."
+    },
+    {
+      "id": "wrong_elena",
+      "title": "The Politician's Wife",
+      "description": "You accused Elena Navarro. Political connections, family interests — but innocent.",
+      "suspectAccused": "suspect_elena",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Elena Navarro was taken in. She was at a gala with her husband, but as a woman protecting her family's interests she could have arranged much. However the gala had live television coverage all night; Elena was at the protocol table from 19:00 to 23:00. Her alibi was iron-clad. A political scandal began, but the real killer was still free."
+    }
+  ],
+  "hqLocations": [
+    {
+      "sceneId": "scene_002",
+      "label": "Crime Scene (Warehouse)",
+      "icon": "building.fill"
+    },
+    {
+      "sceneId": "scene_003",
+      "label": "Police Briefing",
+      "icon": "list.clipboard.fill"
+    },
+    {
+      "sceneId": "scene_004",
+      "label": "Autopsy / Forensics",
+      "icon": "cross.case.fill"
+    },
+    {
+      "sceneId": "scene_005",
+      "label": "Ballistics Report",
+      "icon": "target"
+    },
+    {
+      "sceneId": "scene_006",
+      "label": "Camera Footage",
+      "icon": "video.fill"
+    },
+    {
+      "sceneId": "scene_007",
+      "label": "Phone Records",
+      "icon": "phone.fill"
+    },
+    {
+      "sceneId": "scene_008",
+      "label": "Cenere File",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_009",
+      "label": "Perfume Analysis",
+      "icon": "flask.fill"
+    },
+    {
+      "sceneId": "scene_011",
+      "label": "Warehouse Key",
+      "icon": "key.fill"
+    },
+    {
+      "sceneId": "scene_012",
+      "label": "Lucia Death File",
+      "icon": "exclamationmark.triangle.fill"
+    },
+    {
+      "sceneId": "scene_042",
+      "label": "Luciano Villa",
+      "icon": "stethoscope"
+    },
+    {
+      "sceneId": "scene_043",
+      "label": "Hospital Records",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_044",
+      "label": "Ferrante Villa",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_045",
+      "label": "Conte Mansion",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_046",
+      "label": "Navarro Estate",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_047",
+      "label": "Newspaper Archive",
+      "icon": "newspaper.fill"
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "contra_n1",
+      "requires": [
+        "guvenlik_kamerası",
+        "parfüm_kalintisi"
+      ],
+      "statement1": {
+        "source": "Sofia Ferrara",
+        "text": "I never left the restaurant, I was with customers all night."
+      },
+      "statement2": {
+        "source": "Security Footage",
+        "text": "Sofia exited the back door at 23:15 and returned at 23:45."
+      },
+      "result": {
+        "text": "Sofia was missing for 30 minutes! Her claim she never left the restaurant collapses."
+      }
+    },
+    {
+      "id": "contra_n2",
+      "requires": [
+        "franco_telefon",
+        "tommaso_telefon"
+      ],
+      "statement1": {
+        "source": "Marco Valenti",
+        "text": "I didn't make any calls that night, my phone was off."
+      },
+      "statement2": {
+        "source": "Phone Records",
+        "text": "A call was made from Marco's phone to Sofia at 22:30."
+      },
+      "result": {
+        "text": "Marco says his phone was off but records show he called Sofia!"
+      }
+    },
+    {
+      "id": "contra_n3",
+      "requires": [
+        "kilise_vakfi",
+        "cenere_dosyasi"
+      ],
+      "statement1": {
+        "source": "Luca Moretti",
+        "text": "The family company is doing well, we have no financial problems."
+      },
+      "statement2": {
+        "source": "Bank Records",
+        "text": "Moretti company accounts show €800,000 in debt and tax liabilities."
+      },
+      "result": {
+        "text": "Luca is hiding the financial situation the company is in serious debt!"
+      }
+    },
+    {
+      "id": "contra_n4",
+      "requires": [
+        "depo_anahtari",
+        "parfüm_kalintisi"
+      ],
+      "statement1": {
+        "source": "Elena Romano",
+        "text": "I never entered the office, I don't even have a key."
+      },
+      "statement2": {
+        "source": "Fingerprint Report",
+        "text": "Elena's fingerprints were found on the office safe."
+      },
+      "result": {
+        "text": "Elena says she never entered the office but her fingerprints are on the safe!"
+      }
+    },
+    {
+      "id": "contra_n5",
+      "requires": [
+        "guvenlik_kamerası",
+        "tommaso_telefon"
+      ],
+      "statement1": {
+        "source": "Marco Valenti",
+        "text": "I didn't go to the port that night, I stayed home."
+      },
+      "statement2": {
+        "source": "Security Camera",
+        "text": "Marco's vehicle was spotted at the port at 00:30."
+      },
+      "result": {
+        "text": "Marco's car was spotted at the port! What was he doing there at midnight?"
+      }
+    },
+    {
+      "id": "contra_n6",
+      "requires": [
+        "cenere_dosyasi",
+        "balistik_rapor"
+      ],
+      "statement1": {
+        "source": "Sofia Ferrara",
+        "text": "I know nothing about smuggling, I'm just a chef."
+      },
+      "statement2": {
+        "source": "Expert Report",
+        "text": "The smuggling operation is integrated into the restaurant's supply chain requires insider knowledge."
+      },
+      "result": {
+        "text": "Smuggling runs through the restaurant's supply chain is it possible Sofia didn't know?"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_first_evidence",
+      "title": "İlk İz",
+      "icon": "magnifyingglass",
+      "description": "İlk delili topla",
+      "condition": "evidence_count_1"
+    },
+    {
+      "id": "ach_all_evidence",
+      "title": "Tam Koleksiyon",
+      "icon": "trophy.fill",
+      "description": "Tüm delilleri topla",
+      "condition": "evidence_count_all"
+    },
+    {
+      "id": "ach_perfect",
+      "title": "Kusursuz Adalet",
+      "icon": "star.fill",
+      "description": "Doğru katili bul, 3 yıldız al",
+      "condition": "perfect_ending"
+    },
+    {
+      "id": "ach_all_suspects",
+      "title": "Herkes Konuştu",
+      "icon": "bubble.left.and.bubble.right.fill",
+      "description": "Tüm şüphelileri sorgula",
+      "condition": "all_suspects_interviewed"
+    },
+    {
+      "id": "ach_first_xref",
+      "title": "Bağlantı",
+      "icon": "link",
+      "description": "İlk çapraz referansı bul",
+      "condition": "xref_count_1"
+    },
+    {
+      "id": "ach_all_xref",
+      "title": "Örümcek Ağı",
+      "icon": "network",
+      "description": "Tüm çapraz referansları bul",
+      "condition": "xref_count_all"
+    },
+    {
+      "id": "ach_wrong",
+      "title": "Yanlış Yol",
+      "icon": "xmark.circle.fill",
+      "description": "Yanlış suçlama yap",
+      "condition": "wrong_accusation"
+    },
+    {
+      "id": "ach_speed",
+      "title": "Hızlı Çözüm",
+      "icon": "bolt.fill",
+      "description": "15'ten az sahneyle doğru suçlama",
+      "condition": "speed_solve"
+    },
+    {
+      "id": "ach_family_secret",
+      "title": "Aile Sırrı",
+      "icon": "lock.fill",
+      "description": "Luciano ailesinin gizli gerçeğini keşfet",
+      "condition": "blood_chain"
+    },
+    {
+      "id": "ach_lucia",
+      "title": "Lucia'nın Gerçeği",
+      "icon": "heart.fill",
+      "description": "Lucia Ferrante'nin hikayesini keşfet",
+      "condition": "lucia_truth"
+    }
+  ],
+  "evidenceReactions": [
+    {
+      "characterId": "suspect_enzo",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "nervous",
+      "dialogue": "Enzo soğuk bir gülümsemeyle bakıyor. 'Franco operasyon mu hazırlıyormuş? 30 yıl boyunca gözlerini kapattı, şimdi mi açıyormuş?'",
+      "note": "Enzo operasyonu küçültüyor."
+    },
+    {
+      "characterId": "suspect_enzo",
+      "evidenceId": "lucia_ölüm",
+      "reaction": "angry",
+      "dialogue": "Enzo'nun yüzü kaskatı kesiliyor. 'Lucia'yı mı soruyorsun bana? Franco'nun kardeşime ne yaptığını biliyorum. Dosyayı o kapattı.'",
+      "note": "Enzo, Lucia konusunda kontrolünü kaybetti."
+    },
+    {
+      "characterId": "suspect_enzo",
+      "evidenceId": "sempre_fotoğraf",
+      "reaction": "angry",
+      "dialogue": "Enzo fotoğrafı görünce donuyor. 'Bu... bu Lucia. Kardeşim. O alçak bunu yıllarca cebinde taşımış. Sempre yazmış arkasına.'",
+      "note": "Enzo fotoğraftaki kadının Lucia olduğunu hemen tanıdı."
+    },
+    {
+      "characterId": "suspect_giulia",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "defensive",
+      "dialogue": "Giulia dosyaya bakıyor. 'Muvekkillerim adına konuşmayacağım. Franco yıllardır herkesten rüşvet alıyordu, şimdi mi temize çıkacaktı?'",
+      "note": "Giulia avukat refleksiyle cevap verdi."
+    },
+    {
+      "characterId": "suspect_giulia",
+      "evidenceId": "tommaso_telefon",
+      "reaction": "defensive",
+      "dialogue": "Giulia kalemini bırakıyor. 'Kardeşim aptal değil. Limanda iş yapıyordu, o kadar.'",
+      "note": "Giulia kardeşini savunuyor."
+    },
+    {
+      "characterId": "suspect_tommaso",
+      "evidenceId": "balistik_rapor",
+      "reaction": "defensive",
+      "dialogue": "Tommaso geriye yaslanıyor. 'Beretta mı? Herkesin cebinde Beretta var bu şehirde. Navarro'ların deposuna git.'",
+      "note": "Tommaso suçu Navarro'lara atıyor."
+    },
+    {
+      "characterId": "suspect_tommaso",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "angry",
+      "dialogue": "Tommaso'nun yüzü kızarıyor. 'Benim adım iddianamede mi? Yıllardır avucumuzdan yiyordu!' Masaya yumruk vuruyor.",
+      "note": "Tommaso gerçekten şok oldu."
+    },
+    {
+      "characterId": "suspect_silvana",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "calm",
+      "dialogue": "Silvana gülümsemesini koruyor. 'Franco 30 yıldır herkesten pay alıyor. Vicdan azabı çekip operasyon mu hazırlıyormuş? Güldürmeyin beni.'",
+      "note": "Silvana Franco'nun samimiyetine inanmıyor."
+    },
+    {
+      "characterId": "suspect_silvana",
+      "evidenceId": "lucia_ölüm",
+      "reaction": "calm",
+      "dialogue": "Silvana kaslarını kaldırıyor. 'Lucia Ferrante mi? Enzo'nun kız kardeşi. Zavallı kız. Ama benimle ne alakası var?'",
+      "note": "Silvana uzak duruyor."
+    },
+    {
+      "characterId": "suspect_marco",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "nervous",
+      "dialogue": "Marco terlemeye başlıyor. 'Beni de mi izliyormuş? Herkes beni izliyor!' Ayağa kalkıyor, sonra tekrar oturuyor.",
+      "note": "Marco paranoyası artıyor."
+    },
+    {
+      "characterId": "suspect_ignazio",
+      "evidenceId": "kilise_vakfi",
+      "reaction": "calm",
+      "dialogue": "Padre Ignazio ellerini birleştirip dua eder gibi yapıyor. 'Kilise bağışları gizlidir, Dedektif. Tanrı ile kul arasındaki emanettir.'",
+      "note": "Ignazio dini kalkan olarak kullanıyor."
+    },
+    {
+      "characterId": "suspect_ignazio",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "calm",
+      "dialogue": "Ignazio başını sallıyor. 'Franco iyi bir adamdı ama kaybolmuş bir ruhtu. Tanrı affeder ama ihanet eden dostlar affetmez.'",
+      "note": "Ignazio dini metafor kullandı."
+    },
+    {
+      "characterId": "suspect_salvatore",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "sad",
+      "dialogue": "Salvatore uzun süre sessiz kalıyor. 'Franco... otuz yıl yanında durdum. Ve o beni ele verecekti.' Gözleri nemleniyor.",
+      "note": "Salvatore gerçekten yaralı görünüyor."
+    },
+    {
+      "characterId": "suspect_salvatore",
+      "evidenceId": "sempre_fotoğraf",
+      "reaction": "thoughtful",
+      "dialogue": "Salvatore fotoğrafı alıyor, uzun uzun bakıyor. 'Bu kadın... hatırlıyorum sanki. Ama nereden bilmiyorum.'",
+      "note": "Salvatore fotoğraftaki kadını tanıyor olabilir."
+    },
+    {
+      "characterId": "suspect_alessio",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "angry",
+      "dialogue": "Alessio kahkaha atıyor. 'Babamı ele verecekti ha? Yıllardır soframıza oturuyordu!' Bir an ciddileşiyor. 'Babam bunu bilseydi...'",
+      "note": "Alessio soğuk bir şey söylüyordu ama durdu."
+    },
+    {
+      "characterId": "suspect_alessio",
+      "evidenceId": "otopsi_raporu",
+      "reaction": "calm",
+      "dialogue": "Alessio tiksinerek bakıyor. 'Tek kurşun, sol şakak. Temiz iş. Profesyonel iş. Stefano'ya sor.'",
+      "note": "Alessio Stefano'yu işaret ediyor."
+    },
+    {
+      "characterId": "suspect_bianca",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "calm",
+      "dialogue": "Bianca dosyaya sakin bakıyor. 'Babam bu dosyayı bilseydi çok üzülürdü. Franco amcayla yıllardır dostlardı.'",
+      "note": "Bianca son derece sakin, fazla sakin."
+    },
+    {
+      "characterId": "suspect_bianca",
+      "evidenceId": "sempre_fotoğraf",
+      "reaction": "nervous",
+      "dialogue": "Bianca fotoğrafı alıyor. Bir an gözleri kadının yüzünde kalıyor. 'Tanımıyorum.' Hemen geri veriyor.",
+      "note": "Bianca fotoğrafa bakarken kısa bir duygu yaşadı."
+    },
+    {
+      "characterId": "suspect_bianca",
+      "evidenceId": "parfüm_kalintisi",
+      "reaction": "calm",
+      "dialogue": "Bianca omuz silkiyor. 'Parfüm mü? Bu şehirde herkes parfüm kullanır, Dedektif.'",
+      "note": "Bianca parfüme ilgi göstermedi."
+    },
+    {
+      "characterId": "suspect_vittorio",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "angry",
+      "dialogue": "Vittorio ağır bir nefes alıyor. 'Franco bizi ele verecekti. Hepimizi. Bu şehirde bizi ele veren adam fazla yaşayamaz. Ama ben yapmadım.'",
+      "note": "Vittorio motifi kabul ediyor ama suçu reddediyor."
+    },
+    {
+      "characterId": "suspect_vittorio",
+      "evidenceId": "balistik_rapor",
+      "reaction": "calm",
+      "dialogue": "Vittorio soğuk bakıyor. 'Beretta 92FS mı? İtalya'nın en yaygın silahı. Şehirdeki her silahçıda var.'",
+      "note": "Vittorio silah bağlantısını küçültüyor."
+    },
+    {
+      "characterId": "suspect_stefano",
+      "evidenceId": "balistik_rapor",
+      "reaction": "calm",
+      "dialogue": "Stefano omuz silkiyor. 'Depoda o silahlardan düzinelerce var. Ama hepsi kayıtlı. Eksik silah yok.'",
+      "note": "Stefano envanter kontrolüne işaret ediyor."
+    },
+    {
+      "characterId": "suspect_stefano",
+      "evidenceId": "guvenlik_kamerası",
+      "reaction": "calm",
+      "dialogue": "Stefano dik oturuyor. 'Kamera kablosu kesilmiş, profesyonel iş. Ben olsaydım kamerayı tamamen sökerdim.'",
+      "note": "Stefano profesyonel iş yapanın kendisi olmadığını iddia ediyor."
+    },
+    {
+      "characterId": "suspect_elena",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "nervous",
+      "dialogue": "Elena gözlerini kısarak bakıyor. 'Bu dosya kocamın kariyerini de etkiler. Eğer basına sızarsa herkes yanar.'",
+      "note": "Elena siyasi sonuçlardan endişeli."
+    }
+  ],
+  "microExpressions": [
+    {
+      "id": "me_bianca_foto",
+      "characterId": "suspect_bianca",
+      "triggerScene": "scene_033",
+      "displayText": "Bianca'nın parmakları fotoğrafın kenarında bir an durdu.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_bianca_lucia",
+      "characterId": "suspect_bianca",
+      "triggerScene": "scene_033",
+      "displayText": "Bianca yutkundu.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_enzo_lucia",
+      "characterId": "suspect_enzo",
+      "triggerScene": "scene_020",
+      "displayText": "Enzo'nun sağ eli titredi.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_salvatore_foto",
+      "characterId": "suspect_salvatore",
+      "triggerScene": "scene_030",
+      "displayText": "Salvatore'nin bakışları bir an uzaklaştı.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_tommaso_telefon",
+      "characterId": "suspect_tommaso",
+      "triggerScene": "scene_023",
+      "displayText": "Tommaso'nun boyun damarları gerildi.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_stefano_kamera",
+      "characterId": "suspect_stefano",
+      "triggerScene": "scene_038",
+      "displayText": "Stefano'nun çenesi bir an kısıldı.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_silvana_cenere",
+      "characterId": "suspect_silvana",
+      "triggerScene": "scene_025",
+      "displayText": "Silvana'nın gülümsemesi bir saniye dondu.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_ignazio_vakif",
+      "characterId": "suspect_ignazio",
+      "triggerScene": "scene_028",
+      "displayText": "Ignazio'nun elleri kavuştu.",
+      "timeWindow": 3.0
+    }
+  ],
+  "suspectAvailability": {
+    "suspect_enzo": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Don Enzo şu anda muayenede. Daha sonra gelin."
+    },
+    "suspect_giulia": {
+      "availableHours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "unavailableMsg": "Avukat Giulia mahkemede. Akşama gelin."
+    },
+    "suspect_tommaso": {
+      "availableHours": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "unavailableMsg": "Tommaso limanda. Sabah gelin."
+    },
+    "suspect_silvana": {
+      "availableHours": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Donna Silvana misafir kabul etmiyor."
+    },
+    "suspect_marco": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "unavailableMsg": "Marco şantiyede. Akşama gelin."
+    },
+    "suspect_ignazio": {
+      "availableHours": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Padre Ignazio ayin yönetiyor."
+    },
+    "suspect_salvatore": {
+      "availableHours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "unavailableMsg": "Don Salvatore dinleniyor."
+    },
+    "suspect_alessio": {
+      "availableHours": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "unavailableMsg": "Alessio bulunamadı. Öğleden sonra deneyin."
+    },
+    "suspect_bianca": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Bianca şu anda müsait değil."
+    },
+    "suspect_vittorio": {
+      "availableHours": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "unavailableMsg": "Don Vittorio belediyede."
+    },
+    "suspect_elena": {
+      "availableHours": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "unavailableMsg": "Elena Navarro toplantıda."
+    },
+    "suspect_stefano": {
+      "availableHours": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Stefano depoda. Sabah erken gelin."
+    }
+  },
+  "suspectNetwork": {
+    "nodes": [
+      {
+        "id": "victim_franco",
+        "label": "Franco Moretti",
+        "type": "victim"
+      },
+      {
+        "id": "suspect_enzo",
+        "label": "Enzo",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_giulia",
+        "label": "Giulia",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_tommaso",
+        "label": "Tommaso",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_silvana",
+        "label": "Silvana",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_marco",
+        "label": "Marco",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_ignazio",
+        "label": "Ignazio",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_salvatore",
+        "label": "Salvatore",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_alessio",
+        "label": "Alessio",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_bianca",
+        "label": "Bianca",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_vittorio",
+        "label": "Vittorio",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_elena",
+        "label": "Elena",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_stefano",
+        "label": "Stefano",
+        "type": "suspect"
+      },
+      {
+        "id": "npc_lucia",
+        "label": "Lucia Ferrante",
+        "type": "npc"
+      }
+    ],
+    "connections": [
+      {
+        "from": "suspect_enzo",
+        "to": "suspect_giulia",
+        "type": "family",
+        "label": "Father - Daughter",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_enzo",
+        "to": "suspect_tommaso",
+        "type": "family",
+        "label": "Father - Son",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_silvana",
+        "to": "suspect_marco",
+        "type": "family",
+        "label": "Aunt - Nephew",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_silvana",
+        "to": "suspect_ignazio",
+        "type": "business",
+        "label": "Spiritual Advisor",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_salvatore",
+        "to": "suspect_alessio",
+        "type": "family",
+        "label": "Father - Son",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_salvatore",
+        "to": "suspect_bianca",
+        "type": "family",
+        "label": "Social Father",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_vittorio",
+        "to": "suspect_elena",
+        "type": "family",
+        "label": "Wife (MP)",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_vittorio",
+        "to": "suspect_stefano",
+        "type": "family",
+        "label": "Stepfather",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_enzo",
+        "type": "rivalry",
+        "label": "Port Operation",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_silvana",
+        "type": "rivalry",
+        "label": "Husband's Death Probe",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_salvatore",
+        "type": "rivalry",
+        "label": "Drug Case",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_vittorio",
+        "type": "rivalry",
+        "label": "Arms Trafficking",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "npc_lucia",
+        "type": "romantic",
+        "label": "Secret Affair (1995)",
+        "strength": 3,
+        "requires": [
+          "lucia_iliskisi"
+        ]
+      },
+      {
+        "from": "npc_lucia",
+        "to": "suspect_enzo",
+        "type": "family",
+        "label": "Sister",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "npc_lucia",
+        "to": "suspect_bianca",
+        "type": "family",
+        "label": "Biological Mother",
+        "strength": 3,
+        "requires": [
+          "bianca_dna"
+        ]
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_bianca",
+        "type": "family",
+        "label": "Biological Father",
+        "strength": 3,
+        "requires": [
+          "bianca_dna"
+        ]
+      },
+      {
+        "from": "suspect_bianca",
+        "to": "suspect_tommaso",
+        "type": "family",
+        "label": "Biological Cousin",
+        "strength": 2,
+        "requires": [
+          "bianca_tommaso"
+        ]
+      },
+      {
+        "from": "suspect_enzo",
+        "to": "suspect_silvana",
+        "type": "business",
+        "label": "Family Alliance",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_salvatore",
+        "to": "suspect_vittorio",
+        "type": "business",
+        "label": "Arms - Drugs Alliance",
+        "strength": 1,
+        "requires": []
+      }
+    ]
+  },
+  "newspaperArticles": [
+    {
+      "id": "news_initial",
+      "requires": null,
+      "headline": "SHOCK IN NAPLES: CHIEF COMMISSIONER ASSASSINATED",
+      "subheadline": "Franco Moretti found dead in Campagna",
+      "body": "Franco Moretti, 30-year chief of Naples Organized Crime Unit, was found dead in an abandoned olive-oil warehouse with a single bullet to the head. The weapon is missing. In his pocket, a 1989 photograph with 'Sempre, L.' written on the back. Police are examining four mafia families.",
+      "source": "Il Mattino"
+    },
+    {
+      "id": "news_investigation",
+      "requires": null,
+      "headline": "MORETTI CASE: 4 FAMILIES UNDER SUSPICION",
+      "subheadline": "Ferrante, Conte, Luciano, Navarro",
+      "body": "It has emerged that Moretti had been preparing an operation over the last six months that would dismantle every major family. All four have motive. Yet the style (single bullet, professional) differs from classic mafia work. The inquiry is also considering a figure beyond the families.",
+      "source": "Corriere del Mezzogiorno"
+    },
+    {
+      "id": "news_lucia",
+      "requires": [
+        "lucia_iliskisi"
+      ],
+      "headline": "1995'S FORGOTTEN FILE: LUCIA FERRANTE",
+      "subheadline": "A secret tie between Moretti and the Ferrante family",
+      "body": "The Lucia Ferrante file, closed as 'suicide' 30 years ago, is being reopened. The investigation has reached documents indicating a secret affair between Lucia and then-commissioner Franco Moretti. The 'Sempre, L.' photograph confirms the link. This connection adds a new dimension to Moretti's murder.",
+      "source": "La Repubblica Napoli"
+    },
+    {
+      "id": "news_bianca",
+      "requires": [
+        "bianca_dna"
+      ],
+      "headline": "DNA SHOCK: A SECRET OF NAPLES SOCIETY",
+      "subheadline": "Bianca Luciano's real parents revealed",
+      "body": "Forensic reports show that the Luciano family's young member Bianca's biological parents are Franco Moretti and Lucia Ferrante. A 30-year secret was resolved in 15 minutes. The finding is considered directly related to Moretti's murder.",
+      "source": "Il Mattino"
+    },
+    {
+      "id": "news_reputation_high",
+      "requires": null,
+      "headline": "DETECTIVE MAKING THE DIFFERENCE IN NAPLES",
+      "subheadline": "Breaking through the mafia impasse",
+      "body": "Despite mafia silence, the detective is reportedly assembling micro-evidence. Sources say the real culprit may not come from the main families.",
+      "source": "Corriere del Mezzogiorno"
+    },
+    {
+      "id": "news_reputation_low",
+      "requires": null,
+      "headline": "MORETTI CASE STALLED",
+      "subheadline": "Omerta wall unbroken",
+      "body": "No progress in the assassination investigation of Naples' chief commissioner. Coordinated silence from mafia families and witness fear have frozen the inquiry. The public awaits answers.",
+      "source": "La Repubblica Napoli"
+    }
+  ],
+  "pressEvents": [
+    {
+      "id": "press_day1",
+      "reporterName": "Marco Ferretti",
+      "outlet": "Il Mattino",
+      "question": "Detective, which family killed Moretti?",
+      "options": [
+        {
+          "text": "The investigation is not reducible to families. Be patient.",
+          "effect": "managed",
+          "reputationDelta": 3,
+          "note": "Professional answer."
+        },
+        {
+          "text": "We are investigating the Luciano family.",
+          "effect": "leak",
+          "reputationDelta": -5,
+          "note": "Information leaked."
+        },
+        {
+          "text": "(Walk away without answering)",
+          "effect": "ignore",
+          "reputationDelta": -2,
+          "note": "Press ignored."
+        }
+      ],
+      "triggerAfterScenes": 3
+    },
+    {
+      "id": "press_day2",
+      "reporterName": "Isabella Romano",
+      "outlet": "Corriere del Mezzogiorno",
+      "question": "Has the Lucia Ferrante file been reopened? Is it connected?",
+      "options": [
+        {
+          "text": "All historical links are under review. It is not time to comment.",
+          "effect": "managed",
+          "reputationDelta": 4,
+          "note": "Measured reply."
+        },
+        {
+          "text": "I can say the Lucia file may be directly linked to this murder.",
+          "effect": "hint",
+          "reputationDelta": 0,
+          "note": "Hint given to press."
+        },
+        {
+          "text": "A 30-year-old file is not the press's business.",
+          "effect": "hostile",
+          "reputationDelta": -4,
+          "note": "Harsh reply."
+        }
+      ],
+      "triggerAfterScenes": 9
+    }
+  ]
+}

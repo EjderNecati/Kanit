@@ -1,0 +1,3255 @@
+{
+  "id": "istanbul-001",
+  "title": "Karanlık Sular",
+  "subtitle": "İstanbul, 2024",
+  "city": "İstanbul",
+  "description": "Ünlü iş insanı Kenan Arslanlı, Boğaz'daki yalısında ölü bulunur. Resmi rapor kalp krizi diyor ama gerçek çok daha karanlık...",
+  "coverImage": "bogaz_gece",
+  "difficulty": 1,
+  "isPremium": false,
+  "characters": [
+    {
+      "id": "suspect_elif",
+      "name": "Elif Arslanlı",
+      "age": 45,
+      "occupation": "Ev hanımı / Sosyetik",
+      "relationToVictim": "Eşi",
+      "portraitImage": "portrait_elif",
+      "isSuspect": true,
+      "alibi": "O gece erken yattım. Sabah kahvaltı hazırlamak için aşağı indiğimde onu koltuğun üzerinde hareketsiz buldum."
+    },
+    {
+      "id": "suspect_burak",
+      "name": "Burak Arslanlı",
+      "age": 28,
+      "occupation": "Şirket müdürü",
+      "relationToVictim": "Oğlu",
+      "portraitImage": "portrait_burak",
+      "isSuspect": true,
+      "alibi": "Babamla aramız bozuktu, kabul ediyorum. Ama o gece İzmir'deydim, iş toplantısı vardı. Uçak biletim var."
+    },
+    {
+      "id": "suspect_deniz",
+      "name": "Deniz Korkmaz",
+      "age": 52,
+      "occupation": "İş ortağı / CEO",
+      "relationToVictim": "İş ortağı (20 yıllık)",
+      "portraitImage": "portrait_deniz",
+      "isSuspect": true,
+      "alibi": "Kenan'la son görüşmemiz o gün öğlen oldu. Şirketle ilgili konuları konuştuk. Akşam evdeydim, karım teyit edebilir."
+    },
+    {
+      "id": "suspect_selin",
+      "name": "Selin Yıldız",
+      "age": 31,
+      "occupation": "Özel asistan",
+      "relationToVictim": "Kişisel asistanı",
+      "portraitImage": "portrait_selin",
+      "isSuspect": true,
+      "alibi": "Saat 6'da ofisten ayrıldım. Eve gittim. O geceden sonra bir daha ofise gitmedim."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "supheli_cay",
+      "title": "Şüpheli Çay Bardağı",
+      "description": "Kurbanın masasındaki yarım içilmiş çay bardağı. Rengi bulanık ve dibinde tuhaf bir tortu var laboratuvar analizi gerekiyor.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "yanmis_kagit",
+      "title": "Yanmış Kağıt Parçası",
+      "description": "Şöminede bulunan yarım yanmış belge. Üzerinde 'sigorta poliçesi' ve '3 ay içinde' ifadeleri okunabiliyor. Birisi bu belgeyi yok etmeye çalışmış.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "otopsi_raporu",
+      "title": "Otopsi Raporu",
+      "description": "Kenan Arslanlı'nın adli tıp raporu. Ölüm sebebi kalp krizi değil, kanda yüksek dozda dijital glikozit tespit edildi. Bu bir zehirlenme vakası.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "guvenlik_kamerasi",
+      "title": "Güvenlik Kamerası Kaydı",
+      "description": "Yalının güvenlik kamerası görüntüleri. Elif Arslanlı saat 22:04'te dışarı çıkıyor, 23:28'de elinde küçük bir çantayla dönüyor. Erken yattığını söyleyen ifadesiyle çelişiyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_elif",
+      "eliminates": null
+    },
+    {
+      "id": "sigorta_bilgisi",
+      "title": "Hayat Sigortası Bilgisi",
+      "description": "Kenan Arslanlı'nın 5 milyon TL'lik hayat sigortası poliçesi. Lehdar Elif Arslanlı. Poliçe 6 ay önce Elif'in talebiyle 2 milyon'dan 5 milyon'a yükseltilmiş.",
+      "image": null,
+      "linkedCharacterId": "suspect_elif",
+      "eliminates": null
+    },
+    {
+      "id": "selin_mesajlari",
+      "title": "Selin ile Mesajlaşmalar",
+      "description": "Kenan ve Selin Yıldız arasındaki romantik mesajlaşmalar. Kenan boşanma planı yapıyormuş. Elif bu mesajları görmüş olabilir cinayet motifini güçlendiriyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_selin",
+      "eliminates": [
+        "suspect_selin"
+      ]
+    },
+    {
+      "id": "eczane_fisi",
+      "title": "Eczane Fişi",
+      "description": "Elif'in cinayet gecesi nöbetçi eczaneden aldığı ilacın fişi. Ağrı kesicinin yanında dijital içeren bir kalp ilacı da satın almış. Reçete tarihi 2 hafta öncesine ait.",
+      "image": null,
+      "linkedCharacterId": "suspect_elif",
+      "eliminates": null
+    },
+    {
+      "id": "internet_gecmisi",
+      "title": "İnternet Arama Geçmişi",
+      "description": "Elif'in telefonundan yapılan internet aramaları. Ölümden 2 hafta önce 'dijital glikozit etkileri', 'kalp krizini taklit eden zehirler' gibi aramalar tespit edildi.",
+      "image": null,
+      "linkedCharacterId": "suspect_elif",
+      "eliminates": null
+    },
+    {
+      "id": "deniz_epostalari",
+      "title": "Deniz'in E-postaları",
+      "description": "Deniz Korkmaz ile Kenan arasındaki şirket e-postaları. Sert tartışmalar var ama son mesajda uzlaşma işaretleri görülüyor. Deniz'in cinayet motifini zayıflatıyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_deniz",
+      "eliminates": [
+        "suspect_deniz"
+      ]
+    },
+    {
+      "id": "burak_ucak_bileti",
+      "title": "Burak'ın Uçak Bileti",
+      "description": "Burak Arslanlı'nın THY 2184 sefer sayılı İstanbul-İzmir uçak bileti ve Hilton İzmir otel kaydı. Cinayet gecesi kesinlikle İzmir'deydi alibisi demir gibi sağlam.",
+      "image": null,
+      "linkedCharacterId": "suspect_burak",
+      "eliminates": [
+        "suspect_burak"
+      ]
+    },
+    {
+      "id": "hisse_devri_belgesi",
+      "title": "Hisse Devri Belgesi",
+      "description": "Kenan, şirket hisselerini Elif'e devretmeyi planlıyordu. Devir gerçekleşmeden Kenan öldü. Elif bu devri öğrenmiş olabilir.",
+      "image": null,
+      "linkedCharacterId": "suspect_elif",
+      "eliminates": null
+    },
+    {
+      "id": "burak_itiraf",
+      "title": "Burak'ın İtirafı",
+      "description": "Burak itiraf etti: Cinayet gecesi İzmir'den İstanbul'a gelmiş, yalıda babasını ölü bulmuş, panikleyip geri dönmüş. Eczanede eşarplı bir kadın görmüş.",
+      "image": null,
+      "linkedCharacterId": "suspect_burak",
+      "eliminates": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_001",
+      "type": "narration",
+      "background": "bogaz_gece",
+      "characterId": null,
+      "text": "İstanbul, Boğaz'ın kıyısında bir yalı. Gece saat 02:17. Kenan Arslanlı 58 yaşında, Arslanlı Holding'in kurucusu koltuğunun üzerinde hareketsiz bulundu. Resmi rapor kalp krizini işaret ediyor. Ama sen, Dedektif, bunu kabul etmek için çok deneyimlisin. Bir şeyler uyuşmuyor.",
+      "choices": [
+        {
+          "id": "c001a",
+          "text": "Olay yerine git",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001b",
+          "text": "Polis raporunu incele",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001c",
+          "text": "Aile ile konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_002",
+      "type": "investigation",
+      "background": "yali_icmekan",
+      "characterId": null,
+      "text": "Yalının salon kısmına giriyorsun. Pahalı mobilyalar, duvarlarda yağlı boya tablolar. Ortada geniş bir koltuk kurbanın son nefesini aldığı yer. Masada yarım bir çay bardağı, yerde kırık bir bardak parçaları. Hava ağır, tütsülü bir koku var.",
+      "choices": [
+        {
+          "id": "c002a",
+          "text": "Çayı incele",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002b",
+          "text": "Odayı genel olarak gez",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002c",
+          "text": "Güvenliğe sor",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_003",
+      "type": "narration",
+      "background": "karakol",
+      "characterId": null,
+      "text": "Polis raporunu inceliyorsun. 'Ölüm sebebi: Kalp krizi. Saat: Tahmini 23:00-01:00 arası. Olay yerinde şüphe uyandıran herhangi bir iz bulunamamıştır.' Standart bir rapor. Ama sen Dedektif olarak biliyorsun ki bazen en temiz görünen sahneler en karanlık sırları saklar.",
+      "choices": [
+        {
+          "id": "c003a",
+          "text": "Otopsi talep et",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003b",
+          "text": "Raporu kabul et ve olay yerine git",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003c",
+          "text": "Raporu kabul et ve aileyle konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_004",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif Arslanlı seni yalının girişinde karşılar. Gözleri kızarmış, ellerinde mendil. 'Dedektif bey, lütfen girin. Bu çok zor bir dönem bizim için...' Sesi titriyormuş gibi ama bakışları şaşkınlaştıracak kadar sakin.",
+      "choices": [
+        {
+          "id": "c004a",
+          "text": "\"O gece ne oldu anlatır mısınız?\"",
+          "nextSceneId": "scene_010",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004b",
+          "text": "\"Kocanızla aranız nasıl diyebilirsiniz?\"",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004c",
+          "text": "\"Hayat sigortası hakkında bilginiz var mı?\"",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif üzgün görünüyor ama şaşırtıcı derecede sakin.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_005",
+      "type": "investigation",
+      "background": "yali_icmekan",
+      "characterId": null,
+      "text": "Masadaki çay bardağını dikkatle inceliyorsun. Yarısı içilmiş. Rengi normal bir siyah çay gibi görünmüyor hafif bulanık, dibinde tuhaf bir tortu var. Bu çayı laboratuvara göndermelisin.",
+      "choices": [
+        {
+          "id": "c005a",
+          "text": "Çayı delil olarak al",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005b",
+          "text": "Odayı gezmeye devam et",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "supheli_cay",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_006",
+      "type": "investigation",
+      "background": "yali_icmekan",
+      "characterId": null,
+      "text": "Odayı dikkatle geziyorsun. Kırık bardak parçaları yerde biri düşürmüş. Şöminede yarım yanmış bir kağıt parçası görüyorsun. Üzerinde bazı satırlar okunabiliyor: '...sigorta poliçesini...3 ay içinde...' Gerisi yanmış.",
+      "choices": [
+        {
+          "id": "c006a",
+          "text": "Yanmış kağıdı delil olarak al",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006b",
+          "text": "Güvenliğe sor",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006c",
+          "text": "Aile ile konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "yanmis_kagit",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_007",
+      "type": "dialogue",
+      "background": "yali_giris",
+      "characterId": null,
+      "text": "Güvenlik görevlisi Hasan Bey seninle konuşuyor. 'Kameralar mı? Evet, hepsi çalışıyor. Ama o gece... Elif Hanım saat 22 civarı dışarı çıktı, sonra 23:30 gibi geri döndü. Arabayla gitmişti. Ben sordum, eczaneye gittiğini söyledi. Gece vakti eczaneye gitmek biraz garipti ama sormadım tabii.'",
+      "choices": [
+        {
+          "id": "c007a",
+          "text": "Güvenlik kamerası kayıtlarını iste",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c007b",
+          "text": "\"Başka kimse girip çıktı mı?\"",
+          "nextSceneId": "scene_014",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_008",
+      "type": "narration",
+      "background": "hastane",
+      "characterId": null,
+      "text": "Otopsi sonuçları geldi. Adli tıp uzmanı raporu onuyor: 'Ölümün gerçek sebebi kalp krizi değil. Kanda yüksek dozda dijital glikozit tespit edildi. Bu madde kalp ritmi bozukluğuna yol açar ve doğal bir kalp krizini taklit eder. Bu bir zehirlenme vakası.' Artık bir cinayet soruşturması başlamalı.",
+      "choices": [
+        {
+          "id": "c008a",
+          "text": "Olay yerine git",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008b",
+          "text": "Elif Arslanlı ile konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008c",
+          "text": "Burak Arslanlı ile konuş",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008d",
+          "text": "Deniz Korkmaz ile konuş",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "otopsi_raporu",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_009",
+      "type": "narration",
+      "background": "yali_icmekan",
+      "characterId": null,
+      "text": "Yanmış kağıt parçasını dikkatle bir zarfa koyuyorsun. Okunabilen kısımda 'sigorta poliçesi' ve '3 ay içinde' yazıyor. Biri bu belgeyi yok etmeye çalışmış ama tam başaramamış. Bu önemli bir iz.",
+      "choices": [
+        {
+          "id": "c009a",
+          "text": "Güvenliğe sor",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009b",
+          "text": "Aile ile konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009c",
+          "text": "Polis raporunu incele",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_010",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif gözlerini kaçırır gibi yapar. 'O gece... Normal bir geceydi. Akşam yemeğini birlikte yedik. Kenan biraz yorgun görünüyordu. Ben erken yattım, saat 10 gibi. Sabah aşağı indiğimde onu koltuğun üzerinde görüm... hareketsiz.' Bir an durakslar. 'Çay içmiş, bardağı masadaydı.'",
+      "choices": [
+        {
+          "id": "c010a",
+          "text": "\"Çayı kim hazırladı?\"",
+          "nextSceneId": "scene_017",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010b",
+          "text": "\"Siz erken yattınız derken saat kaçtı?\"",
+          "nextSceneId": "scene_018",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c010c",
+          "text": "\"Güvenlik sizi gece dışarıda görmüş\"",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "guvenlik_kamerasi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif çayın masada olduğunu kendisi söyledi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_011",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif'in yüzünde kısa bir gerginlik belirir. 'Evliliğimiz... 25 yıllık bir evlilikti. Her evlilik gibi inişleri çıkışları oldu. Ama biz birbirimizi seviyorduk.' Gözleri bir an uzaklaşır. 'Son zamanlarda işlerden dolayı stresliydi. Çok çalışıyordu.'",
+      "choices": [
+        {
+          "id": "c011a",
+          "text": "\"Kenan Bey'in gizli bir ilişkisi olabilir mi?\"",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011b",
+          "text": "\"Miras paylaşımı hakkında ne düşünüyorsunuz?\"",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011c",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif evlilikten bahsederken gergindi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_012",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif'in gözleri bir an büyür. 'Sigorta mı? Evet, Kenan'ın hayat sigortası vardı. Büyük bir miktarmış ama ben detaylarını bilmiyorum. Avukatımız Serkan Bey ilgileniyor.' Hızlıca konuyu değiştirmeye çalışıyor. Ama sen sigorta poliçesi detaylarını araştırmanın faydasını görüyorsun.",
+      "choices": [
+        {
+          "id": "c012a",
+          "text": "Avukatı ara",
+          "nextSceneId": "scene_021",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012b",
+          "text": "Burak ile konuş",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012c",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif sigorta konusunda rahatsız oldu.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_013",
+      "type": "narration",
+      "background": "guvenlik_odasi",
+      "characterId": null,
+      "text": "Güvenlik kamerası kayıtlarını inceliyorsun. Saat 22:04 Elif Arslanlı yalı kapısından çıkıyor, arabayla uzaklaşıyor. Saat 23:28 Geri dönüyor, elinde küçük bir çanta var. Ama o 'erken yattım' demişti. Bu ifadesiyle çelişiyor. Elif o gece dışarı çıkmış ve bunu saklıyor.",
+      "choices": [
+        {
+          "id": "c013a",
+          "text": "Elif'e bunu sor",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b",
+          "text": "Eczaneleri araştır",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013c",
+          "text": "Otopsi talep et",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "guvenlik_kamerasi",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_014",
+      "type": "dialogue",
+      "background": "yali_giris",
+      "characterId": null,
+      "text": "Güvenlik görevlisi düşünür. 'Başka kimse mi? Hayır, o gece sadece Elif Hanım çıktı. Saat 19 civarı Selin Hanım asistan uğradı, 20 dakika kaldı ve gitti. Burak Bey İstanbul'da bile değildi. Deniz Bey'i de görmedim.'",
+      "choices": [
+        {
+          "id": "c014a",
+          "text": "\"Selin Hanım neden gelmiş?\"",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c014b",
+          "text": "Kamera kayıtlarını iste",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c014c",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_015",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_burak",
+      "text": "Burak Arslanlı'yı ofisinde buluyorsun. Genç, şık giyimli ama gözlerinin altında halkalar var. 'Babamla aramız... karmaşıktı. Şirkette daha fazla sorumluluk istiyordum, o hazır görmüyordu. Ama onu öldürsem ne işe yarar ki? Sigorta annemin üzerinde zaten.' Bir an duraksar. 'O gece İzmir'deydim. THY 2184 sefer sayılı uçakla gittim, biletim ve otel kaydım var.'",
+      "choices": [
+        {
+          "id": "c015a",
+          "text": "Uçak biletini kontrol et",
+          "nextSceneId": "scene_024",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015b",
+          "text": "\"Anneniz hakkında ne düşünüyorsun?\"",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015c",
+          "text": "\"Selin Yıldız'ı tanır mısın?\"",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c015d",
+          "text": "Uçak biletindeki tutarsızlığı yüzleştir",
+          "nextSceneId": "scene_burak_confession",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "burak_ucak_bileti"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Burak sigorta poliçesinin Elif üzerinde olduğunu belirtti.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_016",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz Korkmaz geniş ofisinde seni karşılıyor. Duvarlarında şirket ödülleri ve Kenan'la eski fotoğraflar var. 'Kenan 20 yıllık ortağımdı. Evet, son dönemde bazı anlaşmazlıklarımız oldu şirketin geleceği hakkında. O satış istiyordu, ben büyüme. Ama bu iş anlaşmazlığı, cinayet sebebi değil.' Samimi görünüyor.",
+      "choices": [
+        {
+          "id": "c016a",
+          "text": "\"Şirket anlaşmazlığı ne boyuttaydı?\"",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c016b",
+          "text": "\"Elif Hanım hakkında ne düşünürsünüz?\"",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c016c",
+          "text": "\"O gece neredeydiniz?\"",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c016d",
+          "text": "Kenan hisseleri başkasına devretmeyi planlıyor muydu?",
+          "nextSceneId": "scene_deniz_secret",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "otopsi_raporu"
+        },
+        {
+          "id": "c016e",
+          "text": "O gece bahçe kapısından girdin",
+          "nextSceneId": "scene_deniz_itiraf",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "guvenlik_kamerasi"
+        },
+        {
+          "id": "c016f",
+          "text": "Hisse devir belgesinin kopyasıyla seni suçluyorum",
+          "nextSceneId": "scene_deniz_savunma",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "hisse_devri_belgesi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz, Kenan ile iş anlaşmazlığı olduğunu kabul etti.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_017",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif kısa bir tereddüt yaşar. 'Çayı... ben hazırladım. Her akşam yaparım, alışkanlıktır. Kenan akşam çayı severseverdi.' Gözlerini kaçırır. 'Normal bir çay. Siyah çay, iki şeker.' Ama senin aklında o bardaktaki tuhaf tortu var.",
+      "choices": [
+        {
+          "id": "c017a",
+          "text": "\"Çaya başka bir şey koydunuz mu?\"",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "supheli_cay"
+        },
+        {
+          "id": "c017c",
+          "text": "Otopsi sonuçlarını kontrol et",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_008"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif çayı kendisinin hazırladığını itiraf etti.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_018",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif gözlerini kısıyor. 'Saat 10 civarı... belki 10:30. Kenan hâlâ salondaydı, televizyon izliyordu. Ben yukarı çıktım.' Ama güvenlik kamerası saat 22:04'te onu dışarı çıkarken gösteriyor. Erken yattığını söyledi ama dışarı çıkmış.",
+      "choices": [
+        {
+          "id": "c018a",
+          "text": "Güvenlik kayıtlarını kontrol et",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_013"
+          ]
+        },
+        {
+          "id": "c018b",
+          "text": "\"Peki, o gece hiç dışarı çıktınız mı?\"",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "guvenlik_kamerasi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif saat 10'da yattığını söyledi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_019",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif'in yüzü bir an donar. 'Dışarı mı? Ben... evet, evet çıktım. Eczaneye gittim. Başım ağrıyordu, ağrı kesici almam gerekiyordu.' Sesi titremeye başlıyor. 'Ama bu önemli değil ki, ben gidip geldiğimde Kenan hayattaydı!' Ama güvenlik kamerasına göre saat 23:28'de dönmüş. Otopsi tahminlerine göre ölüm 23:00-01:00 arası...",
+      "choices": [
+        {
+          "id": "c019a",
+          "text": "\"Hangi eczaneye gittiniz?\"",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_022"
+          ]
+        },
+        {
+          "id": "c019b",
+          "text": "\"Döndüğünüzde Kenan Bey ne yapıyordu?\"",
+          "nextSceneId": "scene_031",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif o gece dışarı çıktığını itiraf etti önce yalanlamıştı!",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif'in gözleri kısılıyor, sesinde buz gibi bir ton belirir. 'Gizli ilişki mi? Kenan mı? Bu saçmalığı nereden çıkardınız?' Ama titreyen elleri onu ele veriyor. 'Kenan sadık bir kocaydı. Başka kadın falan yoktu.' Fakat sen bir şey fark ediyorsun çok hızlı ve çok sert inkâr etti. Belki biliyordu...",
+      "choices": [
+        {
+          "id": "c020a",
+          "text": "Selin Yıldız ile konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c020b",
+          "text": "Burak ile konuş",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c020c",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif gizli ilişki sorusuna aşırı sert tepki verdi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_021",
+      "type": "narration",
+      "background": "ofis",
+      "characterId": null,
+      "text": "Avukat Serkan Bey ile telefonla görüşüyorsun. 'Evet, Kenan Bey'in hayat sigortası poliçesi 5 milyon TL tutarında. Lehdar Elif Arslanlı. Poliçe 6 ay önce yenilendi ve miktar 2 milyon'dan 5 milyon'a yükseltildi. Elif Hanım bizzat talep etti bu artışı.' Bu çok önemli bir bilgi. Elif sigortayı ölümden 6 ay önce yükselttirmiş.",
+      "choices": [
+        {
+          "id": "c021a",
+          "text": "Elif ile tekrar konuş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c021b",
+          "text": "Burak ile konuş",
+          "nextSceneId": "scene_015",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c021c",
+          "text": "Otopsi sonuçlarını kontrol et",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sigorta_bilgisi",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_022",
+      "type": "narration",
+      "background": "eczane",
+      "characterId": null,
+      "text": "Civardaki eczaneleri araştırıyorsun. Nöbetçi eczaneci tanık: 'Evet, gece 22:30 civarı bir bayan geldi. Ağrı kesici aldı ama aynı zamanda dijital içeren bir kalp ilacı da istedi. Reçete gösterdi kendi adına yazılmış bir reçete. Ama reçeteye dikkatli baktım, kesilme tarihi 2 hafta öncesiydi.' Elif'in eczane fişi eline geçiyor.",
+      "choices": [
+        {
+          "id": "c022a",
+          "text": "Elif'in internet geçmişini araştır",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c022b",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "eczane_fisi",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_023",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin Yıldız ile bir kafede buluşuyorsun. Genç, çekici bir kadın. Elleri titriyorken fincanını tutuyor. 'Kenan Bey çok iyi bir insandı. Ben 3 yıldır asistanıydım. O gece... saat 7'de yalıya uğradım, bazı belgeleri bıraktım. Kenan Bey'le 20 dakika konuştuk ve gittim.'",
+      "choices": [
+        {
+          "id": "c023a",
+          "text": "\"Kenan Bey ile ilişkiniz sadece profesyonel miydi?\"",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023b",
+          "text": "\"O gece ne konuştunuz?\"",
+          "nextSceneId": "scene_034",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023c",
+          "text": "\"Elif Hanım'ı nasıl tanımlarsınız?\"",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023d",
+          "text": "Deniz Korkmaz sana karşı nasıl biriydi?",
+          "nextSceneId": "scene_deniz_selin",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "selin_mesajlari"
+        },
+        {
+          "id": "c023e",
+          "text": "O gece yalıdan ayrıldıktan sonra geri döndün mü?",
+          "nextSceneId": "scene_selin_bahce",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "guvenlik_kamerasi"
+        },
+        {
+          "id": "c023f",
+          "text": "Kenan'ın sana verdiği şirket belgelerini göster",
+          "nextSceneId": "scene_selin_deep1",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "hisse_devri_belgesi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin saat 19:00'da yalıda 20 dakika kalmış.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_024",
+      "type": "narration",
+      "background": "ofis",
+      "characterId": null,
+      "text": "Burak'ın uçak biletini ve otel kaydını doğruluyorsun. THY 2184, İstanbul-İzmir, kalkış 17:30. Hilton İzmir check-in 19:45. Sabah 08:00'de checkout. Tüm kayıtlar tutarlı. Burak o gece kesinlikle İzmir'deydi. Onu şüpheli listesinden çıkarabilirsin.",
+      "choices": [
+        {
+          "id": "c024a",
+          "text": "Elif ile tekrar konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c024b",
+          "text": "Deniz Korkmaz ile konuş",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c024c",
+          "text": "Selin Yıldız ile konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "burak_ucak_bileti",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_025",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_burak",
+      "text": "Burak'ın yüzü kararır. 'Annem... Annem her zaman kontrolcü biriydi. Babamın da sürdürdü, beni de. Bazen düşünürüm...' Durakslar. 'Hayır, saçmalık. Annem böyle bir şey yapmaz. Ama sigorta artışı... beni de şaşırtmıştı.'",
+      "choices": [
+        {
+          "id": "c025a",
+          "text": "\"Sigorta artışı hakkında detay ver\"",
+          "nextSceneId": "scene_021",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c025b",
+          "text": "\"Selin Yıldız'ı tanıyor musun?\"",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c025c",
+          "text": "Elif ile tekrar konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Burak annesi hakkında şüpheleri olduğunu ima etti.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_026",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_burak",
+      "text": "Burak'ın yüz ifadesi değişir. 'Selin mi? Babamın asistanı. İyi bir kız.' Durakslar. 'Aslında... size bir şey söyleyeceğim ama bunu benden duymadınız. Babam ve Selin arasında... profesyonel olmayan bir ilişki vardı. Mesajlaşmaları gördüm babamın telefonunda.'",
+      "choices": [
+        {
+          "id": "c026a",
+          "text": "\"Bu mesajları görebilir miyim?\"",
+          "nextSceneId": "scene_036",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c026b",
+          "text": "Selin ile konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c026c",
+          "text": "\"Anneniz biliyor muydu?\"",
+          "nextSceneId": "scene_037",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Burak, babası ve Selin arasında ilişki olduğunu söyledi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_027",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz derin bir nefes alır. 'Büyük bir anlaşmazlıktı, itiraf edeyim. Kenan şirketin %60'ını yabancı bir fona satmak istiyordu. Ben buna karşı çıktım. Büyük bir tartışma yaşadık, hatta avukatlara bile gitti. Ama... Kenan'ı öldürseydim şirket batardı. Bu bana zarar verirdi.'",
+      "choices": [
+        {
+          "id": "c027a",
+          "text": "\"Tartışma ne kadar şiddetliydi?\"",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027b",
+          "text": "Deniz'in e-postalarını incele",
+          "nextSceneId": "scene_039",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz şirket anlaşmazlığının büyük olduğunu kabul etti.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_028",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz bir an düşünür. 'Elif... Güzel bir kadın. Ama soğuk. Kenan'la yıllarca çift olarak göründüler ama mutlu muydular bilmiyorum. Son zamanlarda Kenan bana 'boşanmayı düşünüyorum' demişti ama ciddi midir emin değilim. Elif bunu öğrenirse... büyük para kaybederdi.'",
+      "choices": [
+        {
+          "id": "c028a",
+          "text": "\"Boşanma Elif için ne anlama gelirdi?\"",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c028b",
+          "text": "Elif ile tekrar konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz: Kenan boşanmayı düşünüyormuş. Elif büyük para kaybederdi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_029",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz sakin bir şekilde cevaplar. 'Akşam 8'de evdeydim. Karımla yemek yedik, sonra dizi izledik. Saat 11'de yattım. Karım Ayşe teyit edebilir. Ayrıca telefon kayıtlarım da evi gösterir. Yapacak bir şeyim yok.'",
+      "choices": [
+        {
+          "id": "c029a",
+          "text": "\"Şirket e-postalarını inceleyebilir miyim?\"",
+          "nextSceneId": "scene_039",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c029b",
+          "text": "Elif ile tekrar konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c029c",
+          "text": "Selin ile konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz'in alibisi güçlü: eşi teyit ediyor, telefon kayıtları uyumlu.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_030",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif'in yüzü bembeyaz olur. 'Ne demek başka bir şey? Normal bir çay! Şeker koydum, o kadar!' Sesi yükseliyor, elleri titriyor. 'Siz ne ima ediyorsunuz? Ben kocamı öldürmüş müyüm yani?!' Paniğin altında bir suçluluk mu var, yoksa gerçekten masum birinin öfkesi mi? Ama laboratuvar raporu yolda...",
+      "choices": [
+        {
+          "id": "c030a",
+          "text": "Otopsi sonuçlarını kontrol et",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_008"
+          ]
+        },
+        {
+          "id": "c030b",
+          "text": "Eczaneyi araştır",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_022"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif çaya bir şey konulduğu sorusuna çok sert tepki verdi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_031",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif gözlerini kaçırır. 'Döndüğümde... Kenan koltuktaydı. Uyuyor sandım. Uyandırmayı denemedim, üstüne bir battaniye örttüm ve yukarı çıktım.' Bu ifade de önemli eğer Kenan zaten ölmüşse ve Elif döndüğünde görüyorsa neden ambulans çağırmadı? Yoksa zaten biliyor muydu?",
+      "choices": [
+        {
+          "id": "c031a",
+          "text": "\"Neden ambulans çağırmadınız?\"",
+          "nextSceneId": "scene_041",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c031c",
+          "text": "Daha fazla delil topla",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_022"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif döndüğünde Kenan'ı uyuyor sanmış ama kontrol etmemiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_032",
+      "type": "narration",
+      "background": "ofis",
+      "characterId": null,
+      "text": "Elif'in bilgisayar ve telefon arama geçmişi mahkeme kararıyla elde ediliyor. Sonuçlar sarsıcı: 2 hafta önce 'dijital glikozit etkileri', 'kalp krizini taklit eden zehirler', 'tespit edilemeyen zehirler' aramaları yapılmış. Aramalar Elif'in kişisel telefonundan. Bu çok güçlü bir delil.",
+      "choices": [
+        {
+          "id": "c032a",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "internet_gecmisi",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_033",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin'in gözleri dolar. Uzun bir sessizlik. 'Ben... Kenan Bey ile... Evet, bir ilişkimiz vardı. 1 yıldır. Biliyorum yanlış ama... O çok yalnızdı. Elif Hanım soğuk biriydi ona karşı.' Gözyaşı döker. 'Ama ben onu öldürmem! Onu seviyordum! Elif Hanım öğrenmiş olmalı... belki intikam için...'",
+      "choices": [
+        {
+          "id": "c033a",
+          "text": "\"Elif'in bildiğini düşünüyor musun?\"",
+          "nextSceneId": "scene_042",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033b",
+          "text": "\"Son görüşmenizde ne konuştunuz?\"",
+          "nextSceneId": "scene_034",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033c",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "selin_mesajlari",
+      "addCharacterNote": "Selin, Kenan ile ilişkisi olduğunu itiraf etti.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_034",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin mendiliyle gözlerini siler. 'O akşam yalıya bazı belgeleri bıraktım. Kenan Bey ile kısa konuştuk. Boşanma süreci hakkında konuşuyordu. Elif'ten ayrılmak istediğini söyledi. Avukata gitmeyi planlıyormuş. Ama Elif öğrenmemeli demişti.'",
+      "choices": [
+        {
+          "id": "c034a",
+          "text": "\"Elif bu boşanma planını biliyor muydu?\"",
+          "nextSceneId": "scene_042",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c034b",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin: Kenan boşanmayı planlıyormuş. Elif bilmemeli demiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_035",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin'in yüzü gerginleşir. 'Elif Hanım... Soğuk bir kadın. Kenan Bey'e karşı mesafeli. Ama aynı zamanda çok kontrolcü. Kenan Bey'in her hareketini bilmek isterdi. Telefonunu kontrol ederdi. Son zamanlarda daha da gerginleşmişti.'",
+      "choices": [
+        {
+          "id": "c035a",
+          "text": "\"Elif seni biliyor mu?\"",
+          "nextSceneId": "scene_042",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035b",
+          "text": "Elif ile konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035c",
+          "text": "Deniz Korkmaz ile konuş",
+          "nextSceneId": "scene_016",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin: Elif kontrolcü ve soğuk.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_036",
+      "type": "narration",
+      "background": "ofis",
+      "characterId": null,
+      "text": "Burak babasının telefonundan Screenshots almış. Mesajlar açık: Kenan ve Selin arasında romantik mesajlaşmalar. 'Seni çok özledim', 'Yakın zamanda her şey değişecek', 'Elif'ten ayrılacağım'. Bu mesajlar Elif'in motifini güçlendiriyor eğer Elif bu ilişkiyi biliyorsa, hem aldatılmış hem de boşanma ile para kaybetmek üzere.",
+      "choices": [
+        {
+          "id": "c036a",
+          "text": "Selin ile konuş",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c036b",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "selin_mesajlari",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_037",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_burak",
+      "text": "Burak derin bir nefes alır. 'Annemin bildiğini düşünüyorum. Geçen ay babamın telefonunu elinde gördüm. Ekrana bakıyordu, yüz ifadesi... buz gibiydi. Sonra telefonu bıraktı ve hiç bir şey olmamış gibi davranmaya devam etti. Ertesi gün internetten bir şeyler araştırıyordu ama ekranı göremeden kapattı.'",
+      "choices": [
+        {
+          "id": "c037a",
+          "text": "Elif'in internet geçmişini araştır",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c037b",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Burak: Annesi babasının telefonundaki mesajları görmüş olabilir.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_038",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz başını sallar. 'Şiddetli mi? Sözel olarak evet. Bağırıştık, masaya vurduk. Ama fiziksel? Asla. Biz iş insanıyız, barbar değil. Ayrıca Kenan'ın ölümü şirket için felaket hisseler düştü, müşteriler tedirgin. Ben neden kendi ayağıma sıkayım?'",
+      "choices": [
+        {
+          "id": "c038a",
+          "text": "Deniz'in e-postalarını incele",
+          "nextSceneId": "scene_039",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz: Kenan'ın ölümü şirket için zararlıydı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_039",
+      "type": "narration",
+      "background": "ofis",
+      "characterId": null,
+      "text": "Deniz'in şirket e-postalarını inceliyorsun. Kenan ile yoğun yazışmalar: satış tartışmaları, sert sözler, hatta 'Bu şirket ikimize de dar geliyor' gibi ifadeler. Ama dikkat çekici bir şey: Son e-postada Kenan 'Bir çözüm bulacağız, eski dostum' yazmış. Uzlaşma yolundaymışlar. Deniz'in motifi zayıflıyor.",
+      "choices": [
+        {
+          "id": "c039a",
+          "text": "Elif ile konuş",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c039b",
+          "text": "Selin ile konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "deniz_epostalari",
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_040",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz ciddi bir ifadeyle konuşur. 'Boşanma Elif için yıkım olurdu. Evlilik sözleşmesinde sadakat maddesi var aldatan taraf mal paylaşımından az pay alır. Ama Kenan aldatan taraf. Elif istemese bile mahkemede avantajlı olurdu. Yine de... 5 milyon TL'lik sigorta, boşanma tazminatından çok daha fazla.'",
+      "choices": [
+        {
+          "id": "c040a",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz: Sigortanın boşanma tazminatından çok daha yüksek olduğunu belirtti.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_041",
+      "type": "dialogue",
+      "background": "yali_salon",
+      "characterId": "suspect_elif",
+      "text": "Elif paniğe kapılır. 'Ambulans mı? Onu uyuyor sandım dedim ya! Nefes alıyor gibi görünüyordu, battaniyeyi örttüm... Sabah uyandırmaya çalıştığımda...' Gözlerinden yaşlar akıyor ama sen bunu gerçek üzüntü mü yoksa bir performans mı olduğunu tartıyorsun. Tüm deliller bir noktaya işaret ediyor.",
+      "choices": [
+        {
+          "id": "c041b",
+          "text": "Daha fazla delil topla",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elif ölü kocasını uyuyor sanmış inandırıcı değil.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_042",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin titreyerek konuşur. 'Elif'in bildiğini düşünüyorum. 2-3 hafta önce Kenan aradı, tedirgin sesle konuştu. Elif'in telefonunu karıştırdığını, mesajları görmüş olabileceğini söyledi. Çok korkuyordu. Elif'in intikam almasından... Ben de korktum ama Kenan 'Hallederim' dedi.' Selin gözlerini siler. 'Halledemedi...'",
+      "choices": [
+        {
+          "id": "c042a",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_019",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin: Elif mesajları görmüş olabilir. Kenan korkuyormuş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_accusation",
+      "type": "accusation",
+      "background": "mahkeme",
+      "characterId": null,
+      "text": "Yeterli bilgiyi topladın. Şimdi suçlama zamanı. Kimi suçluyorsun ve hangi delilleri sunuyorsun?",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_selin_deep1",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin'e daha fazla baskı uyguluyorsun. Birden masanın üzerindeki çantasından bir zarf çıkarıyor. 'Bunu size göstermem lazım. Kenan bana bunları vermişti, şirket belgeleri. İçerisinde Deniz'in hesaplara eriştiği ve bazı transferler yaptığı bilgiler var.' Zarfın içindeki belgeler Deniz'in şirket hesaplarından kişisel hesabına transferler yaptığını gösteriyor.",
+      "choices": [
+        {
+          "id": "cseld1a",
+          "text": "\"Bu belgeler gerçek mi?\"",
+          "nextSceneId": "scene_selin_deep2",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "cseld1b",
+          "text": "Deniz ile yüzleş",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin, Deniz'i suçlayan belgeler gösterdi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_selin_deep2",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin gözlerini yere eğer. 'Gerçek... Bilmiyorum. Kenan bana verdi, ben muhasebeci değilim. Ama Kenan bu transferlerden çok rahatsızdı.' Bir an sessizlik: 'Belki de ben yanlış yapıyorum. Belki de ben Kenan'ı koruyamadım ve şimdi başkalarını suçlayarak kendimi rahatlatmaya çalışıyorum.'",
+      "choices": [
+        {
+          "id": "cseld2a",
+          "text": "Deniz'in alibisini kontrol et",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c_deep2_b",
+          "text": "Kenan'dan dikkati başka yöne çekmeye çalışmıyor musun?",
+          "nextSceneId": "scene_selin_deep3",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin duygusal oldu, suçluluk mu, üzüntü mü belirsiz.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_selin_deep3",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin'in gözleri büyüyor. 'Dikkat dağıtmak mı? Ben mi? Ben Kenan'ı seviyordum! Birisi onu öldürdü ve ben buraya gelip yardım etmeye çalışıyorum!' Masaya kapanır. 'Kenan dikkatli ol demişti. Dinlemedim. Şimdi o öldü ve ben burada, hamile, yalnız...'",
+      "choices": [
+        {
+          "id": "cseld3a",
+          "text": "Burak ile yüzleş",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin duygusal çöküş yaşadı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_deniz_secret",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz seni ofisine çağırmış. 'Dedektif, size bir şey göstermem lazım.' Bilgisayarından bir belge açıyor: 'Kenan ölümünden 1 hafta önce şirketin tüm hisselerini Elif'e devretmeyi planlıyordu. Ben karşı çıktım ama o karar vermişti.' Sana bakar: 'Elif bu deviri öğrenmiş olabilir mi? Eğer öğrendiyse... Kenan ölürse hisseler miras yoluyla zaten ona kalacaktı.'",
+      "choices": [
+        {
+          "id": "cds_a",
+          "text": "\"Bu bilgiyi neden sakladınız?\"",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "cds_b",
+          "text": "Burak ile bu belgeyi konuş",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "hisse_devri_belgesi",
+      "addCharacterNote": "Deniz: Kenan hisse devri planlıyormuş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_burak_confession",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_burak",
+      "text": "Burak seni bir kafeye çağırıyor. 'Dedektif, size her şeyi anlatacağım. Cinayet gecesi İzmir'den İstanbul'a geldim. Yalıya uğradım, saat 22:30 civarı. Babamı salonda gördüğümde... çoktan gitmişti. Panikledim.' Öne eğilir: 'Dışarıda bir araba gidiyordu. Deniz Amca'nın Mercedes'ine çok benziyordu.'",
+      "choices": [
+        {
+          "id": "cbc_a",
+          "text": "\"Neden şimdi söylüyorsun?\"",
+          "nextSceneId": "scene_037",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "cbc_b",
+          "text": "\"İzmir alibin yanlış mıydı?\"",
+          "nextSceneId": "scene_024",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "burak_itiraf",
+      "addCharacterNote": "Burak her şeyi itiraf etti: O gece yalıdaymış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_deniz_itiraf",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz masasına çöker. 'O gece yalının önünde 15 dakika bekledim dedim ya. Yalan değil ama eksik. Arabadan indim. Bahçe kapısı açıktı. Kenan'ı görmek istedim. Salon penceresinden baktığımda Kenan koltuktaydı. Yanında biri vardı ama kim olduğunu göremedim.' Masaya vurur: 'Cesaret edemedim. Döndüm. Gittim.'",
+      "choices": [
+        {
+          "id": "cdi_a",
+          "text": "\"Yanındaki kişiyi tarif edebilir misin?\"",
+          "nextSceneId": "scene_deniz_taniklik",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "cdi_b",
+          "text": "\"Bahçeden girdiğine göre kameraya yakalanmadın\"",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "BOMBA: Deniz o gece bahçeden yalıya girmiş!",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_deniz_taniklik",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz gözlerini kapatır. 'Karanlıktı. Yanındaki kişi kadındı. Uzun saçlı. Ayaktaydı, Kenan'a bir şey uzatıyordu, bardak olabilir. Saat 21:15 civarıydı.' Deniz'e göre saat 21:15'te bir kadın Kenan'a çay uzatıyordu.",
+      "choices": [
+        {
+          "id": "cdt_a",
+          "text": "Selin ile bu bilgiyi paylaş",
+          "nextSceneId": "scene_selin_deep1",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "cdt_b",
+          "text": "Elif ile yüzleş",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz: 21:15'te bir kadın Kenan'a çay uzatıyordu.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_deniz_selin",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin'in yüzü değişiyor. 'Deniz Bey mi? Aslında son zamanlarda bana çok ilgi gösteriyordu. Mesajlar atıyordu. Kenan bunu biliyordu. Bir keresinde Deniz'e bağırdığını duydum: Selin'den uzak dur!'",
+      "choices": [
+        {
+          "id": "cds_selin_a",
+          "text": "\"Deniz sana ne tür mesajlar attı?\"",
+          "nextSceneId": "scene_deniz_selin2",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "cds_selin_b",
+          "text": "Deniz ile bu konuyu konuş",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz'in Selin'e karşı duyguları varmış!",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_deniz_selin2",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin telefonunu çıkarıyor. Deniz'in mesajları: 'Selin, Kenan seni hak etmiyor.' 'Eğer bir gün yalnız kalırsan, bil ki ben buradayım.' Selin: 'Deniz, Kenan ölürse hem borç meselesinden kurtulacaktı, hem de bana yaklaşabilecekti.'",
+      "choices": [
+        {
+          "id": "cds2_a",
+          "text": "Deniz ile yüzleş",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz'in Selin'e mesajları: çifte motif.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_deniz_savunma",
+      "type": "dialogue",
+      "background": "ofis",
+      "characterId": "suspect_deniz",
+      "text": "Deniz koltuğuna yaslanıyor. 'Mantıklı düşünelim. Kenan ölünce bağımsız denetim başladı. Yaşasaydı aramızda çözerdik. Kenan ölünce hisseler mirasçılara geçti, ben payımla kaldım. Kalp ilacımı 10 yıldır düzenli alıyorum, cinayet silahımı kendi reçetemle mi alacağım?'",
+      "choices": [
+        {
+          "id": "cdsav_a",
+          "text": "\"O zaman kim yaptı sence?\"",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Deniz güçlü bir savunma yaptı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_flashback_elif",
+      "type": "flashback",
+      "background": "yali_salon",
+      "characterId": null,
+      "text": "--- FLASHBACK: 2 Hafta Önce ---\n\nYalının salonu. Gece yarıları. Elif uykusuzlukla dolaşıyor. Kenan'ın telefonunu eline alıyor. Mesajları okudukça yüzü donar. Bilgisayara oturuyor. Arama çubuğuna bir şeyler yazmaya başlıyor...",
+      "choices": [
+        {
+          "id": "cfl_elif_a",
+          "text": "Flashback'ten çık",
+          "nextSceneId": "scene_041",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "FLASHBACK: Biri gece bilgisayarda şüpheli aramalar yaptı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_flashback_kenan",
+      "type": "flashback",
+      "background": "bogaz_gece",
+      "characterId": null,
+      "text": "--- FLASHBACK: Son Gece ---\n\nKenan Arslanlı yalısının balkonunda Boğaz'a bakıyor. Telefonu çalıyor. Selin: 'Kenan, Elif bir şeyler biliyor.' Kenan iç çeker: 'Herkes bir şey istiyor benden.' İçeriden bir ses: 'Kenan Bey, çayınız hazır!' İçeri giriyor. Salonda birisi daha var, koltukta oturan bir siluet. Kim o?",
+      "choices": [
+        {
+          "id": "cfl_kenan_a",
+          "text": "Flashback'ten çık",
+          "nextSceneId": "scene_042",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "FLASHBACK: Kenan'ın son gecesi. Salonda başka biri varmış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_flashback_eczane",
+      "type": "flashback",
+      "background": "eczane",
+      "characterId": null,
+      "text": "--- FLASHBACK: Cinayet Gecesi, 21:55 ---\n\nNöbetçi eczane. Önce genç bir adam geliyor, sinirli bir şekilde çıkıyor. Sonra eşarplı bir kadın geliyor, elinde küçük bir poşetle çıkıyor. Ve en son başka biri daha geliyor ama yüzü karanlıkta görünmüyor. Üç kişi, bir eczane, bir gece.",
+      "choices": [
+        {
+          "id": "cfl_ecz_a",
+          "text": "Flashback'ten çık",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "FLASHBACK: O gece eczaneye 3 farklı kişi gelmiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_selin_bahce",
+      "type": "dialogue",
+      "background": "kafe",
+      "characterId": "suspect_selin",
+      "text": "Selin'e Deniz'in anlattıklarını soruyorsun. 'O gece yalıdan ayrıldıktan sonra geri döndüm. Arka bahçeden girdim. Pencereden baktığımda Elif yanındaydı. Tartışıyorlardı. Ben içeri girmedim.' Selin de mi geri dönmüş?",
+      "choices": [
+        {
+          "id": "csb_a",
+          "text": "\"Ne saatte geri döndün?\"",
+          "nextSceneId": "scene_042",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Selin de o gece yalıya geri dönmüş!",
+      "requiresEvidence": null,
+      "creditCost": null
+    }
+  ],
+  "endings": [
+    {
+      "id": "ending_true_justice",
+      "title": "Adalet Yerini Buldu",
+      "description": "Elif Arslanlı, kocası Kenan'ı dijital glikozit ile zehirleyerek öldürdüğüyle suçlanır. Tüm deliller otopsi raporu, güvenlik kamerası, eczane fişi, internet geçmişi bir bütün olarak Elif'in planlı cinayetini ortaya koyar.",
+      "suspectAccused": "suspect_elif",
+      "isCorrect": true,
+      "requiredEvidence": [
+        "otopsi_raporu",
+        "guvenlik_kamerasi",
+        "eczane_fisi"
+      ],
+      "starsEarned": 3,
+      "epilogueText": "Elif Arslanlı tutuklandı ve yargılandı. Mahkeme, planlı cinayet suçundan ömür boyu hapis cezası verdi. Kenan Arslanlı'nın 5 milyon TL'lik hayat sigortası, cinayet tespiti nedeniyle Elif'e ödenmedi. Miras Burak'a kaldı. Selin Yıldız tanık olarak ifade verdi ve şirketin yeni asistanı olarak hayatına devam etti. Deniz Korkmaz şirketi başarıyla yönetmeye devam etti. Sen, Dedektif, bir kez daha adaleti sağladınız."
+    },
+    {
+      "id": "ending_partial_elif",
+      "title": "Şüphelere Rağmen",
+      "description": "Elif'i suçladın ama yeterli delil sunmadınız. Savcılık davayı açtı ancak delil yetersizliği nedeniyle dava uzun sürdü.",
+      "suspectAccused": "suspect_elif",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 2,
+      "epilogueText": "Elif Arslanlı suçlandı ama mahkeme serbest bırakma kararı verdi deliller yetersizdi. Elif sigortayı tahsil etti ve yurt dışına yerleşti. Gerçek hiçbir zaman tam olarak ortaya çıkmadı. Belki daha fazla delil toplasaydın..."
+    },
+    {
+      "id": "ending_wrong_selin",
+      "title": "Yanlış İz",
+      "description": "Selin Yıldız'ı suçladın. Kurbanla ilişkisi vardı ama o bir katil değil sadece yasak bir aşkın kurbanı.",
+      "suspectAccused": "suspect_selin",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Selin Yıldız gözaltına alındı ama tüm alibisi doğrulandı. Selin o gece saat 19:20'de yalıdan ayrılmış ve eve gitmişti. Telefon ve konum kayıtları bunu doğruluyor. Gerçek katil Elif Arslanlı serbest kaldı ve ülkeyi terk etti. Yanıltmacaya düştün, Dedektif. Bir dahaki sefere duygulara değil, delillere odaklan."
+    },
+    {
+      "id": "ending_wrong_burak",
+      "title": "Masum Bir Oğul",
+      "description": "Burak Arslanlı'yı suçladın. Babasıyla arası bozuktu ama İzmir'deydi alibisi demir gibi sağlam.",
+      "suspectAccused": "suspect_burak",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Burak Arslanlı'nın uçak bileti, otel kaydı ve çok sayıda tanık İzmir'de olduğunu doğruluyor. Suçlamanız düşürüldü ve mesleğinize gölge düşürdü. Gerçek katil Elif Arslanlı sigortayı tahsil edip yurt dışına kaçtı. Alibilerini daha dikkatli kontrol etmelisiniz, Dedektif."
+    },
+    {
+      "id": "ending_wrong_deniz",
+      "title": "İş Anlaşmazlığı Değil Cinayet",
+      "description": "Deniz Korkmaz'ı suçladın. İş ortaklığı gerginliği vardı ama o eski bir dost, katil değil.",
+      "suspectAccused": "suspect_deniz",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Deniz Korkmaz'ın alibisi sağlam: karısı, telefon kayıtları ve ev güvenlik kamerası onu destekliyor. Ayrıca Kenan'la uzlaşma yolundaydılar. Suçlamanız cinayet motifine değil, iş anlaşmazlığına dayalı ve mahkeme bunu kabul etmedi. Gerçek katil cezasız kaldı. İş dünyasındaki gerginlikler her zaman cinayet sebebi değildir, Dedektif."
+    },
+    {
+      "id": "ending_weak_case",
+      "title": "Zayıf Dava",
+      "description": "Cinayet kanıtlandı ama Elif'e bağlayan deliller yetersiz kaldı.",
+      "suspectAccused": "suspect_elif",
+      "isCorrect": true,
+      "starsEarned": 1,
+      "requiredEvidence": [],
+      "epilogueText": "Otopsi raporu cinayeti kanıtladı ama Elif'i katil olarak gösteren deliller zayıftı. Mahkeme delil yetersizliğinden beraat verdi. Elif sigortayı tahsil edip Monako'ya yerleşti. Doğru kişiyi biliyordun, Dedektif. Ama bilmek yetmez, kanıtlaman gerekir."
+    },
+    {
+      "id": "ending_insufficient",
+      "title": "Yetersiz Kanıt",
+      "description": "Neredeyse hiç delil olmadan suçlama yaptın. Dava düştü.",
+      "suspectAccused": "suspect_elif",
+      "isCorrect": false,
+      "starsEarned": 0,
+      "requiredEvidence": [],
+      "epilogueText": "Savcı dosyayı açtığında yüzü asıldı. Elinde neredeyse hiçbir şey yoktu. Mahkeme 10 dakikada beraat kararı verdi. Dosya kapandı."
+    },
+    {
+      "id": "ending_elif_fled",
+      "title": "Kaçan Katil",
+      "description": "Elif çok fazla baskı hissetti ve ülkeden kaçtı.",
+      "suspectAccused": "suspect_elif",
+      "isCorrect": false,
+      "starsEarned": 0,
+      "requiredEvidence": [],
+      "epilogueText": "Çok fazla baskı uyguladın, Dedektif. Elif tehlikeyi sezdi ve sahte pasaportla ülkeyi terk etti. 5 milyon TL'lik sigortayı offshore hesaba aktarmıştı. Deliller imha edildi. Katili biliyordun ama onu kaçırdın."
+    }
+  ],
+  "hqLocations": [
+    {
+      "sceneId": "scene_002",
+      "label": "Olay Yeri (Yalı)",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_003",
+      "label": "Polis Raporu",
+      "icon": "doc.text.fill"
+    },
+    {
+      "sceneId": "scene_008",
+      "label": "Adli Tıp",
+      "icon": "cross.case.fill"
+    },
+    {
+      "sceneId": "scene_005",
+      "label": "Çay İnceleme",
+      "icon": "cup.and.saucer.fill"
+    },
+    {
+      "sceneId": "scene_006",
+      "label": "Oda İnceleme",
+      "icon": "magnifyingglass"
+    },
+    {
+      "sceneId": "scene_007",
+      "label": "Güvenlik Odası",
+      "icon": "video.fill"
+    },
+    {
+      "sceneId": "scene_013",
+      "label": "Kamera Kayıtları",
+      "icon": "camera.fill"
+    },
+    {
+      "sceneId": "scene_009",
+      "label": "Yanmış Belge",
+      "icon": "staroflife.fill"
+    },
+    {
+      "sceneId": "scene_022",
+      "label": "Eczane",
+      "icon": "pills.fill"
+    }
+  ],
+  "pressEvents": [
+    {
+      "id": "press_day1",
+      "reporterName": "Aylin Demir",
+      "outlet": "İstanbul Haber",
+      "question": "Dedektif, Kenan Arslanlı'nın ölümü hakkında açıklama yapar mısınız? Cinayet mi?",
+      "options": [
+        {
+          "text": "Soruşturma devam ediyor, açıklama yapmak için erken.",
+          "effect": "managed",
+          "reputationDelta": 3,
+          "note": "Basına profesyonel cevap verildi."
+        },
+        {
+          "text": "Evet, cinayet şüphesiyle soruşturuyoruz.",
+          "effect": "leak",
+          "reputationDelta": -5,
+          "note": "Basına erken bilgi sızdırıldı."
+        },
+        {
+          "text": "(Basını görmezden gel)",
+          "effect": "ignore",
+          "reputationDelta": -2,
+          "note": "Basın görmezden gelindi."
+        }
+      ],
+      "triggerAfterScenes": 3
+    },
+    {
+      "id": "press_day2",
+      "reporterName": "Mert Kaya",
+      "outlet": "Sözcü",
+      "question": "Soruşturmada neden hala tutuklama yok? Halk bilmek istiyor!",
+      "options": [
+        {
+          "text": "Delilleri titizlikle topluyoruz. Adalet aceleye gelmez.",
+          "effect": "managed",
+          "reputationDelta": 5,
+          "note": "Basına güven veren açıklama yapıldı."
+        },
+        {
+          "text": "Ana şüphelimiz var ama henüz açıklayamam.",
+          "effect": "hint",
+          "reputationDelta": 0,
+          "note": "Basına ipucu verildi."
+        },
+        {
+          "text": "Soruşturmayı etkileyen sorular sormak yerine bekleyin.",
+          "effect": "hostile",
+          "reputationDelta": -4,
+          "note": "Basına sert cevap verildi."
+        }
+      ],
+      "triggerAfterScenes": 9
+    },
+    {
+      "id": "press_day3",
+      "reporterName": "Canan Yılmaz",
+      "outlet": "Hürriyet",
+      "question": "Son gün! Suçlama yapacak mısınız yoksa dava kapanacak mı?",
+      "options": [
+        {
+          "text": "Bugün adalet yerini bulacak.",
+          "effect": "confident",
+          "reputationDelta": 4,
+          "note": "Basına güvenli mesaj verildi."
+        },
+        {
+          "text": "Hiçbir yorum yok.",
+          "effect": "ignore",
+          "reputationDelta": -1,
+          "note": "Basın son günde de cevap alamadı."
+        }
+      ],
+      "triggerAfterScenes": 16
+    }
+  ],
+  "phoneData": {
+    "owner": "Kenan Arslanlı",
+    "messages": [
+      {
+        "id": "msg_selin_1",
+        "contact": "Selin Y.",
+        "contactId": "suspect_selin",
+        "time": "21:14",
+        "date": "Ölüm günü",
+        "messages": [
+          {
+            "from": "selin",
+            "text": "Bu akşam konuşmamız lazım.",
+            "time": "18:32"
+          },
+          {
+            "from": "kenan",
+            "text": "Tamam, yalıya gel saat 7'de.",
+            "time": "18:35"
+          },
+          {
+            "from": "selin",
+            "text": "Elif evde mi?",
+            "time": "18:36"
+          },
+          {
+            "from": "kenan",
+            "text": "Yukarıda. Merak etme.",
+            "time": "18:40"
+          },
+          {
+            "from": "selin",
+            "text": "Seni seviyorum. Ama artık böyle devam edemeyiz.",
+            "time": "19:45"
+          },
+          {
+            "from": "selin",
+            "text": "Kenan?",
+            "time": "21:14"
+          },
+          {
+            "from": "selin",
+            "text": "Kenan cevap ver lütfen.",
+            "time": "22:30"
+          }
+        ]
+      },
+      {
+        "id": "msg_elif_1",
+        "contact": "Elif",
+        "contactId": "suspect_elif",
+        "time": "17:22",
+        "date": "Ölüm günü",
+        "messages": [
+          {
+            "from": "elif",
+            "text": "Akşam yemeği hazır mı yapayım?",
+            "time": "16:45"
+          },
+          {
+            "from": "kenan",
+            "text": "Yapmana gerek yok. Dışarıdan alacağım.",
+            "time": "16:50"
+          },
+          {
+            "from": "elif",
+            "text": "Çay hazırladım, salonda.",
+            "time": "17:22"
+          }
+        ]
+      },
+      {
+        "id": "msg_deniz_1",
+        "contact": "Deniz K.",
+        "contactId": "suspect_deniz",
+        "time": "15:30",
+        "date": "Ölüm günü",
+        "messages": [
+          {
+            "from": "deniz",
+            "text": "Yarın toplantı var, gündemi hazırladı mı Ayşe?",
+            "time": "14:20"
+          },
+          {
+            "from": "kenan",
+            "text": "Evet. Şirket satışı konusunu da ekleyelim.",
+            "time": "14:45"
+          },
+          {
+            "from": "deniz",
+            "text": "Kenan lütfen bu konuyu açma. Konuşuruz.",
+            "time": "14:48"
+          },
+          {
+            "from": "kenan",
+            "text": "Konuşacağız evet. Ama karar verdim.",
+            "time": "15:30"
+          }
+        ]
+      },
+      {
+        "id": "msg_burak_1",
+        "contact": "Burak",
+        "contactId": "suspect_burak",
+        "time": "12:05",
+        "date": "Ölüm günü",
+        "messages": [
+          {
+            "from": "burak",
+            "text": "Baba, Ankara'dan dönünce konuşalım mı?",
+            "time": "11:40"
+          },
+          {
+            "from": "kenan",
+            "text": "Tabii oğlum. Ne zaman dönüyorsun?",
+            "time": "11:55"
+          },
+          {
+            "from": "burak",
+            "text": "Yarın akşam. Önemli bir şey var.",
+            "time": "12:05"
+          }
+        ]
+      }
+    ],
+    "callLog": [
+      {
+        "contact": "Selin Y.",
+        "time": "19:02",
+        "duration": "12dk",
+        "type": "incoming",
+        "date": "Ölüm günü"
+      },
+      {
+        "contact": "Deniz K.",
+        "time": "16:15",
+        "duration": "8dk",
+        "type": "outgoing",
+        "date": "Ölüm günü"
+      },
+      {
+        "contact": "Avukat Mehmet",
+        "time": "14:00",
+        "duration": "22dk",
+        "type": "outgoing",
+        "date": "Ölüm günü"
+      },
+      {
+        "contact": "Elif",
+        "time": "10:30",
+        "duration": "2dk",
+        "type": "incoming",
+        "date": "Ölüm günü"
+      },
+      {
+        "contact": "Bilinmeyen Numara",
+        "time": "09:15",
+        "duration": "1dk",
+        "type": "missed",
+        "date": "Ölüm günü"
+      },
+      {
+        "contact": "Deniz K.",
+        "time": "21:30",
+        "duration": "0dk",
+        "type": "missed",
+        "date": "1 gün önce"
+      },
+      {
+        "contact": "Selin Y.",
+        "time": "23:45",
+        "duration": "35dk",
+        "type": "incoming",
+        "date": "2 gün önce"
+      }
+    ]
+  },
+  "cameraData": {
+    "location": "Arslanlı Yalısı - Ana Giriş",
+    "date": "14 Kasım 2024",
+    "events": [
+      {
+        "time": "18:55",
+        "position": 15,
+        "label": "Selin geliyor",
+        "detail": "Selin Yıldız yalıya giriş yapıyor. Elinde küçük bir çanta var. Güvenliğe gülümsüyor.",
+        "isKey": false
+      },
+      {
+        "time": "19:48",
+        "position": 28,
+        "label": "Selin çıkıyor",
+        "detail": "Selin Yıldız yalıdan çıkıyor. Yüzü gergin, hızlı adımlarla arabasına yöneliyor.",
+        "isKey": false
+      },
+      {
+        "time": "20:15",
+        "position": 33,
+        "label": "Teslimatçı",
+        "detail": "Bir yemek teslimatçısı kapıya geliyor. Elif kapıda karşılayıp yemeği alıyor.",
+        "isKey": false
+      },
+      {
+        "time": "21:03",
+        "position": 45,
+        "label": "Şüpheli araç",
+        "detail": "Siyah bir sedan yalının önünde yavaşlıyor. 15 dakika park ediyor. Plaka kısmen okunuyor: 34 D... Deniz'in aracına çok benziyor.",
+        "isKey": true
+      },
+      {
+        "time": "22:04",
+        "position": 53,
+        "label": "Elif çıkıyor",
+        "detail": "Elif Arslanlı yalıdan çıkıyor. Koyu renkli mont ve gözlük takmış. Hızla yürüyerek kayboluyor.",
+        "isKey": true
+      },
+      {
+        "time": "23:28",
+        "position": 72,
+        "label": "Elif dönüyor",
+        "detail": "Elif Arslanlı geri dönüyor. Elindeki plastik poşet belli belirsiz görünüyor. İçeri giriyor.",
+        "isKey": true
+      },
+      {
+        "time": "01:15",
+        "position": 88,
+        "label": "Ambulans",
+        "detail": "Ambulans yalıya geliyor. Elif dışarıda bekliyor, ağlıyormuş gibi görünüyor.",
+        "isKey": false
+      }
+    ]
+  },
+  "contradictions": [
+    {
+      "id": "contra_1",
+      "requires": [
+        "guvenlik_kamerasi"
+      ],
+      "statement1": {
+        "source": "Elif Arslanlı",
+        "text": "O gece odamdan hiç çıkmadım, başım ağrıyordu."
+      },
+      "statement2": {
+        "source": "Güvenlik Kamerası",
+        "text": "22:04'te Elif yalıdan çıkıyor, 23:28'de geri dönüyor."
+      },
+      "result": {
+        "text": "Elif'in ifadesi kamera kaydıyla çelişiyor! 1.5 saat boyunca neredeydi?"
+      }
+    },
+    {
+      "id": "contra_2",
+      "requires": [
+        "otopsi_raporu"
+      ],
+      "statement1": {
+        "source": "Elif Arslanlı",
+        "text": "Kenan akşam yemeğinde iyiydi, sonra kötüleşti."
+      },
+      "statement2": {
+        "source": "Otopsi Raporu",
+        "text": "Zehir, yemekten en az 2 saat önce alınmış."
+      },
+      "result": {
+        "text": "Zehirlenme zamanı Elif'in anlattığıyla uyuşmuyor. Kenan yemekten önce zehirlendi!"
+      }
+    },
+    {
+      "id": "contra_3",
+      "requires": [
+        "deniz_epostalari"
+      ],
+      "statement1": {
+        "source": "Deniz Korkmaz",
+        "text": "O akşam Kenan'la hiç konuşmadım, evdeydim."
+      },
+      "statement2": {
+        "source": "Telefon Kayıtları",
+        "text": "16:15'te Kenan'dan Deniz'e 8 dakikalık arama kaydı var."
+      },
+      "result": {
+        "text": "Deniz telefon kaydını inkar ediyor. O akşam gerçekten neredeydi?"
+      }
+    },
+    {
+      "id": "contra_4",
+      "requires": [
+        "selin_mesajlari"
+      ],
+      "statement1": {
+        "source": "Selin Yıldız",
+        "text": "Kenan'la sadece iş arkadaşıydık, özel bir ilişkimiz yoktu."
+      },
+      "statement2": {
+        "source": "Telefon Mesajları",
+        "text": "'Seni seviyorum. Ama artık böyle devam edemeyiz.' - Selin, 19:45"
+      },
+      "result": {
+        "text": "Selin'in 'iş arkadaşı' iddiası telefon mesajlarıyla çürütüldü. Romantik ilişki kanıtlandı."
+      }
+    },
+    {
+      "id": "contra_5",
+      "requires": [
+        "eczane_fisi"
+      ],
+      "statement1": {
+        "source": "Elif Arslanlı",
+        "text": "Kenan'ın ilaçlarını ben almam, kendi alırdı."
+      },
+      "statement2": {
+        "source": "Eczane Kayıtları",
+        "text": "Elif Arslanlı adına düzenlenmiş reçete, olay gününden 3 gün önce."
+      },
+      "result": {
+        "text": "Elif eczane reçetesini inkar ediyor ama kayıtlar onun adına. İlaçlara erişimi vardı!"
+      }
+    },
+    {
+      "id": "contra_6",
+      "requires": [
+        "guvenlik_kamerasi",
+        "deniz_epostalari"
+      ],
+      "statement1": {
+        "source": "Deniz Korkmaz",
+        "text": "Yalıya hiç gitmedim o gece, evden çıkmadım."
+      },
+      "statement2": {
+        "source": "Güvenlik Kamerası",
+        "text": "21:03'te Deniz'in aracına benzer siyah sedan yalının önünde 15 dakika park ediyor."
+      },
+      "result": {
+        "text": "Deniz'in arabası olay yerinde görüntülendi! Alibisi çöküyor."
+      }
+    },
+    {
+      "id": "contra_7",
+      "requires": [
+        "sigorta_bilgisi"
+      ],
+      "statement1": {
+        "source": "Elif Arslanlı",
+        "text": "Sigorta konusundan haberim yoktu, Kenan'ın mali işleri beni ilgilendirmezdi."
+      },
+      "statement2": {
+        "source": "Sigorta Poliçesi",
+        "text": "2 milyon TL'lik hayat sigortası, lehtar: Elif Arslanlı. 6 ay önce düzenlenmiş."
+      },
+      "result": {
+        "text": "Elif sigortadan habersiz olduğunu söylüyor ama poliçede lehtar olarak adı geçiyor. 2 milyon TL motif!"
+      }
+    },
+    {
+      "id": "contra_8",
+      "requires": [
+        "burak_ucak_bileti"
+      ],
+      "statement1": {
+        "source": "Burak Arslanlı",
+        "text": "İzmir'deydim, İstanbul'a gelmem mümkün değildi."
+      },
+      "statement2": {
+        "source": "Uçak Bileti",
+        "text": "Burak'ın İzmir dönüş bileti ertesi gün, yani alibisi sağlam."
+      },
+      "result": {
+        "text": "Burak'ın alibisi doğrulanıyor. Uçak bileti ve otel kaydı İzmir'de olduğunu kanıtlıyor."
+      }
+    },
+    {
+      "id": "contra_9",
+      "requires": [
+        "internet_gecmisi"
+      ],
+      "statement1": {
+        "source": "Elif Arslanlı",
+        "text": "Kenan'ın çalışma odasına hiç girmem, orası onun özel alanıydı."
+      },
+      "statement2": {
+        "source": "Parmak İzi Raporu",
+        "text": "Elif'in parmak izleri çalışma odasında, masada ve çekmecede bulundu."
+      },
+      "result": {
+        "text": "Elif çalışma odasına girmediğini söylüyor ama parmak izleri orada! Ne arıyordu?"
+      }
+    }
+  ],
+  "labAnalyses": [
+    {
+      "id": "lab_toksikoloji",
+      "title": "Toksikoloji Analizi",
+      "sampleIcon": "flask.fill",
+      "steps": [
+        "Kan örneği hazırlanıyor...",
+        "Spektrometri taraması başlatıldı...",
+        "Toksin izolasyonu yapılıyor...",
+        "Konsantrasyon hesaplanıyor...",
+        "Rapor oluşturuluyor..."
+      ],
+      "duration": 8000,
+      "resultTitle": "Toksikoloji Sonucu",
+      "resultText": "Kanda yüksek doz dijital glikozit (digoksin türevi) tespit edildi. Bu doz terapötik aralığın 4 katı kesinlikle kasıtlı zehirlenme. Madde oral yoldan alınmış, muhtemelen içeceğe karıştırılmış.",
+      "resultNote": "Digoksin türevi tespit edildi doz ölümcül seviyede, oral alım."
+    },
+    {
+      "id": "lab_parmak_izi",
+      "title": "Parmak İzi Karşılaştırma",
+      "sampleIcon": "hand.raised.fill",
+      "steps": [
+        "Örnekler taranıyor...",
+        "Minutiae noktaları eşleniyor...",
+        "Veritabanı karşılaştırması...",
+        "Sonuçlar doğrulanıyor..."
+      ],
+      "duration": 6000,
+      "resultTitle": "Parmak İzi Eşleşmesi",
+      "resultText": "Çay bardağındaki parmak izleri Elif Arslanlı ile %97 eşleşme gösteriyor. İkinci bir set iz de Kenan Arslanlı'ya ait. Üçüncü bir kişiye ait iz bulunamadı.",
+      "resultNote": "Çay bardağında sadece Elif ve Kenan'ın parmak izleri üçüncü kişi yok."
+    }
+  ],
+  "flashbackTriggers": [
+    {
+      "id": "fb_elif",
+      "sceneId": "scene_flashback_elif",
+      "requires": [
+        "selin_mesajlari",
+        "guvenlik_kamerasi"
+      ],
+      "creditCost": null
+    },
+    {
+      "id": "fb_kenan",
+      "sceneId": "scene_flashback_kenan",
+      "requires": [
+        "otopsi_raporu",
+        "supheli_cay"
+      ],
+      "creditCost": null
+    },
+    {
+      "id": "fb_eczane",
+      "sceneId": "scene_flashback_eczane",
+      "requires": [
+        "eczane_fisi",
+        "guvenlik_kamerasi"
+      ],
+      "creditCost": null
+    }
+  ],
+  "newspaperArticles": [
+    {
+      "id": "news_initial",
+      "requires": null,
+      "headline": "İŞ İNSANI KENAN ARSLANLI ÖLDÜ",
+      "subheadline": "Boğaz'daki yalısında hareketsiz bulundu",
+      "body": "Arslanlı Holding'in kurucusu Kenan Arslanlı (58), dün gece Boğaz'daki yalısında hayatını kaybetti. Resmi açıklama kalp krizine işaret ediyor. Cenaze töreni yarın yapılacak.",
+      "source": "İstanbul Haber"
+    },
+    {
+      "id": "news_investigation",
+      "requires": null,
+      "headline": "ARSLANLI ÖLÜMÜNDE SORUŞTURMA",
+      "subheadline": "Polis cinayet şüphesiyle soruşturma başlattı",
+      "body": "Kenan Arslanlı'nın ölümünde soru işaretleri çoğalıyor. Otopsi talep edildi ve polis ekipleri olay yerinde inceleme yapıyor. Aile avukatı 'Kenan kalp hastası değildi' dedi.",
+      "source": "Hürriyet"
+    },
+    {
+      "id": "news_poison",
+      "requires": [
+        "otopsi_raporu"
+      ],
+      "headline": "ŞOK! ARSLANLI ZEHİRLENMİŞ",
+      "subheadline": "Otopsi raporu cinayet sinyali veriyor",
+      "body": "Adli Tıp Kurumu'nun otopsi raporu bomba etkisi yarattı: Kenan Arslanlı dijital glikozit zehirlenmesinden ölmüş. Polis şüphelileri tek tek sorguluyor. Aile fertleri göz altında.",
+      "source": "Sabah"
+    },
+    {
+      "id": "news_reputation_high",
+      "requires": null,
+      "headline": "DEDEKTİF DAVAYA HÂKİM",
+      "subheadline": "Soruşturma hızla ilerliyor",
+      "body": "Arslanlı davasını yürüten dedektif, kısa sürede önemli deliller topladı. Polis çevrelerinden gelen bilgilere göre soruşturma başarıyla ilerliyor ve yakın zamanda suçlama bekleniyor.",
+      "source": "Milliyet"
+    },
+    {
+      "id": "news_reputation_low",
+      "requires": null,
+      "headline": "SORUŞTURMA ÇIKMAZA MI GİRDİ?",
+      "subheadline": "Dedektif eleştiri yağmuruna tutuluyor",
+      "body": "Arslanlı davasında ilerleme kaydedilemiyor. Avukatlar ve medya, soruşturmayı yürüten dedektifi eleştiriyor. 'Deliller gözden kaçırılıyor' iddiası gündemde.",
+      "source": "Sözcü"
+    },
+    {
+      "id": "news_elif_suspect",
+      "requires": [
+        "eczane_fisi",
+        "guvenlik_kamerasi"
+      ],
+      "headline": "ELİF ARSLANLI GÖZALTINDA MI?",
+      "subheadline": "Eş, polis merkezinde saatlerce sorgulanmış",
+      "body": "Kenan Arslanlı'nın eşi Elif Arslanlı'nın cinayet gecesi evden çıktığı güvenlik kameralarına yansıdı. Elif'in gece eczaneye gittiği tespit edildi.",
+      "source": "Akşam"
+    }
+  ],
+  "suspectNetwork": {
+    "nodes": [
+      {
+        "id": "victim_kenan",
+        "label": "Kenan",
+        "type": "victim"
+      },
+      {
+        "id": "suspect_elif",
+        "label": "Elif",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_burak",
+        "label": "Burak",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_deniz",
+        "label": "Deniz",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_selin",
+        "label": "Selin",
+        "type": "suspect"
+      },
+      {
+        "id": "avukat",
+        "label": "Av. Mehmet",
+        "type": "npc"
+      },
+      {
+        "id": "eczaci",
+        "label": "Eczacı",
+        "type": "npc"
+      },
+      {
+        "id": "sekreter",
+        "label": "Sekreter Ayşe",
+        "type": "npc"
+      }
+    ],
+    "connections": [
+      {
+        "from": "victim_kenan",
+        "to": "suspect_elif",
+        "type": "family",
+        "label": "Eş",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_kenan",
+        "to": "suspect_burak",
+        "type": "family",
+        "label": "Baba-Oğul",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_kenan",
+        "to": "suspect_deniz",
+        "type": "business",
+        "label": "İş Ortağı",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_kenan",
+        "to": "suspect_selin",
+        "type": "romantic",
+        "label": "Gizli İlişki",
+        "strength": 3,
+        "requires": [
+          "selin_mesajlari"
+        ]
+      },
+      {
+        "from": "suspect_elif",
+        "to": "avukat",
+        "type": "business",
+        "label": "Sigorta İşleri",
+        "strength": 2,
+        "requires": [
+          "sigorta_bilgisi"
+        ]
+      },
+      {
+        "from": "suspect_elif",
+        "to": "eczaci",
+        "type": "suspicious",
+        "label": "Gece Alışverişi",
+        "strength": 3,
+        "requires": [
+          "eczane_fisi"
+        ]
+      },
+      {
+        "from": "suspect_deniz",
+        "to": "sekreter",
+        "type": "business",
+        "label": "Ofis Erişimi",
+        "strength": 1,
+        "requires": [
+          "deniz_epostalari"
+        ]
+      },
+      {
+        "from": "suspect_selin",
+        "to": "suspect_elif",
+        "type": "rivalry",
+        "label": "Rakipler",
+        "strength": 2,
+        "requires": [
+          "selin_mesajlari"
+        ]
+      },
+      {
+        "from": "victim_kenan",
+        "to": "avukat",
+        "type": "business",
+        "label": "Boşanma Danışması",
+        "strength": 2,
+        "requires": [
+          "sigorta_bilgisi"
+        ]
+      },
+      {
+        "from": "suspect_burak",
+        "to": "suspect_selin",
+        "type": "knowledge",
+        "label": "Biliyor",
+        "strength": 1,
+        "requires": [
+          "selin_mesajlari"
+        ]
+      },
+      {
+        "from": "suspect_elif",
+        "to": "suspect_selin",
+        "type": "confrontation",
+        "label": "Gizli Yüzleşme",
+        "strength": 2,
+        "requires": [
+          "selin_mesajlari",
+          "eczane_fisi"
+        ]
+      },
+      {
+        "from": "suspect_deniz",
+        "to": "avukat",
+        "type": "suspicious",
+        "label": "Gizli Görüşme",
+        "strength": 2,
+        "requires": [
+          "deniz_epostalari",
+          "sigorta_bilgisi"
+        ]
+      }
+    ]
+  },
+  "achievements": [
+    {
+      "id": "ach_first_evidence",
+      "icon": "magnifyingglass",
+      "title": "İlk İpucu",
+      "description": "İlk delilini topla",
+      "condition": "evidence_count_1"
+    },
+    {
+      "id": "ach_evidence_master",
+      "icon": "trophy.fill",
+      "title": "Delil Ustası",
+      "description": "Tüm delilleri topla",
+      "condition": "evidence_count_all"
+    },
+    {
+      "id": "ach_true_detective",
+      "icon": "star.fill",
+      "title": "Gerçek Dedektif",
+      "description": "Doğru katili 3 yıldızla yakala",
+      "condition": "perfect_ending"
+    },
+    {
+      "id": "ach_interrogator",
+      "icon": "bubble.left.and.bubble.right.fill",
+      "title": "Sorgucu",
+      "description": "Tüm şüphelilerle konuş",
+      "condition": "all_suspects_talked"
+    },
+    {
+      "id": "ach_cross_ref",
+      "icon": "link",
+      "title": "Bağlantı Kurucu",
+      "description": "İlk çapraz referansı keşfet",
+      "condition": "first_cross_ref"
+    },
+    {
+      "id": "ach_all_cross_ref",
+      "icon": "network",
+      "title": "Analiz Ustası",
+      "description": "Tüm çapraz referansları keşfet",
+      "condition": "all_cross_refs"
+    },
+    {
+      "id": "ach_wrong_accusation",
+      "icon": "xmark.circle.fill",
+      "title": "Yanlış Suçlamanın Acısı",
+      "description": "Yanlış kişiyi suçla",
+      "condition": "wrong_accusation"
+    },
+    {
+      "id": "ach_speed_run",
+      "icon": "bolt.fill",
+      "title": "Hızlı Dedektif",
+      "description": "15 sahne içinde doğru suçlama yap",
+      "condition": "speed_run"
+    },
+    {
+      "id": "ach_explorer",
+      "icon": "map.fill",
+      "title": "Kaşif",
+      "description": "20 farklı sahneyi ziyaret et",
+      "condition": "scenes_visited_20"
+    },
+    {
+      "id": "ach_notebook_full",
+      "icon": "note.text",
+      "title": "Titiz Dedektif",
+      "description": "10 not topla",
+      "condition": "notes_count_10"
+    },
+    {
+      "id": "ach_selin_path",
+      "icon": "heart.slash.fill",
+      "title": "Yasak Aşk",
+      "description": "Selin'in tüm hikayesini keşfet",
+      "condition": "selin_full_story"
+    },
+    {
+      "id": "ach_elif_confronted",
+      "icon": "exclamationmark.triangle.fill",
+      "title": "Yüzleşme",
+      "description": "Bir şüpheliyle tüm delillerle yüzleş",
+      "condition": "elif_confronted"
+    }
+  ],
+  "evidenceReactions": [
+    {
+      "characterId": "suspect_elif",
+      "evidenceId": "supheli_cay",
+      "reaction": "nervous",
+      "dialogue": "Elif çay bardağına bakar, kaşları çatılır. 'O çay her zamanki gibi hazırladığım çaydı. Ama eğer içinde bir şey varsa... biri mutfağa erişmiş olmalı. O akşam Selin de evdeydi.'",
+      "note": "Elif çay konusunda sakin kaldı, başkalarının da mutfağa erişimi olduğunu vurguladı."
+    },
+    {
+      "characterId": "suspect_elif",
+      "evidenceId": "otopsi_raporu",
+      "reaction": "surprised",
+      "dialogue": "Elif raporu gördüğünde dona kalıyor. 'Zehirlenme mi? Bu... korkunç!' Gözleri doluyor. Şok gerçek mi, yoksa hazırlıklı mı?",
+      "note": "Elif otopsi raporuna şokla tepki verdi."
+    },
+    {
+      "characterId": "suspect_elif",
+      "evidenceId": "guvenlik_kamerasi",
+      "reaction": "nervous",
+      "dialogue": "Elif kayıtları izler. 'Evet, çıktım. Migrenim vardı, eczaneye gittim. Ama bakın, Selin de o akşam oradaydı, çıkarken çok gergin görünüyordu.'",
+      "note": "Elif gece çıkışını migren ile açıkladı, Selin'e dikkat çekti."
+    },
+    {
+      "characterId": "suspect_elif",
+      "evidenceId": "eczane_fisi",
+      "reaction": "angry",
+      "dialogue": "Elif fişe bakar, kaşları çatılır. 'Ağrı kesici aldım, evet. Ama bu kalp ilacı... Ben kalp ilacı almadım!'",
+      "note": "Elif kalp ilacını almadığını iddia etti."
+    },
+    {
+      "characterId": "suspect_elif",
+      "evidenceId": "sigorta_bilgisi",
+      "reaction": "nervous",
+      "dialogue": "Elif sakin kalır. 'Sigorta artışını Kenan istedi. İş riskleri yüzünden. Ben sadece imzaladım.'",
+      "note": "Elif sigorta artışını Kenan'ın istediğini söyledi, çelişki var."
+    },
+    {
+      "characterId": "suspect_elif",
+      "evidenceId": "selin_mesajlari",
+      "reaction": "angry",
+      "dialogue": "Elif mesajları görünce uzun süre sessiz kalır. 'Biliyordum' der sessizce. 'Bir süredir biliyordum.'",
+      "note": "Elif ilişkiyi bildiğini sakin bir şekilde kabul etti."
+    },
+    {
+      "characterId": "suspect_burak",
+      "evidenceId": "selin_mesajlari",
+      "reaction": "sad",
+      "dialogue": "Burak mesajları görür ve başını eğer. 'Biliyordum. Babamın telefonunda gördüğümde... yıkılmıştım. Anneme söylemedim.'",
+      "note": "Burak ilişkiyi biliyormuş."
+    },
+    {
+      "characterId": "suspect_burak",
+      "evidenceId": "sigorta_bilgisi",
+      "reaction": "surprised",
+      "dialogue": "Burak kaşlarını çatıyor. '5 milyon mu? Bu kadar yükselmişti ha... Herkes bir parça istiyordu.'",
+      "note": "Burak: Herkes bir parça istiyordu."
+    },
+    {
+      "characterId": "suspect_burak",
+      "evidenceId": "eczane_fisi",
+      "reaction": "nervous",
+      "dialogue": "Burak fişi görünce yüzü bembeyaz oluyor. 'Bu eczane... Ben o gece... Tamam, evet! O gece o eczaneye gittim. Uyku ilacı istedim. Reçetesiz veremedi. Ama Digoxin almadım!'",
+      "note": "KRİTİK: Burak o gece eczaneye gittiğini itiraf etti!"
+    },
+    {
+      "characterId": "suspect_burak",
+      "evidenceId": "otopsi_raporu",
+      "reaction": "nervous",
+      "dialogue": "Burak raporu okurken elleri titriyor. 'Zehirlenme mi? Bu... O gece ben de...' Duraksıyor, gözleri kaçıyor.",
+      "note": "Burak otopsi raporunu görünce panikledi."
+    },
+    {
+      "characterId": "suspect_burak",
+      "evidenceId": "guvenlik_kamerasi",
+      "reaction": "nervous",
+      "dialogue": "Burak kamera kayıtlarını izlerken yüzü bembeyaz. 'Şu 21:00'deki araç... Hayır, o ben değilim. Ben İzmir'deydim. THY 2184, kontrol edin!'",
+      "note": "Burak kameradaki aracı görünce tedirgin oldu."
+    },
+    {
+      "characterId": "suspect_burak",
+      "evidenceId": "supheli_cay",
+      "reaction": "nervous",
+      "dialogue": "Burak bardağa uzun süre bakıyor. 'Babam her gece çay içerdi. Ben de çocukluğumdan beri o çayı yaparım. Ama o gece İzmir'deydim tabii ki.'",
+      "note": "Burak çay ritüelini bildiğini söyledi."
+    },
+    {
+      "characterId": "suspect_deniz",
+      "evidenceId": "selin_mesajlari",
+      "reaction": "surprised",
+      "dialogue": "Deniz gözlüğünü çıkarır. 'Kenan ve Selin mi? Bunu duymuştum aslında. Kenan bana söylemişti. Boşanmayı planlıyordu.'",
+      "note": "Deniz ilişkiyi biliyormuş."
+    },
+    {
+      "characterId": "suspect_deniz",
+      "evidenceId": "eczane_fisi",
+      "reaction": "surprised",
+      "dialogue": "Deniz fişi dikkatle okuyor. 'Gece geç saatte kalp ilacı... İlginç. Ama birçok kişi ilaç alabilir.'",
+      "note": "Deniz eczane fişine şaşırtıcı derecede sakin tepki verdi."
+    },
+    {
+      "characterId": "suspect_deniz",
+      "evidenceId": "otopsi_raporu",
+      "reaction": "nervous",
+      "dialogue": "Deniz raporu okur. 'Dijital glikozit... Bu ilaç şirketimizin ürettiği preparatlardan birinde var. Yani ben bu ilaca kolayca erişebilirdim. Ama bu beni suçlu yapmaz.'",
+      "note": "Deniz ilaca erişimi olduğunu itiraf etti."
+    },
+    {
+      "characterId": "suspect_deniz",
+      "evidenceId": "guvenlik_kamerasi",
+      "reaction": "surprised",
+      "dialogue": "Deniz kamera kayıtlarını inceler. '21:00'deki araç... O benim arabama benziyor aslında. Siyah Mercedes, İstanbul'da binlerce tane var.'",
+      "note": "Deniz kameradaki aracın kendi arabasına benzediğini fark etti."
+    },
+    {
+      "characterId": "suspect_deniz",
+      "evidenceId": "supheli_cay",
+      "reaction": "nervous",
+      "dialogue": "Deniz çay bardağına bakar. 'Kenan ile o akşam çay içmiştik aslında. Erken saatlerde, 18 civarı. Sonra ben gittim. Ama evet, o gün yalının mutfağındaydım.'",
+      "note": "Deniz cinayet günü yalının mutfağında çay içtiğini itiraf etti."
+    },
+    {
+      "characterId": "suspect_selin",
+      "evidenceId": "guvenlik_kamerasi",
+      "reaction": "surprised",
+      "dialogue": "Selin kamerayı izler ve nefesini tutar. 'Elif çıkmış... ama bakın, ben de o akşam oradaydım. Ve o araba... 21:00'deki araç.'",
+      "note": "Selin kameradaki birden fazla harekete dikkat çekti."
+    },
+    {
+      "characterId": "suspect_selin",
+      "evidenceId": "sigorta_bilgisi",
+      "reaction": "sad",
+      "dialogue": "Selin ağlamaya başlıyor. '5 milyon TL... Ama Kenan vasiyetnameyi de değiştirecekti. Bana ve bebeğe...'",
+      "note": "Selin: Kenan vasiyetnameyi değiştirecekti."
+    },
+    {
+      "characterId": "suspect_selin",
+      "evidenceId": "otopsi_raporu",
+      "reaction": "sad",
+      "dialogue": "Selin raporu okurken göz yaşları akıyor. 'Zehirlenmiş... O akşam ben de yalıdaydım. Mutfağın yanından geçtim...'",
+      "note": "Selin o akşam mutfağın yanından geçtiğini söyledi."
+    },
+    {
+      "characterId": "suspect_selin",
+      "evidenceId": "supheli_cay",
+      "reaction": "sad",
+      "dialogue": "Selin çay bardağına bakınca ağlamaya başlıyor. 'O akşam ben de mutfaktaydım. Kenan'a çay hazırlamıştım... İçine bitkisel bir takviye koydum. Ama sonra Elif geldi, o da çay yaptı.'",
+      "note": "Selin o akşam Kenan'a çay hazırladığını ve içine bitkisel takviye koyduğunu itiraf etti."
+    },
+    {
+      "characterId": "suspect_selin",
+      "evidenceId": "eczane_fisi",
+      "reaction": "nervous",
+      "dialogue": "Selin fişi görünce soluğu kesiliyor. 'Bu eczane benim evimin yakınında. Kenan'ın kalp ilacını bazen ben de alırdım. Reçetesi vardı.'",
+      "note": "KRİTİK: Selin eczaneyi tanıyor VE Kenan'ın kalp ilacını daha önce de almış!"
+    }
+  ],
+  "microExpressions": [
+    {
+      "id": "me_elif_cay",
+      "characterId": "suspect_elif",
+      "triggerScene": "scene_017",
+      "displayText": "Elif'in gözlerinde bir an buz gibi bir hesaplama parladı, sonra hemen gözyaşları geldi.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_elif_sigorta",
+      "characterId": "suspect_elif",
+      "triggerScene": "scene_012",
+      "displayText": "Elif dudağının kenarı bir an gerildi, zafer mi, tedirginlik mi?",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_elif_selin",
+      "characterId": "suspect_elif",
+      "triggerScene": "scene_020",
+      "displayText": "Elif'in yüzü bir anlık dondu. Gözlerindeki acı yerini soğuk bir öfkeye bıraktı.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_elif_kamera",
+      "characterId": "suspect_elif",
+      "triggerScene": "scene_019",
+      "displayText": "Elif bir an gözlerini kıstı, panik değil, hesaplama. Sonra hemen 'migren' hikayesine geçti.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_elif_otopsi",
+      "characterId": "suspect_elif",
+      "triggerScene": "scene_004",
+      "displayText": "Elif şok olmuş gibi göründü ama elleri titremiyor. Gözlerinin bir an parlaması, rahatlamaya mı benziyordu?",
+      "timeWindow": 3.0
+    }
+  ],
+  "suspectAvailability": {
+    "suspect_elif": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Elif bu saatte uyuyor. Sabah gel."
+    },
+    "suspect_burak": {
+      "availableHours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "unavailableMsg": "Burak şu an müsait değil. Gün içinde dene."
+    },
+    "suspect_deniz": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "unavailableMsg": "Deniz ofisten ayrıldı. Yarın gel."
+    },
+    "suspect_selin": {
+      "availableHours": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "unavailableMsg": "Selin'e ulaşılamıyor. Daha geç dene."
+    }
+  },
+  "timedEvents": [
+    {
+      "id": "event_autopsy_ready",
+      "type": "unlock_scene",
+      "sceneId": "scene_008",
+      "evidenceId": null,
+      "message": "Adli Tıp'tan haber var: Otopsi raporu hazır.",
+      "triggerAfterScenes": 2
+    },
+    {
+      "id": "event_night_pharmacy",
+      "type": "unlock_evidence",
+      "sceneId": null,
+      "evidenceId": null,
+      "message": "Nöbetçi eczane kayıtlarına ulaşabilirsiniz.",
+      "triggerAfterScenes": 5
+    },
+    {
+      "id": "event_selin_cafe",
+      "type": "unlock_scene",
+      "sceneId": "scene_023",
+      "evidenceId": null,
+      "message": "Selin bir kafede görüldü. Konuşmak için fırsat!",
+      "triggerAfterScenes": 10
+    },
+    {
+      "id": "event_evidence_risk",
+      "type": "warning",
+      "sceneId": null,
+      "evidenceId": null,
+      "message": "Dikkat! Bazı deliller zamanla bozulabilir.",
+      "triggerAfterScenes": 12
+    },
+    {
+      "id": "event_lawyer_pressure",
+      "type": "warning",
+      "sceneId": null,
+      "evidenceId": null,
+      "message": "Avukat baskı yapıyor. Suçlama yapın veya davayı kapatın!",
+      "triggerAfterScenes": 16
+    },
+    {
+      "id": "event_case_expires",
+      "type": "force_ending",
+      "sceneId": null,
+      "evidenceId": null,
+      "message": "Zaman doldu! Dava dosyası kapatılıyor...",
+      "triggerAfterScenes": 18
+    }
+  ]
+}

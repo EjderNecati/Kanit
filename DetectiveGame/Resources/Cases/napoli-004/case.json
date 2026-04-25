@@ -1,0 +1,2792 @@
+{
+  "id": "napoli-004",
+  "title": "Sessiz Şehir",
+  "subtitle": "Napoli, 2026",
+  "city": "Napoli",
+  "description": "Napoli Organize Suç Bürosu'nun 30 yıllık başkomiseri Franco Moretti, Campagna bölgesindeki terk edilmiş bir zeytinyağı deposunda başına tek kurşunla ölü bulundu. Silah olay yerinde yok. Cebinde sadece eski bir fotoğraf var: 1989 tarihli, genç bir kadınla çekilmiş. Arkasında el yazısıyla 'Sempre, L.' yazıyor. Franco yıllardır 4 mafya ailesiyle anlaşma yaparak 'barışı koruyordu' ama son 6 ayda hepsini çökertecek bir operasyon hazırlıyordu. Biri bunu öğrenmiş.",
+  "coverImage": "napoli_gece",
+  "difficulty": 3,
+  "isPremium": true,
+  "characters": [
+    {
+      "id": "suspect_enzo",
+      "name": "Don Enzo Ferrante",
+      "age": 71,
+      "occupation": "Ferrante Ailesi Reisi - Liman Mafyası",
+      "relationToVictim": "Napoli limanını kontrol ediyor. Franco son 6 ayda liman operasyonunu çökertecek belgeler toplamış.",
+      "portraitImage": "portrait_enzo",
+      "isSuspect": true,
+      "alibi": "Tekerlekli sandalyedeyim, felçli bir adamın cinayet işleyebileceğini mı düşünüyorsun? O gece villada, bakıcımla birlikteydim."
+    },
+    {
+      "id": "suspect_giulia",
+      "name": "Giulia Ferrante",
+      "age": 34,
+      "occupation": "Ferrante Ailesi Avukatı",
+      "relationToVictim": "Enzo'nun kızı. Ailenin hukuki işlerini yürütüyor. Franco'nun topladığı belgelerde adı geçiyor.",
+      "portraitImage": "portrait_giulia",
+      "isSuspect": true,
+      "alibi": "O gece ofisimdeydim, dava dosyası hazırlıyordum. Sekreterim 20:00'a kadar oradaydı."
+    },
+    {
+      "id": "suspect_tommaso",
+      "name": "Tommaso Ferrante",
+      "age": 28,
+      "occupation": "Liman Operasyon Müdürü",
+      "relationToVictim": "Enzo'nun oğlu, limanın fiili yöneticisi. Adı Franco'nun hazırladığı iddianamede geçiyor.",
+      "portraitImage": "portrait_tommaso",
+      "isSuspect": true,
+      "alibi": "Limandaydım, gece vardiyasını denetliyordum. Bir ara alt depoya indim, özel iş."
+    },
+    {
+      "id": "suspect_silvana",
+      "name": "Donna Silvana Conte",
+      "age": 58,
+      "occupation": "Conte Ailesi Reisi - İnşaat Mafyası",
+      "relationToVictim": "Napoli'nin kentsel dönüşüm projelerini kontrol ediyor. Kocası 2019'da öldürüldü. Franco kara para aklama ağını keşfetmiş ve kocasının ölümünü yeniden soruşturuyormuş.",
+      "portraitImage": "portrait_silvana",
+      "isSuspect": true,
+      "alibi": "Evimdeydim, misafirlerim vardı. 8 kişilik bir yemek verdim. Hepsi doğrular."
+    },
+    {
+      "id": "suspect_marco",
+      "name": "Marco Conte",
+      "age": 36,
+      "occupation": "İnşaat Şirketi Müdürü",
+      "relationToVictim": "Silvana'nın yeğeni. İnşaat şirketinin resmi yöneticisi. Paranoyak, herkesin onu takip ettiğini düşünüyor.",
+      "portraitImage": "portrait_marco",
+      "isSuspect": true,
+      "alibi": "Evimdeydim. Kapıları kilitledim, perdeleri çektim. Kimseyi görmedim, kimse beni görmedi."
+    },
+    {
+      "id": "suspect_ignazio",
+      "name": "Padre Ignazio",
+      "age": 65,
+      "occupation": "Rahip - Conte Ailesi Manevi Danışmanı",
+      "relationToVictim": "Silvana'nın manevi danışmanı görünümünde. Aslında ailenin kirli paralarını kilise vakfı üzerinden aklıyor.",
+      "portraitImage": "portrait_ignazio",
+      "isSuspect": true,
+      "alibi": "Kilisedeydim, akşam ayinini yönettim. 20:30'da bitti. Sonra bir randevum vardı."
+    },
+    {
+      "id": "suspect_salvatore",
+      "name": "Don Salvatore Luciano",
+      "age": 67,
+      "occupation": "Luciano Ailesi Reisi - Uyuşturucu İmparatorluğu",
+      "relationToVictim": "Güney İtalya'nın en büyük kokain ağını yönetiyor. Franco'yla 30 yıllık dostluk ve anlaşma vardı. Franco bu anlaşmaya ihanet etti.",
+      "portraitImage": "portrait_salvatore",
+      "isSuspect": true,
+      "alibi": "Evimdeydim, aile yemeği verdim. Kızım Bianca, oğlum Alessio, muhasebecim ve iki korumam oradaydı."
+    },
+    {
+      "id": "suspect_alessio",
+      "name": "Alessio Luciano",
+      "age": 31,
+      "occupation": "Luciano Ailesi - Saha Operasyonları",
+      "relationToVictim": "Salvatore'nin oğlu. Kokain bağımlısı, dengesiz. Franco'nun operasyonu Luciano ağını çökertecekti.",
+      "portraitImage": "portrait_alessio",
+      "isSuspect": true,
+      "alibi": "Babamın evinde yemekteydim. Biraz içtim. Bir ara hava almaya çıktım, ne kadar kaldım bilmiyorum."
+    },
+    {
+      "id": "suspect_bianca",
+      "name": "Bianca Luciano",
+      "age": 31,
+      "occupation": "Luciano Ailesi - Muhasebe Sorumlusu",
+      "relationToVictim": "Salvatore'nin kızı. Ailenin mali işlerini yürütüyor. Sessiz, gözlemci, son derece zeki.",
+      "portraitImage": "portrait_bianca",
+      "isSuspect": true,
+      "alibi": "Babamın evinde aile yemeğindeydim. Biraz midem bulandı, anemim var, odama çıkıp dinlendim. Yaklaşık bir saat sonra indim."
+    },
+    {
+      "id": "suspect_vittorio",
+      "name": "Don Vittorio Navarro",
+      "age": 73,
+      "occupation": "Navarro Ailesi Reisi - Silah Kaçakçılığı",
+      "relationToVictim": "Akdeniz boyunca silah ticareti yapıyor. Napoli'nin gölge belediye başkanı. Franco onların silah deposunun yerini bulmuş. Cinayet o depoda işlendi.",
+      "portraitImage": "portrait_vittorio",
+      "isSuspect": true,
+      "alibi": "Belediye başkanının resepsiyonundaydım. 200 kişi gördü beni. Saat 23'e kadar oradaydım."
+    },
+    {
+      "id": "suspect_elena",
+      "name": "Elena Navarro",
+      "age": 38,
+      "occupation": "Siyasi İrtibat - Milletvekili Eşi",
+      "relationToVictim": "Vittorio'nun kızı. Bir milletvekiliyle evli. Ailenin siyasi bağlantılarını yönetiyor.",
+      "portraitImage": "portrait_elena",
+      "isSuspect": true,
+      "alibi": "Kocamla birlikte bir balo davetindeydik. Yüzlerce tanık var. Bu konuşma hiç yaşanmadı."
+    },
+    {
+      "id": "suspect_stefano",
+      "name": "Stefano Navarro",
+      "age": 41,
+      "occupation": "Silah Deposu Yöneticisi - Eski Özel Kuvvetler",
+      "relationToVictim": "Vittorio'nun üvey oğlu. Silah deposunu yönetiyor. Eski İtalyan Özel Kuvvetleri mensubu. Soğuk, askeri disiplin.",
+      "portraitImage": "portrait_stefano",
+      "isSuspect": true,
+      "alibi": "Depoyu akşam 19:00'da kapattım, eve gittim. Tek başımaydım. Ertesi gün cinayeti haberlerden öğrendim."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "otopsi_raporu",
+      "title": "Otopsi Raporu",
+      "description": "Franco Moretti'nin otopsi raporu. Sol sakaktan tek kursunla oldurulmus. Atis mesafesi 30-50 cm. Olum saati 20:45-21:15 arasi. Franco solakti, katil karsisinda duruyordu. Franco katilini taniyordu.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "balistik_rapor",
+      "title": "Balistik Raporu",
+      "description": "Cinayet silahi 9mm Beretta 92FS. Seri numarasi silinmis, profesyonel bir is. Navarro deposunda ayni model silahlar mevcut ancak Beretta 92FS Italya'da son derece yaygin bir silah.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "guvenlik_kamerası",
+      "title": "Güvenlik Kamerası Kaydı",
+      "description": "Depo girisindeki guvenlik kamerasi. Kablo profesyonelce kesilmis. Saat 20:42'de bir golge belirmis, 20:43'te goruntu kesilmis. Kesim askeri egitim veya teknik bilgi gerektiriyor.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "parfüm_kalintisi",
+      "title": "Parfüm Kalıntısı",
+      "description": "Depoda tespit edilen pahali parfum kokusu. Bergamot, yasemin, sandal agaci ve misk bazli ozel uretim veya luks bir marka. Franco parfum kullanmiyordu, koku katile ait. Cinayet saatiyle uyumlu.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "eczane_kaydi",
+      "title": "Eczane Kaydı",
+      "description": "Bianca Luciano'nun eczane kayitlari. Kronik demir eksikligi anemisi tedavisi goruyor. Duzenleri ilaclar: Ferrograd C, Folik Asit, B12 vitamini. Hemoglobin 10.2, ferritin 8. Surekli solgunluk ve halsizlik.",
+      "image": null,
+      "linkedCharacterId": "suspect_bianca",
+      "eliminates": null
+    },
+    {
+      "id": "cenere_dosyasi",
+      "title": "Operazione Cenere Dosyası",
+      "description": "Franco'nun gizli kasasindan cikan 200 sayfalik sorusturma raporu. 4 mafya ailesini birden cokertecek 6 aylik detayli belge. Ferrante liman kacakciligi, Conte kara para aklama, Luciano kokain agi, Navarro silah ticareti. Franco'nun el yazisinota: '30 yildir gozlerimi kapadim. Artik yeter.'",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "bianca_defteri",
+      "title": "Bianca'nın Kişisel Defteri",
+      "description": "Bianca Luciano'nun kilitli cekmecesinden cikan deri kapli defter. Deniz, kayip ve ozlem temali siirler ve notlar. 'Anne, deniz bugunde seni ariyor.' 1994 tarihli Napoli damgali posta pulu ve annesi Rosa Luciano'dan gelen bos zarf. Zarfin uzerinde kurumus gozyasi lekeleri.",
+      "image": null,
+      "linkedCharacterId": "suspect_bianca",
+      "eliminates": null
+    },
+    {
+      "id": "depo_anahtari",
+      "title": "Depo Anahtarı Kayıtları",
+      "description": "Cinayet mahalli olan deponun anahtar dagitim kayitlari. Resmi anahtar sahipleri: Don Vittorio Navarro (mulk sahibi), Stefano Navarro (depo yoneticisi) ve Franco Moretti. Kilit zorlanmamis, anahtar kullanilmis. Eski tip kilit, kopya cikarilmasi kolay.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "franco_telefon",
+      "title": "Franco'nun Telefon Kayıtları",
+      "description": "Franco'nun son arama kaydi: 20:30'da bilinmeyen prepaid hattan 47 saniyelik arama. Arayan kisi Posillipo bolgesinden. Silinen mesaj kurtarildi: 'Lucia hakkinda bildigim seyleri konusmamiz lazim. Depoya gel.' Franco tuzaga dusurulerek depoya cagrilmis.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "tommaso_telefon",
+      "title": "Tommaso'nun Telefon Kayıtları",
+      "description": "Tommaso Ferrante'nin olay gecesi telefon aktivitesi. 19:30'da liman deposundan arama, 21:00'da babasi Enzo'yu aramis. Muhbir bilgisi: Tommaso 21:00'daki aramada 'Baba, hallettim. Artik sorun olmayacak' demis. Zamanlama cinayet saatiyle uyuyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_tommaso",
+      "eliminates": null
+    },
+    {
+      "id": "lucia_ölüm",
+      "title": "Lucia Ferrante Ölüm Dosyası",
+      "description": "Polis arsivlerinden cikan dosya. Lucia Ferrante, 24 yasinda, Enzo'nun kiz kardesi. 1995'te 'intihar' olarak kayda gecmis. Sorusturmayi Franco Moretti yurutmus ve dosyayi 2 haftada kapatmis. Otopsi yapilmamis. Franco ile Lucia arasinda iliskisi oldugu anlasilıyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_enzo",
+      "eliminates": null
+    },
+    {
+      "id": "sempre_fotoğraf",
+      "title": "Sempre Fotoğrafı",
+      "description": "Franco Moretti'nin cebinde bulunan 1989 tarihli eski fotograf. Genc bir kadinla cekilmis. Arkasinda el yazisinota: 'Sempre, L.' Franco'nun gecmisindeki gizemli kadinla baglantiyi gosteren tek somut delil.",
+      "image": null,
+      "linkedCharacterId": null,
+      "eliminates": null
+    },
+    {
+      "id": "salvatore_hastane",
+      "title": "Hastane Kayıtları",
+      "description": "Santa Maria Hastanesi hasta kayitlari. Kan grubu listesi:\n- Salvatore Luciano: O Rh+\n- Rosa Luciano: B Rh+\n- Alessio Luciano: B Rh+\n- Bianca Luciano: AB Rh-\n- Stefano Navarro: AB Rh+\n- Giulia Ferrante: A Rh-\nSalvatore kronik kalp yetmezligi ve kalp pili tasiyor, fiziksel aktivitesi sinirli.",
+      "image": null,
+      "linkedCharacterId": "suspect_salvatore",
+      "eliminates": null
+    },
+    {
+      "id": "kilise_vakfi",
+      "title": "Kilise Vakfı Mali Kayıtları",
+      "description": "San Gennaro Kilise Vakfi banka hesaplari. Son 3 yilda 4.7 milyon euro aklanmis. 23 farkli sirket uzerinden para vakfa akmis, oradan Isvicre ve Malta hesaplarina transfer edilmis. Padre Ignazio tek yetkili imza sahibi. Conte ailesinin kara para aklama sebekesi.",
+      "image": null,
+      "linkedCharacterId": "suspect_ignazio",
+      "eliminates": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_001",
+      "type": "narration",
+      "background": "napoli_gece",
+      "characterId": null,
+      "text": "Napoli. Akşam üstü. Vezuv'un gölgesinde terleyen bir şehir.\n\nTelefon çaldığında Roma'da bir davayı kapatmak üzereydin. Napoli polis şefi aradı: 'Başkomiser Franco Moretti ölü bulundu. Campagna'daki terk edilmiş zeytinyağı deposunda. Başına tek kurşun. Silah yok. Olay yeri temiz, fazla temiz.'\n\nFranco Moretti. 30 yıldır Napoli Organize Suç Bürosu'nun başkomiseriydi. 4 mafya ailesiyle yıllardır 'barışı koruduğu' söylenen bir adam. Son 6 ayda büyük bir operasyon hazırlıyormuş: Operazione Cenere. 4 aileyi birden çökertecek bir plan. Biri bunu öğrenmiş.\n\nŞehir sessiz. Mafya konuşmuyor. Polis konuşmuyor. Napoli her zamanki gibi suskun.\n\nTaksi seni doğruca olay yerine götürüyor.",
+      "choices": [
+        {
+          "id": "c001a",
+          "text": "Olay yerini incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001b",
+          "text": "Polis şefinden brifing al",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_002",
+      "type": "investigation",
+      "background": "depo_dis",
+      "characterId": null,
+      "text": "Campagna bölgesi. Şehrin dışında, zeytinliklerin arasında terk edilmiş bir depo. Etraf polis şeritleriyle çevrili. Gece lambalarının sarımsı ışığında deponun tas duvarları nemli parlıyor.\n\nDepo büyük, iki katlı eski bir yapı. Dış kapısı açık, kilit zorlanmamış. İçeri giriyorsun.\n\nZemin tozlu ama bazı yerlerde ayak izleri belli. Eski zeytinyağı fıçıları duvara yaşlı. Deponun ortasında Franco Moretti'nin cesedi bulunmuş, artık kaldırılmış ama kriminalistik işaret ve ölçüler yerinde.\n\nDuvarda eski bir güvenlik kamerası var, kablosu kesilmiş. Ve havada garip bir şey var: bu tozlu, terk edilmiş depoda olmaması gereken hafif ama belirgin bir koku.",
+      "choices": [
+        {
+          "id": "c002a",
+          "text": "Güvenlik kamerasını incele",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002c",
+          "text": "Garip kokuyu araştır",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002d",
+          "text": "Deponun kilidini incele",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Depo: kilit zorlanmamış, kamera kablosu kesilmiş, havada garip bir parfüm kokusu var.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_003",
+      "type": "narration",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Napoli Polis Merkezi. Şef Ferrara seni brifing odasına alıyor.\n\n'Franco Moretti, 62 yaşında, 30 yıldır bu büronun başkomiseriydi. Herkes onu tanır, herkes ondan korkar, herkes ona borçludur. Son 6 ayda bir şey değişti. Gizli bir operasyon hazırlıyordu: Operazione Cenere. 4 mafya ailesini birden çökertecek bir plan.'\n\nFerrara dosyayı açıyor:\n\n'4 aile var: Ferrante liman, Conte inşaat, Luciano uyuşturucu, Navarro silah. Hepsinin Franco'yu susturmak için motifi var. Cinayet Navarro'nun eski deposunda işlendi ama bu çok kolay bir iz.'\n\n'Franco'nun cebinde eski bir fotoğraf vardı. 1989 tarihli, genç bir kadınla çekilmiş. Arkasında el yazısıyla Sempre, L. yazıyordu. Kadının kimliğini bilmiyoruz.'\n\nFerrara sana bakıyor: 'Bu şehirde herkes yalan söyler. Senin işin gerçeği bulmak.'",
+      "choices": [
+        {
+          "id": "c003a",
+          "text": "Otopsi raporunu incele",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003b",
+          "text": "Olay yerini incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003c",
+          "text": "Franco'nun telefonunu incele",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003d",
+          "text": "Cenere dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "sempre_fotoğraf",
+      "addCharacterNote": "4 mafya ailesi, hepsinin motifi var. Franco'nun cebinde 'Sempre, L.' yazılı eski fotoğraf. Cinayet Navarro deposunda.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_004",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Adli tip laboratuvarı. Dr. Calabrese otopsi raporunu sunuyor:\n\n'Ölüm nedeni: tek kurşun yarası. Sol şakaktan giriş, sağ şakaktan çıkış. Atış mesafesi 30-50 cm, yakın mesafe. Barut kalıntısı sol şakak çevresinde yoğun.'\n\n'Vücut sıcaklığı ve rigor mortis bulgularına göre tahmini ölüm saati: 20:45 ile 21:15 arası.'\n\n'Genel sağlık durumu: 62 yaşında erkek, hafif hipertansiyon, karaciğer yağlanması. Vücutta alkol veya uyuşturucu izi yok. Mide içeriği: son öğün yaklaşık 4-5 saat önce alınmış, makarna ve kırmızı şarap.'\n\n'Kan grubu: A Rh negatif.'\n\nDr. Calabrese ekliyor: 'Önemli bir detay: Franco solak bir adamdı. Sol şakaktan vurulan bir kurşun, katilin karşısında durduğunu gösteriyor. Franco katilini tanıyordu.'",
+      "choices": [
+        {
+          "id": "c004a",
+          "text": "Balistik raporu incele",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004b",
+          "text": "Olay yerini incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004c",
+          "text": "Franco'nun telefonunu kontrol et",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004d",
+          "text": "Cenere dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "otopsi_raporu",
+      "addCharacterNote": "Franco sol şakaktan tek kurşunla öldürülmüş. Solaktı, katil karşısında duruyordu. Ölüm saati 20:45-21:15.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_005",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Balistik laboratuvarı. Uzman Ferretti raporu sunuyor:\n\n'Kurbanın kafasından çıkarılan mermi: 9mm Parabellum, tam mantle. Yiv-set analizi Beretta 92FS modeline işaret ediyor.'\n\n'Silah olay yerinde bulunamadı. Seri numarası silinmiş.'\n\n'Navarro ailesinin silah deposunda aynı model Beretta 92FS'lerden en az 12 adet bulunduğu tespit edildi. Ancak bu model İtalya'da son derece yaygın, sivil ve askeri kullanımda milyonlarca üretilmiş.'\n\nFerretti ekliyor: 'Seri numarasının silinmesi profesyonel bir işi gösteriyor. Ama Beretta 92FS ile cinayet işlemek, Napoli'de Fiat kullanmak gibi, herkes kullanır.'",
+      "choices": [
+        {
+          "id": "c005a",
+          "text": "Navarro deposunu araştır",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005b",
+          "text": "Olay yerini incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005c",
+          "text": "Franco'nun telefonuna bak",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c005d",
+          "text": "Polis arşivlerine git",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "balistik_rapor",
+      "addCharacterNote": "Mermi 9mm Beretta 92FS. Navarro deposunda aynı model var ama çok yaygın silah. Seri no silinmiş, profesyonel iş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_006",
+      "type": "investigation",
+      "background": "depo_ic",
+      "characterId": null,
+      "text": "Deponun girişindeki güvenlik kamerasını inceliyorsun. Eski bir model, duvara vidalı. Kablosu kesilmiş.\n\nKriminalistik teknisyen yanında duruyor: 'Kabloyu görüyor musun? Tek kesim, temiz, doğru noktadan. Bunu yapan kişi kabloyu nereye keseceğini biliyordu. Rastgele birisi değildi.'\n\nKameranın kayıt cihazı depoda değil, 200 metre ötedeki komşu çiftlikte. Çiftlik sahibinden kayıtları alıyorsun.\n\nKayıtlar: Saat 20:42'ye kadar normal çalışıyor. 20:42'de bir gölge beliriyor ama yüz görünmüyor. 20:43'te görüntü dönüyor. Kesim ani.\n\nTeknisyen: 'Kesim profesyonel. Askeri eğitim veya teknik bilgi gerektirir. Ama internetten de öğrenilir, o kadar zor değil.'",
+      "choices": [
+        {
+          "id": "c006b",
+          "text": "Garip kokuyu araştır",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006c",
+          "text": "Otopsi raporunu kontrol et",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c006d",
+          "text": "Depo kilidini incele",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "guvenlik_kamerası",
+      "addCharacterNote": "Kamera kablosu profesyonelce kesilmiş. 20:42'de gölge, 20:43'te görüntü kesilmiş. Askeri veya teknik bilgi işaret ediliyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_007",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Franco'nun cep telefonunu inceliyorsun. Polis teknik birimi raporu:\n\nSon arama kaydı: 20:30'da bilinmeyen bir numaradan 47 saniyelik gelen arama. Numara kayıtlı prepaid hat, sahibi tespit edilemiyor.\n\nBaz istasyonu analizi: arayan kişi Posillipo bölgesinde. Bu bölge Napoli'nin varlıklı semtlerinden biri.\n\nÖnceki günlerde aynı numaradan 3 kısa arama daha var: 15, 22 ve 8 saniye. Kısa aramalar, buluşma ayarlama şekli.\n\nSilinen bir mesaj kurtarıldı: 'Lucia hakkında bildiğim şeyleri konuşmamız lazım. Depoya gel.'\n\nMesajı gönderen aynı prepaid hat.\n\nPolis şefi: 'Lucia kim? Franco'nun geçmişinde bir Lucia var mı? Araştırılması lazım.'",
+      "choices": [
+        {
+          "id": "c007a",
+          "text": "Polis arşivlerinde Lucia'yı ara",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c007b",
+          "text": "Fotoğraftaki kadını araştır",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c007c",
+          "text": "Brifing notlarına dön",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c007d",
+          "text": "Olay yerini incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "franco_telefon",
+      "addCharacterNote": "Franco'yu depoya çağıran kişi Lucia'nın adını kullanmış. Arayan Posillipo bölgesinden. Prepaid hat, sahibi belirsiz.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_008",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Franco'nun evindeki gizli kasadan çıkarılan dosya: Operazione Cenere.\n\n200 sayfalık detaylı soruşturma raporu. 6 aylık çalışma.\n\nFerrante ailesi: liman üzerinden uyuşturucu kaçakçılığı. Tommaso'nun adı 14 farklı sevkiyatta geçiyor.\n\nConte ailesi: kentsel dönüşüm projeleri üzerinden kara para aklama. Kilise vakfı bağlantısı detaylı olarak belgelenmiş.\n\nLuciano ailesi: Güney İtalya kokain dağıtım ağı. Salvatore'nin 20 yıllık iş ortakları listesi.\n\nNavarro ailesi: Akdeniz silah ticareti. Depo lokasyonları, gizli cephanelikler.\n\nDosyanın son sayfasında Franco'nun el yazısıyla not: 'Bu dosya tamamlandığında hepsini götürecek. 30 yıldır gözlerimi kapadım. Artık yeter.'\n\nSon güncelleme: cinayetten 3 gün önce.",
+      "choices": [
+        {
+          "id": "c008a",
+          "text": "Ferrante ailesiyle ilgili sayfaları incele",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008b",
+          "text": "Franco'nun telefonunu kontrol et",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008c",
+          "text": "Olay yerini incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008d",
+          "text": "Otopsi raporunu incele",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "cenere_dosyasi",
+      "addCharacterNote": "Franco 4 aileyi birden çökertecek operasyon hazırlıyordu. 6 aylık detaylı belge. Hepsinin motifi çok güçlü.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_009",
+      "type": "investigation",
+      "background": "depo_ic",
+      "characterId": null,
+      "text": "Depodaki garip kokuyu inceliyorsun. Burnuna hafif ama belirgin bir parfüm kokusu geliyor. Bu tozlu, terk edilmiş depoda olmaması gereken bir koku.\n\nKriminalistik koku analizi uzmanı Dott. Ferretti çağırılıyor. Özel bir cihazla havadaki bileşenleri analiz ediyor.\n\n'Bergamot, yasemin, sandal ağacı ve misk bazlı bir parfüm. Özel üretim veya çok pahalı bir marka. Piyasada bu bileşim kombinasyonunu kullanan onlarca marka var, hem erkek hem kadın parfümlerinde bulunur.'\n\nFerretti devam ediyor: 'Koku yoğunluğu ve dağılım paternine bakarsak, bu parfüm 2-3 saat önce bırakılmış. Cinayet saatiyle uyuşuyor. Koku en yoğun kurbanın bulunduğu noktada, yani katil Franco'nun çok yakınında durmuş.'\n\n'Franco'nun üzerinde parfüm kullanıp kullanmadığını kontrol ettik. Otopsi raporuna göre Franco parfüm kullanmıyordu. Bu koku katile ait.'\n\nFerretti son notu ekliyor: 'Kesin marka tespiti yapamıyoruz ama bu sıradan bir şey değil. Bunu kullanan kişi paralı ve zevk sahibi.'",
+      "choices": [
+        {
+          "id": "c009b",
+          "text": "Güvenlik kamerasını kontrol et",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009c",
+          "text": "Depo kilidini incele",
+          "nextSceneId": "scene_011",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c009d",
+          "text": "Otopsi raporunu kontrol et",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "parfüm_kalintisi",
+      "addCharacterNote": "Depoda pahalı parfüm kokusu tespit edildi. Franco parfüm kullanmıyordu, koku katile ait. Cinayet saatiyle uyumlu. Marka belirlenemiyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_011",
+      "type": "investigation",
+      "background": "depo_ic",
+      "characterId": null,
+      "text": "Deponun kilidi eski ama çalışır durumda. Çilingir uzman Ferrara inceleme yapıyor:\n\n'Kilit zorlanmamış. Anahtar kullanılmış, temiz giriş. Kilidin içinde çizik yok, maymuncuk izi yok.'\n\nDepo kayıtları: mülk sahibi Navarro ailesi. Resmi anahtar dağıtımı:\n1. Don Vittorio Navarro (mülk sahibi)\n2. Stefano Navarro (depo yöneticisi)\n3. Franco Moretti (eski anlaşma gereği)\n\nUzman ekliyor: 'Bu tip eski kilitlerin kopyası kolayca yapılabilir. Herhangi bir çilingir 5 dakikada kopya çıkarır. Yani anahtarı olan biri başkasına kopya verdi mi, bilemeyiz.'\n\nNot: Franco depoyu ara sıra özel buluşmalar için kullanıyormuş. Eski bir alışkanlıkmış.",
+      "choices": [
+        {
+          "id": "c011b",
+          "text": "Güvenlik kamerasını kontrol et",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011c",
+          "text": "Franco'nun telefonunu incele",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c011d",
+          "text": "Polis arşivlerine git",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "depo_anahtari",
+      "addCharacterNote": "Depo anahtarı 3 kişide: Vittorio, Stefano, Franco. Kilit zorlanmamış, anahtar kullanılmış. Kopya çıkarılması kolay.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_012",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Polis arşivleri. Tozlu dosya dolaplarında Lucia Ferrante'yi arıyorsun.\n\nDosya bulundu: Lucia Ferrante, 24 yaşında. Enzo Ferrante'nin küçük kız kardeşi.\n\n17 Mart 1995: evinde ölü bulundu. Resmi ölüm nedeni: asılarak intihar.\n\nDosya 2 hafta içinde kapatılmış. Soruşturmayı yürüten komiser: Franco Moretti.\n\nDosya ince, neredeyse boş. Otopsi yapılmamış, aile talebiyle doğrudan defin izni verilmiş. Tek bir tanık ifadesi var: komşunun 'son günlerde mutsuz görünüyordu' demesi.\n\nDosyanın sonunda not: 'Ailenin talebi üzerine ek soruşturmaya gerek görülmedi. Dosya kapatıldı. Komiser Franco Moretti.'\n\nDosya ekinde sararmış bir form: 'Hasta takip formu. Lucia F., Santa Maria Hastanesi, Şubat-Mart 1995, birden fazla ziyaret. Kan grubu: B Rh+.' Form aslında bir fotokopi; dönemin komiserliği tarafından polis dosyasına eklenmiş. Hastaneden şimdi talep edilen orijinal kayıtlar ise arşivden kayıp olarak işaretlenmiş, bu fotokopi dışında elde evrak kalmamış.\n\nNüfus kaydı: Lucia Ferrante, bekar, çocuksuz.\n\nEk not: Lucia'nın kişisel eşyaları Enzo Ferrante'nin evinde saklanıyor. Bir bavulda.",
+      "choices": [
+        {
+          "id": "c012a",
+          "text": "Enzo Ferrante ile konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012b",
+          "text": "Franco'nun telefonunu tekrar incele",
+          "nextSceneId": "scene_007",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012c",
+          "text": "Cenere dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c012d",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "lucia_ölüm",
+      "addCharacterNote": "Lucia Ferrante 1995'te 'intihar etti'. Soruşturmayı Franco yürütmüş ve dosyayı hızla kapatmış. Otopsi yapılmamış. Eşyaları Enzo'nun evinde.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_013",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Telefon operatörü kayıtları geldi. Tüm şüphelilerin olay gecesi telefon aktiviteleri:\n\nTommaso Ferrante dikkat çekiyor:\n- 19:30: Limandaki depo müdürünü aramış (3 dk 47 sn)\n- 21:00: Babası Enzo'yu aramış (1 dk 23 sn)\n- 22:15: Kardeşi Giulia'yı aramış (45 sn)\n\nMuhbir bilgisi: Tommaso'nun 21:00'daki aramada söylediği cümle: 'Baba, hallettim. Artık sorun olmayacak.'\n\nDiğer kayıtlar:\n- Salvatore Luciano: o gece hiç arama yapmamış\n- Stefano Navarro: 18:45'te pizza sipariş vermiş (son araması)\n- Bianca Luciano: 19:00'da eczaneyi aramış (2 dk, muhtemelen ilaç kontrolü)\n\nPolis şefi: 'Tommaso'nun zamanlaması ilginç. 21:00'da hallettim diyor. Franco 20:45-21:15 arasında ölmüş.'",
+      "choices": [
+        {
+          "id": "c013a",
+          "text": "Otopsi raporunu kontrol et",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013b",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013c",
+          "text": "Cenere dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c013d",
+          "text": "Polis arşivlerini araştır",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "tommaso_telefon",
+      "addCharacterNote": "Tommaso saat 21:00'da babasını arayıp 'hallettim' demiş. Zamanlama cinayet saatiyle uyuyor. Bianca 19:00'da eczaneyi aramış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_enzo",
+      "text": "Don Enzo Ferrante'nin Posillipo'daki villası. Deniz manzaralı bir oda. Enzo tekerlekli sandalyesinde, pencereye doğru dönük oturuyor. Bakıcısı kapıda bekliyor.\n\nEnzo yavaş yavaş dönüyor. Seni görünce gözleri kısılıyor: 'Dedektif. Franco Moretti öldürülmüş ha?'\n\nSesinde acı yok, sadece buz var: 'O adam 30 yıl boyunca bu şehirde dokunulmaz olarak gezdi. Herkesin dostuymuş, herkesin koruyucusuymuş. Ama ben biliyorum o adamın ne olduğunu.'\n\nElleri sandalyenin kolçaklarını sıkıyor, parmak eklemleri beyazlaşıyor: 'Franco Moretti benim kız kardeşimi mahvetti. Lucia... 24 yaşında bir kızdı. O alçak onunla ilişkiye girdi, sonra onu bir başına bıraktı. Komiseri Napoli'nin, geldi kardeşimin hayatıyla oynadı.'\n\nSesi titremeye başlıyor: 'Sonra Lucia öldü. Ve o dosyayı kim kapattı biliyor musun? Franco Moretti. Kendi kapattı. Otopsi bile yaptırmadı. Kardeşimi toprağa verdik, dosya 2 haftada kapandı. 30 yıldır bu kin içimde, Dedektif.'\n\nTekerlekli sandalyesini sana doğru çeviriyor: 'Ama ben bu haldeyim. Felçli bir adam. Depoya nasıl gidecektim? Kim taşıyacaktı beni? O gece villada bakıcımla birlikteydim. Sor ona.'\n\nSoğuk, kırılmış bir sesle: 'Franco'yu öldürmedim. Ama öldüren kişinin elini de sıkarım. Salvatore'ye sor, o adamla 30 yıllık dosttular. Bozulan dostluklar en tehlikeli olanlarıdır.'",
+      "choices": [
+        {
+          "id": "c020a",
+          "text": "Lucia Ferrante hakkında konuşmak istiyorum",
+          "nextSceneId": "scene_048",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "lucia_ölüm"
+        },
+        {
+          "id": "c020b",
+          "text": "Limandaki operasyonları konuşalım",
+          "nextSceneId": "scene_049",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "cenere_dosyasi"
+        },
+        {
+          "id": "c020c",
+          "text": "Giulia ile konuş",
+          "nextSceneId": "scene_022",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c020d",
+          "text": "Tommaso ile konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Enzo: Franco'dan nefret ediyor. Kardeşi Lucia ile ilişkisi olduğunu ve ölüm dosyasını kapattığını söylüyor. Tekerlekli sandalyede, felçli. Bakıcıyla birlikte olduğunu iddia ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_022",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_giulia",
+      "text": "Giulia Ferrante villanın çalışma odasında, dosyaların arasında. Seni görünce kalemini bırakıyor.\n\n'Dedektif. Muvekkillerim adına konuşmayacağımı biliyorsunuz. Ama kişisel olarak şunu söyleyebilirim: Franco Moretti yıllardır bu şehrin dengesini koruyordu. Şimdi o denge bozuldu.'\n\nGözleri sertleşiyor: 'Franco temiz bir adam değildi. Yıllardır her aileden pay alıyordu. Şimdi birdenbire vicdan azabı çekip operasyon mu hazırlıyormuş? Güldürmeyin beni. Ya başkası onu kullanıyordu ya da kendi oyununu oynuyordu.'\n\nBir an duraklıyor: 'O gece ben ofisimdeydim, dava dosyası hazırlıyordum. Sekreterim Carla 20:00'a kadar oradaydı, sonra eve gönderdim. Sonra...' Kalemini çevirmeye başlıyor: '20:00'dan sonra yalnız çalıştım. Bazı belgeleri... düzenlemem gerekiyordu. Gizli belgeler, ailenin hukuki stratejisi. Bunu kimsenin bilmesine gerek yok.'\n\nSesi alçalıyor: 'Ama size bir şey söyleyeyim. O gece Conte ailesinden Silvana'nın kocasının ölüm yıldönümüydu. Franco o dosyayı yeniden açtırmak istiyormuş. Silvana bunu öğrendiyse... o kadın gülümseyerek öldürtür.'\n\nKalemini tekrar alıyor: 'Başka sorunuz yoksa, işime dönmem lazım.'",
+      "choices": [
+        {
+          "id": "c022a",
+          "text": "Enzo ile konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c022b",
+          "text": "Tommaso ile konuş",
+          "nextSceneId": "scene_023",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c022c",
+          "text": "Conte ailesiyle konuş",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c022d",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Giulia: sekreter 20:00'da gitmiş, sonra yalnız kalmış. 'Gizli belgeler düzenlemesi' diyor ama detay vermiyor. 20:00 sonrası doğrulanamaz. Silvana Conte'yi işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_023",
+      "type": "dialogue",
+      "background": "liman",
+      "characterId": "suspect_tommaso",
+      "text": "Napoli limanı. Konteyner yığınları arasında Tommaso Ferrante seni karşılıyor. Arkasında iki korkutucu adam duruyor.\n\n'Sen o dedektifsin ha? Bak, sana bir kez söyleyeceğim, iyi dinle.'\n\nMasaya yaslanıyor: 'Franco Moretti köpek bir adamdı. Yıllardır bizden yiyordu, şimdi bizi ele verecekti. Cenere dosyası mı? Evet, duyduk. Herkes duydu. Ama onu öldürmedim.'\n\nSesi yükseliyor: 'O gece limandaydım. Gece vardiyasını denetliyordum. Kameralara bak, adamlarıma sor, hepsi doğrular. Saat 18'den 23'e kadar buradaydım.'\n\nBir an duraklıyor, gözleri kayıyor: 'Sadece... 20:00 ile 21:30 arası alt depodaydım. Orada kamera yok. Özel bir sevkiyat vardı, anlatamıyorum ne olduğunu. Ama oradaydım, adamlarım bilir.' Sesi alçalıyor: 'Resmi kayda geçmesini istemem bu kısmın.'\n\nParmağını sana doğru uzatıyor: 'Hallettim dedim telefonda, evet. Gece gelen konteyner vardı, gümrük baskını olmasın diye adam ayarladım. Her gece böyle işler dönüyor burada. Ne sandın, telefonda cinayet mi itiraf ediyorum?'\n\nSert bir sesle: 'Cinayet Navarro deposunda oldu. Navarro'nun silahlarıyla oldu. Bana değil Stefano'ya bak. O adam Özel Kuvvetler'den gelme, soğukkanlı bir makine. Kamera kablosunu askeri usullerle kesmiş, silah seri numarasını silmiş. Bunlar onun işleri.'",
+      "choices": [
+        {
+          "id": "c023a",
+          "text": "Enzo ile konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023b",
+          "text": "Navarro ailesiyle konuş",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c023c",
+          "text": "Balistik raporu incele",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_005"
+          ]
+        },
+        {
+          "id": "c023d",
+          "text": "Liman kameralarını kontrol et",
+          "nextSceneId": "scene_013",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Tommaso: limanda olduğunu iddia ediyor ama 20:00-21:30 arası kamerasız alt depoda, 'özel sevkiyat' diyor, detay vermiyor. 'Hallettim' konteyner yüküydü diyor. Stefano'yu işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_025",
+      "type": "dialogue",
+      "background": "conte_malikane",
+      "characterId": "suspect_silvana",
+      "text": "Conte malikanesi. Vomero tepesinde, şehre bakan muhteşem bir villa. Donna Silvana seni bahçe verandasında karşılıyor. Çay servisi yapılmış.\n\nSilvana gülümsüyor: 'Dedektif, hoş geldiniz. Çay alır mısınız? Napoli'nin en iyi Earl Grey'i.'\n\nÇay bardağını alırken: 'Franco Moretti ölü. Üzücü bir haber. Ama bu şehirde herkes bir gün ölür, değil mi? Önemli olan nasıl yaşadığınız.'\n\nGözleri sertleşiyor ama gülümsemesi durmuyor: 'O gece burada 8 kişilik yemek verdim. Misafirlerim var, isimleri var, hepsi doğrulayabilir. Benim Franco'yla işim yoktu. Kocamın ölümü kapanmış bir dava. Franco ne karıştırıyorsa karıştırsın, beni ilgilendirmez.'\n\nÇayından bir yudum alıyor: 'Ama merak ediyorsanız kimin yaptığını, Ferrante'nin oğlu Tommaso'ya bakın. O çocuk saatlerdir telefonla bağırıyordu o gece, duyduğuma göre. Kontrolsuz, saldırgan, tam bir cinayet profili.'\n\nEliyle sizi işaret ediyor: 'Ve Dedektif, bir tavsiye: bu şehirde fazla soru soran insanlar fazla cevap alır. Bazen bilmemek daha iyidir.'",
+      "choices": [
+        {
+          "id": "c025a",
+          "text": "Kocanızın ölümü hakkında konuşalım",
+          "nextSceneId": "scene_050",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "cenere_dosyasi"
+        },
+        {
+          "id": "c025b",
+          "text": "Marco ile konuş",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c025c",
+          "text": "Padre Ignazio ile konuş",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c025d",
+          "text": "Ferrante ailesiyle konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Silvana: 8 kişilik yemek alibisi. Kocasının ölümünü kapatılmış bir dava olarak görüyor. Tommaso'yu işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_027",
+      "type": "dialogue",
+      "background": "santiye",
+      "characterId": "suspect_marco",
+      "text": "Vomero'daki inşaat şantiyesi. Marco Conte portakabin ofisinde, perdeleri çekmiş, kapıyı kilitlemiş. Seni içeri alırken arkasına bakıyor.\n\n'İçeri girin, çabuk. Beni izliyorlar.'\n\nOturunca fısıldamaya başlıyor: 'Franco Moretti her şeyi biliyordu. Ailenin işlerini, banka hesaplarını, vakıf paralarını. Her şeyi. Ve şimdi öldü. Tesadüf mü? Hayır.'\n\nElleri titriyor: 'Ben sadece inşaat yapıyorum. Halam Silvana ve Padre Ignazio arasındaki işlere karışmıyorum. Beni karıştırmayın. Vakıf hesapları benim işim değil.'\n\nBirdenbire sesi yükseliyor: 'Hepsi beni izliyor! Silvana, Ignazio, polis, siz! Herkes! Franco da izliyormuş demek, Cenere dosyasında benim adım da var mı?'\n\nSakinleşiyor: 'O gece evimdeydim. Kapıları kilitledim, perdeleri çektim. Kimseyi görmedim, kimse beni görmedi. Ama bir şey söyleyeyim: Padre Ignazio o gece kilisedeydi diyor ama o adam her gece kilisede değildir. Bazı geceler hiçbir yerde bulunamaz.'",
+      "choices": [
+        {
+          "id": "c027a",
+          "text": "Silvana ile konuş",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027b",
+          "text": "Padre Ignazio ile konuş",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027c",
+          "text": "Kilise vakfı hesaplarını araştır",
+          "nextSceneId": "scene_041",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c027d",
+          "text": "Cenere dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_008"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Marco: paranoyak, herkesin onu izlediğini düşünüyor. Evde yalnız kaldı alibisi, doğrulayan yok. Padre Ignazio'nun bazı geceler kayıp olduğunu söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_028",
+      "type": "dialogue",
+      "background": "kilise",
+      "characterId": "suspect_ignazio",
+      "text": "San Gennaro Kilisesi. Padre Ignazio seni ibadet sıraları arasında karşılıyor. Mumlar yanıyor, tüts kokusu havada.\n\n'Tanrı'nin evine hoş geldiniz, Dedektif. Bir günah çıkarma mı yoksa bir soruşturma mı?'\n\nGülümsüyor: 'Franco Moretti'nin ölümü hepimizi üzdü. Günahkâr bir adam, evet, ama Tanrı'nin huzurunda hepimiz günahkârız. Ben onun için dua ediyorum.'\n\nEllerini birleştiriyor: 'O gece akşam ayinini yönettim. Cemaat şahittir. 19:00'da başladı, 20:30'da bitti.'\n\nBir an gözleri kapıya kayıyor: 'Sonra... bir randevum vardı. Kilise vakfının mali işleri, bir hayırseverle görüşme. Kiminle görüştüğümü söyleyemem, bağışçı gizliliği. Saat 22:00 gibi geri döndüm odama.' Ellerini kavuşturuyor: 'Bundan fazlasını sormamalısınız, Dedektif. Kilise işleri kilise işleridir.'\n\nSesi düşüyor: 'Franco son aylarda bana geldi. Günah çıkarmak istiyordu. Gerçekten pişmanmış gibi görünüyordu. 30 yıllık günahlarını temizlemek istiyordu. Ama tabii, günah çıkarmanın içeriği gizlidir, size söyleyemem.'\n\nBir an duraklıyor: 'Ama şunu söyleyebilirim: bu şehirde ihanet eden dostlar affedilmez. Salvatore Luciano, Franco'nun en yakın dostuydu. Ve Franco onu satmak üzereymiş. Eski dostun bıçağı en derinden keser. Tanrı affeder ama insanlar affetmez.'",
+      "choices": [
+        {
+          "id": "c028a",
+          "text": "Kilise vakfı hesaplarını konuşalım",
+          "nextSceneId": "scene_051",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "kilise_vakfi"
+        },
+        {
+          "id": "c028b",
+          "text": "Silvana ile konuş",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c028c",
+          "text": "Luciano ailesiyle konuş",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c028d",
+          "text": "Polis arşivlerine git",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_012"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ignazio: ayin 20:30'da bitmiş, sonra 'gizli bağışçı görüşmesi' diyor, kiminle görüştüğünü söylemiyor. 20:30-22:00 arası doğrulanamaz. Salvatore'yi işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_030",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_salvatore",
+      "text": "Posillipo'daki Luciano villası. Denize bakan muhteşem bir teras. Don Salvatore purosunu yakıyor, denize bakıyor.\n\n'Dedektif. Otur.' Sesi ağır, yorgun.\n\n'Franco Moretti benim dostumdu. 30 yıldır. Biliyorum ne düşünüyorsun: bozulan dostluk, en tehlikeli silah. Evet, Franco beni ele verecekti. Cenere dosyasını duydum. Herkes duydu.'\n\nPurosundan derin bir nefes alıyor: 'Ama ben dost öldürmem, Dedektif. Bizim kurallarımız var. Onur var, saygı var. Franco ihanet etti ama ben onu öldürmedim. Otuz yıllık bir dostluğu bir kurşunla bitirmem.'\n\nBirdenbire sesi sertleşiyor: 'Ve bana bu soruları sorma. O benim dostumdu, anlıyor musun? 30 yıl birlikte geçirdik. Birlikte yedik, birlikte içtik, çocuklarımız aynı sofrada büyüdü. Franco bu ailenin bir parçasıydı. Onu benden iyi kimse tanımaz bu şehirde.' Purosunu masaya bırakıyor, elleri titriyor: 'Aramızdaki bağı sen anlayamazsın, Dedektif. Bazı şeyler kutsaldır.'\n\nBir nefes alıp sakinleşiyor: 'O gece burada aile yemeği verdik. Kızım Bianca, oğlum Alessio, muhasebecim Roberto, iki korumam. Hepsi buradaydı. Bianca biraz rahatsızlandı, midem bulanıyor dedi, odasına çıktı bir süre. Anemisi var zavallı kızım, düzenli ilaç kullanıyor.'\n\nBirdenbire ciddileşiyor: 'Cinayet Navarro deposunda oldu. Navarro'ların silahlarıyla oldu. Kamera onların askeri yöntemleriyle kesildi. Vittorio sana gölge belediye başkanı numarası yapar ama o adam bu şehrin en tehlikeli kişidir. 73 yaşında ama zihni 30 yaşında.'",
+      "choices": [
+        {
+          "id": "c030a",
+          "text": "Fotoğraftaki kadını tanıyor musunuz?",
+          "nextSceneId": "scene_052",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "sempre_fotoğraf"
+        },
+        {
+          "id": "c030b",
+          "text": "Alessio ile konuş",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c030c",
+          "text": "Bianca ile konuş",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c030d",
+          "text": "Navarro ailesiyle konuş",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Salvatore: Franco hakkında soru sorulunca savunmaya geçti, ilişkiyi kutsal olarak tanımlıyor. 30 yıllık dostluk, çocukları aynı sofrada büyümüş. Aile yemeği alibisi. Bianca rahatsızlanmış (anemi). Vittorio'yu işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_032",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_alessio",
+      "text": "Luciano villasının arka bahçesi. Alessio havuz başında oturuyor, gözleri kızarık, elleri titriyor. Bir şişe viski yarımdan fazla bitmiş.\n\nSeni görünce gülüyor: 'Aa, dedektif geldi! Hoş geldin, hoş geldin. Bir kadeh alır mısın? Hayat kısa, içmek lazım.'\n\nBirdenbire ciddileşiyor: 'Franco amca ölmüş. Üzüldüm mü? Bilmiyorum. O adam yıllardır soframıza oturuyordu, babamla kadeh kaldırıyordu. Sonra arkamızdan bıçak mı hazırlıyormuş? Cenere dosyası mı? Vay be.'\n\nAyağa kalkıyor, sendeliyor: 'O gece burada yemekteydim. İçtim, çok içtim. Babam, Bianca, muhasebeci Roberto, korumalar. Hepimiz buradaydık.'\n\nBurnunu siliyor, gözleri kayıyor: 'Yemekten sonra... biraz hava almaya çıktım. Bahçenin arkasına. Ne kadar kaldım bilmiyorum, 45 dakika belki. Kafam iyiydi.' Sesi düşüyor: 'Birisini görecektim, mal alacaktım anlıyorsun ya. Bunu babam duyarsa beni öldürür. Neyse, döndüğümde Bianca da odasına çıkmıştı, midem bulanıyor dedi, anemisi var. Bir saat falan gelmedi. Sonra indi, solgun görünüyordu, hep solgun görünür o kız.'\n\nGözleri parlıyor: 'Ama bana sorarsan kim öldürdü diye, Stefano Navarro diyorum. O adam makine gibi öldürür. Soğukkanlı, hesapçı, eski Özel Kuvvetler. Kamera kablosunu kesmek, seri numarasını silmek, tek kurşunla öldürmek. Bunlar onun işleri. Sokak işi değil, askeri operasyon.'",
+      "choices": [
+        {
+          "id": "c032a",
+          "text": "Salvatore ile konuş",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032b",
+          "text": "Bianca ile konuş",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032c",
+          "text": "Navarro ailesiyle konuş",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c032d",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Alessio: sarhoş ve dengesiz. Yemekten sonra 45 dk 'hava almaya' çıkmış (uyuşturucu alımı), doğrulanamaz. Bianca'nın da 1 saat odada olduğunu söyledi. Stefano'yu işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_033",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_bianca",
+      "text": "Luciano villasının kütüphanesi. Bianca masada oturuyor, önünde defterler ve hesap tabloları. Seni görünce kalıyor, sakin.\n\n'Dedektif, buyurun.'\n\nSessiz, ölçülü. Her kelimesini tartıyor: 'Franco amcayı yıllardır tanırdım. Babamın dostuydu. Ölümü hepimizi üzdü.'\n\n'O gece babamın evinde aile yemeğindeydim. Babam, ağabeyim Alessio, muhasebecimiz Roberto, korumalar. Hep birlikteydik. Yemekte biraz midem bulandı, anemim var biliyorsunuz, düzenli ilaç kullanıyorum. Odama çıktım dinlenmek için. Bir saat kadar yattım, sonra indim.'\n\nGözleri sana bakıyor, ifadesiz: 'Benim Franco amcayla kişisel bir sorunum yoktu. Ailenin muhasebe işlerini yapıyorum. Rakamlarla uğraşırım, insanlarla değil.'\n\nBir an duraklıyor: 'Cinayet Navarro deposunda olmuş. Silah Navarro envanterinden. Kamera askeri usullerle kesilmiş. Bu kadar ipucu yeterli değil mi?'\n\nSakin bir sesle: 'Sağlığım hakkında soracak olursanız, anemim var. Düzenli kan testi yaptırıyorum. Demir takviyesi alıyorum. Bazen baş dönmesi oluyor, o yüzden yemekte de kendimi iyi hissetmedim.'",
+      "choices": [
+        {
+          "id": "c033a",
+          "text": "Salvatore ile konuş",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033b",
+          "text": "Navarro ailesiyle konuş",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033c",
+          "text": "Eczane kayıtlarını araştır",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c033d",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Bianca: çok sakin, ifadesiz. Aile yemeği alibisi, 1 saat odada dinlenmiş (anemi). Anemiden bahsetti. Navarro deposunu işaret etti.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_035",
+      "type": "dialogue",
+      "background": "navarro_ofis",
+      "characterId": "suspect_vittorio",
+      "text": "Spaccanapoli'deki eski bir palazzo. Don Vittorio Navarro'nun ofisi. Antik mobilyalar, duvarda eski Napoli haritaları. Vittorio bastonuyla ayakta karşılıyor.\n\n'Dedektif. Oturun.'\n\nBastonunu yere vuruyor: 'Evet, cinayet benim depomda oldu. Evet, mermi benim envanterimle uyumlu. Ve evet, kamera benim mülkümde kesildi. Bütün oklar beni gösteriyor. Çok uygun, değil mi?'\n\nGözleri kısılıyor: '73 yaşındayım. Bu şehirde 50 yıldır yaşıyorum. Birini öldürtmek isteseydim, kendi depomda, kendi silahlarımla, kendi kameramın önünde mi yapardım? Ben aptal mıyım?'\n\nKoltuğuna oturuyor: 'O gece belediye başkanının resepsiyonundaydım. 200 kişi gördü beni. Saat 23'e kadar oradaydım. Fotoğraflar var, kayıtlar var, düzinelerce tanık var.'\n\nDerin bir nefes alıyor: 'Franco'nun anahtarı vardı, eski anlaşma gereği. Kim isterse girebilirdi o depoya. Ama katil benim üstüme yıkmak için orayı seçmiş. Birisi beni işaret ediyor, Dedektif. Soru şu: kim ve neden?'\n\nBastonuyla masaya vuruyor: 'Salvatore Luciano'ya bak. 20 yıllık dostluk bozuldu. Bozulan dostluklar en tehlikeli silahtır.'",
+      "choices": [
+        {
+          "id": "c035a",
+          "text": "Depo anahtarını konuşalım",
+          "nextSceneId": "scene_053",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": "depo_anahtari"
+        },
+        {
+          "id": "c035b",
+          "text": "Elena ile konuş",
+          "nextSceneId": "scene_037",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035c",
+          "text": "Stefano ile konuş",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c035d",
+          "text": "Luciano ailesiyle konuş",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Vittorio: belediye başkanı resepsiyonu alibisi, 200 tanık. Kendi deposunda cinayet işleyecek kadar aptal olmadığını söylüyor. Birinin onu çerçevelediğini iddia ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_037",
+      "type": "dialogue",
+      "background": "navarro_ofis",
+      "characterId": "suspect_elena",
+      "text": "Elena Navarro, babasının ofisinin yan odasında. Gucci elbise, inci kolye. Seni soğuk bir gülümsemeyle karşılıyor.\n\n'Dedektif. Bu konuşma hiç yaşanmadı, bunu biliyorsunuz değil mi?'\n\nBacak bacak üstüne atıyor: 'Kocam milletvekili, ben politikayla ilgileniyorum. Franco Moretti'nin ölümü siyasi bir deprem yaratabilir. Cenere dosyası başına sızarsa herkes yanar: politikacılar, polisler, iş adamları. Herkes.'\n\nSesi alçalıyor: 'O gece kocamla birlikte bir balo davetindeydik. Yüzlerce tanık, fotoğraflar, sosyal medya paylaşımları. Alibim kaya gibi.'\n\nBir an duraklıyor: 'Ama size bir şey söyleyeyim. Franco son haftalarda gizli gizli biriyle buluşuyordu. Benim kaynaklarım var bu şehirde. Franco hep aynı yere gidiyordu: Campagna bölgesindeki o depo. Ama yalnız değil, biriyle buluşuyordu. Kim olduğunu bilmiyorum ama bir kadın olduğu söyleniyor.'\n\nAyağa kalkıyor: 'Silvana Conte'ye bakın. O kadının her parmağında on kişinin kanı var. Kocasının ölümünü yeniden soruşturan Franco'ya ne yapar sizce?'",
+      "choices": [
+        {
+          "id": "c037a",
+          "text": "Vittorio ile konuş",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c037b",
+          "text": "Stefano ile konuş",
+          "nextSceneId": "scene_038",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c037c",
+          "text": "Conte ailesiyle konuş",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c037d",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elena: balo alibisi, yüzlerce tanık. Franco'nun depoda bir kadınla buluştuğunu söyledi. Silvana Conte'yi işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_038",
+      "type": "dialogue",
+      "background": "navarro_depo",
+      "characterId": "suspect_stefano",
+      "text": "Navarro silah deposu. Stefano seni metal bir masanın başında karşılıyor. Arkasında raflar dolusu kasalar. Dik oturuyor, askeri vakar.\n\n'Dedektif. Sormak istediğinizi sorun, vaktim kısıtlı.'\n\nSoğuk, ölçülü: 'Depoyu o gece 19:00'da kapattım. Kilit sağlam, envanter tamam, kimse içerde değildi. Eve gittim, tek başımaydım. Ertesi gün cinayeti haberlerden öğrendim.'\n\n'Evet, Özel Kuvvetler geçmişim var. Evet, kamera kablosunu kesmeyi bilirim. Evet, silah kullanmayı bilirim. Ama ben olsaydım kamera yerine tamamen sökerdim, kablo bırakmazdım. Ve kendi depomda, kendi silahlarımla cinayet işlemezdim. Bu acemice bir iş.'\n\nCenesi kasılıyor: 'Beretta 92FS mı? Depoda 12 adet var. Hepsi kayıtlı, hepsi sayılı. Envanter kontrolü yaptım, eksik silah yok. Katil kendi silahını getirdi.'\n\nSert bakışlarla: 'Franco'nun depoda anahtarı vardı, istediğinde gelirdi. Kiminle buluştuğunu bilmiyorum. Ama Tommaso Ferrante'ye bakın. Saldırgan, kontrolsuz. O çocuk her şeyi kaba kuvvetle çözmeye çalışır. Tam bir cinayet profili.'\n\nAyağa kalkıyor: 'Başka sorunuz varsa avukatım aracılığıyla iletin. Görüşme bitti.'",
+      "choices": [
+        {
+          "id": "c038a",
+          "text": "Vittorio ile konuş",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c038b",
+          "text": "Ferrante ailesiyle konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c038c",
+          "text": "Balistik raporu tekrar incele",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_005"
+          ]
+        },
+        {
+          "id": "c038d",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null,
+          "requiresLocationNotVisited": [
+            "scene_002"
+          ]
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Stefano: depoyu 19:00'da kapatmış, tek başına eve gitmiş, doğrulayan yok. 19:00-sabah arası tamamen doğrulanamaz. Envanter tamam diyor. Tommaso'yu işaret ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null,
+      "isCharacterHub": true
+    },
+    {
+      "id": "scene_040",
+      "type": "investigation",
+      "background": "eczane",
+      "characterId": null,
+      "text": "Posillipo Merkez Eczanesi. Eczacı Signor Bianchi kayıtları açıyor.\n\n'Bianca Luciano, evet, düzenli müşterimiz. Kronik demir eksikliği anemisi. Her ay gelir, ilaçlarını alır. Çok nazik bir kız.'\n\nKayıtları gösteriyor: 'Reçeteli ilaçlar: Ferrograd C demir takviyesi, Folik Asit 5mg, ayda bir B12 vitamini enjeksiyon. Son ziyareti olay gününden 3 gün önce.'\n\n'Dosyasında son kan testi sonucu da var. Hemoglobin 10.2, hala düşük. Hematokrit yüzde 31. MCV 72, mikrositer anemi. Demir 28, düşük. Ferritin 8, çok düşük.'\n\nEczacı ekliyor: 'Doktor kontrolü 2 hafta sonrası için ayarlanmış. Zavallı kız, sürekli solgun görünüyor. Baş dönmesi, halsizlik. Anemi zor bir şey.'",
+      "choices": [
+        {
+          "id": "c040a",
+          "text": "Hastane kayıtlarını araştır",
+          "nextSceneId": "scene_043",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040b",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040c",
+          "text": "Polis arşivlerine git",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c040d",
+          "text": "Cenere dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "eczane_kaydi",
+      "addCharacterNote": "Bianca: kronik anemi, düzenli ilaç kullanıyor. Kan testi sonuçları dosyada.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_041",
+      "type": "investigation",
+      "background": "kilise",
+      "characterId": null,
+      "text": "San Gennaro Kilise Vakfı banka hesapları. Mali suç birimi raporunu inceliyorsun.\n\nSon 3 yılda vakfa yapılan bağışlar: toplam 4.7 milyon euro.\n\nBağışçılar: 23 farklı şirket. Hepsi Conte ailesinin inşaat holdingiyle bağlantılı. Şirket isimleri farklı ama kurucu ortaklar, adresler ve muhasebeciler aynı.\n\nVakıftan yapılan harcamalar: 'hayır işleri' adına farklı hesaplara transfer. Bu hesapların çoğu İsviçre ve Malta'da. Para dönüp dolaşıp nakit olarak geri çekilmiş.\n\nPara akış şeması: inşaat şirketleri > kilise vakfı > denizaşırı hesaplar > nakit çekim.\n\nPadre Ignazio vakfın tek yetkili imza sahibi. Her transfer onun imzasıyla yapılmış.\n\nFranco Moretti bu şemayı Operazione Cenere dosyasında sayfa sayfa belgelemiş. Bu delil tek başına Silvana ve Ignazio'yu onlarca yıl hapse göndermeye yeter.",
+      "choices": [
+        {
+          "id": "c041a",
+          "text": "Padre Ignazio ile konuş",
+          "nextSceneId": "scene_028",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c041b",
+          "text": "Silvana ile konuş",
+          "nextSceneId": "scene_025",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c041c",
+          "text": "Cenere dosyasını incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c041d",
+          "text": "Olay yerine dön",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kilise_vakfi",
+      "addCharacterNote": "Kilise vakfı üzerinden 4.7 milyon euro aklanmış. Padre Ignazio tek imza sahibi. Conte ailesinin şirketlerinden vakfa, oradan yurt dışına.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_042",
+      "type": "investigation",
+      "background": "luciano_villa",
+      "characterId": null,
+      "text": "Luciano villasında kapsamlı arama yapılıyor. Arama izni geçerli, korumalar itiraz etse de kenara çekiliyor.\n\nSalon, mutfak, misafir odaları tek tek aranıyor. Pahalı mobilyalar, tablolar, antik vazolar. Zengin bir aile villası ama suça dair somut bir bulgu yok.\n\nSalvatore'nin çalışma odası kilitli. Avukatı itiraz ediyor, hakim izni olmadan açılamıyor.\n\nAlessio'nun odası dağınık. Boş viski şişeleri, küllükler. Komodinin çekmecesinde küçük bir poşet beyaz toz. Kokain. Sürpriz değil, kayda alınıyor ama cinayetle ilgisi yok.\n\nMuhasebeci Roberto'nun kaldığı misafir odası tertemiz. Hiçbir şey yok.\n\nBianca'nın odasına geçiliyor. Düzenli, sade bir oda. Kitaplıkta İtalyan edebiyatı klasikleri, masada anemi ilaçları ve birkaç eski gazete. Ancak kilitli bir çekmece dikkatini çekiyor. Çilingir açıyor.\n\nİçinde deri kaplı bir defter var. İtalyanca şiirler ve kişisel notlar. Çoğu deniz, kayıp ve özlem temaları.\n\nBir sayfa: 'Anne, deniz bugün de seni arıyor. Dalgalar fısıldıyor ama kimse duymuyor.'\n\nBaşka bir sayfa: 'Bazı yalanlar o kadar eski ki gerçek oluyor. Ama deniz unutmuyor. Dalgalar her şeyi geri getiriyor.'\n\nSon sayfa, tarihsiz: 'Yoruldum. Bu sessizlik beni yiyor.'\n\nDefterin arasında kurumuş bir çiçek ve eski bir posta pulu var. Pul 1994 tarihli, Napoli damgalı.\n\nÇekmecenin dibinde bir de boş zarf var. Zarfın üzerinde gönderici: Rosa Luciano. Alıcı: Bianca Luciano. İçi boş, mektup yok. Zarfın üzerinde kurumuş gözyaşı lekeleri var.\n\nVillanın geri kalanında dikkat çekici bir şey bulunamadı.",
+      "choices": [],
+      "addEvidence": "bianca_defteri",
+      "addCharacterNote": "Luciano villası arandı. Alessio'nun odasında kokain bulundu. Bianca'nın odasında eski gazeteler ve kilitli çekmecede kişisel defter: deniz ve kayıp temaları, 1994 tarihli posta pulu.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_043",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Napoli Santa Maria Hastanesi kayıtları. Soruşturmayla ilgili kişilerin tıbbi geçmişleri.\n\nDon Salvatore Luciano, 67 yaşında:\nKronik kalp yetmezliği (NYHA sınıf II), tip 2 diyabet, hipertansiyon, hafif böbrek yetmezliği.\nDüzenli ilaçlar: Metformin 1000mg, Lisinopril 20mg, Aspirin 100mg, Furosemid 40mg.\nKan grubu: O Rh pozitif.\nKalp pili takip muayenesi: 2 ay önce. Doktor notu: fiziksel aktivite sınırlı olmalı.\n\nGiulia Ferrante, 34 yaşında:\nRutin kontrol: 6 ay önce. Kan grubu: A Rh negatif. Hafif migren, stres kaynaklı. İlaç: Sumatriptan gerektiğinde.\n\nRosa Luciano (vefat 2019, pankreas kanseri):\nKan grubu: B Rh pozitif.\nAllerji: Penisilin.\nSon tedavi: kemoterapi, 6 kur.\n\nStefano Navarro, 41 yaşında:\nAcil servis kaydı: 8 ay önce, antrenmanda omuz çıkığı. Kan grubu: AB Rh pozitif. Genel sağlık durumu mükemmel, askeri standartlarda.\n\nBianca Luciano, 31 yaşında:\nKronik demir eksikliği anemisi. Düzenli takipte. Kan grubu: AB Rh negatif.\n\nAlessio Luciano, 31 yaşında:\nAcil servis kaydı: 4 ay önce, bar kavgası sonucu el kırığı. Alkol ve madde kullanım geçmişi. Kan grubu: B Rh pozitif. Psikiyatri konsültasyonu önerilmiş, hasta reddetmiş.\n\nElena Navarro, 38 yaşında:\nJinekolojik kontrol: 3 ay önce. Kan grubu: B Rh negatif. Genel sağlık iyi.",
+      "choices": [
+        {
+          "id": "c043a",
+          "text": "Eczane kayıtlarını incele",
+          "nextSceneId": "scene_040",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043b",
+          "text": "Lucia Ferrante dosyasını incele",
+          "nextSceneId": "scene_012",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043c",
+          "text": "Bianca ile konuş",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c043d",
+          "text": "Otopsi raporunu incele",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "salvatore_hastane",
+      "addCharacterNote": "Hastane kayıtları: Salvatore O Rh+, Rosa B Rh+, Alessio B Rh+, Stefano AB Rh+, Giulia A Rh-, Elena B Rh-. Bianca kronik anemi takibinde. Salvatore kalp hastası, fiziksel aktivitesi sınırlı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044",
+      "type": "investigation",
+      "background": "ferrante_villa",
+      "characterId": null,
+      "text": "Ferrante villasında kapsamlı arama yapılıyor. Enzo tekerlekli sandalyesinden soğuk bakışlarla izliyor: 'Buyurun, arayın. Burada saklayacak bir şeyimiz yok.'\n\nEnzo'nun çalışma odasında 30 yıllık fotoğraflar: politikacılar, hakimler, iş adamları. Güç ağının görsel tarihi ama soruşturmayla doğrudan ilgisi yok.\n\nTommaso'nun odasında kilitli bir çelik kasa bulunuyor. Arama izniyle açılıyor. İçinde bir tabanca: Glock 19, 9mm. Ruhsatlı. Balistik ekibi hemen inceliyor ama cinayet silahı Beretta 92FS, bu Glock uyuşmuyor. Tommaso'nun dolabında liman haritaları ve konteyner takip listeleri var. Kaçakçılık kanıtı olabilir ama cinayet delili değil.\n\nGiulia'nın ofisinde bir evrak imha makinesi dikkat çekiyor. Yanındaki çöp kutusunda kağıt kırpıntıları var ama kırpıntılar çok ince kesilmiş, birleştirilmesi imkansız. Giulia cinayetten sonra bir şeyler imha etmiş. Ailenin hukuki belgeleri mi yoksa başka bir şey mi, belli değil.\n\nVillanın geri kalanında soruşturmayla ilgili bir bulguya rastlanmadı.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ferrante villası arandı. Tommaso'nun odasında Glock 19 bulundu ama cinayet silahıyla uyuşmuyor. Giulia evrak imha etmiş, içerik belirsiz.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_045",
+      "type": "investigation",
+      "background": "conte_malikane",
+      "characterId": null,
+      "text": "Conte malikânesinde arama yapılıyor. Silvana gülümseyerek izin veriyor: 'Buyurun, her yere bakabilirsiniz. Saklayacak bir şeyimiz yok.'\n\nSilvana'nın yatak odasında kocası Alberto'nun fotoğrafları her yerde. Komodinde bir mektup, Silvana'nın el yazısı: 'Bir gün hesap sorulacak.' Tarih 2020, kocasının ölümünden bir yıl sonra. İntikam duygusu açık ama kime yönelik, belli değil.\n\nMarco'nun odası bir paranoya müzesi. Duvarlarda Napoli haritaları, üzerinde renkli pinler ve ipler. Gözetleme fotoğrafları: sokaklar, binalar, plaka numaraları. Marco herkesi izliyor. Fotoğrafların arasında Franco Moretti'nin birkaç fotoğrafı da var ama bunlar diğerlerinin arasında kaybolmuş, özel bir odak yok.\n\nPadre Ignazio'nun malikânedeki misafir odasında pahalı bir bavul dikkat çekiyor. İçinde İsviçre yapımı bir saat, İtalyan ipek kravatlar ve özel dikimli takım elbiseler. Bir rahip için fazla lüks. Ama cinayet delili değil.\n\nMalikânenin geri kalanında soruşturmayla ilgili bir bulguya rastlanmadı.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Conte malikânesi arandı. Silvana'nın intikam mektubu bulundu ama kime yönelik belirsiz. Marco herkesi gözetliyormuş. Ignazio'nun lüks yaşam tarzı dikkat çekici.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_046",
+      "type": "investigation",
+      "background": "navarro_ofis",
+      "characterId": null,
+      "text": "Navarro ailesinin Spaccanapoli'deki ofisi ve bitişiğindeki depo aranıyor. Vittorio bastonuyla kapıda duruyor: 'Her şey yasal, her şey kayıtlı. Buyurun.'\n\nStefano'nun ofisinde askeri nişanlar, komando sertifikaları ve eski birlik fotoğrafları var. Bir çekmecede silah bakım kiti bulunuyor, son kullanım tarihi belirsiz. Ama Stefano silah deposu yöneticisi, silah bakım kiti olması normal.\n\nVittorio'nun ofisinde siyasetçilere yazılmış mektup taslakları var. Belediye başkanı, vali, milletvekilleri. Vittorio'nun siyasi ağı geniş ama bunlar resmi yazışmalar, rüşvet kanıtı değil.\n\nDeponun envanter kayıtları inceleniyor. Stefano'nun dediği gibi tüm silahlar kayıtlı ve sayılı. Beretta 92FS'lerden 12 adet var, hepsi yerinde. Eksik silah yok. Cinayet silahı bu depodan çıkmamış ya da Stefano envanteri düzeltmiş, bunu kanıtlamak imkansız.\n\nElena'nın ofis çekmecesinde bir dosya: medya bağlantıları listesi. Gazeteciler, editörler, televizyon yapımcıları. Elena bilgi akışını kontrol ediyor ama cinayet delili değil.\n\nAramada soruşturmayı ilerletecek bir bulguya rastlanmadı.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Navarro mülkü arandı. Silah envanterinde eksik yok. Stefano'nun silah bakım kiti var ama mesleği gereği normal. Elena medya bağlantılarını kontrol ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_047",
+      "type": "investigation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Napoli Belediye Kütüphanesi'nin gazete arşivi. Tozlu mikrofilm makineleri ve sararmış gazete koleksiyonları. Franco Moretti, Napoli mafyası ve soruşturmayla ilgili isimleri arıyorsun.\n\n--- Il Mattino, 12 Nisan 1995 ---\n'Ferrante Ailesi Reisi ile Komiserin Gizli Buluşması'\nDon Enzo Ferrante ve Başkomiser Franco Moretti, Posillipo'da kapalı bir restoranda bir araya geldi. Görüşmenin içeriği bilinmiyor. Kaynaklara göre buluşma 2 saat sürdü. Her iki taraf da açıklama yapmadı.\n\n--- Il Mattino, 14 Haziran 1997 ---\n'Ferrante Ailesinden Ağır Suçlama'\nDon Enzo Ferrante, basın toplantısı düzenleyerek Başkomiser Franco Moretti'yi kız kardeşi Lucia Ferrante'nin ölümünden sorumlu tuttu. Ferrante ailesi herhangi bir ek açıklama yapmadı.\n\n--- Corriere del Mezzogiorno, 8 Mart 2003 ---\n'Napoli Mafya Davası: 47 Sanık Hakim Karşısında'\nNapoli Ağır Ceza Mahkemesi'nde görülen davada 47 sanık yargılandı. Dava, Campagna bölgesindeki uyuşturucu trafiğiyle ilgiliydi. 12 sanık mahkum edildi, geri kalanı delil yetersizliğinden beraat etti. Ferrante ve Luciano aileleri davada adı geçen ama yargılanmayan isimler arasındaydı.\n\n--- La Repubblica Napoli, 22 Ekim 2005 ---\n'Liman Baskını: 200 Kilo Kokain Ele Geçirildi'\nNapoli limanında düzenlenen operasyonda bir konteynerde 200 kilo kokain ele geçirildi. Operasyonu yöneten Başkomiser Franco Moretti basına yaptığı açıklamada 'Bu şehirde suça tolerans yok' dedi. 3 kişi tutuklandı, hepsi alt düzey kurye.\n\n--- Il Mattino, 5 Kasım 2016 ---\n'Napoli Sosyetesinin Gece Hayatı'\nFotoğraf: Başkomiser Franco Moretti ve iş adamı Don Salvatore Luciano, Ristorante Don Alfonso'da birlikte akşam yemeği yiyor. Samimi bir atmosfer, kadeh kaldırıyorlar. Fotoğrafın altında not: 'Napoli'nin iki tanınmış ismi, geçen Cumartesi akşamı Don Alfonso'da görüntülendi.'\n\n--- Corriere del Mezzogiorno, 3 Şubat 2024 ---\n'Napoli'nin Genç Sosyetesi: Aşk mı, İş mi?'\nTommaso Ferrante ve Bianca Luciano, Posillipo'da bir kafede birlikte görüntülendi. Ferrante ve Luciano aileleri arasındaki yakınlaşma dedikodulara yol açtı. Gazeteci Marco Ferretti yorum almak istediğinde Bianca Luciano çok öfkelendi ve kısa bir cevap verdi: 'Bu şehirde çok soru soran gazeteciler uzun yaşamaz.' Ferrante ailesi ve Luciano ailesi konuyla ilgili açıklama yapmadı.\n\nArşivde başka dikkat çekici bir haber bulunamadı.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Gazete arşivi: 1995'te Enzo ve Franco gizlice buluşmuş. 1997'de Enzo, Franco'yu Lucia'nın ölümünden suçlamış. 2016'da Franco ve Salvatore samimi yemekte. 2024'te Tommaso ile Bianca birlikte görüntülenmiş, Bianca gazeteciye çok öfkeli tepki vermiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_048",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_enzo",
+      "text": "Enzo'ya Lucia'nın ölüm dosyasını gösteriyorsun. Dosyayı görünce yüzü kasılıyor.\n\n'Nereden buldun bunu?' Sesi titremeye başlıyor. 'O dosyayı görmeyeli 30 yıl oldu.'\n\nDosyaya uzun süre bakıyor: 'Kardeşim 24 yaşındaydı. İntihar dediler. Ben hiçbir zaman inanmadım. Franco o dosyayı iki haftada kapattı. Neden acele etti? Bu soruyu 30 yıldır soruyorum.'\n\nEliyle masaya vuruyor: 'Avukatlar tuttum, gazetecilere gittim. Savcılığa başvurdum. Hiçbir sonuç. Bu şehirde Franco Moretti'nin kapattığı dosyayı kimse açamazdı.'\n\nTekerlekli sandalyesini pencereye çeviriyor: 'Bu dosyayla ne yapacaksın, Dedektif? Lucia 30 yıldır toprağın altında. Onu geri getiremezsin.'\n\nSeni kapıya yönlendiriyor: 'Git. Bu konuyu daha fazla konuşmak istemiyorum.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Enzo: Lucia'nın ölüm dosyasını görünce çok sinirlendi. 30 yıldır intihar hikayesine inanmadığını söylüyor. Dosyanın açılmasını istemiş ama başaramamış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_049",
+      "type": "dialogue",
+      "background": "ferrante_villa",
+      "characterId": "suspect_enzo",
+      "text": "Enzo'ya Cenere dosyasından ve liman operasyonlarından bahsediyorsun. Gözleri kısılıyor.\n\n'Operasyon Cenere mi?' Soğuk bir gülümsemeyle: 'Franco 30 yıl boyunca bu ailelerin her biriyle anlaşma yaptı. Herkesin kirli çamaşırını biliyordu. Ve sonra ne oldu? Kahramanlık oynamaya karar verdi.'\n\nParmağını sana doğru uzatıyor: 'Limanı ben kontrol ediyorum, evet. Bu bir sır değil. Franco da biliyordu, 30 yıldır biliyordu. Peki neden şimdi? Neden 30 yıl sustuktan sonra birden operasyon hazırladı?'\n\nBaşını sallıyor: 'Birisi Franco'yu köşeye sıkıştırdı. Birisi onu operasyon hazırlamaya zorladı. Kendi isteğiyle yapmadı bunu. Franco rahatını seven bir adamdı.'\n\nEliyle kapıyı işaret ediyor: 'Liman meselesi benim sorunum değil artık. Bu sandalyedeyim. Doğru soruları sor, Dedektif.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Enzo: Cenere operasyonunun Franco'nun kendi kararı olmadığını düşünüyor. Birinin Franco'yu zorladığını ima ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_050",
+      "type": "dialogue",
+      "background": "conte_malikane",
+      "characterId": "suspect_silvana",
+      "text": "Silvana'ya Cenere dosyasını ve kocasının ölümünü soruyorsun. Gülümsemesi kayboluyor.\n\n'Kocam mı?' Çay bardağını yavaşça masaya bırakıyor. 'Antonio 8 yıl önce öldü. Kalp krizi. Resmi rapor böyle diyor.'\n\nGözleri sertleşiyor: 'Cenere dosyasında ne yazıyor bilmiyorum ve bilmek de istemiyorum. Franco Moretti yıllarca bu ailelerin hepsini idare etti. Herkesle anlaşma yaptı, herkesten pay aldı. Şimdi birisi onu öldürdü ve herkes birbirine bakıyor.'\n\nParmaklarını masada gezdiriyor: 'Benim kocam namuslu bir iş adamıydı. Evet, inşaat sektörü zor bir iş. Ama Antonio kimseyi öldürmedi ve kimse onu öldürmedi. Kalp krizi geçirdi, 54 yaşında. Bu kadar.'\n\nAyağa kalkıyor: 'Bu konuyu bir daha açmayın, Dedektif. Kocamı toprağın altında rahat bırakın. Franco'nun katilini arıyorsanız, yaşayanlara bakın.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Silvana: Kocasının ölümünü kalp krizi olarak tanıtıyor, başka bir açıklama kabul etmiyor. Cenere dosyasıyla ilgilenmediğini söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_051",
+      "type": "dialogue",
+      "background": "kilise",
+      "characterId": "suspect_ignazio",
+      "text": "Ignazio'ya kilise vakfı hesaplarındaki tutarsızlıkları soruyorsun. Gülümsemesi soluyor.\n\n'Vakıf hesapları mı?' Ellerini birleştiriyor. 'Dedektif, kilise vakfı yüzlerce yıllık bir kurumdur. Bağışlar gelir, hayır işlerine harcanır. Her kuruş kayıt altındadır.'\n\nBir an durakluyor: 'Evet, bazı bağışçılar isimlerini gizli tutmak ister. Bu onların hakkı. Ben bir rahip olarak bu gizliliği korumakla yükümlüyüm. Tanrı'nın huzurunda verilen söz bozulmaz.'\n\nSesi alçalıyor: 'Hesaplarda bir tutarsızlık gördüyseniz, bunun basit bir açıklaması vardır. Muhasebe hataları olabilir, eski kayıtlar eksik olabilir. Bunlar suç değil, insani hatadır.'\n\nDua kitabını açıyor: 'Bu şehirde herkesin bir günahı var, Dedektif. Benim günahım fazla affetmek. Başka sorunuz yoksa, akşam ayinine hazırlanmam gerekiyor.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ignazio: Vakıf hesaplarındaki tutarsızlıkları muhasebe hatası olarak açıklıyor. Bağışçı gizliliğini önemsiyor, isim vermiyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_052",
+      "type": "dialogue",
+      "background": "luciano_villa",
+      "characterId": "suspect_salvatore",
+      "text": "Salvatore'ye Franco'nun cebindeki fotoğrafı gösteriyorsun. 'Sempre, L.' yazılı eski fotoğraf.\n\nSalvatore fotoğrafa bakıyor. Bir an purosunu indiriyor.\n\n'Bu fotoğraf mı?' Yüzünde bir şey kayıyor ama hemen toparlanıyor. 'Eski bir fotoğraf. 1989 tarihli. Franco gençken sosyal bir adamdı, birçok kadınla tanışırdı.'\n\nPurosundan bir nefes alıyor: 'L harfi mi? Bu şehirde L harfiyle başlayan yüzlerce isim var. Laura, Luisa, Lina... Kim olduğunu bilmiyorum.'\n\nFotoğrafı masaya bırakıyor: 'Franco benim dostumdu ama her sırrını bilmiyordum. Herkesin özel hayatı vardır. Ben kendi aileme bakıyorum, o kendi hayatını yaşıyordu.'\n\nDenize bakıyor: 'Bu fotoğrafla cinayet arasında bir bağlantı mı arıyorsun? 1989 tarihli bir fotoğraf, 2026'daki bir cinayetle ne ilgisi olabilir? Bazı şeyler geçmişte kalmalı.'\n\nPurosunu söndürüyor: 'Bu konuda sana yardımcı olamam.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Salvatore: Fotoğraftaki kadını tanımadığını söylüyor ama yüz ifadesi bir an kayıyor. L harfi için rastgele isimler sayıyor, Lucia demekten kaçınıyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_053",
+      "type": "dialogue",
+      "background": "navarro_ofis",
+      "characterId": "suspect_vittorio",
+      "text": "Vittorio'ya depo anahtarı hakkında soruyorsun. Bastonuyla yere vuruyor.\n\n'Anahtar mı? Evet, deponun anahtarı bende. Oğlum Stefano'da da var. Ve Franco'da da vardı, eski anlaşma gereği.'\n\nKoltuğundan kalkıp duvardaki haritaya yürüyor: 'O depo 15 yıldır aktif kullanılmıyor. Eski bir depoydu, sonra boşalttık. Franco anahtar istedi, ben de verdim. Ara sıra gidip geliyordu, ne yaptığını bilmiyorum.'\n\nParmağıyla haritadaki Campagna bölgesini gösteriyor: 'Ama şunu söyleyeyim: o anahtarın kopyasını çıkarmak 5 dakikalık iş. Herhangi bir çilingir yapabilir. Kilidi kontrol ettiniz mi? Eski tip bir kilit, güvenliği sıfır.'\n\nSana dönüyor: 'Ben o depoya son girdiğimde 3 yıl önceydi. Stefano da uzun süredir girmemiş. Ama Franco düzenli gidiyormuş.'\n\nBastonunu masaya dayayıp oturuyor: 'O anahtarı kimin kopyaladığını bul, katili bulursun. Ama bu kolay bir iş değil, kayıt tutan çilingir yok bu mahallede.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Vittorio: Depo anahtarının kopyasını çıkarmak kolay olduğunu söylüyor. 3 anahtar var: Vittorio, Stefano, Franco. Ama herhangi biri kopyalayabilirmiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_accusation",
+      "type": "accusation",
+      "background": "polis_merkezi",
+      "characterId": null,
+      "text": "Napoli Polis Merkezi. Şef Ferrara seni bekliyor.\n\n'Dedektif, yeterli deliliniz var mı? Kimi suçluyorsunuz?'\n\nBu karar geri alınamaz. Elindeki delilleri dikkatle düşün.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    }
+  ],
+  "endings": [
+    {
+      "id": "correct_perfect",
+      "title": "Sessiz Şehrin Sırrı",
+      "description": "Bianca Luciano, Franco Moretti'nin katili olarak tutuklandı. Tüm deliller eksiksiz.",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 3,
+      "epilogueText": "Bianca Luciano tutuklandı. Tıbbi kayıtlar her şeyi ortaya koydu: Salvatore'nin kan grubu O, Rosa'nın kan grubu B. Genetik kurallarına göre O ve B kan gruplu ebeveynlerden AB kan gruplu çocuk dünyaya gelemez. Ama Bianca'nın kan grubu AB Rh negatif. Franco'nun kan grubu A Rh negatif, Lucia Ferrante ise B grubuydu. A ve B ebeveynlerden AB çocuk doğabilir. Bianca, Salvatore'nin değil, Franco ve Lucia'nın gayri meşru çocuğuydu. 2 yıl önce annesinin eski eşyaları arasında mektupları bulmuş, gerçeği öğrenmiş. Annesinin 1995'teki ölümünden Franco'yu sorumlu tutuyordu. Depo anahtarını Lucia'nın eşyaları arasında buldu, Franco'yu Lucia'nın adıyla depoya çağırdı ve karşısında durarak tek kurşunla öldürdü. Bianca mahkemede tek cümle söyledi: 'Annemi öldürdü. Ben sadece hesabı kapattım.' Napoli yine sessiz."
+    },
+    {
+      "id": "correct_good",
+      "title": "Harika İş, Dedektif!",
+      "description": "Doğru kişiyi buldun ve güçlü bir dava kurdun!",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 2,
+      "epilogueText": "Bianca Luciano tutuklandı ve 20 yıl hapis cezası aldı. Süper iş çıkardın, Dedektif! İşte gerçek hikaye: Bianca'nın kan grubu AB, ama babası Salvatore'nin kan grubu O ve annesi Rosa'nın kan grubu B. Genetik olarak O ve B ebeveynlerden AB çocuk dünyaya gelemez. Bianca'nın gerçek babası Franco'ydu (kan grubu A), annesi ise Lucia Ferrante (kan grubu B). Bianca 2 yıl önce annesinin eski eşyaları arasında mektupları bulmuş ve gerçeği öğrenmişti. Annesinin 1995'teki ölümünden Franco'yu sorumlu tutuyordu. Depo anahtarını Lucia'nın eşyaları arasında buldu, Franco'yu Lucia'nın adıyla depoya çağırdı ve tek kurşunla öldürdü. Birkaç kritik delil daha toplasaydın müebbet hapis cezası alınabilirdi. Ama en önemli şeyi başardın: Franco'nun katili adalete teslim edildi!"
+    },
+    {
+      "id": "correct_weak",
+      "title": "Zayıf Dava",
+      "description": "Doğru ismi buldun ama deliller yetersiz.",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Bianca Luciano gözaltına alındı ama avukatı delil yetersizliği gösterdi. Mahkeme Bianca'yı delil yetersizliğinden beraat ettirdi. Bianca serbest kaldı ve ülkeyi terk etti. Franco'nun katili hiçbir zaman resmi olarak mahkum edilemedi."
+    },
+    {
+      "id": "wrong_stefano",
+      "title": "Sahte Iz",
+      "description": "Stefano Navarro'yu suçladınız. Her şey onu gösteriyordu ama o masum.",
+      "suspectAccused": "suspect_stefano",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Stefano Navarro gözaltına alındı. Depo onun yönetimindeydi, kamera kablosu askeri usullerle kesilmişti, Beretta onun envanterindeydi. Her şey onu gösteriyordu. Ama Stefano'nun o gece 19:00'da depodan ayrıldığı komşu işyeri kamerasıyla doğrulandı. Gerçek katil tüm izleri Stefano'ya yönlendirmek için dikkatle plan yapmıştı. Gerçek katil serbest kaldı."
+    },
+    {
+      "id": "wrong_tommaso",
+      "title": "Yanlış İtiraf",
+      "description": "Tommaso Ferrante'yi suçladınız. 'Hallettim' dediği başka bir işti.",
+      "suspectAccused": "suspect_tommaso",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Tommaso Ferrante gözaltına alındı. 'Hallettim' demişti, zamanlama uyuyordu, motifi vardı. Ama limandaki tanıkları Tommaso'nun o gece alt depoda olduğunu doğruladı. 20:00-21:30 arası kamerasız alt depodaydı evet, ama öncesi ve sonrası kameralarda görünüyor. 'Hallettim' dediği şey gece gelen bir kaçak konteyner yüküydü. Tommaso serbest bırakıldı, gerçek katil yakalanamadı."
+    },
+    {
+      "id": "wrong_salvatore",
+      "title": "Eski Dostun Acısı",
+      "description": "Don Salvatore'yi suçladınız. Kırılan dostluk yeterli motif değildi.",
+      "suspectAccused": "suspect_salvatore",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Salvatore Luciano gözaltına alındı. Franco'yla 30 yıllık dostluğu bozulmuştu, operasyon onu çökertecekti. Motifi güçlüydü. Ama Salvatore'nin kalp pili kayıtları o gece 20:00-22:00 arası evinde olduğunu doğruladı (kalp pili GPS verisi). Yemek masasındaki tanıkları da alibisini destekledi. Salvatore serbest kaldı."
+    },
+    {
+      "id": "wrong_vittorio",
+      "title": "Gölge Belediye Başkanı",
+      "description": "Don Vittorio'yu suçladınız. Depo onun ama o orada değildi.",
+      "suspectAccused": "suspect_vittorio",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Vittorio Navarro gözaltına alındı. Depo onundu, motifi vardı. Ama belediye başkanının resepsiyonunda 200 kişi onu görmüştü, saat 23'e kadar oradaydı. Fotoğraflı kanıt, resepsiyon kaydı, düzinelerce tanık. Vittorio'nun alibisi kaya gibi sağlam çıktı. Gerçek katil yakalanamadı."
+    },
+    {
+      "id": "wrong_enzo",
+      "title": "Felçli Sandalye",
+      "description": "Don Enzo'yu suçladınız. Felçli bir adam cinayet işleyemezdi.",
+      "suspectAccused": "suspect_enzo",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Enzo Ferrante gözaltına alındı. Kardeşinin ölümü, Franco'yla eski hesaplaşmalar... motifi vardı. Ama Enzo tekerlekli sandalyede ve belinden aşağı felçli. Tıbbi raporlar bunu doğruluyor. Başkasına yaptırmış olabilir mi? Kanıtlanamadı. Enzo serbest bırakıldı."
+    },
+    {
+      "id": "wrong_silvana",
+      "title": "Zarif Tehdit",
+      "description": "Donna Silvana'yı suçladınız. Motifi vardı ama delil yoktu.",
+      "suspectAccused": "suspect_silvana",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Silvana Conte gözaltına alındı. Kocasının ölümü, kara para aklama, Franco'nun soruşturması. Motifi çok güçlüydü. Ama o gece 8 kişilik yemek verdiğini 8 tanık doğruladı. Silvana gülümseyerek serbest bırakıldı. 'Söyledim size, Dedektif. Yanlış adama bakıyordunuz.' Gerçek katil yakalanamadı."
+    },
+    {
+      "id": "wrong_bianca_weak",
+      "title": "Yetersiz Kanıt",
+      "description": "Bianca'yı suçladınız ama yeterli kanıt sunamadınız.",
+      "suspectAccused": "suspect_bianca",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Bianca'yı suçladınız ama elinizde sadece şüphe vardı. Avukatı tüm delilleri tek tek çürüttü. Bianca serbest kaldı ve ülkeyi terk etti. Doğru ismi buldunuz ama adalet için delil gerekir, Dedektif."
+    },
+    {
+      "id": "wrong_giulia",
+      "title": "Yanlış Hedef",
+      "description": "Giulia Ferrante'yi suçladınız. Aile avukatı, ama katil değil.",
+      "suspectAccused": "suspect_giulia",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Giulia Ferrante gözaltına alındı. Franco'nun belgelerinde adı geçiyordu, aile işlerini biliyordu. Ancak o gece ofisinde sekreteriyle birlikte olduğu kamera kayıtlarıyla doğrulandı. Gerçek katil siyah eldivenlerini çoktan yakmıştı. Giulia serbest bırakıldı. Dava kapandı ama gerçek asla ortaya çıkmadı."
+    },
+    {
+      "id": "wrong_marco",
+      "title": "Paranoyak Masum",
+      "description": "Marco Conte'yi suçladınız. Paranoyası onu şüpheli yaptı ama katil değildi.",
+      "suspectAccused": "suspect_marco",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Marco Conte tutuklandı. Kapalı perdeleri, kimseyi görmemiş olması, inşaat şirketiyle olan bağı... Her şey şüpheli görünüyordu. Ama evinin telefonu o gece Silvana'yı dört kez aradı — Marco o sırada evindeydi. Gerçek katil bu sırada kaçmıştı. Marco'nun paranoyası haklı çıktı ama çok geç."
+    },
+    {
+      "id": "wrong_ignazio",
+      "title": "Sırları Olan Rahip",
+      "description": "Padre Ignazio'yu suçladınız. Para aklama işinde parmağı var ama cinayet işlemedi.",
+      "suspectAccused": "suspect_ignazio",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Padre Ignazio gözaltına alındı. Kilisede para aklamaya yardım ettiği kesindi, Conte ailesiyle bağları vardı. Ancak o gece akşam ayinini yönettiğini yüzlerce cemaat üyesi doğruladı. Kiliseden ayrıldığında saat 20:30 olmuştu — cinayet çoktan işlenmişti. Kirli işleri ortaya çıktı ama aradığınız cinayet faili değildi."
+    },
+    {
+      "id": "wrong_alessio",
+      "title": "Dengesiz Masum",
+      "description": "Alessio Luciano'yu suçladınız. Bağımlı, dengesiz ama katil değil.",
+      "suspectAccused": "suspect_alessio",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Alessio Luciano tutuklandı. Babasının evinde yemekten çıkıp \"hava almaya\" gittiğini söylemişti — en zayıf alibi. Luciano ailesinin Franco'ya olan nefreti belliydi. Ancak o gece Alessio'nun telefonu villaya 3 km uzaktaki bir köprüden sinyal verdi — kokain bağımlısı gece yarısı nehir kenarında yüksek, ağlıyordu. Gerçek katil bu sırada kaçmıştı."
+    },
+    {
+      "id": "wrong_elena",
+      "title": "Siyasetçinin Eşi",
+      "description": "Elena Navarro'yu suçladınız. Siyasi bağlantılar, aile çıkarları — ama masumdu.",
+      "suspectAccused": "suspect_elena",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Elena Navarro gözaltına alındı. Kocasıyla birlikte balodaydı, ama bir kadın olarak ailesinin çıkarlarını korumak için çok şey yapabilirdi. Ancak balonun tüm gece boyunca canlı televizyon yayını vardı; Elena saat 19:00'dan 23:00'a kadar protokol masasındaydı. Alibisi demirdendi. Siyasi skandal başladı ama gerçek katil hâlâ serbestti."
+    }
+  ],
+  "hqLocations": [
+    {
+      "sceneId": "scene_002",
+      "label": "Olay Yeri (Depo)",
+      "icon": "building.fill"
+    },
+    {
+      "sceneId": "scene_003",
+      "label": "Polis Brifing",
+      "icon": "list.clipboard.fill"
+    },
+    {
+      "sceneId": "scene_004",
+      "label": "Otopsi / Adli Tıp",
+      "icon": "cross.case.fill"
+    },
+    {
+      "sceneId": "scene_005",
+      "label": "Balistik Rapor",
+      "icon": "target"
+    },
+    {
+      "sceneId": "scene_006",
+      "label": "Kamera Kayıtları",
+      "icon": "video.fill"
+    },
+    {
+      "sceneId": "scene_007",
+      "label": "Telefon Kayıtları",
+      "icon": "phone.fill"
+    },
+    {
+      "sceneId": "scene_008",
+      "label": "Cenere Dosyası",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_009",
+      "label": "Parfüm Analizi",
+      "icon": "flask.fill"
+    },
+    {
+      "sceneId": "scene_011",
+      "label": "Depo Anahtarı",
+      "icon": "key.fill"
+    },
+    {
+      "sceneId": "scene_012",
+      "label": "Lucia Ölüm Dosyası",
+      "icon": "exclamationmark.triangle.fill"
+    },
+    {
+      "sceneId": "scene_042",
+      "label": "Luciano Villası",
+      "icon": "stethoscope"
+    },
+    {
+      "sceneId": "scene_043",
+      "label": "Hastane Kayıtları",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_044",
+      "label": "Ferrante Villası",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_045",
+      "label": "Conte Malikanesi",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_046",
+      "label": "Navarro Mülkü",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_047",
+      "label": "Gazete Arşivi",
+      "icon": "newspaper.fill"
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "contra_n1",
+      "requires": [
+        "guvenlik_kamerası",
+        "parfüm_kalintisi"
+      ],
+      "statement1": {
+        "source": "Sofia Ferrara",
+        "text": "Restorandan hiç çıkmadım, bütün gece müşterilerle ilgilendim."
+      },
+      "statement2": {
+        "source": "Güvenlik Kaydı",
+        "text": "Sofia 23:15'te arka kapıdan çıkıp 23:45'te döndü."
+      },
+      "result": {
+        "text": "Sofia 30 dakika boyunca kayıp! Restorandan çıkmadığı iddiası çöküyor."
+      }
+    },
+    {
+      "id": "contra_n2",
+      "requires": [
+        "franco_telefon",
+        "tommaso_telefon"
+      ],
+      "statement1": {
+        "source": "Marco Valenti",
+        "text": "O gece hiç arama yapmadım, telefonum kapalıydı."
+      },
+      "statement2": {
+        "source": "Telefon Kayıtları",
+        "text": "Marco'nun telefonundan 22:30'da Sofia'ya bir arama yapılmış."
+      },
+      "result": {
+        "text": "Marco telefonu kapalıydı diyor ama kayıtlar Sofia'yı aradığını gösteriyor!"
+      }
+    },
+    {
+      "id": "contra_n3",
+      "requires": [
+        "kilise_vakfi",
+        "cenere_dosyasi"
+      ],
+      "statement1": {
+        "source": "Luca Moretti",
+        "text": "Aile şirketi iyi durumda, mali bir sıkıntımız yok."
+      },
+      "statement2": {
+        "source": "Banka Kayıtları",
+        "text": "Moretti şirketinin hesaplarında 800.000€ açık ve vergi borcu var."
+      },
+      "result": {
+        "text": "Luca mali durumu gizliyor şirket çok ciddi borç altında!"
+      }
+    },
+    {
+      "id": "contra_n4",
+      "requires": [
+        "depo_anahtari",
+        "parfüm_kalintisi"
+      ],
+      "statement1": {
+        "source": "Elena Romano",
+        "text": "Ofise hiç girmedim, anahtarım bile yok."
+      },
+      "statement2": {
+        "source": "Parmak İzi Raporu",
+        "text": "Elena'nın parmak izleri ofisin kasasında bulundu."
+      },
+      "result": {
+        "text": "Elena ofise girmediğini söylüyor ama parmak izleri kasada! Erişimi varmış."
+      }
+    },
+    {
+      "id": "contra_n5",
+      "requires": [
+        "guvenlik_kamerası",
+        "tommaso_telefon"
+      ],
+      "statement1": {
+        "source": "Marco Valenti",
+        "text": "Limana o gece gitmedim, evde kaldım."
+      },
+      "statement2": {
+        "source": "Güvenlik Kamerası",
+        "text": "Marco'nun aracı limanda 00:30'da görüntülendi."
+      },
+      "result": {
+        "text": "Marco'nun arabası limanda görüntülendi! Gece yarısı orada ne işi vardı?"
+      }
+    },
+    {
+      "id": "contra_n6",
+      "requires": [
+        "cenere_dosyasi",
+        "balistik_rapor"
+      ],
+      "statement1": {
+        "source": "Sofia Ferrara",
+        "text": "Kaçakçılık konusunda hiçbir bilgim yok, sadece aşçıyım."
+      },
+      "statement2": {
+        "source": "Uzman Raporu",
+        "text": "Kaçakçılık operasyonu restoran tedarik zincirine entegre edilmiş içeriden bilgi gerekiyor."
+      },
+      "result": {
+        "text": "Kaçakçılık restoranın tedarik zincirinden geçiyor Sofia'nın bilmemesi mümkün mü?"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach_first_evidence",
+      "title": "İlk İz",
+      "icon": "magnifyingglass",
+      "description": "İlk delili topla",
+      "condition": "evidence_count_1"
+    },
+    {
+      "id": "ach_all_evidence",
+      "title": "Tam Koleksiyon",
+      "icon": "trophy.fill",
+      "description": "Tüm delilleri topla",
+      "condition": "evidence_count_all"
+    },
+    {
+      "id": "ach_perfect",
+      "title": "Kusursuz Adalet",
+      "icon": "star.fill",
+      "description": "Doğru katili bul, 3 yıldız al",
+      "condition": "perfect_ending"
+    },
+    {
+      "id": "ach_all_suspects",
+      "title": "Herkes Konuştu",
+      "icon": "bubble.left.and.bubble.right.fill",
+      "description": "Tüm şüphelileri sorgula",
+      "condition": "all_suspects_interviewed"
+    },
+    {
+      "id": "ach_first_xref",
+      "title": "Bağlantı",
+      "icon": "link",
+      "description": "İlk çapraz referansı bul",
+      "condition": "xref_count_1"
+    },
+    {
+      "id": "ach_all_xref",
+      "title": "Örümcek Ağı",
+      "icon": "network",
+      "description": "Tüm çapraz referansları bul",
+      "condition": "xref_count_all"
+    },
+    {
+      "id": "ach_wrong",
+      "title": "Yanlış Yol",
+      "icon": "xmark.circle.fill",
+      "description": "Yanlış suçlama yap",
+      "condition": "wrong_accusation"
+    },
+    {
+      "id": "ach_speed",
+      "title": "Hızlı Çözüm",
+      "icon": "bolt.fill",
+      "description": "15'ten az sahneyle doğru suçlama",
+      "condition": "speed_solve"
+    },
+    {
+      "id": "ach_family_secret",
+      "title": "Aile Sırrı",
+      "icon": "lock.fill",
+      "description": "Luciano ailesinin gizli gerçeğini keşfet",
+      "condition": "blood_chain"
+    },
+    {
+      "id": "ach_lucia",
+      "title": "Lucia'nın Gerçeği",
+      "icon": "heart.fill",
+      "description": "Lucia Ferrante'nin hikayesini keşfet",
+      "condition": "lucia_truth"
+    }
+  ],
+  "evidenceReactions": [
+    {
+      "characterId": "suspect_enzo",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "nervous",
+      "dialogue": "Enzo soğuk bir gülümsemeyle bakıyor. 'Franco operasyon mu hazırlıyormuş? 30 yıl boyunca gözlerini kapattı, şimdi mi açıyormuş?'",
+      "note": "Enzo operasyonu küçültüyor."
+    },
+    {
+      "characterId": "suspect_enzo",
+      "evidenceId": "lucia_ölüm",
+      "reaction": "angry",
+      "dialogue": "Enzo'nun yüzü kaskatı kesiliyor. 'Lucia'yı mı soruyorsun bana? Franco'nun kardeşime ne yaptığını biliyorum. Dosyayı o kapattı.'",
+      "note": "Enzo, Lucia konusunda kontrolünü kaybetti."
+    },
+    {
+      "characterId": "suspect_enzo",
+      "evidenceId": "sempre_fotoğraf",
+      "reaction": "angry",
+      "dialogue": "Enzo fotoğrafı görünce donuyor. 'Bu... bu Lucia. Kardeşim. O alçak bunu yıllarca cebinde taşımış. Sempre yazmış arkasına.'",
+      "note": "Enzo fotoğraftaki kadının Lucia olduğunu hemen tanıdı."
+    },
+    {
+      "characterId": "suspect_giulia",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "defensive",
+      "dialogue": "Giulia dosyaya bakıyor. 'Muvekkillerim adına konuşmayacağım. Franco yıllardır herkesten rüşvet alıyordu, şimdi mi temize çıkacaktı?'",
+      "note": "Giulia avukat refleksiyle cevap verdi."
+    },
+    {
+      "characterId": "suspect_giulia",
+      "evidenceId": "tommaso_telefon",
+      "reaction": "defensive",
+      "dialogue": "Giulia kalemini bırakıyor. 'Kardeşim aptal değil. Limanda iş yapıyordu, o kadar.'",
+      "note": "Giulia kardeşini savunuyor."
+    },
+    {
+      "characterId": "suspect_tommaso",
+      "evidenceId": "balistik_rapor",
+      "reaction": "defensive",
+      "dialogue": "Tommaso geriye yaslanıyor. 'Beretta mı? Herkesin cebinde Beretta var bu şehirde. Navarro'ların deposuna git.'",
+      "note": "Tommaso suçu Navarro'lara atıyor."
+    },
+    {
+      "characterId": "suspect_tommaso",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "angry",
+      "dialogue": "Tommaso'nun yüzü kızarıyor. 'Benim adım iddianamede mi? Yıllardır avucumuzdan yiyordu!' Masaya yumruk vuruyor.",
+      "note": "Tommaso gerçekten şok oldu."
+    },
+    {
+      "characterId": "suspect_silvana",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "calm",
+      "dialogue": "Silvana gülümsemesini koruyor. 'Franco 30 yıldır herkesten pay alıyor. Vicdan azabı çekip operasyon mu hazırlıyormuş? Güldürmeyin beni.'",
+      "note": "Silvana Franco'nun samimiyetine inanmıyor."
+    },
+    {
+      "characterId": "suspect_silvana",
+      "evidenceId": "lucia_ölüm",
+      "reaction": "calm",
+      "dialogue": "Silvana kaslarını kaldırıyor. 'Lucia Ferrante mi? Enzo'nun kız kardeşi. Zavallı kız. Ama benimle ne alakası var?'",
+      "note": "Silvana uzak duruyor."
+    },
+    {
+      "characterId": "suspect_marco",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "nervous",
+      "dialogue": "Marco terlemeye başlıyor. 'Beni de mi izliyormuş? Herkes beni izliyor!' Ayağa kalkıyor, sonra tekrar oturuyor.",
+      "note": "Marco paranoyası artıyor."
+    },
+    {
+      "characterId": "suspect_ignazio",
+      "evidenceId": "kilise_vakfi",
+      "reaction": "calm",
+      "dialogue": "Padre Ignazio ellerini birleştirip dua eder gibi yapıyor. 'Kilise bağışları gizlidir, Dedektif. Tanrı ile kul arasındaki emanettir.'",
+      "note": "Ignazio dini kalkan olarak kullanıyor."
+    },
+    {
+      "characterId": "suspect_ignazio",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "calm",
+      "dialogue": "Ignazio başını sallıyor. 'Franco iyi bir adamdı ama kaybolmuş bir ruhtu. Tanrı affeder ama ihanet eden dostlar affetmez.'",
+      "note": "Ignazio dini metafor kullandı."
+    },
+    {
+      "characterId": "suspect_salvatore",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "sad",
+      "dialogue": "Salvatore uzun süre sessiz kalıyor. 'Franco... otuz yıl yanında durdum. Ve o beni ele verecekti.' Gözleri nemleniyor.",
+      "note": "Salvatore gerçekten yaralı görünüyor."
+    },
+    {
+      "characterId": "suspect_salvatore",
+      "evidenceId": "sempre_fotoğraf",
+      "reaction": "thoughtful",
+      "dialogue": "Salvatore fotoğrafı alıyor, uzun uzun bakıyor. 'Bu kadın... hatırlıyorum sanki. Ama nereden bilmiyorum.'",
+      "note": "Salvatore fotoğraftaki kadını tanıyor olabilir."
+    },
+    {
+      "characterId": "suspect_alessio",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "angry",
+      "dialogue": "Alessio kahkaha atıyor. 'Babamı ele verecekti ha? Yıllardır soframıza oturuyordu!' Bir an ciddileşiyor. 'Babam bunu bilseydi...'",
+      "note": "Alessio soğuk bir şey söylüyordu ama durdu."
+    },
+    {
+      "characterId": "suspect_alessio",
+      "evidenceId": "otopsi_raporu",
+      "reaction": "calm",
+      "dialogue": "Alessio tiksinerek bakıyor. 'Tek kurşun, sol şakak. Temiz iş. Profesyonel iş. Stefano'ya sor.'",
+      "note": "Alessio Stefano'yu işaret ediyor."
+    },
+    {
+      "characterId": "suspect_bianca",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "calm",
+      "dialogue": "Bianca dosyaya sakin bakıyor. 'Babam bu dosyayı bilseydi çok üzülürdü. Franco amcayla yıllardır dostlardı.'",
+      "note": "Bianca son derece sakin, fazla sakin."
+    },
+    {
+      "characterId": "suspect_bianca",
+      "evidenceId": "sempre_fotoğraf",
+      "reaction": "nervous",
+      "dialogue": "Bianca fotoğrafı alıyor. Bir an gözleri kadının yüzünde kalıyor. 'Tanımıyorum.' Hemen geri veriyor.",
+      "note": "Bianca fotoğrafa bakarken kısa bir duygu yaşadı."
+    },
+    {
+      "characterId": "suspect_bianca",
+      "evidenceId": "parfüm_kalintisi",
+      "reaction": "calm",
+      "dialogue": "Bianca omuz silkiyor. 'Parfüm mü? Bu şehirde herkes parfüm kullanır, Dedektif.'",
+      "note": "Bianca parfüme ilgi göstermedi."
+    },
+    {
+      "characterId": "suspect_vittorio",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "angry",
+      "dialogue": "Vittorio ağır bir nefes alıyor. 'Franco bizi ele verecekti. Hepimizi. Bu şehirde bizi ele veren adam fazla yaşayamaz. Ama ben yapmadım.'",
+      "note": "Vittorio motifi kabul ediyor ama suçu reddediyor."
+    },
+    {
+      "characterId": "suspect_vittorio",
+      "evidenceId": "balistik_rapor",
+      "reaction": "calm",
+      "dialogue": "Vittorio soğuk bakıyor. 'Beretta 92FS mı? İtalya'nın en yaygın silahı. Şehirdeki her silahçıda var.'",
+      "note": "Vittorio silah bağlantısını küçültüyor."
+    },
+    {
+      "characterId": "suspect_stefano",
+      "evidenceId": "balistik_rapor",
+      "reaction": "calm",
+      "dialogue": "Stefano omuz silkiyor. 'Depoda o silahlardan düzinelerce var. Ama hepsi kayıtlı. Eksik silah yok.'",
+      "note": "Stefano envanter kontrolüne işaret ediyor."
+    },
+    {
+      "characterId": "suspect_stefano",
+      "evidenceId": "guvenlik_kamerası",
+      "reaction": "calm",
+      "dialogue": "Stefano dik oturuyor. 'Kamera kablosu kesilmiş, profesyonel iş. Ben olsaydım kamerayı tamamen sökerdim.'",
+      "note": "Stefano profesyonel iş yapanın kendisi olmadığını iddia ediyor."
+    },
+    {
+      "characterId": "suspect_elena",
+      "evidenceId": "cenere_dosyasi",
+      "reaction": "nervous",
+      "dialogue": "Elena gözlerini kısarak bakıyor. 'Bu dosya kocamın kariyerini de etkiler. Eğer basına sızarsa herkes yanar.'",
+      "note": "Elena siyasi sonuçlardan endişeli."
+    }
+  ],
+  "microExpressions": [
+    {
+      "id": "me_bianca_foto",
+      "characterId": "suspect_bianca",
+      "triggerScene": "scene_033",
+      "displayText": "Bianca'nın parmakları fotoğrafın kenarında bir an durdu.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_bianca_lucia",
+      "characterId": "suspect_bianca",
+      "triggerScene": "scene_033",
+      "displayText": "Bianca yutkundu.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_enzo_lucia",
+      "characterId": "suspect_enzo",
+      "triggerScene": "scene_020",
+      "displayText": "Enzo'nun sağ eli titredi.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_salvatore_foto",
+      "characterId": "suspect_salvatore",
+      "triggerScene": "scene_030",
+      "displayText": "Salvatore'nin bakışları bir an uzaklaştı.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_tommaso_telefon",
+      "characterId": "suspect_tommaso",
+      "triggerScene": "scene_023",
+      "displayText": "Tommaso'nun boyun damarları gerildi.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_stefano_kamera",
+      "characterId": "suspect_stefano",
+      "triggerScene": "scene_038",
+      "displayText": "Stefano'nun çenesi bir an kısıldı.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_silvana_cenere",
+      "characterId": "suspect_silvana",
+      "triggerScene": "scene_025",
+      "displayText": "Silvana'nın gülümsemesi bir saniye dondu.",
+      "timeWindow": 3.0
+    },
+    {
+      "id": "me_ignazio_vakif",
+      "characterId": "suspect_ignazio",
+      "triggerScene": "scene_028",
+      "displayText": "Ignazio'nun elleri kavuştu.",
+      "timeWindow": 3.0
+    }
+  ],
+  "suspectAvailability": {
+    "suspect_enzo": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Don Enzo şu anda muayenede. Daha sonra gelin."
+    },
+    "suspect_giulia": {
+      "availableHours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "unavailableMsg": "Avukat Giulia mahkemede. Akşama gelin."
+    },
+    "suspect_tommaso": {
+      "availableHours": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "unavailableMsg": "Tommaso limanda. Sabah gelin."
+    },
+    "suspect_silvana": {
+      "availableHours": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Donna Silvana misafir kabul etmiyor."
+    },
+    "suspect_marco": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "unavailableMsg": "Marco şantiyede. Akşama gelin."
+    },
+    "suspect_ignazio": {
+      "availableHours": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Padre Ignazio ayin yönetiyor."
+    },
+    "suspect_salvatore": {
+      "availableHours": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "unavailableMsg": "Don Salvatore dinleniyor."
+    },
+    "suspect_alessio": {
+      "availableHours": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "unavailableMsg": "Alessio bulunamadı. Öğleden sonra deneyin."
+    },
+    "suspect_bianca": {
+      "availableHours": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Bianca şu anda müsait değil."
+    },
+    "suspect_vittorio": {
+      "availableHours": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "unavailableMsg": "Don Vittorio belediyede."
+    },
+    "suspect_elena": {
+      "availableHours": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "unavailableMsg": "Elena Navarro toplantıda."
+    },
+    "suspect_stefano": {
+      "availableHours": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unavailableMsg": "Stefano depoda. Sabah erken gelin."
+    }
+  },
+  "suspectNetwork": {
+    "nodes": [
+      {
+        "id": "victim_franco",
+        "label": "Franco Moretti",
+        "type": "victim"
+      },
+      {
+        "id": "suspect_enzo",
+        "label": "Enzo",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_giulia",
+        "label": "Giulia",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_tommaso",
+        "label": "Tommaso",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_silvana",
+        "label": "Silvana",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_marco",
+        "label": "Marco",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_ignazio",
+        "label": "Ignazio",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_salvatore",
+        "label": "Salvatore",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_alessio",
+        "label": "Alessio",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_bianca",
+        "label": "Bianca",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_vittorio",
+        "label": "Vittorio",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_elena",
+        "label": "Elena",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_stefano",
+        "label": "Stefano",
+        "type": "suspect"
+      },
+      {
+        "id": "npc_lucia",
+        "label": "Lucia Ferrante",
+        "type": "npc"
+      }
+    ],
+    "connections": [
+      {
+        "from": "suspect_enzo",
+        "to": "suspect_giulia",
+        "type": "family",
+        "label": "Baba - Kız",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_enzo",
+        "to": "suspect_tommaso",
+        "type": "family",
+        "label": "Baba - Oğul",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_silvana",
+        "to": "suspect_marco",
+        "type": "family",
+        "label": "Hala - Yeğen",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_silvana",
+        "to": "suspect_ignazio",
+        "type": "business",
+        "label": "Manevi Danışman",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_salvatore",
+        "to": "suspect_alessio",
+        "type": "family",
+        "label": "Baba - Oğul",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_salvatore",
+        "to": "suspect_bianca",
+        "type": "family",
+        "label": "Sosyal Baba",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_vittorio",
+        "to": "suspect_elena",
+        "type": "family",
+        "label": "Eşi (Milletvekili)",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_vittorio",
+        "to": "suspect_stefano",
+        "type": "family",
+        "label": "Üvey Baba",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_enzo",
+        "type": "rivalry",
+        "label": "Liman Operasyonu",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_silvana",
+        "type": "rivalry",
+        "label": "Kocasının Ölümü Soruşturması",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_salvatore",
+        "type": "rivalry",
+        "label": "Uyuşturucu Davası",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_vittorio",
+        "type": "rivalry",
+        "label": "Silah Kaçakçılığı",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_franco",
+        "to": "npc_lucia",
+        "type": "romantic",
+        "label": "Gizli İlişki (1995)",
+        "strength": 3,
+        "requires": [
+          "lucia_iliskisi"
+        ]
+      },
+      {
+        "from": "npc_lucia",
+        "to": "suspect_enzo",
+        "type": "family",
+        "label": "Kız Kardeşi",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "npc_lucia",
+        "to": "suspect_bianca",
+        "type": "family",
+        "label": "Biyolojik Anne",
+        "strength": 3,
+        "requires": [
+          "bianca_dna"
+        ]
+      },
+      {
+        "from": "victim_franco",
+        "to": "suspect_bianca",
+        "type": "family",
+        "label": "Biyolojik Baba",
+        "strength": 3,
+        "requires": [
+          "bianca_dna"
+        ]
+      },
+      {
+        "from": "suspect_bianca",
+        "to": "suspect_tommaso",
+        "type": "family",
+        "label": "Biyolojik Kuzen",
+        "strength": 2,
+        "requires": [
+          "bianca_tommaso"
+        ]
+      },
+      {
+        "from": "suspect_enzo",
+        "to": "suspect_silvana",
+        "type": "business",
+        "label": "Aile İttifakı",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_salvatore",
+        "to": "suspect_vittorio",
+        "type": "business",
+        "label": "Silah - Uyuşturucu Ortaklığı",
+        "strength": 1,
+        "requires": []
+      }
+    ]
+  },
+  "newspaperArticles": [
+    {
+      "id": "news_initial",
+      "requires": null,
+      "headline": "NAPOLİ'DE ŞOK: BAŞKOMİSER SUİKASTE KURBAN",
+      "subheadline": "Franco Moretti Campagna'da ölü bulundu",
+      "body": "Napoli Organize Suç Bürosu'nun 30 yıllık başkomiseri Franco Moretti, terk edilmiş bir zeytinyağı deposunda başına tek kurşunla ölü bulundu. Silah olay yerinde yok. Cebinde 1989 tarihli eski bir fotoğraf: 'Sempre, L.' yazılı. Polis 4 mafya ailesini mercek altına aldı.",
+      "source": "Il Mattino"
+    },
+    {
+      "id": "news_investigation",
+      "requires": null,
+      "headline": "MORETTI DAVASI: 4 AİLE ŞÜPHE ALTINDA",
+      "subheadline": "Ferrante, Conte, Luciano, Navarro",
+      "body": "Moretti'nin son 6 ayda tüm büyük aileleri çökertecek bir operasyon hazırladığı ortaya çıktı. Her aile yeterli motife sahip. Ancak cinayet tarzı (tek kurşun, profesyonel) klasik mafya tarzından farklı. Soruşturma ailelerin ötesindeki bir figürü de değerlendiriyor.",
+      "source": "Corriere del Mezzogiorno"
+    },
+    {
+      "id": "news_lucia",
+      "requires": [
+        "lucia_iliskisi"
+      ],
+      "headline": "1995'İN UNUTULAN DOSYASI: LUCIA FERRANTE",
+      "subheadline": "Moretti ve Ferrante ailesi arasındaki gizli bağ",
+      "body": "30 yıl önce 'intihar' olarak kapatılan Lucia Ferrante dosyası yeniden açılıyor. Soruşturma Lucia ile dönemin komiseri Franco Moretti arasında gizli bir ilişki olduğuna dair belgelere ulaştı. 'Sempre, L.' fotoğrafı bu ilişkiyi doğruluyor. Bu bağlantı Moretti cinayetine yeni boyut katıyor.",
+      "source": "La Repubblica Napoli"
+    },
+    {
+      "id": "news_bianca",
+      "requires": [
+        "bianca_dna"
+      ],
+      "headline": "DNA ŞOKU: NAPOLİ SOSYETESİNİN SIRRI",
+      "subheadline": "Bianca Luciano'nun gerçek ebeveynleri ortaya çıktı",
+      "body": "Adli tıp raporları Luciano ailesinin genç üyesi Bianca'nın biyolojik ebeveynlerinin Franco Moretti ve Lucia Ferrante olduğunu ortaya koydu. 30 yıllık sır 15 dakikada çözüldü. Bu bulgunun Moretti cinayetiyle doğrudan bağlantılı olduğu değerlendiriliyor.",
+      "source": "Il Mattino"
+    },
+    {
+      "id": "news_reputation_high",
+      "requires": null,
+      "headline": "DEDEKTİF NAPOLİ'DE FARK YARATIYOR",
+      "subheadline": "Mafya çıkmazı aşılıyor",
+      "body": "Moretti soruşturmasında mafya suskunluğuna rağmen dedektifin mikrokanıtları birleştirdiği bildiriliyor. Kaynaklara göre gerçek suçlunun ana ailelerden biri olmadığı ortaya çıkabilir.",
+      "source": "Corriere del Mezzogiorno"
+    },
+    {
+      "id": "news_reputation_low",
+      "requires": null,
+      "headline": "MORETTI DAVASI TIKANDI",
+      "subheadline": "Omerta engeli aşılamıyor",
+      "body": "Napoli başkomiseri suikasti soruşturmasında ilerleme yok. Mafya ailelerinin koordineli suskunluğu ve tanık korkusu soruşturmayı durma noktasına getirdi. Halk cevap bekliyor.",
+      "source": "La Repubblica Napoli"
+    }
+  ],
+  "pressEvents": [
+    {
+      "id": "press_day1",
+      "reporterName": "Marco Ferretti",
+      "outlet": "Il Mattino",
+      "question": "Dedektif, Moretti'yi hangi aile öldürdü?",
+      "options": [
+        {
+          "text": "Soruşturma ailelere indirgenecek kadar basit değil. Sabır.",
+          "effect": "managed",
+          "reputationDelta": 3,
+          "note": "Profesyonel cevap."
+        },
+        {
+          "text": "Luciano ailesini araştırıyoruz.",
+          "effect": "leak",
+          "reputationDelta": -5,
+          "note": "Basına bilgi sızdırıldı."
+        },
+        {
+          "text": "(Cevap vermeden çek git)",
+          "effect": "ignore",
+          "reputationDelta": -2,
+          "note": "Basın görmezden gelindi."
+        }
+      ],
+      "triggerAfterScenes": 3
+    },
+    {
+      "id": "press_day2",
+      "reporterName": "Isabella Romano",
+      "outlet": "Corriere del Mezzogiorno",
+      "question": "Lucia Ferrante dosyası yeniden açıldı mı? Bu cinayetle ilgili mi?",
+      "options": [
+        {
+          "text": "Tarihsel tüm bağlantılar incelemede. Açıklama zamanı değil.",
+          "effect": "managed",
+          "reputationDelta": 4,
+          "note": "Ağırbaşlı cevap."
+        },
+        {
+          "text": "Lucia dosyasının bu cinayete doğrudan bağlı olabileceğini söyleyebilirim.",
+          "effect": "hint",
+          "reputationDelta": 0,
+          "note": "Basına ipucu verildi."
+        },
+        {
+          "text": "30 yıllık dosya basının işi değil.",
+          "effect": "hostile",
+          "reputationDelta": -4,
+          "note": "Basına sert cevap."
+        }
+      ],
+      "triggerAfterScenes": 9
+    }
+  ]
+}

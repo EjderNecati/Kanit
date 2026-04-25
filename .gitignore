@@ -1,0 +1,15 @@
+node_modules/
+.claude/
+.DS_Store
+Thumbs.db
+*.log
+
+.vercel
+.env*.local
+
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+
+# Temp scripts
+translate_*.py
