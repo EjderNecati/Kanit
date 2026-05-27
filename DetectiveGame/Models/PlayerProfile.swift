@@ -11,7 +11,7 @@ class PlayerProfile: ObservableObject, Codable {
     @Published var purchaseLog: [[String: String]]      // Geri yukleme icin satin alim kaydi
 
     static let startingCredits = 10
-    static let allCaseIds = ["istanbul-001", "london-003", "girne-005", "napoli-004", "paris-002"]
+    static let allCaseIds = ["istanbul-001", "london-003", "girne-005", "napoli-004", "paris-002", "manhattan-006"]
 
     init() {
         self.credits = Self.startingCredits
