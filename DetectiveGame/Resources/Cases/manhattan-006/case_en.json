@@ -1,0 +1,1243 @@
+{
+  "id": "manhattan-006",
+  "title": "Dead Witness",
+  "subtitle": "New York, USA 2026",
+  "city": "New York",
+  "description": "Manhattan, Upper East Side. Victor Harmon, the 68-year-old owner of Harmon Antiques on Madison Avenue, was found murdered in his shop, his throat slashed. At 17:00 on the night of the murder, he had changed his will: cutting out his 3 children and leaving his entire fortune to a foundation. He was killed 5 hours later. The scene shows signs of struggle, shattered display cases, and fingerprints from multiple people.",
+  "coverImage": "manhattan_gece",
+  "difficulty": 5,
+  "isPremium": true,
+  "characters": [
+    {
+      "id": "suspect_elena",
+      "name": "Elena Harmon",
+      "age": 42,
+      "occupation": "Gallery Owner",
+      "relationToVictim": "Victor's eldest daughter. She runs an art gallery in SoHo, but the gallery is on the brink of bankruptcy. She is the one who needs the inheritance most. Her relationship with her father has been strained for years.",
+      "portraitImage": "portrait_elena",
+      "isSuspect": true,
+      "alibi": "She was at an exhibition opening at her gallery in SoHo on the night of the murder. More than 50 guests were present. The exhibition ran 19:00-23:00. Gallery security footage and guest list available."
+    },
+    {
+      "id": "suspect_james",
+      "name": "James Harmon",
+      "age": 38,
+      "occupation": "Lawyer",
+      "relationToVictim": "Victor's middle son. Partner at a law firm in Midtown. He had a distant but controlled relationship with his father. He was informed of the will change.",
+      "portraitImage": "portrait_james",
+      "isSuspect": true,
+      "alibi": "He was in a client meeting at his Midtown office on the night of the murder. The meeting ran 20:00-22:30. His secretary and client confirm it."
+    },
+    {
+      "id": "suspect_philip",
+      "name": "Philip Harmon",
+      "age": 35,
+      "occupation": "Unemployed / Freelance Investor",
+      "relationToVictim": "Victor's youngest son. Lives in Hell's Kitchen. Drowning in gambling debts. Constantly asks his father for money. The suspect with the clearest motive.",
+      "portraitImage": "portrait_philip",
+      "isSuspect": true,
+      "alibi": "He was alone at his Hell's Kitchen apartment on the night of the murder. An Uber Eats order was delivered at 21:30. Beyond that, no alibi."
+    },
+    {
+      "id": "suspect_marcus",
+      "name": "Marcus Webb",
+      "age": 55,
+      "occupation": "Antique Restorer / Business Partner",
+      "relationToVictim": "Victor's apprentice and business partner of 20 years. They ran the shop together. He found the body. Known as the person closest to Victor.",
+      "portraitImage": "portrait_marcus",
+      "isSuspect": true,
+      "alibi": "He left the shop at 20:00 on the night of the murder and went to his home in Brooklyn. His wife confirms. At 06:15 the next morning he arrived at the shop, found the body, and called the police."
+    },
+    {
+      "id": "suspect_diana",
+      "name": "Diana Ortiz",
+      "age": 45,
+      "occupation": "Notary",
+      "relationToVictim": "The notary who changed Victor's will. Has an office on the Upper West Side. One of the last people to see Victor on the day of the murder. She is hiding something.",
+      "portraitImage": "portrait_diana",
+      "isSuspect": true,
+      "alibi": "She was at home on the night of the murder. Her husband and 2 children confirm. Her Netflix viewing history was active from 20:00-23:00. She did not leave home."
+    },
+    {
+      "id": "suspect_ray",
+      "name": "Ray Chen",
+      "age": 50,
+      "occupation": "Private Detective",
+      "relationToVictim": "Private detective hired by Elena. Had been surveilling Victor for weeks. He was near the shop on the night of the murder. May have entered the crime scene.",
+      "portraitImage": "portrait_ray",
+      "isSuspect": true,
+      "alibi": "He was at his Chinatown office on the night of the murder. Office building security cameras show records at 19:00 and 23:30. There is a 4.5-hour gap in between."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "olay_yeri_raporu",
+      "title": "Crime Scene Report",
+      "description": "Harmon Antiques, 742 Madison Avenue. March 26, 2026, 06:20 AM. Shop owner Victor Harmon (68) found face down on the floor of the main showroom. Cause of death: throat slash, single stroke, left to right. Weapon: an Ottoman dagger from the display case (17th century, inventory no: H-1847). The dagger has Victor's blood and two distinct sets of fingerprints. First set: Victor Harmon. Second set: no match in the database.\n\nStruggle signs: Display case 3 shattered, glass scattered across the floor. The antique clock on the desk knocked over (stopped at 22:47). Two chairs overturned. Victor has defensive cuts on his right hand.\n\nIn the shop: cash drawer open, $840 inside. Untouched. Safe intact, not opened. No signs of robbery.\n\nBack entrance unlocked. Alarm system disabled, deactivated using the code (last deactivation: 22:14).",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "otopsi_raporu",
+      "title": "Autopsy Report",
+      "description": "Victor Harmon, 68-year-old male. Cause of death: blood loss from severed left carotid artery. Sharp force injury, neck from left to right, single stroke. The angle suggests a right-handed assailant facing the victim.\n\nEstimated time of death: between 22:30 and 23:00.\n\nThree defensive cuts on right hand. Bruising on left arm (grip mark, held during the murder).\n\nAdditional finding: Low-level antimony detected in blood tests. Level: 0.18 mg/L (normal: below 0.01 mg/L). Liver and kidney values impaired. These findings indicate chronic, low-dose exposure. Estimated exposure duration: 4-6 months.\n\nStomach contents: Last meal approximately 5 hours before death (around 17:00). Green tea residue, sandwich.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "vasiyet_belgesi",
+      "title": "Will Change",
+      "description": "Old will (2019): All property and assets to be divided equally among Elena, James, and Philip Harmon. Estimated inheritance: $12 million (shop, inventory, real estate, investments).\n\nNew will (March 25, 2026, 17:08): All assets bequeathed to 'The Harmon Heritage Foundation'. The foundation's purpose: preservation of art and antiques. Nothing left to the children.\n\nNotary who drafted the will: Diana Ortiz. Two witness signatures: notary office employees Maria Santos and Kevin Park.\n\nHandwritten note added by Victor: 'My children do not deserve my money. The only inheritance I will leave them is my name.'",
+      "image": null,
+      "linkedCharacterId": "suspect_elena",
+      "eliminates": null
+    },
+    {
+      "id": "kamera_kaydi",
+      "title": "Shop Security Camera",
+      "description": "Harmon Antiques security camera, main showroom. Continuous recording, cloud storage.\n\n20:02: Marcus Webb leaves the shop, locks the front door.\n20:28: A hooded figure photographs the front door from outside.\n22:13: Someone enters through the back door (figure not visible on camera).\n22:14: Alarm deactivated.\n22:14-22:47: Camera goes black (manually disconnected from inside).\n22:47: Camera restored, screen empty.\n23:02: A second figure enters from the back, looks at the body, immediately leaves.\n\nForensic analysis: The first figure (22:13) is approximately 5'9\" tall, walking style suggests middle-aged male. The second figure (23:02) is approximately 5'5\", walks like a woman.",
+      "image": null,
+      "linkedCharacterId": "suspect_james",
+      "eliminates": null
+    },
+    {
+      "id": "ses_kayitlari",
+      "title": "Hidden Audio Recordings",
+      "description": "Digital audio recorder taped under Victor's desk. Found by police. Device records automatically when sound is detected. Three separate conversations captured:\n\nMarch 24 (one day before murder), 14:30:\nVictor: 'Marcus, I changed my decision. I see everything. The foundation isn't real, the inventory holes...'\nMarcus: 'Victor, please, let me explain.'\nVictor: 'Tomorrow I'm changing the will. Be at the notary at 17:00. You were there for me, you've been a friend, but you betrayed me. The foundation will get nothing.'\n\nMarch 25 (day of murder), 16:15:\nVictor: 'Diana, the new will is ready. Marcus's name will be erased. I'm leaving everything to my children.'\nDiana: 'Victor, are you sure? This is a big decision.'\nVictor: 'I'm sure. They're my blood. He's a betrayer.'\n\nMarch 25, 21:45 (background, muffled):\nMarcus: 'You should have given me what I deserved, Victor. 20 years. Everything for the foundation. You ruined it all in one minute.'\nVictor (mumbling, drowsy): 'Marcus... what?'\nMarcus: 'Sleep, old friend. I'll fix the mess you made.'",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "telefon_kayitlari",
+      "title": "Phone Records",
+      "description": "March 25 (day of murder) phone records:\n\nVictor Harmon:\n- 09:02: Called Diana Ortiz (3 min) - notary appointment\n- 16:45: Called Marcus Webb (1 min 12 sec) - 'come to the shop right now, urgent'\n- 17:08: Called from Diana's office (Maria Santos witness) - 'will is done'\n- 19:20: Received a call from Elena (4 min 32 sec)\n- 20:15: Received a call from James (2 min 8 sec)\n\nMarcus Webb:\n- 16:46: Returned Victor's call (38 sec)\n- 20:35: Called Philip Harmon (6 min 42 sec) - location: Brooklyn (his home)\n- 21:30: Phone went silent (or turned off)\n\nPhilip Harmon:\n- 20:35: Received call from Marcus (recorded above)\n- 21:25: Order placed through Uber Eats app\n\nElena Harmon:\n- 19:20: Called Victor (recorded above)\n- 21:48: Called Ray Chen (1 min 5 sec)\n\nDiana Ortiz: No calls after 18:00.",
+      "image": null,
+      "linkedCharacterId": "suspect_james",
+      "eliminates": null
+    },
+    {
+      "id": "vakif_kayitlari",
+      "title": "Foundation Records",
+      "description": "The Harmon Heritage Foundation:\n\nDelaware state registration: Founded March 14, 2024 (2 years ago). Founding agent: Marcus Webb, 118 Atlantic Avenue, Brooklyn.\n\nBoard members (on paper):\n- Marcus Webb (President)\n- Catherine Webb (Secretary - Marcus's wife)\n- Robert Chen (Treasurer - address not found, possibly fictitious)\n- Linda Martinez (Member - address not found, possibly fictitious)\n- David Thompson (Member - address not found, possibly fictitious)\n\nBank account: Chase, Brooklyn branch. Sole authorized signer: Marcus Webb.\n\nAccount activity (2 years):\n- Total deposits: $0\n- Total withdrawals: $0\n- Account essentially dormant, waiting only for inheritance.\n\nThe foundation has no real activity. No exhibitions, donations, or programs. Marcus Webb established it 2 years ago, and the new will granted control of $12 million to this 'foundation'.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "philip_cakmak",
+      "title": "Monogrammed Lighter",
+      "description": "A silver Zippo lighter found on the floor in the back room of the shop. Engraved with the letters 'PH'. Fingerprint: Philip Harmon.\n\nPhilip's statement: 'Yes, that's my lighter. I was at the shop two weeks ago, asking my father for money. I must have dropped it then.'\n\nForensic analysis: The lighter shows no dust under it. If it had been there two weeks, dust would have accumulated. The cleaning lady noted she vacuumed the back room three days ago.\n\nConclusion: The lighter was dropped in the last 1-3 days. Most likely on the night of the murder or shortly before.",
+      "image": null,
+      "linkedCharacterId": "suspect_philip",
+      "eliminates": null
+    },
+    {
+      "id": "elena_mali",
+      "title": "Elena's Financial Status",
+      "description": "Elena Harmon, Harmon Gallery, SoHo:\n\nChapter 11 bankruptcy filing: March 8, 2026 (17 days before the murder).\n\nDebt summary:\n- Gallery rent (18 months in arrears): $340,000\n- Inventory loans: $480,000\n- Personal credit cards: $95,000\n- Total debt: $915,000\n\nMonthly revenue (last 6 months): below $12,000. Operating expenses: $58,000/month.\n\nVictor had provided Elena with $1.2 million in support over the past 3 years but stopped giving any money 6 months ago. The reason: 'You are not improving. Money is not the solution.'\n\nIf the will had not been changed, Elena would have inherited approximately $4 million from Victor. This sum could have completely cleared her debts.",
+      "image": null,
+      "linkedCharacterId": "suspect_elena",
+      "eliminates": null
+    },
+    {
+      "id": "antimon_raporu",
+      "title": "Detailed Toxicology Report",
+      "description": "NYU Langone Toxicology Department report:\n\nAntimony (Sb) analysis in Victor Harmon's blood and tissue samples:\n- Blood: 0.18 mg/L (normal: below 0.01 mg/L, 18 times elevated)\n- Liver: 4.2 µg/g (chronic accumulation)\n- Hair sample analysis (last 6 months): A regular accumulation pattern is observed. Antimony levels gradually increased over the past 4 months.\n\nForm of antimony: antimony trioxide (Sb2O3). This form is used in: antique furniture restoration paints, traditional lacquers, some industrial cleaning chemicals.\n\nIngestion route: Stomach contents show ingestion. Most likely route: regular drink or food contamination.\n\nDosage estimate: 0.2-0.4 mg/day. This dose does not cause acute death but kills the victim slowly over months.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "kimyasal_envanter",
+      "title": "Chemical Inventory Audit",
+      "description": "Harmon Antiques restoration room chemical inventory audit (April 1, 2026):\n\nLast 6 months' usage records (Marcus Webb's notes):\n- Antimony trioxide: 50g declared used (4 months ago, restoration of an 18th-century gilded mirror)\n- Actually missing: 4.8g (96% discrepancy)\n\nOther chemical consumption normal, only antimony shows missing.\n\nMarcus's explanation: 'I sometimes don't keep records accurate, it might have been used in another project.'\n\nMissing 4.8g divided by 4 months: roughly 0.04g/day = 40mg/day. If this amount were placed in tea or food, it would create chronic antimony poisoning matching the autopsy findings.\n\nWhere is the missing antimony? Used on Victor? Possible. No record.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "victor_mektup",
+      "title": "Victor's Letter (Locked Drawer)",
+      "description": "Letter found in Victor's bedroom (Upper East Side apartment) locked drawer. Search warrant from a judge. Dated March 24, 2026 (one day before the murder). Sealed in an envelope but never sent.\n\nAddressee: 'To my children'.\n\nText:\n'My beloved children, Elena, James, Philip,\n\nI know your relationships with me are difficult. I am a harsh father, that is true. But know this: I never made decisions based on hatred toward you. I always thought I knew what was best for you.\n\nBut today the truth has come to light, and I am ashamed. The man I thought of as my closest companion, Marcus, has been deceiving me for years. Setting up a fake foundation, leaving you out, controlling everything for his own purposes...\n\nTomorrow I'm seeing the notary again. I'm reverting the will. Half is for you three (equal), the other half for foundations supporting art education. Marcus will get nothing.\n\nI wish I had been a better father. Forgive me.\n\nYour father, Victor'\n\nVictor wrote this letter the day before but did not send it. Did Marcus learn about the letter?",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "ray_dosyasi",
+      "title": "Ray Chen's File",
+      "description": "Surveillance file found in Ray Chen's office. Elena hired Ray for 'father surveillance and confirmation of will details'.\n\nContents:\n- Photos of Victor (last 3 months): meetings at notary, conversations with Marcus, daily routines\n- Bank account info (where obtained illegally)\n- Photo from Elena's gallery (March 18): Philip is at the gallery, in his hand Philip's monogrammed silver lighter\n\nRay's GPS data (night of the murder):\n- 19:45: Madison Avenue, parking lot opposite the shop\n- 20:00: still in parking lot\n- 21:50: Madison Avenue exit\n\n4-hour gap. What did Ray do during this time? Was he watching or did he enter?\n\nRay's account: Elena paid him $11,000 in cash 3 days ago. Reason: 'Take all important documents from the shop, especially Victor's personal letters.'",
+      "image": null,
+      "linkedCharacterId": "suspect_ray",
+      "eliminates": null
+    },
+    {
+      "id": "philip_borc",
+      "title": "Philip's Debt File",
+      "description": "Philip Harmon's gambling debts (last 2 years):\n\nUnderground casinos: Approximately $280,000 (Mike 'Cash' Sullivan)\nSports betting: $120,000\nTotal: $400,000\n\nDeadline: 'The full amount must be paid by April 15, 2026.'\nPenalty: Physical threats. Sullivan has 3 prior convictions.\n\nPhilip's income: Last 5 years of tax returns show $0 (officially unemployed).\nFamily allowance: Cut off (Victor stopped 6 months ago).\n\nLast 30 days, Philip's calls/messages with Sullivan:\n- 12 messages, increasingly threatening\n- Last message (March 24, day before murder): 'No tolerance. April 15. Or you bleed.'\n\nIf the will were not changed: Philip would have inherited approximately $4 million from Victor's death. This would have easily covered the $400,000 debt.\n\nMotive: very strong. Philip needed to keep the original will (with himself in it) and prevent the change.",
+      "image": null,
+      "linkedCharacterId": "suspect_philip",
+      "eliminates": null
+    },
+    {
+      "id": "noter_belge",
+      "title": "Notary Office Documents",
+      "description": "Diana Ortiz, notary office. Search warrant from judge.\n\nDocuments found:\n\n1. New will (signed March 25, 17:08).\n2. Recording of phone call with Marcus Webb (March 24, 22:00):\n   Marcus: 'Diana, listen to me. Don't change Victor's will tomorrow. I'll pay you anything.'\n   Diana: 'Marcus, I can't. Notary ethics.'\n   Marcus: 'Diana, $50,000. Cash. Postpone the will by one week.'\n   Diana: 'No. This conversation is over.'\n\n3. Bank records: $50,000 was paid into Diana's account that night (March 24, 23:15). Sender: anonymous transfer.\n\nDiana's situation: She told Marcus no but didn't refund the money. The next day she carried out the will change, but the money is still in her account.",
+      "image": null,
+      "linkedCharacterId": "suspect_diana",
+      "eliminates": null
+    },
+    {
+      "id": "komsuluk_kamera",
+      "title": "Neighborhood Camera Records",
+      "description": "Madison Avenue street cameras and neighboring business cameras, night of the murder:\n\n22:08: A black Audi A6 (license plate: belongs to James Harmon) is recorded at Madison & 76th intersection (3 blocks from the shop). James said he was at the office. Lie?\n\n22:18: A figure with a hooded sweatshirt enters the back alley from Madison & 75th (toward the shop). Light height/build (cannot determine gender). 5'5\"-5'8\" tall.\n\n22:55: A taxi stops in front of the shop. A figure with a hooded jacket enters the shop, exits within 5 minutes carrying something dark. The taxi driver was questioned: 'The lady was nervous, asked to wait. Got out, came back. Then I dropped her in SoHo, near the gallery.' Elena? Or someone else?\n\n23:15: Ray Chen's silver Toyota at Madison & 78th, going in the direction of the shop, slow speed (15 mph). Surveillance behavior.",
+      "image": null,
+      "linkedCharacterId": "suspect_james",
+      "eliminates": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_001",
+      "type": "narration",
+      "background": "manhattan_sabah",
+      "characterId": null,
+      "text": "New York, Manhattan. 06:45 AM. Your phone rings.\n\nNYPD Homicide, Detective Morrison: 'There's a murder on the Upper East Side. Madison Avenue, Harmon Antiques. The shop owner, Victor Harmon, 68 years old, was found with his throat slashed. His business partner discovered the body this morning.'\n\nMorrison continues: 'Here's the strange part: yesterday at 5 PM the victim changed his will. Completely cut his 3 children out of the inheritance and left all $12 million to a foundation. He was killed 5 hours later.'\n\nA pause: 'The shop is in disarray, signs of struggle. Security camera partially working. Many suspects, but nothing concrete. We need to solve this fast, the Harmon family is well-connected and press pressure is mounting.'\n\nYou take a taxi to Madison Avenue. The sun is just rising, streets still quiet. The shop front is wrapped in yellow tape, two police cars waiting.",
+      "choices": [
+        {
+          "id": "c001a",
+          "text": "Examine the shop",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001b",
+          "text": "Get briefing from Morrison",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_002",
+      "type": "investigation",
+      "background": "dukkan_ic",
+      "characterId": null,
+      "text": "Harmon Antiques. An ornate shop: mahogany shelves, crystal chandeliers, hundreds of antique pieces. But right now everything is in chaos.\n\nMain showroom: Victor Harmon's body has been removed, blood stain and chalk outline on the floor. Display case 3 is shattered, glass scattered. The antique clock on the desk knocked over, stopped at 22:47. Two chairs overturned.\n\nForensic team working: 'Murder weapon is the Ottoman dagger from the display case. Two sets of fingerprints on the dagger: the victim's and an unidentified person's. Back door not locked. Alarm system disabled with the code, last deactivation 22:14.'\n\nTechnician adds: 'Cash drawer open but $840 still inside. Untouched. Safe intact. This wasn't a robbery.'",
+      "choices": [
+        {
+          "id": "c002a",
+          "text": "Inspect the back room",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002b",
+          "text": "Check the security camera",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002c",
+          "text": "Question the neighbors",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "olay_yeri_raporu",
+      "addCharacterNote": "Murder weapon is the Ottoman dagger from the case. Alarm disabled by code (22:14). Not a robbery. Clock stopped at 22:47.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_003",
+      "type": "narration",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Morrison briefing:\n\n'Victor Harmon. 68 years old, ran this shop for 35 years. One of Manhattan's most respected antique dealers. Estimated wealth: $12 million — shop, inventory, apartment, investments.'\n\n'We have 6 suspects: His eldest daughter Elena, gallery owner, in bankruptcy. His middle son James, lawyer, his car was seen near the shop last night. Youngest son Philip, gambler, owes $400,000. Business partner Marcus Webb, 20 years with Victor, found the body. Notary Diana Ortiz, drafted the will. And Ray Chen, a private detective hired by Elena.'\n\nMorrison closes the file: 'Victor changed his will at 5 PM yesterday. Took $12 million from his children and left it to a foundation called The Harmon Heritage Foundation. Murdered 5 hours later. Motive is clear, suspects are many.'",
+      "choices": [
+        {
+          "id": "c003a",
+          "text": "Examine the shop",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003b",
+          "text": "Review forensic report",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003c",
+          "text": "Examine the will document",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "6 suspects: Elena (gallery, bankruptcy), James (lawyer, car spotted), Philip (gambler, in debt), Marcus (partner, found body), Diana (notary), Ray (private detective).",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_004",
+      "type": "investigation",
+      "background": "adli_tip",
+      "characterId": null,
+      "text": "Forensic lab. Dr. Sarah Kim presents the report:\n\n'Victor Harmon, 68. Cause of death: severed left carotid artery, blood loss. Single stroke, left to right. Weapon: dagger from the display case. Angle indicates a right-handed assailant facing the victim.'\n\n'Estimated time of death: 22:30-23:00. Three defensive cuts on right hand. Grip mark on left arm — someone was holding him.'\n\nDr. Kim pauses: 'One more thing. Routine blood work detected low levels of antimony. 18 times normal. Liver and kidney values also impaired. Indicates chronic, low-dose exposure. Antimony has been accumulating in his body for 4-6 months.'\n\n'Stomach contents show green tea residue. Last meal about 5 hours before death.'",
+      "choices": [
+        {
+          "id": "c004a",
+          "text": "Request detailed toxicology",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004b",
+          "text": "Examine the shop",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "otopsi_raporu",
+      "addCharacterNote": "Death: throat slash, single stroke, right-handed assailant. Antimony in blood (18x elevated). Chronic poisoning for 4-6 months. Stomach: green tea.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_005",
+      "type": "investigation",
+      "background": "dukkan_arka",
+      "characterId": null,
+      "text": "The shop's back room. Restoration workshop, storage, and office combined.\n\nYou check the floor: no glass shards, no struggle marks. The back room is not a battlefield. But something catches your eye.\n\nOn the floor near the door, a silver lighter. Engraved with 'PH'. Fingerprint team examines: belongs to Philip Harmon.\n\nYou check the back door: unlocked, opens from outside. Alarm panel beside the door. Last deactivation: 22:14, by code. People who know the code: Victor, Marcus, and family members (Victor gave it to his children years ago). Code hasn't changed in 5 years.\n\nOn the desk are Victor's personal items: glasses case, wallet ($200 + cards), and a sealed envelope (marked 'Diana', empty, already delivered).",
+      "choices": [],
+      "addEvidence": "philip_cakmak",
+      "addCharacterNote": "Philip's lighter in the back room (not crime scene). Alarm code: Victor, Marcus, family. Back door unlocked.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_006",
+      "type": "investigation",
+      "background": "dukkan_ic",
+      "characterId": null,
+      "text": "Security camera room. Technician shows the footage:\n\n'Continuous recording, cloud storage. Today's clip is critical.'\n\n20:02: Marcus Webb leaves the shop, locks the front door.\n20:28: A hooded figure photographs the front door from outside.\n22:13: Someone enters through the back door (face not visible).\n22:14: Alarm deactivated.\n22:14-22:47: Camera goes black (manually disconnected from inside).\n22:47: Camera restored, screen empty.\n23:02: A second figure enters from the back, looks at the body, leaves immediately.\n\nForensics: 'First figure (22:13) about 5'9\", middle-aged male walk. Second figure (23:02) about 5'5\", walks like a woman.'",
+      "choices": [],
+      "addEvidence": "kamera_kaydi",
+      "addCharacterNote": "First entry 22:13 (5'9\" man), camera blackout 33 min, second entry 23:02 (5'5\" woman). Two different visitors.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_008",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "The will document handed over by NYPD. You review it.\n\nOld will (2019): All property and assets divided equally among Elena, James, and Philip Harmon. Estimated inheritance: $12 million.\n\nNew will (March 25, 2026, 17:08): All assets to 'The Harmon Heritage Foundation'. Nothing to the children.\n\nNotary: Diana Ortiz. Witness signatures: Maria Santos, Kevin Park.\n\nHandwritten note added by Victor: 'My children do not deserve my money. The only inheritance I will leave them is my name.'\n\nWait... that handwritten note is on the new will, but in the audio (16:15) Victor was saying 'I'm leaving everything to my children'. Contradiction. Maybe the new will was modified after Victor's signature.",
+      "choices": [
+        {
+          "id": "c008a",
+          "text": "Investigate the foundation",
+          "nextSceneId": "scene_014",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008b",
+          "text": "Speak with the notary",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "vasiyet_belgesi",
+      "addCharacterNote": "Will note doesn't match Victor's voice from 16:15. Contradiction. New will may have been modified.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_009",
+      "type": "investigation",
+      "background": "manhattan_sokak",
+      "characterId": null,
+      "text": "You question neighborhood shops. Two shops have cameras facing the street.\n\nMartinelli Café (across the street): Camera covers Madison Avenue. Footage shows a black Audi A6 parked at the Madison & 76th intersection between 22:08 and 22:35. License plate: belongs to James Harmon.\n\nBoutique Aroma (3 doors down): Camera covers the side alley. At 22:55, a yellow taxi stops in front of the shop. A figure with a hooded jacket enters, comes out within 5 minutes carrying something dark.\n\nDriver located: 'Lady was nervous, asked to wait. She came back, I dropped her in SoHo, near the gallery. I think she was crying.'\n\nElena? Or someone else?",
+      "choices": [],
+      "addEvidence": "komsuluk_kamera",
+      "addCharacterNote": "Neighborhood cameras: James's Audi nearby 22:08-22:35. A hooded woman (5'5\") entered 22:55, taxi dropped her at Elena's gallery.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_010",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Hidden audio device analysis lab.\n\nDigital ID: device manufactured 8 months ago. Activation date: about 6 months ago (close to when Marcus started chemical inventory irregularities).\n\nVictor had this device installed by himself. Why? He suspected something.\n\nAdditional recordings (last 30 days):\n- Marcus and Victor's argument about chemicals (Feb 12)\n- Marcus calling someone (March 5): 'Robert, board meeting next month. Just be on paper, no need to come.' (Robert Chen — fictitious treasurer)\n- Marcus telling his wife (March 18): 'Catherine, the foundation papers — I need to make a small change to the bank account. Just authorized signers.'\n\nVictor watched Marcus's every step.",
+      "choices": [],
+      "addEvidence": "ses_kayitlari",
+      "addCharacterNote": "Victor placed the recorder himself 6 months ago. He had been monitoring Marcus's betrayal for months.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_012",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "All phones requested. Telecom records arrive.\n\nKey calls of the day:\n- 16:46: Marcus returned Victor's call (38 sec)\n- 20:35: Marcus called Philip from his home in Brooklyn (6 min 42 sec)\n- 21:30: Marcus's phone silent\n- 22:13: Someone enters the shop's back door\n- 23:02: Second visitor enters\n\nMarcus's location: According to telecom data, his phone in Brooklyn between 20:35-21:30, then signal lost. Phone reappears at home at 06:00 next morning.\n\nDid Marcus turn off his phone at 21:30 and travel to Madison Avenue? Distance Brooklyn-Manhattan: about 40 min by car at night.\n\n22:13 entry could match Marcus.",
+      "choices": [],
+      "addEvidence": "telefon_kayitlari",
+      "addCharacterNote": "Marcus's phone silent 21:30 onwards, location lost. Possible drive Brooklyn → Manhattan. 22:13 entry matches him.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_014",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "The Harmon Heritage Foundation investigation:\n\nDelaware state registry: founded March 14, 2024 (2 years ago). Founding agent: Marcus Webb.\n\nBoard members:\n- Marcus Webb (President)\n- Catherine Webb (Secretary — Marcus's wife)\n- Robert Chen, Linda Martinez, David Thompson (no address found — fictitious)\n\nBank account: Chase, Brooklyn. Sole authorized signer: Marcus Webb.\n\n2 years of activity: $0 in, $0 out. Empty shell.\n\nThe foundation Victor 'left $12 million to' is Marcus's private holding company. Marcus established it 2 years ago and was waiting for the inheritance.\n\nNot just murder. Long-term embezzlement scheme.",
+      "choices": [],
+      "addEvidence": "vakif_kayitlari",
+      "addCharacterNote": "Foundation is Marcus's shell. Board members fictitious. Marcus alone controls the foundation. 2 years of preparation.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_016",
+      "type": "investigation",
+      "background": "galeri",
+      "characterId": null,
+      "text": "Elena's gallery, SoHo. Harmon Gallery. A small but stylish space. Currently no exhibition; the gallery looks empty.\n\nElena, in elegant clothing, greets you. Slightly puffy eyes.\n\n'Detective. Thank you for coming. My father's death is a great loss.'\n\nShe lights a cigarette: 'Yes, the gallery isn't doing well. Yes, I filed for bankruptcy. But this doesn't mean I killed my father. The night of the murder I was at the opening here, with 50 witnesses.'\n\nIf you mention Ray Chen: 'I hired Ray to monitor my father. I learned he was meeting with people from the foundation. Something didn't feel right. I wasn't going to murder him — I was trying to find out if Marcus was deceiving him.'",
+      "choices": [
+        {
+          "id": "c016a",
+          "text": "Talk to Elena",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "elena_mali",
+      "addCharacterNote": "Elena's alibi solid (50 witnesses). Hired Ray to monitor her father. Suspects Marcus.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_018",
+      "type": "investigation",
+      "background": "daire_philip",
+      "characterId": null,
+      "text": "Philip's apartment, Hell's Kitchen. Small, messy studio. Dirty dishes in the sink, empty bottles, cigarette odor.\n\nPhilip greets you, eyes red, hands shaking. Sweating despite low temperature.\n\n'Detective. Did you find me? I... I didn't kill my father. I swear.'\n\nHe sits, lights a cigarette: 'Yes, I owed Sullivan $400,000. Yes, my father wasn't giving me money. But I wouldn't kill my father. I'd hate myself but I'd never kill him.'\n\nIf you mention the lighter: 'Yes, that's mine. I was at the shop 2 weeks ago, asking my father for money. I must have dropped it then.'\n\nForensic note: dust analysis shows the lighter was dropped in the last 1-3 days. Philip's story doesn't match.",
+      "choices": [
+        {
+          "id": "c018a",
+          "text": "Talk to Philip",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "philip_borc",
+      "addCharacterNote": "Philip is bankrupt and threatened by Sullivan. Lighter story doesn't hold (1-3 days vs 2 weeks).",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020",
+      "type": "dialogue",
+      "background": "galeri",
+      "characterId": "suspect_elena",
+      "text": "Elena's office in the gallery. She is calm, sitting straight, hands folded on the desk.\n\nElena: 'You found Philip. Did he take responsibility?'\n\nWhen you say no, she sighs: 'My father was difficult. Cold. Demanding. But he had a soft side. He used to cry every year at my mother's anniversary.'\n\n'On the night of the murder I was at the gallery the whole time. There are 50 witnesses. The security camera footage is at your disposal.'\n\nWhen asked about the will: 'I knew there was a will change. My father wanted me out of bankruptcy. He said he would give me money once again, just once. Then he changed it — left everything to a foundation. I had to know why.'",
+      "choices": [
+        {
+          "id": "c020a",
+          "text": "What was the real reason Ray was hired?",
+          "nextSceneId": "scene_021",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "elena_mali"
+        },
+        {
+          "id": "c020b",
+          "text": "What was your relationship with your father like?",
+          "nextSceneId": "scene_020b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elena: 50-witness alibi. Hired Ray to learn the truth, suspected Marcus. Father had promised one last allowance.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020b",
+      "type": "dialogue",
+      "background": "galeri",
+      "characterId": "suspect_elena",
+      "text": "Elena pauses, her eyes wet.\n\n'My relationship with my father was hard. But he was my father. The last thing he said to me, a week ago, was: I love you. I'm sorry I was so harsh. I'll fix what I can.'\n\nShe takes a deep breath: 'I'm not going to be the murderer the police think I am. Yes, I'm bankrupt. Yes, the gallery is gone. But my father didn't deserve that. And honestly, my father said he'd give me money one more time. He just hadn't done it yet. I had hope.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Elena describes a softer father-daughter dynamic in the final week. Says she had hope of one more transfer.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_021",
+      "type": "dialogue",
+      "background": "galeri",
+      "characterId": "suspect_elena",
+      "text": "Elena chooses her words carefully:\n\n'I hired Ray Chen to find out who was meeting with my father. Especially Marcus. Something didn't feel right. Marcus had stopped letting me visit my father for years. He always made up an excuse. I had to know what was happening.'\n\n'Ray was supposed to follow my father, photograph who he met with. That's it. I never asked him to enter the shop, never asked him to harm my father.'\n\n'After the murder I called Ray once: 'Take all important documents from my father's desk. Especially personal letters. If something dangerous to me is there, I want to know first.' That's not murder. That's family protection.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Elena explains: hired Ray to monitor Marcus, paid for document retrieval after the murder. Says it was self-defense, not murder.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_023",
+      "type": "dialogue",
+      "background": "ofis_james",
+      "characterId": "suspect_james",
+      "text": "James Harmon's Midtown law office. Tidy, minimalist. James sits at his desk in a suit.\n\n'My father's death is tragic. But I will be honest with you: my relationship with him was complicated. He treated me as a lawyer first, son second.'\n\n'I was at the office for a client meeting on the night of the murder. 20:00-22:30. My secretary and the client testify.'\n\nWhen you mention his Audi: 'My Audi? Near the shop? That's impossible. The car was in my office parking lot. Maybe a similar vehicle.'\n\nHis fingers play with a pen. Just a moment. Then composure returns.",
+      "choices": [
+        {
+          "id": "c023a",
+          "text": "Your Audi was spotted at the shop",
+          "nextSceneId": "scene_024",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "komsuluk_kamera"
+        },
+        {
+          "id": "c023b",
+          "text": "What do you think of your siblings?",
+          "nextSceneId": "scene_023b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "James acts calm but is rattled when the Audi sighting is raised. Lying?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_023b",
+      "type": "dialogue",
+      "background": "ofis_james",
+      "characterId": "suspect_james",
+      "text": "James bows his head slightly.\n\n'Elena is a smart woman, but financially she's a disaster. She killed the gallery. She constantly asked our father for money — and he gave it to her, up to a point.'\n\n'Philip... Philip is lost. Gambling, debts. Like a stranger to me.'\n\n'Marcus... Marcus was strange. He spoke softly, gently, but I always felt distrust. He pretended to be my father's closest friend, but I sensed he was using him.'\n\nHe rises: 'I have a hearing. We can talk again later, Detective.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "James reads his siblings: Elena hopeless, Philip lost, Marcus suspicious. He himself has remained measured.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_024",
+      "type": "dialogue",
+      "background": "ofis_james",
+      "characterId": "suspect_james",
+      "text": "James freezes. Removes his glasses, places them on the desk. Long silence.\n\n'All right.' Loosens his tie. 'I left the meeting early. I learned my father had changed the will... A clerk at the notary's office is an old college friend. Word came right away.'\n\n'I drove to the shop. To talk to my father. To convince him. But...' He pauses: 'I sat in the car for 20 minutes. Couldn't get out. Couldn't go in. Then I left. I returned to the office for a 22:35 meeting.'\n\n'Yes, my father deserved an answer. Yes, I was furious. But I'm a lawyer. I don't kill my father. Don't I?'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "James confesses: learned of will change, drove to shop but couldn't enter. Sat in car 20 min, drove back.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_026",
+      "type": "dialogue",
+      "background": "emniyet",
+      "characterId": "suspect_philip",
+      "text": "Philip's Hell's Kitchen apartment. Same disorder, same shaking hands. Philip is now in front of you, his head in his hands.\n\n'Detective, I'll tell you the truth. Yes, I owed Sullivan $400,000. Yes, the deadline was April 15. Yes, my father wasn't giving me money. But I didn't kill him. I swear.'\n\nWhen you mention the lighter: 'Three days ago.' He raises his head: 'I went to the shop three days ago. To ask my father for money. He threw me out. The lighter must have fallen then. But the murder was last night, not three days ago.'\n\nHe trembles: 'Last night I was here. Uber Eats came at 21:30. After that I drank and slept.'",
+      "choices": [
+        {
+          "id": "c026a",
+          "text": "What about Marcus?",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "philip_cakmak"
+        },
+        {
+          "id": "c026b",
+          "text": "Did your father give you anything?",
+          "nextSceneId": "scene_026b",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "philip_borc"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Philip: lighter dropped 3 days ago when he asked for money and got thrown out. Strong motive but lone alibi.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_026b",
+      "type": "dialogue",
+      "background": "emniyet",
+      "characterId": "suspect_philip",
+      "text": "Philip stares at the floor.\n\n'No. My father didn't give me anything. He said, 'You're not solving your own problems. I won't pay for them anymore.''\n\nHis voice breaks: 'You know what? I was scared. The 15th was close, Sullivan was going to kill me. I was thinking about killing myself rather than him killing me. But I couldn't kill my father. He's still my father.'\n\nHe cries: 'Even if I die, I love him.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Philip's last visit: father refused, threw him out. Despair but says he could not have killed his father.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_027",
+      "type": "dialogue",
+      "background": "emniyet",
+      "characterId": "suspect_philip",
+      "text": "Philip raises his head, eyes red, voice tense:\n\n'Marcus? He was like family. Twenty years he was around my father. But...' Pauses. 'A month ago at the shop I saw something. Marcus was holding my father's tea cup, looking at it. Like he was studying it. He noticed me, smiled, said 'I made the tea, want one?' I refused. I left.'\n\n'I didn't understand it then. Now... now I understand. The tea. The chemical thing. Marcus poisoned my father.'\n\nHe collapses: 'I should have warned my father. I... didn't believe Marcus would do something like that.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Philip's testimony: a month ago he saw Marcus inspecting his father's tea suspiciously. Tea = antimony route.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_029",
+      "type": "dialogue",
+      "background": "atolye_marcus",
+      "characterId": "suspect_marcus",
+      "text": "Marcus's restoration workshop, in the back section of Harmon Antiques. A large workbench, restoration tools, paints, chemicals.\n\nMarcus, gray hair, worn apron, sits across from you. His hands tremble slightly. Eyes red.\n\n'Detective... my partner, my brother. I held his body. I cried. I — I'm not the murderer.'\n\nHe wipes his nose: 'On the night of the murder I left at 8 PM. I went home, had dinner with my wife. We watched TV. Around 11 I went to bed. The next morning I came to the shop, saw the body... My world collapsed.'\n\nIf you mention the audio recording: He freezes. Pales. Sweat appears on his forehead. 'No... no, that's impossible.'",
+      "choices": [
+        {
+          "id": "c029a",
+          "text": "You were at the shop at 21:45, the recorder caught you",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "vakif_kayitlari"
+        },
+        {
+          "id": "c029b",
+          "text": "What is the foundation?",
+          "nextSceneId": "scene_029b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Marcus collapses when audio recording is mentioned. His alibi is breaking.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_029b",
+      "type": "dialogue",
+      "background": "atolye_marcus",
+      "characterId": "suspect_marcus",
+      "text": "Marcus tries to compose himself.\n\n'The Harmon Heritage Foundation? Victor and I planned it together. To preserve antiques, to support art education. A noble project.'\n\nWhen pressed about board members: 'Robert, Linda, David? They are... they were our advisory board. Maybe not regularly attending.'\n\nWhen pressed about the account being inactive: 'We were waiting for the inheritance. With $12 million we'd have started the projects.'\n\nWhen pressed about Victor's voice: 'Victor was confused. He had memory problems. We had agreed on the foundation many times. He must have temporarily forgotten the day before he died.'\n\nLie after lie. Each more shallow than the last.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Marcus's explanations crumble layer by layer. Cannot defend the foundation's fictitious board, dormant account, or Victor's voice.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_030",
+      "type": "dialogue",
+      "background": "atolye_marcus",
+      "characterId": "suspect_marcus",
+      "text": "Marcus is silent. The audio recording is right in front of him. His own voice: 'Sleep, old friend. I'll fix the mess you made.'\n\nFifteen seconds of silence. Then he sits back. Tears fall silently. He still doesn't say anything but a transformation happens on his face. Mask falls.\n\nWhen he speaks his voice is different — colder, calculating:\n'Detective. Yes. I was at the shop at 21:45.'\n\n'But here's the truth: Victor was already dying. The antimony I had been adding to his tea for 6 months. He had 3-4 weeks left.'\n\n'But yesterday he changed his decision. Notified the notary. He was going to take away the inheritance, give it to the children. 20 years of work, gone. So I went. To convince him. He grabbed the dagger first. I fought back. Self-defense.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "MARCUS CONFESSES: 6 months of slow antimony poisoning + the dagger killing. Tries to claim self-defense.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_032",
+      "type": "dialogue",
+      "background": "noter",
+      "characterId": "suspect_diana",
+      "text": "Diana Ortiz's notary office, Upper West Side.\n\nDiana, professional appearance, glasses, file at her desk. Calm but you can see the tension.\n\n'Detective. About Mr. Harmon's will...'\n\nShe stops. Drinks her coffee: 'I drafted the new will. Mr. Harmon signed it at 17:08 on March 25. Two witnesses present.'\n\nIf you mention the $50,000: She freezes. Long silence. Then: 'I will be honest. Marcus called me on March 24, offered to delay the will by a week. He paid $50,000 in advance. I refused but didn't return the money. I executed the will the next day. But the money is still in my account.'",
+      "choices": [
+        {
+          "id": "c032a",
+          "text": "What about the will document changes?",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "noter_belge"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Diana confesses to the bribery. Took $50,000 but did NOT delay the will. The money is still in her account.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_033",
+      "type": "dialogue",
+      "background": "noter",
+      "characterId": "suspect_diana",
+      "text": "Diana opens her drawer, takes out an envelope.\n\n'After Victor signed the new will, he handed me this envelope. He said: \"If something happens to me, give this to the police. Not before.\"'\n\nThe envelope opens. Inside, a handwritten note from Victor:\n'To the police — If you find this, Marcus killed me. Long, slow poisoning. Maybe directly. The foundation is fake; the inheritance is for him. Save my children. Tell the truth. Victor Harmon.'\n\nDiana, tears in her eyes: 'I should have given this to you sooner. I'm sorry. I — I was scared. The $50,000... I thought I was complicit.'",
+      "choices": [],
+      "addEvidence": "victor_mektup",
+      "addCharacterNote": "BOMBSHELL: Victor's hand-written note to police, predicting Marcus's plot. Diana withheld for fear of complicity.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_035",
+      "type": "dialogue",
+      "background": "ofis_ray",
+      "characterId": "suspect_ray",
+      "text": "Ray Chen, Chinatown. His worn leather jacket, sharp eyes. He pulls a chair, sits across from you.\n\n'Detective. Ray Chen. Yes, Elena hired me. Yes, I was watching Victor.'\n\nLights a cigarette: 'For 3 weeks I watched. Marcus, the foundation papers, Victor's meetings. I knew Marcus was up to something but I had no proof yet.'\n\nIf you mention the 4-hour gap: 'On the night of the murder I was at the shop. Parking lot opposite. I saw Marcus enter. I went in to see at 22:55, after Marcus left.'\n\n'I saw the body. I took some documents — Victor's notebook, some files. Then I left. I should have called the police. I didn't. Elena had paid me to take the documents. My livelihood.'",
+      "choices": [
+        {
+          "id": "c035a",
+          "text": "What was the second visitor?",
+          "nextSceneId": "scene_036",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "ray_dosyasi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ray was the second figure (23:02 entry, 5'5\" — actually he says 22:55, slightly off). Took documents instead of calling police.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_036",
+      "type": "dialogue",
+      "background": "ofis_ray",
+      "characterId": "suspect_ray",
+      "text": "Ray opens his file. Photos and notes inside.\n\n'I saw the second visitor enter the shop too. A woman. Elena. She entered around 22:55. She left with a folder, I assume Victor's personal letters.'\n\nHe shows photos: at 22:55, Elena entering the shop from the back door. Camera angle matches the neighborhood camera footage.\n\n'Elena and I were working together. After the murder she paid me $11,000. The deal was: she would take the personal letters, I would take Victor's business documents. We both made sure nothing about us was left behind. I admit, that's a crime. But not murder.'\n\nElena's gallery alibi (50 witnesses) breaks if she was at the shop at 22:55. She must have been somewhere else.",
+      "choices": [
+        {
+          "id": "c036a",
+          "text": "Re-examine Elena's alibi",
+          "nextSceneId": "scene_036b",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "philip_cakmak"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ray was the 22:55 visitor. But the second visitor (woman, 5'5\") at 23:02 was Elena. Her 50-witness alibi is broken between 22:30-23:30.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_036b",
+      "type": "dialogue",
+      "background": "ofis_ray",
+      "characterId": "suspect_ray",
+      "text": "Ray opens up further.\n\n'Yes, I was a partner. Elena offered me $11,000 to take the documents — Victor's personal letters, especially the one that named Marcus.'\n\n'I didn't enter to commit murder. I entered after the murder. Marcus had already done it. I came to gather the documents.'\n\n'Look, Detective: I'm an ex-cop. I don't break the law without a reason. Elena was about to be ruined by Marcus too. I was helping the family.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ray's full confession: complicit with Elena, took documents after the murder, but did not commit murder.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_040",
+      "type": "investigation",
+      "background": "atolye_marcus",
+      "characterId": null,
+      "text": "Marcus's restoration workshop. Detailed inspection.\n\nChemical cabinet: organic solvents, paints, antique restoration chemicals. Locked cabinet.\n\nInventory book: kept by Marcus.\n- Antimony trioxide: 50g recorded usage 4 months ago.\n- Actual missing: 4.8g (per inspection).\n\nThe missing amount divided across 4 months = 40mg/day. Sufficient to poison a person over months.\n\nIn a hidden drawer: lab gloves used, a tea cup (likely Victor's), traces of antimony chemical on the rim. Forensic confirms.\n\nMarcus had been poisoning Victor for at least 4 months through tea.",
+      "choices": [
+        {
+          "id": "c040a",
+          "text": "Question Marcus",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kimyasal_envanter",
+      "addCharacterNote": "Marcus's hidden drawer: contaminated tea cup, gloves, antimony residue. Chronic poisoning confirmed.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_042",
+      "type": "investigation",
+      "background": "noter",
+      "characterId": null,
+      "text": "Diana Ortiz's notary office, Upper West Side.\n\nReviewing office records.\n\nAppointment book: Victor came in at 17:00 on March 25. Final signature at 17:08. Two witnesses (office staff).\n\nBank records: An anonymous transfer of $50,000 came into Diana's account on March 24, 23:15. Sender: unknown.\n\nPhone records: Marcus called Diana on March 24 at 22:00. Recorded conversation found:\nMarcus: 'Diana, postpone Victor's will by a week. $50,000.'\nDiana: 'No. Notary ethics.'\nMarcus: 'No?... All right.'\n\nMarcus offered the money to delay. Diana refused. Marcus transferred the money anyway. Why?",
+      "choices": [
+        {
+          "id": "c042a",
+          "text": "About the envelope, question Diana",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "noter_belge"
+        },
+        {
+          "id": "c042b",
+          "text": "Speak with Diana",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "noter_belge",
+      "addCharacterNote": "Diana refused the delay but Marcus transferred the money anyway. Was it intimidation, threat? Why didn't Diana return the money?",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044",
+      "type": "investigation",
+      "background": "adli_tip",
+      "characterId": null,
+      "text": "Detailed toxicology report from NYU Langone.\n\nForm of antimony detected: antimony trioxide (Sb2O3). Industrial purity grade. Used in: antique furniture restoration paints, traditional lacquers, some industrial cleaning chemicals.\n\nAntimony storage check: Harmon Antiques restoration room holds 50g antimony trioxide (declared in inventory). Marcus's logbook shows 4 months of usage. Actual missing: 4.8g.\n\nDosage: 40mg/day for 4 months = chronic, low-dose exposure. Doesn't cause immediate death but slowly destroys the body.\n\nVictor's daily routine: drank green tea regularly. The amount of antimony in the tea would not significantly alter the taste.\n\nIdeal route: tea, sweetened with sugar or honey.",
+      "choices": [],
+      "addEvidence": "antimon_raporu",
+      "addCharacterNote": "Antimony trioxide in restoration room. Marcus's inventory has 4.8g unaccounted for. Tea route confirmed.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_045",
+      "type": "investigation",
+      "background": "ofis_ray",
+      "characterId": null,
+      "text": "Ray Chen's office, Chinatown. NYPD search warrant.\n\nFiles found:\n- Photos of Victor (last 3 months): notary meetings, talks with Marcus, daily routines\n- Photo from Elena's gallery (March 18): Philip is at the gallery, his silver lighter visible in his hand\n- GPS data: night of murder, 19:45 parking lot opposite the shop, 21:50 exit\n\nWait — the photo from Elena's gallery (March 18) shows Philip with the lighter. So 18 days before the murder, the lighter was with Philip at the gallery, not at the shop. Yet on the shop floor 1-3 days dust.\n\nWho moved the lighter to the shop's back room? Someone who knew Philip and wanted to frame him.",
+      "choices": [
+        {
+          "id": "c045a",
+          "text": "Talk to Ray",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ray_dosyasi",
+      "addCharacterNote": "Ray's photo proves Philip's lighter was at the gallery on March 18, not at the shop. Someone planted it to frame Philip.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_053",
+      "type": "narration",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Possible Sentencing Analysis (by position):\n\nMurderer (whomever): First-degree murder (premeditated). Under New York state law, 25 years to life. If chronic poisoning is proven, aggravated murder: life without parole.\n\nEvidence tampering / scene interference: Placing evidence at the scene or manipulating evidence to frame another. 3-7 years prison. Professional license revocation (if applicable).\n\nFalse statement: Lying to police, false alibi. 1-3 years prison.\n\nEvidence concealment / negligence: Withholding critical information from a client, failing to report. 1-2 years prison.\n\nAccessory / facilitation: Indirect participation in the murder plot or knowing assistance after the murder. 5-15 years prison.\n\nInheritance fraud: Fake foundation, fake board, falsifying financial documents. Federal crime, 10-20 years prison.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    }
+  ],
+  "endings": [
+    {
+      "id": "correct_perfect",
+      "title": "The Loyal Partner",
+      "description": "You accused Marcus Webb with all critical evidence.",
+      "suspectAccused": "suspect_marcus",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 3,
+      "epilogueText": "Marcus Webb was taken into custody. The full chain of evidence was complete.\n\nMarcus had established The Harmon Heritage Foundation 2 years ago. The names on its board were fictitious. The foundation was an empty shell whose only purpose was to inherit Victor's fortune.\n\nFor 6 months he had been adding low doses of antimony trioxide to Victor's tea. The aim wasn't to kill Victor outright but to weaken him slowly so the will change would be accepted as if from an enfeebled old man.\n\nBut Victor was sharper than Marcus thought. He noticed the symptoms, suspected, placed a recorder under his desk. On March 24 he heard the truth and decided to change the will the next day. Marcus called Diana that night, tried to bribe her, failed.\n\nOn the night of the murder, Marcus arrived at the shop at 22:13, disabled the alarm with the code, the cameras blacked out 22:14-22:47. He tried to convince Victor again, failed, lost his temper, and used the dagger from the display case. Single stroke, left to right.\n\nMarcus was sentenced to life without parole. The Harmon Heritage Foundation was disbanded; the $12 million returned to the lawful heirs (Elena, James, Philip — equal shares).\n\nElena, James, and Philip Harmon each inherited approximately $4 million. Elena restructured her gallery, Philip paid off his debts. James kept practicing law."
+    },
+    {
+      "id": "correct_good",
+      "title": "The Right Direction",
+      "description": "You accused Marcus Webb but missed some critical evidence.",
+      "suspectAccused": "suspect_marcus",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 2,
+      "epilogueText": "Marcus Webb was taken into custody. The investigation proved that he murdered Victor on the night of the murder.\n\nBut without the foundation records and antimony report, the chronic poisoning charge could not be proven. Marcus was charged only with first-degree murder.\n\nThe foundation eventually came under investigation. The 2 years of preparation could only be partly revealed. Marcus was sentenced to 25 years in prison.\n\nElena, James, and Philip Harmon eventually received their inheritance. But the foundation's true nature took months of legal battle to expose."
+    },
+    {
+      "id": "correct_weak",
+      "title": "A Patchy Case",
+      "description": "You accused Marcus Webb but only with limited evidence.",
+      "suspectAccused": "suspect_marcus",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Marcus Webb was indicted but proving the case turned long and difficult.\n\nWithout enough evidence the foundation's fraud was not fully exposed. Marcus was sentenced to 15 years for second-degree murder.\n\nThe family inheritance was tied up in legal battles for years. The chronic poisoning narrative could not be substantiated. Justice was partial.\n\nVictor Harmon's name was eventually cleared but at a heavy price."
+    },
+    {
+      "id": "wrong_elena",
+      "title": "An Unjust Accusation",
+      "description": "You accused Elena, but Elena did not kill her father.",
+      "suspectAccused": "suspect_elena",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Elena Harmon was taken into custody. But her alibi (50 witnesses) was largely solid, and the evidence against her did not stand at trial.\n\nElena was released. She sued the NYPD for false arrest. The case received significant press coverage.\n\nThe real murderer Marcus Webb escaped. With time he had access to the inheritance from the foundation and disappeared. The Harmon family was destroyed.\n\nVictor's killer was never brought to justice."
+    },
+    {
+      "id": "wrong_james",
+      "title": "The Lawyer in the Dock",
+      "description": "You accused James Harmon, but the evidence didn't fit.",
+      "suspectAccused": "suspect_james",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "James Harmon was arrested. He was a lawyer; he easily countered the charges.\n\nThe Audi being near the shop and the unexplained 20 minutes seemed suspicious, but James produced rock-solid evidence that he never entered the shop.\n\nJames was released. He filed a malpractice suit against NYPD that took years.\n\nThe real murderer Marcus Webb escaped abroad. The Harmon family inheritance went to the foundation, which paid out to Marcus over time."
+    },
+    {
+      "id": "wrong_philip",
+      "title": "The Innocent Gambler",
+      "description": "You accused Philip Harmon based on his lighter and his motive.",
+      "suspectAccused": "suspect_philip",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Philip Harmon was taken into custody. The lighter and the motive seemed strong but the dust analysis (1-3 days, not 18 days) couldn't be properly proven by the prosecution.\n\nPhilip was sentenced to 15 years; he served the full term. He died of pneumonia in prison.\n\nThe real murderer Marcus Webb escaped. The Harmon family inheritance was transferred to him by his fake foundation.\n\nPhilip's name was cleared posthumously, years later, when Marcus was caught for a different crime in Europe."
+    },
+    {
+      "id": "wrong_diana",
+      "title": "The Bribed Notary",
+      "description": "You accused Diana Ortiz, but her crime was bribery, not murder.",
+      "suspectAccused": "suspect_diana",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Diana Ortiz was taken into custody for accepting $50,000. She was sentenced to 2 years for bribery and her notary license was revoked.\n\nBut Diana did not commit murder. The proof was solid: she didn't leave her home on the night of the murder.\n\nThe real murderer Marcus Webb escaped. The Harmon family inheritance was eventually transferred to Marcus through the foundation, which had no legal claim against it.\n\nVictor Harmon's murderer was never brought to justice."
+    },
+    {
+      "id": "wrong_ray",
+      "title": "The Detective in Court",
+      "description": "You accused Ray Chen, but Ray entered the shop after the murder.",
+      "suspectAccused": "suspect_ray",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Ray Chen was taken into custody. Yes, he entered the shop on the night of the murder. Yes, he removed documents. But the time stamps proved he entered after Marcus had already left.\n\nRay was sentenced to 3 years for evidence interference and was released after one year.\n\nThe real murderer Marcus Webb escaped. The Harmon family inheritance flowed to his foundation over years.\n\nVictor Harmon's case became one of New York's unsolved high-profile murders."
+    }
+  ],
+  "hqLocations": [
+    {
+      "sceneId": "scene_002",
+      "label": "Antique Shop (Crime Scene)",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_004",
+      "label": "Forensic Report",
+      "icon": "cross.case.fill"
+    },
+    {
+      "sceneId": "scene_006",
+      "label": "Security Camera",
+      "icon": "video.fill"
+    },
+    {
+      "sceneId": "scene_008",
+      "label": "Will Document",
+      "icon": "doc.text.fill"
+    },
+    {
+      "sceneId": "scene_010",
+      "label": "Audio Recordings",
+      "icon": "waveform"
+    },
+    {
+      "sceneId": "scene_012",
+      "label": "Phone Records",
+      "icon": "phone.fill"
+    },
+    {
+      "sceneId": "scene_014",
+      "label": "Foundation Records",
+      "icon": "building.columns.fill"
+    },
+    {
+      "sceneId": "scene_016",
+      "label": "Elena's Gallery",
+      "icon": "paintpalette.fill"
+    },
+    {
+      "sceneId": "scene_018",
+      "label": "Philip's Apartment",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_023",
+      "label": "James's Office",
+      "icon": "briefcase.fill"
+    },
+    {
+      "sceneId": "scene_040",
+      "label": "Marcus's Workshop",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_042",
+      "label": "Notary Office",
+      "icon": "doc.append.fill"
+    },
+    {
+      "sceneId": "scene_044",
+      "label": "Toxicology Report",
+      "icon": "flask.fill"
+    },
+    {
+      "sceneId": "scene_045",
+      "label": "Ray's Office",
+      "icon": "briefcase.fill"
+    },
+    {
+      "sceneId": "scene_053",
+      "label": "Possible Sentencing",
+      "icon": "folder.fill"
+    }
+  ],
+  "suspectNetwork": {
+    "nodes": [
+      {
+        "id": "victim_victor",
+        "label": "Victor Harmon",
+        "type": "victim",
+        "portraitImage": "portrait_victor"
+      },
+      {
+        "id": "suspect_elena",
+        "label": "Elena",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_james",
+        "label": "James",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_philip",
+        "label": "Philip",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_marcus",
+        "label": "Marcus",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_diana",
+        "label": "Diana",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_ray",
+        "label": "Ray",
+        "type": "suspect"
+      },
+      {
+        "id": "npc_foundation",
+        "label": "Harmon Heritage Foundation",
+        "type": "npc"
+      }
+    ],
+    "connections": [
+      {
+        "from": "victim_victor",
+        "to": "suspect_elena",
+        "type": "family",
+        "label": "Eldest Daughter",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_james",
+        "type": "family",
+        "label": "Middle Son",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_philip",
+        "type": "family",
+        "label": "Youngest Son",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_marcus",
+        "type": "business",
+        "label": "20-Year Partner",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_diana",
+        "type": "business",
+        "label": "Will Notary",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_elena",
+        "to": "suspect_james",
+        "type": "family",
+        "label": "Sibling (Cold)",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_elena",
+        "to": "suspect_philip",
+        "type": "family",
+        "label": "Sibling",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_james",
+        "to": "suspect_philip",
+        "type": "family",
+        "label": "Sibling",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_elena",
+        "to": "suspect_ray",
+        "type": "business",
+        "label": "Hired Private Detective",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_marcus",
+        "to": "npc_foundation",
+        "type": "suspicious",
+        "label": "Foundation Founder",
+        "strength": 3,
+        "requires": [
+          "vakif_kayitlari"
+        ]
+      },
+      {
+        "from": "victim_victor",
+        "to": "npc_foundation",
+        "type": "business",
+        "label": "Granted by Will",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_philip",
+        "to": "suspect_elena",
+        "type": "suspicious",
+        "label": "Gambling Debt",
+        "strength": 2,
+        "requires": [
+          "philip_borc"
+        ]
+      },
+      {
+        "from": "suspect_ray",
+        "to": "victim_victor",
+        "type": "suspicious",
+        "label": "Surveillance",
+        "strength": 2,
+        "requires": [
+          "ray_dosyasi"
+        ]
+      }
+    ]
+  },
+  "newspaperArticles": [
+    {
+      "id": "news_initial",
+      "requires": null,
+      "headline": "MANHATTAN SHOCK: ANTIQUE DEALER VICTOR HARMON FOUND DEAD",
+      "subheadline": "Killed with a dagger in his Madison Avenue shop; $12 million will rewritten just 5 hours before",
+      "body": "Victor Harmon, the 68-year-old owner of Harmon Antiques in Manhattan's Upper East Side, was found dead in his shop last night. His body was discovered the next morning by his longtime business partner Marcus Webb. Police announced the murder weapon was a 17th-century Ottoman dagger from the shop's display case. The day before the killing, Harmon had completely rewritten his will, removing his three children and leaving the entirety of his $12 million estate to a foundation.",
+      "source": "The New York Times"
+    },
+    {
+      "id": "news_investigation",
+      "requires": null,
+      "headline": "HARMON CASE: 6 SUSPECTS, BROKEN ALIBIS",
+      "subheadline": "NYPD widens the investigation",
+      "body": "In the Victor Harmon murder investigation, NYPD has placed six people under scrutiny: Harmon's three children Elena, James, and Philip; business partner Marcus Webb; notary Diana Ortiz who drafted the will; and a private detective Ray Chen hired by the family. Authorities say there are 'significant gaps' in each of these six alibis.",
+      "source": "Daily News"
+    },
+    {
+      "id": "news_foundation",
+      "requires": [
+        "vakif_kayitlari"
+      ],
+      "headline": "HARMON HERITAGE FOUNDATION REVEALED AS A SHAM",
+      "subheadline": "Board members determined to be nonexistent",
+      "body": "The will Victor Harmon signed mere hours before his murder bequeathed $12 million to 'The Harmon Heritage Foundation'. NYPD's financial crimes unit reports the board members are not real persons; the foundation is merely an empty shell registered to a bank. The individual who established the foundation 2 years ago is emerging as a close family associate.",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "id": "news_poison",
+      "requires": [
+        "antimon_raporu"
+      ],
+      "headline": "VICTOR HARMON WAS SLOWLY BEING POISONED FOR MONTHS",
+      "subheadline": "Antimony detected at autopsy; chronic exposure spans 4-6 months",
+      "body": "Routine blood tests after Victor Harmon's death revealed the antique dealer had been exposed to low-dose antimony trioxide for months. According to forensic experts, this level is 'not incidental but systematic'. Investigators now believe the murder was not only the stabbing but a much longer planned process.",
+      "source": "The New York Times"
+    },
+    {
+      "id": "news_reputation_high",
+      "requires": null,
+      "headline": "DETECTIVE IN COMMAND OF HARMON CASE",
+      "subheadline": "Investigation at a critical stage",
+      "body": "The detective leading the Harmon Antiques murder investigation is reportedly piecing together key evidence and closing in on a resolution. Police sources say an arrest is imminent.",
+      "source": "Daily News"
+    },
+    {
+      "id": "news_reputation_low",
+      "requires": null,
+      "headline": "HARMON CASE IN DEADLOCK",
+      "subheadline": "Family and public await answers",
+      "body": "Days have passed since the Manhattan antique dealer Victor Harmon's murder with no arrest in sight. Both family members and the public continue to wait for results from NYPD.",
+      "source": "New York Post"
+    }
+  ]
+}

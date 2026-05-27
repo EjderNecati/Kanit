@@ -1,0 +1,1243 @@
+{
+  "id": "manhattan-006",
+  "title": "Ölü Tanık",
+  "subtitle": "New York, 2026",
+  "city": "New York",
+  "description": "Manhattan, Upper East Side. Madison Avenue üzerindeki Harmon Antiques'in sahibi Victor Harmon, 68 yaşında, dükkanında boğazı kesilerek öldürülmüş halde bulundu. Cinayet gecesi saat 17:00'de vasiyetini değiştirmiş: 3 çocuğunu mirastan çıkarmış, tüm servetini bir vakfa bırakmış. 5 saat sonra öldürüldü. Olay yerinde mücadele izleri, kırık vitrinler ve birden fazla kişiye ait parmak izi var.",
+  "coverImage": "manhattan_gece",
+  "difficulty": 5,
+  "isPremium": true,
+  "characters": [
+    {
+      "id": "suspect_elena",
+      "name": "Elena Harmon",
+      "age": 42,
+      "occupation": "Galeri Sahibi",
+      "relationToVictim": "Victor'un büyük kızı. SoHo'da bir sanat galerisi işletiyor ama galeri iflas sürecinde. Mirastan en çok ona ihtiyacı var. Babasıyla ilişkisi yıllardır gergin.",
+      "portraitImage": "portrait_elena",
+      "isSuspect": true,
+      "alibi": "Cinayet gecesi SoHo'daki galerisinde bir sergi açılışındaydı. 50'den fazla davetli var. Sergi 19:00-23:00 arası. Galeri güvenlik kamerası ve davetli listesi mevcut."
+    },
+    {
+      "id": "suspect_james",
+      "name": "James Harmon",
+      "age": 38,
+      "occupation": "Avukat",
+      "relationToVictim": "Victor'un ortanca oğlu. Midtown'da bir hukuk bürosunda ortak. Babasıyla mesafeli ama kontrollü bir ilişkisi var. Vasiyet değişikliğinden haberdar edilmiş.",
+      "portraitImage": "portrait_james",
+      "isSuspect": true,
+      "alibi": "Cinayet gecesi Midtown'daki ofisinde müvekkil toplantısındaydı. Toplantı 20:00-22:30 arası. Sekreteri ve müvekkili teyit ediyor."
+    },
+    {
+      "id": "suspect_philip",
+      "name": "Philip Harmon",
+      "age": 35,
+      "occupation": "İşsiz / Serbest Yatırımcı",
+      "relationToVictim": "Victor'un küçük oğlu. Hell's Kitchen'da yaşıyor. Kumar borçlarına batmış. Babasından sürekli para istiyor. En açık motifi olan kişi.",
+      "portraitImage": "portrait_philip",
+      "isSuspect": true,
+      "alibi": "Cinayet gecesi Hell's Kitchen'daki dairesindeydi. Tek başına. Uber Eats siparişi 21:30'da teslim edilmiş. Bunun dışında alibisi yok."
+    },
+    {
+      "id": "suspect_marcus",
+      "name": "Marcus Webb",
+      "age": 55,
+      "occupation": "Antika Restorasyoncusu / İş Ortağı",
+      "relationToVictim": "Victor'un 20 yıllık çırağı ve iş ortağı. Dükkanı birlikte yönetiyorlar. Cesedi bulan kişi. Victor'a en yakın insan olarak biliniyor.",
+      "portraitImage": "portrait_marcus",
+      "isSuspect": true,
+      "alibi": "Cinayet gecesi saat 20:00'de dükkandan ayrılmış. Brooklyn'deki evine gitmiş. Karısı teyit ediyor. Sabah 06:15'te dükkana geldiğinde cesedi bulmuş ve polisi aramış."
+    },
+    {
+      "id": "suspect_diana",
+      "name": "Diana Ortiz",
+      "age": 45,
+      "occupation": "Noter",
+      "relationToVictim": "Victor'un vasiyetini değiştiren noter. Upper West Side'da ofisi var. Cinayet gününde Victor'la son görüşen kişilerden biri. Bir şeyler saklıyor.",
+      "portraitImage": "portrait_diana",
+      "isSuspect": true,
+      "alibi": "Cinayet gecesi evindeydi. Kocası ve 2 çocuğu teyit ediyor. Netflix izleme geçmişi 20:00-23:00 arası aktif. Evden çıkmamış."
+    },
+    {
+      "id": "suspect_ray",
+      "name": "Ray Chen",
+      "age": 50,
+      "occupation": "Özel Dedektif",
+      "relationToVictim": "Elena tarafından tutulan özel dedektif. Victor'u haftalardır takip ediyordu. Cinayet gecesi dükkanın yakınındaydı. Olay yerine girmiş olabilir.",
+      "portraitImage": "portrait_ray",
+      "isSuspect": true,
+      "alibi": "Cinayet gecesi Chinatown'daki ofisindeydi. Güvenlik kamerası ofis binasının girişinde 19:00 ve 23:30 kayıtları gösteriyor. Arada 4.5 saat boşluk var."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "olay_yeri_raporu",
+      "title": "Olay Yeri Raporu",
+      "description": "Harmon Antiques, 742 Madison Avenue. 26 Mart 2026, sabah 06:20. Dükkan sahibi Victor Harmon (68) ana salon zemininde yüzüstü bulundu. Ölüm sebebi: boğaz kesisi, tek hamle, soldan sağa. Kullanılan alet: vitrindeki Osmanlı hançeri (17. yüzyıl, envanter no: H-1847). Hançerde Victor'un kanı ve iki farklı parmak izi seti. Birinci set: Victor Harmon. İkinci set: veritabanında eşleşme yok.\n\nMücadele izleri: 3 numaralı vitrin kırık, zemine cam parçaları dağılmış. Masadaki antika saat devrilmiş (durmuş, 22:47). İki sandalye devrik. Victor'un sağ elinde savunma kesikleri var.\n\nDükkanda nakit çekmecesi açık, içinde 840 dolar. Dokunulmamış. Kasa sağlam, açılmamış. Soygun belirtisi yok.\n\nArka giriş kapısı kilitli değil. Alarm sistemi devre dışı, kod ile kapatılmış (son devre dışı bırakma: 22:14).",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "otopsi_raporu",
+      "title": "Otopsi Raporu",
+      "description": "Victor Harmon, 68 yaşında erkek. Ölüm sebebi: sol karotis arterin kesilmesine bağlı kan kaybı. Kesici alet yarası, boyun sol tarafından sağa doğru, tek hamle. Atış açısı sağ elini kullanan ve kurbanla yüz yüze olan birine işaret ediyor.\n\nTahmini ölüm saati: 22:30 ile 23:00 arası.\n\nSağ elde savunma kesikleri (3 adet). Sol kolda morluk (kavrama izi, cinayet anında tutulmuş).\n\nEk bulgu: Kan tahlillerinde düşük seviyede antimon tespit edildi. Seviye: 0.18 mg/L (normal: 0.01 mg/L altı). Karaciğer ve böbrek değerleri bozuk. Bu bulgular kronik, düşük dozlu bir maruziyete işaret ediyor. Maruziyet süresi tahmini: 4-6 ay.\n\nMide içeriği: Son yemek ölümden yaklaşık 5 saat önce (17:00 civarı). Yeşil çay kalıntısı, sandviç.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "vasiyet_belgesi",
+      "title": "Vasiyet Değişikliği",
+      "description": "Eski vasiyet (2019): Tüm mülk ve varlıklar Elena, James ve Philip Harmon arasında eşit bölünecek. Tahmini miras değeri: 12 milyon dolar (dükkan, envanter, gayrimenkul, yatırımlar).\n\nYeni vasiyet (25 Mart 2026, saat 17:08): Tüm varlıklar 'The Harmon Heritage Foundation' adlı vakfa bırakılmış. Vakfın amacı: sanat ve antika eserlerin korunması. Çocuklara hiçbir şey bırakılmamış.\n\nVasiyeti düzenleyen noter: Diana Ortiz. İki tanık imzası mevcut: noter ofisi çalışanları Maria Santos ve Kevin Park.\n\nVictor'un vasiyete el yazısıyla eklediği not: 'Çocuklarım paramı hak etmiyor. Onlara bırakacağım tek miras adımdır.'",
+      "image": null,
+      "linkedCharacterId": "suspect_elena",
+      "eliminates": null
+    },
+    {
+      "id": "kamera_kaydi",
+      "title": "Dükkan Güvenlik Kamerası",
+      "description": "Harmon Antiques güvenlik kamerası, ana salon. Kayıt sürekli, bulut depolama.\n\n20:02: Marcus Webb dükkandan çıkıyor, ön kapıyı kilitliyor.\n20:28: Ön kapı açılıyor (içeriden, Victor açmış), bir kişi giriyor. Kamera açısı yüzünü göstermiyor ama uzun boylu, takım elbiseli bir erkek.\n21:03: Aynı kişi çıkıyor. Victor onu kapıya kadar geçiriyor. Tartışma izlenimi var, iki kişi de gergin.\n21:15-22:13: Victor dükkanda tek başına. Masasında oturuyor, bir şeyler yazıyor.\n22:14: Arka girişten bir kişi giriyor. Kamera bu açıyı net göstermiyor, sadece bir gölge.\n22:43: Victor ayağa kalkıyor, gölgeyle konuşuyor.\n22:47: Mücadele. Kamera sarsılıyor, görüntü kayıyor. Son net kare: iki figür boğuşuyor, biri orta boylu.\n22:48: Kamera tavana bakıyor, düşmüş. Ses kaydı devam ediyor: cam kırılması, bir çığlık, sonra sessizlik.\n23:01: Sessizlik. Hafif ayak sesleri, arka kapı.",
+      "image": null,
+      "linkedCharacterId": "suspect_james",
+      "eliminates": null
+    },
+    {
+      "id": "ses_kayitlari",
+      "title": "Gizli Ses Kayıtları",
+      "description": "Victor'un masasının altına bantlanmış dijital ses kayıt cihazı. Polis tarafından bulundu. Cihaz ses algıladığında otomatik kayıt yapıyor. Üç ayrı konuşma parçası tespit edildi. Tarih bilgisi cihazda kayıtlı değil, sadece dosya numaraları var.\n\nParça 1:\nVictor: 'Son günlerde kendimi çok kötü hissediyorum. Mide bulantısı, baş dönmesi, sürekli yorgunluk.'\nMarcus: 'Yaşlanıyoruz Victor. Doktora gittin mi?'\nVictor: 'Gittim. Kan testleri garip çıkmış, doktor tekrar almak istiyor.'\nMarcus: 'Mevsim geçişi olabilir. Sana o bitki çayından yapayım, iyi gelir.'\n\nParça 2:\nVictor: 'Çocuklarım sadece para istiyor. Elena galeriyi batırdı, Philip kumar borçlarına boğulmuş, James miras peşinde koşuyor.'\nMarcus: 'Üzülme Victor. Belki de mirası başka bir yere yönlendirmelisin. Adını yaşatacak bir vakıf mesela.'\nVictor: 'Vakıf mı?'\nMarcus: 'Senin adını taşıyan bir sanat koruma vakfı. Harmon Heritage Foundation gibi bir şey. Düşünsene, eserlerin sonsuza kadar korunur.'\nVictor: 'Hmm... Düşünürüm.'\n\nParça 3:\nVictor: 'Marcus, sana bir şey sormam lazım. Bu vakıf... sen de dahil misin?'\nMarcus: 'Ne demek istiyorsun?'\nVictor: 'Benim bilmediğim bir şey var mı bu vakıfla ilgili?'\nMarcus: 'Victor, 20 yıldır yanındayım. Sana yalan söyleyeceğimi mi düşünüyorsun?'\nVictor: 'Doğru, haklısın. Kusura bakma, son günlerde herkesten şüpheleniyorum.'\n[sessizlik]\nMarcus: 'Bu gece vakıf evraklarını bitirmemiz lazım. Avukat yarın sabah uçuyor.'\nVictor: 'Tamam... tamam, hallederiz.'",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "telefon_kayitlari",
+      "title": "Telefon Kayıtları",
+      "description": "25 Mart (cinayet günü) telefon kayıtları:\n\nVictor Harmon:\n- 09:02: Diana Ortiz'i aramış (3 dk) - noter randevusu\n- 16:45: Marcus Webb'i aramış (1 dk 30 sn)\n- 17:55: Elena Harmon'u aramış (cevapsız)\n- 18:03: James Harmon'u aramış (45 sn)\n- 18:10: Philip Harmon'u aramış (cevapsız)\n\nJames Harmon:\n- 18:03: Victor'dan gelen arama (45 sn)\n- 19:45: Bilinmeyen numaraya SMS (içerik yok)\n- 21:15: Sekreterini aramış (20 sn) - ofisten\n\nElena Harmon:\n- 17:55: Victor'dan cevapsız arama\n- 18:30: Ray Chen'i aramış (4 dk 12 sn)\n- 22:15: Ray Chen'i aramış (2 dk 8 sn)\n\nPhilip Harmon:\n- 18:10: Victor'dan cevapsız arama\n- 20:40: Bilinmeyen prepaid hat araması (1 dk 55 sn)\n- 21:25: Uber Eats sipariş (uygulama kaydı)\n\nMarcus Webb:\n- 16:45: Victor'dan gelen arama (1 dk 30 sn)\n- 20:45: Karısını aramış (50 sn) - Brooklyn\n\nRay Chen:\n- 18:30: Elena'dan gelen arama (4 dk 12 sn)\n- 22:15: Elena'dan gelen arama (2 dk 8 sn)\n- 22:20: Bilinmeyen numaraya arama (35 sn)\n\nDiana Ortiz:\n- 09:02: Victor'dan gelen arama (3 dk)\n- 12:30: Ofis hattından giden arama (iç hat)",
+      "image": null,
+      "linkedCharacterId": "suspect_james",
+      "eliminates": null
+    },
+    {
+      "id": "vakif_kayitlari",
+      "title": "Vakıf Kayıtları",
+      "description": "The Harmon Heritage Foundation:\n\nDelaware eyalet kaydı: Kuruluş tarihi 14 Mart 2024 (2 yıl önce). Kurucu ajan: Marcus Webb, 118 Atlantic Avenue, Brooklyn, NY.\n\nIRS 501(c)(3) başvurusu: Onay tarihi Haziran 2024. Vergi muafiyeti statüsü aktif.\n\nYönetim kurulu:\n- Başkan: Marcus Webb\n- Üye: Thomas Aldridge (araştırma: 2023'te vefat etmiş)\n- Üye: Patricia Simmons (araştırma: sahte kimlik, bu isimde kişi bulunamadı)\n\nMali durum: Vakıf kurulduğundan beri hiçbir bağış almamış. Banka hesabında 500 dolar kuruluş sermayesi. Faaliyet raporu dosyalanmamış.\n\nVakıf adresi: P.O. Box 4412, New York, NY 10022. Fiziksel ofis yok.\n\nKayıtlarda Victor Harmon'un adı hiçbir yerde geçmiyor. Vakfı Victor kurmamış.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "philip_cakmak",
+      "title": "Monogramlı Çakmak",
+      "description": "Dükkanın arka odasında, zeminde bulunan gümüş Zippo çakmak. Üzerinde 'PH' harfleri kazınmış. Parmak izi: Philip Harmon.\n\nPhilip'in ifadesi: 'Evet, benim çakmağım. Ama olay gecesi orada değildim. O çakmağı haftalardır arıyordum, kaybolmuştu.'\n\nEk not: Çakmak dükkanın arka odasında bulundu, cinayet mahalli olan ana salonda değil. Arka oda ile ana salon arasında bir koridor var. Çakmağın bulunduğu yerde mücadele izi yok.",
+      "image": null,
+      "linkedCharacterId": "suspect_philip",
+      "eliminates": null
+    },
+    {
+      "id": "elena_mali",
+      "title": "Elena'nın Mali Durumu",
+      "description": "Elena Harmon, Harmon Gallery, SoHo:\n\nChapter 11 iflas başvurusu: 8 Mart 2026 (cinayetten 17 gün önce).\n\nBorç tablosu:\n- Galeri kirası (18 ay geriye dönük): 540.000 dolar\n- Sanatçılara ödenmemiş komisyonlar: 180.000 dolar\n- Banka kredisi: 320.000 dolar\n- Kişisel kredi kartı borcu: 95.000 dolar\nToplam: yaklaşık 1.135.000 dolar\n\nGelir: Aylık galeri satışları ortalama 15.000 dolar. Borçlarını kapatması mevcut gelirle 6+ yıl.\n\n4 milyon dolarlık miras payı bu borçların tamamını kapatır ve galeriyi kurtarır.\n\nEk not: Elena 3 ay önce Ray Chen'i tutmuş. Ödeme: 5.000 dolar peşin + 2.000 dolar/ay. Ray'e verilen görev: 'Babamın gizli varlıklarını araştır. Mirastan bir şey saklamaya çalışıyor olabilir.'",
+      "image": null,
+      "linkedCharacterId": "suspect_elena",
+      "eliminates": null
+    },
+    {
+      "id": "antimon_raporu",
+      "title": "Toksikoloji Detay Raporu",
+      "description": "NYU Langone Toksikoloji Bölümü raporu:\n\nVictor Harmon kan ve doku örneklerinde antimon (Sb) analizi:\n- Kan: 0.18 mg/L (normal: 0.01 mg/L altı, 18 kat yüksek)\n- Saç analizi: Son 6 aylık büyüme segmentlerinde artan antimon birikimi\n- Karaciğer enzimleri: ALT 89 U/L, AST 76 U/L (yüksek)\n- Böbrek: Kreatinin 1.8 mg/dL (sınırda yüksek)\n\nAntimon zehirlenmesi belirtileri: Mide bulantısı, kusma, ishal, kas ağrısı, yorgunluk, baş ağrısı. Bu belirtiler mevsimsel hastalık veya yaşlılıkla karıştırılabilir.\n\nMaruziyet yolu: Oral (yutma yoluyla). Tahmini süre: 4-6 ay, düzenli düşük dozlar.\n\nAntimon kaynakları: Antimon trioksit (Sb2O3), metal alaşımlar, bazı boya pigmentleri, cam ve seramik üretimi, eski tip ateşli silah mermileri, antika restorasyon malzemeleri.\n\nNot: Bu seviyede kronik zehirlenme tek başına ölümcül değil ama uzun vadede organ yetmezliğine yol açar. Tahmini kalan ömür (tedavi olmadan): 6-12 ay.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "kimyasal_envanter",
+      "title": "Restorasyon Kimyasalları",
+      "description": "Marcus Webb'in restorasyon atölyesi, Harmon Antiques arka bölüm. Kimyasal dolap envanteri:\n\n- Asetik asit (sirke bazlı temizleyici)\n- Sodyum bikarbonat\n- Denatüre alkol\n- Linseed oil (bezir yağı)\n- Shellac (gomalak)\n- Antimon trioksit (Sb2O3), 500g şişe, bronz patina restorasyonu için\n- Bakır sülfat\n- Dammar reçinesi\n- Tung yağı\n- Çeşitli pigmentler ve boyalar\n\nAntimon trioksit şişesi: Etiket tarihi Ekim 2025. 500g'lık şişe. Mevcut ağırlık: tartılamadı (şişe dolum çizgisinin yaklaşık yarısında).\n\nMarcus'un beyanı: 'Antimon trioksit standart bir restorasyon malzemesi. Bronz ve kalay eserlerin patina onarımında kullanıyorum. Her atölyede bulunur.'\n\nEk not: Atölyede elektrikli su ısıtıcısı, çay bardakları ve bir kutu yeşil çay var. Marcus ve Victor gün içinde düzenli olarak birlikte çay içiyorlarmış.",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "victor_mektup",
+      "title": "Victor'un Mühürlü Mektubu",
+      "description": "Diana Ortiz'in beyanıyla teslim edilen mühürlü zarf. Victor, vasiyeti imzaladıktan sonra Diana'ya vermiş: 'Bunu sakla. Başıma bir şey gelirse aç.'\n\nMektup içeriği (Victor'un el yazısıyla):\n\n'Diana,\n\nBu mektubu okuyorsan muhtemelen artık hayatta değilim. Son aylarda çok garip şeyler oluyor. Sürekli hastayım, doktorlar bir şey bulamıyor ama ben biliyorum... birisi bana bir şey yapıyor.\n\nHer gün içtiğim çaydan sonra kötüleşiyorum. Marcus her gün o çayı yapıyor. 20 yıldır yanımda olan adam. Ona inanmak istiyorum ama bu tesadüf olamaz.\n\nVasiyeti değiştirdim çünkü çocuklarıma güvenmiyorum. Ama bu vakıf meselesini de araştırmam lazım. Marcus bu vakfı çok istedi. Neden bu kadar ısrar etti bilmiyorum.\n\nEğer ölürsem, çayı araştırın. Ve vakfın gerçek sahiplerini bulun.\n\nVictor Harmon\n25 Mart 2026'",
+      "image": null,
+      "linkedCharacterId": "suspect_marcus",
+      "eliminates": null
+    },
+    {
+      "id": "ray_dosyasi",
+      "title": "Ray Chen Dosyası",
+      "description": "Ray Chen'in ofisinde bulunan dosya ve dijital veriler:\n\nTakip fotoğrafları (son 3 hafta):\n- Victor'un dükkana giriş/çıkış saatleri\n- Victor'un Diana Ortiz'in ofisine girişi (25 Mart, 16:50)\n- Victor ve Marcus'un birlikte yemek yemesi (22 Mart)\n- Victor'un bankaya gidişi (20 Mart)\n\nGPS konum verileri (Ray'in telefonu, 25 Mart):\n- 18:00-19:00: Chinatown ofisi\n- 19:15: Hareket, kuzeye doğru\n- 19:45: Madison Avenue civarı (dükkanın yakını)\n- 19:45-21:50: Madison Avenue bölgesinde sabit\n- 21:50: Hareket, güneye doğru\n- 22:10: Chinatown ofisine dönüş\n\nRay'in ofisinde bulunan ek materyal: Philip Harmon'un fotoğrafları, Philip'in sık gittiği mekanların listesi, Philip'in çakmağının fotoğrafı (tarih: 18 Mart, Elena'nın galerisinde çekilmiş).\n\nNot: Ray'in GPS verileri onu olay gecesi 19:45-21:50 arası dükkanın yakınında gösteriyor. Dükkan güvenlik kamerasında bu saatlerde Ray görünmüyor ama arka giriş kameranın kör noktasında.",
+      "image": null,
+      "linkedCharacterId": "suspect_ray",
+      "eliminates": null
+    },
+    {
+      "id": "philip_borc",
+      "title": "Philip'in Borç Dosyası",
+      "description": "Philip Harmon mali durum:\n\nKumar borçları:\n- Atlantic City, Borgata Casino: 85.000 dolar\n- Online kumar siteleri: yaklaşık 120.000 dolar\n- Özel poker çevresine borç: 200.000 dolar (tefeci)\n\nToplam: yaklaşık 405.000 dolar\n\nGelir: Yok. Son işi 8 ay önce bırakmış.\n\nTefeci tehditleri (Philip'in telefonundaki mesajlar):\n- 20 Mart: 'Cuma gününe kadar 50 bin. Yoksa biliyorsun.'\n- 23 Mart: 'Süre doluyor Philip. Babanın dükkandaki eşyaları güzel görünüyor.'\n- 25 Mart: 'Son gece. Ya para ya da konuşuruz yüz yüze.'\n\nPhilip'in banka hesabı: 340 dolar.\n\n4 milyon dolarlık miras payı tüm borçlarını kapatır.\n\nPhilip, Victor'dan son 6 ayda 3 kez para istemiş. Victor her seferinde reddetmiş. Son tartışma: 15 Mart, dükkan güvenlik kamerasında Victor'un Philip'i dışarı attığı görünüyor.",
+      "image": null,
+      "linkedCharacterId": "suspect_philip",
+      "eliminates": null
+    },
+    {
+      "id": "noter_belge",
+      "title": "Noter Kayıtları",
+      "description": "Diana Ortiz Noter Ofisi kayıtları:\n\nRandevu: Victor Harmon, 25 Mart 2026, saat 17:00. Randevu aynı gün sabah 09:02'de telefonla alınmış. Normal vasiyet randevusu bekleme süresi: 5-7 iş günü. Victor acil randevu talep etmiş.\n\nDiana'nın el yazısı notları (dosyada):\n'Müvekkil çok huzursuzdu. Elleri titriyordu. Vasiyeti hızlıca imzalamak istedi. Onu yavaşlatmaya çalıştım ama ısrar etti. İmza sırasında iki kez duraksadı.'\n\n'İmzadan sonra bana mühürlü bir zarf verdi. Başına bir şey gelirse açmamı istedi. Zarfı kabul ettim.'\n\n'Not: Müvekkil vasiyetin içeriğini tam olarak anlatmadı. Vakfın adını verdi ama vakıf hakkında detay vermedi. Vakfı kendisinin kurduğunu ima etti ama emin olamadım.'\n\nOfis güvenlik kamerası: Victor 16:50'de gelmiş, 17:25'te ayrılmış. Yalnız gelmiş, yalnız ayrılmış. Ofis önünde bekleyen araç veya kişi yok.",
+      "image": null,
+      "linkedCharacterId": "suspect_diana",
+      "eliminates": null
+    },
+    {
+      "id": "komsuluk_kamera",
+      "title": "Komşu Kapı Kamerası",
+      "description": "740 Madison Avenue (Harmon Antiques'in karşısı) kapı kamerası. Geniş açı, sokağı ve dükkan cephesini gösteriyor.\n\n25 Mart kayıtları:\n- 20:02: Marcus Webb dükkandan çıkıyor, sola yürüyor.\n- 20:27: Koyu renk bir sedan park ediyor (plaka kısmi: NYS-7**). Uzun boylu bir adam iniyor, dükkana giriyor.\n- 21:03: Aynı adam çıkıyor, arabasına biniyor, gidiyor. Hareketleri sinirli.\n- 21:54: Bir adam yürüyerek geliyor, dükkan kapısına yaklaşıyor. Kapıyı çekiyor, kilitli. Birkaç kez vuruyor. Cevap yok. 2-3 dakika bekliyor, gidiyor.\n- 22:08: Hiçbir hareket.\n- 22:12: Sokağın sonundan biri geliyor, dükkanın yan tarafına (ara sokak) dönüyor. Orta boylu, koyu ceket, şapka. Yüzü görünmüyor.\n\nPlaka araştırması NYS-7**: James Harmon'un BMW'si (NYS-7482).\n\n21:54'teki kişi: Fiziksel tanım Philip Harmon'la uyumlu (boylu, zayıf, kapüşonlu).\n\n22:12'deki kişi: Kimliği belirsiz. Yan sokaktan arka girişe erişim var.",
+      "image": null,
+      "linkedCharacterId": "suspect_james",
+      "eliminates": null
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene_001",
+      "type": "narration",
+      "background": "manhattan_sabah",
+      "characterId": null,
+      "text": "New York, Manhattan. Saat 06:45. Telefonun çalıyor.\n\nNYPD Cinayet Masası, Dedektif Morrison: 'Upper East Side'da bir cinayet var. Madison Avenue, Harmon Antiques. Dükkan sahibi Victor Harmon, 68 yaşında, boğazı kesilmiş halde bulundu. Cesedi bu sabah iş ortağı bulmuş.'\n\nMorrison devam ediyor: 'İlginç olan şu: kurban dün akşam saat 5'te vasiyetini değiştirmiş. 3 çocuğunu mirastan tamamen çıkarmış, 12 milyon dolarlık her şeyi bir vakfa bırakmış. 5 saat sonra öldürülmüş.'\n\nBir an susuyor: 'Dükkan dağınık, mücadele izleri var. Güvenlik kamerası kısmen çalışıyor. Çok şüphelimiz var ama somut bir şey yok. Bu işi hızlı çözmemiz lazım, Harmon ailesinin bağlantıları geniş ve basın baskısı artıyor.'\n\nTaksiyle Madison Avenue'ye ulaşıyorsun. Güneş yeni doğmuş, sokaklar henüz sakin. Dükkanın önü sarı bantlarla çevrili, iki polis arabası bekliyor.",
+      "choices": [
+        {
+          "id": "c001a",
+          "text": "Dükkanı incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c001b",
+          "text": "Morrison'dan brifing al",
+          "nextSceneId": "scene_003",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_002",
+      "type": "investigation",
+      "background": "dukkan_ic",
+      "characterId": null,
+      "text": "Harmon Antiques. Gösterişli bir dükkan: mahogany raflar, kristal avizeler, yüzlerce antika eser. Ama şu an her yer dağınık.\n\nAna salon: Victor Harmon'un cesedi kaldırılmış, yerde kan lekesi ve tebeşir çizgisi. 3 numaralı vitrin kırık, cam parçaları dağılmış. Masadaki antika saat devrilmiş, 22:47'de durmuş. İki sandalye devrik.\n\nKriminalistik ekip çalışıyor: 'Cinayet aleti vitrindeki Osmanlı hançeri. Hançerde iki set parmak izi: kurbanın ve kimliği belirsiz birinin. Arka giriş kapısı kilitli değil. Alarm sistemi kod ile kapatılmış, son devre dışı bırakma 22:14.'\n\nTeknisyen ekliyor: 'Nakit çekmecesi açık ama içinde 840 dolar duruyor. Dokunulmamış. Kasa sağlam. Soygun değil bu.'",
+      "choices": [
+        {
+          "id": "c002a",
+          "text": "Arka odayı incele",
+          "nextSceneId": "scene_005",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002b",
+          "text": "Güvenlik kamerasını kontrol et",
+          "nextSceneId": "scene_006",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c002c",
+          "text": "Komşuları sorgula",
+          "nextSceneId": "scene_009",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "olay_yeri_raporu",
+      "addCharacterNote": "Cinayet aleti vitrindeki Osmanlı hançeri. Alarm kod ile kapatılmış (22:14). Soygun değil. Saat 22:47'de durmuş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_003",
+      "type": "narration",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Morrison brifing veriyor:\n\n'Victor Harmon. 68 yaşında, 35 yıldır bu dükkanı işletiyor. Manhattan'ın en saygın antikacılarından. Servet tahmini 12 milyon dolar: dükkan, envanter, bir apartman dairesi, yatırımlar.'\n\n'6 şüphelimiz var: Büyük kızı Elena, galeri sahibi, iflas sürecinde. Ortanca oğlu James, avukat, dün gece dükkanın yakınında arabası görülmüş. Küçük oğlu Philip, kumarbaz, 400 bin dolar borçlu. İş ortağı Marcus Webb, 20 yıldır Victor'un yanında, cesedi bulan kişi. Noter Diana Ortiz, vasiyeti düzenlemiş. Ve Elena'nın tuttuğu özel dedektif Ray Chen.'\n\nMorrison dosyayı kapatıyor: 'Victor dün akşam 5'te vasiyetini değiştirmiş. 12 milyon doları çocuklarından alıp The Harmon Heritage Foundation adlı bir vakfa bırakmış. 5 saat sonra öldürülmüş. Motif belli, şüpheli çok.'",
+      "choices": [
+        {
+          "id": "c003a",
+          "text": "Dükkanı incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003b",
+          "text": "Adli tıp raporunu incele",
+          "nextSceneId": "scene_004",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c003c",
+          "text": "Vasiyet belgesini incele",
+          "nextSceneId": "scene_008",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "6 şüpheli: Elena (galeri, iflas), James (avukat, arabası görülmüş), Philip (kumarbaz, borçlu), Marcus (iş ortağı, cesedi bulmuş), Diana (noter), Ray (özel dedektif).",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_004",
+      "type": "investigation",
+      "background": "adli_tip",
+      "characterId": null,
+      "text": "Adli tıp laboratuvarı. Dr. Sarah Kim raporu sunuyor:\n\n'Victor Harmon, 68 yaşında. Ölüm sebebi: sol karotis arterin kesilmesi, kan kaybı. Tek hamle, soldan sağa. Alet: vitrindeki hançer. Atış açısı sağ elini kullanan ve kurbanla yüz yüze olan birine ait.'\n\n'Tahmini ölüm saati: 22:30-23:00 arası. Sağ elde 3 savunma kesisi. Sol kolda kavrama izi, biri onu tutmuş.'\n\nDr. Kim duraksıyor: 'Bir şey daha var. Rutin kan tahlilinde düşük seviyede antimon tespit ettik. Normal seviyenin 18 katı. Karaciğer ve böbrek değerleri de bozuk. Bu bulgular kronik, düşük dozlu bir maruziyete işaret ediyor. 4-6 aydır vücudunda antimon birikiyor.'\n\n'Mide içeriğinde yeşil çay kalıntısı var. Son yemek ölümden yaklaşık 5 saat önce.'",
+      "choices": [
+        {
+          "id": "c004a",
+          "text": "Toksikoloji detay raporu iste",
+          "nextSceneId": "scene_044",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c004b",
+          "text": "Dükkanı incele",
+          "nextSceneId": "scene_002",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "otopsi_raporu",
+      "addCharacterNote": "Ölüm: boğaz kesisi, tek hamle, sağ elini kullanan biri. Kanda antimon (18 kat yüksek). 4-6 aydır kronik zehirlenme. Mide: yeşil çay.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_005",
+      "type": "investigation",
+      "background": "dukkan_arka",
+      "characterId": null,
+      "text": "Dükkanın arka odası. Restorasyon atölyesi, depo ve ofis alanı bir arada.\n\nZemine bakıyorsun: cam parçaları yok, mücadele izi yok. Arka oda savaş alanı değil. Ama bir şey dikkatini çekiyor.\n\nZeminde, kapının yanında gümüş bir çakmak. Üzerinde 'PH' harfleri kazınmış. Parmak izi ekibi inceliyor: Philip Harmon'a ait.\n\nArka kapıyı kontrol ediyorsun: kilitli değil, dışarıdan açılabiliyor. Alarm paneli kapının yanında. Son devre dışı bırakma kaydı: 22:14, kod ile. Alarm kodunu bilen kişiler: Victor, Marcus ve aile üyeleri (Victor çocuklarına yıllar önce vermiş). Kod son 5 yılda değiştirilmemiş.\n\nArka odadaki masada Victor'un kişisel eşyaları: gözlük kılıfı, cüzdan (içinde 200 dolar ve kartlar), bir adet mühürlü zarf (üzerinde 'Diana' yazıyor, zarf boş, teslim edilmiş).",
+      "choices": [],
+      "addEvidence": "philip_cakmak",
+      "addCharacterNote": "Philip'in çakmağı arka odada (cinayet mahalli değil). Alarm kodu: Victor, Marcus ve aile üyeleri biliyor. Arka kapı kilitli değil.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_006",
+      "type": "investigation",
+      "background": "dukkan_ic",
+      "characterId": null,
+      "text": "Güvenlik kamerası kayıtları. Dükkan içinde tek kamera var, ana salonu gösteriyor. Bulut depolama, kayıtlar sağlam.\n\n20:02: Marcus Webb dükkandan çıkıyor, ön kapıyı kilitliyor.\n20:28: Kapı açılıyor (içeriden). Uzun boylu, takım elbiseli bir erkek giriyor. Yüzü kamera açısı dışında.\n21:03: Aynı kişi çıkıyor. Victor onu kapıya kadar geçiriyor. İkisi de gergin görünüyor.\n21:15-22:13: Victor tek başına. Masasında oturuyor, bir şeyler yazıyor, zaman zaman ayağa kalkıp vitrinlere bakıyor.\n22:14: Arka taraftan bir hareket. Kamera o açıyı net göstermiyor, sadece bir gölge. Biri arka girişten gelmiş.\n22:43: Victor ayağa kalkıyor, gölgeyle konuşur gibi.\n22:47: Ani hareket, mücadele. Kamera sarsılıyor, görüntü kayıyor. Son net karede iki figür boğuşuyor.\n22:48: Kamera düşmüş, tavana bakıyor. Ses: cam kırılması, kısa bir çığlık, sonra sessizlik.\n23:01: Hafif ayak sesleri, kapı.",
+      "choices": [],
+      "addEvidence": "kamera_kaydi",
+      "addCharacterNote": "Kamera: 20:28 takım elbiseli biri girdi, 21:03 çıktı. 22:14 arka girişten gölge. 22:47 mücadele, kamera düşmüş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_008",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Vasiyet belgesi NYPD tarafından teslim alınmış. İnceliyorsun.\n\nEski vasiyet (2019): Tüm mülk ve varlıklar Elena, James ve Philip Harmon arasında eşit bölünecek. Her birine yaklaşık 4 milyon dolar.\n\nYeni vasiyet (25 Mart 2026, saat 17:08): Tüm varlıklar The Harmon Heritage Foundation'a bırakılmış. Vakfın amacı: sanat ve antika eserlerin korunması ve sergilenmesi. Çocuklara tek kuruş yok.\n\nVictor'un el yazısıyla not: 'Çocuklarım paramı hak etmiyor. Onlara bırakacağım tek miras adımdır.'\n\nVasiyeti düzenleyen: Diana Ortiz, noter. İki tanık: ofis çalışanları Maria Santos ve Kevin Park.\n\nThe Harmon Heritage Foundation: İsim dışında vasiyette detay yok. Vakfın adresi, yöneticileri veya faaliyetleri belirtilmemiş.",
+      "choices": [
+        {
+          "id": "c008a",
+          "text": "Vakfı araştır",
+          "nextSceneId": "scene_014",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        },
+        {
+          "id": "c008b",
+          "text": "Noterle konuş",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "vasiyet_belgesi",
+      "addCharacterNote": "Vasiyet 25 Mart'ta değiştirilmiş. 12 milyon dolar çocuklardan alınıp 'The Harmon Heritage Foundation' vakfına bırakılmış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_009",
+      "type": "investigation",
+      "background": "manhattan_sokak",
+      "characterId": null,
+      "text": "Karşı binadaki komşu, Mrs. Patricia Lloyd (72). Kapısında Ring kamerası var.\n\n'Dün gece mi? Victor'u severdim, beyefendi bir insandı. Akşam 8 sularında Marcus çıktığını gördüm. Her zamanki gibi, her gün aynı saatte gider.'\n\n'Sonra biri geldi, koyu renk büyük bir araba park etti. Uzun boylu, takım elbiseli. İçeri girdi. Yarım saat kadar sonra çıktı, sinirli görünüyordu, arabasına binip gitti.'\n\n'Sonra bir genç adam geldi, kapıyı çaldı ama cevap alamadı. Birkaç dakika bekledi, gitti. Kapüşonlu bir şey giyiyordu.'\n\n'En son birini fark ettim ama tam göremedim. Sokağın sonundan geldi, yan sokağa döndü. Orta boylu, koyu ceket, şapka. Saati hatırlamıyorum ama geç saatti.'\n\nMrs. Lloyd Ring kamerasının kayıtlarını paylaşıyor.",
+      "choices": [],
+      "addEvidence": "komsuluk_kamera",
+      "addCharacterNote": "Komşu kamerası: 3 farklı kişi. Takım elbiseli (James?), kapüşonlu (Philip?), şapkalı bilinmeyen (22:12, arka girişe yöneliyor).",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_010",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Dijital delil laboratuvarı. Teknisyen Ryan Park cihazı gösteriyor.\n\n'Victor'un masasının altına bantlanmış bir ses kayıt cihazı bulduk. Küçük, dijital, ses algıladığında otomatik kayıt yapıyor. Cihazın tarih fonksiyonu bozuk, sadece dosya numaraları var.'\n\n'Üç ayrı konuşma tespit ettik. Hepsi Victor ve aynı kişi arasında. Ses analizi: ikinci kişi erkek, 50-60 yaş arası, Amerikan aksanı.'\n\nParça 1: Victor sağlık şikayetlerinden bahsediyor. Mide bulantısı, baş dönmesi. Karşısındaki kişi 'yaşlanıyoruz' diyor ve çay öneriyor.\n\nParça 2: Victor çocuklarından şikayet ediyor. Karşısındaki kişi bir vakıf kurmayı öneriyor. 'Harmon Heritage Foundation' adı ilk kez burada geçiyor.\n\nParça 3: Victor vakıf hakkında şüphelerini dile getiriyor. 'Sen de dahil misin?' diye soruyor. Karşısındaki kişi 'bu gece evrakları bitirmemiz lazım' diyor.\n\nTeknisyen: 'İkinci kişinin kimliğini ses bankasından doğrulayamadık. Ama ses profili kayıtlarımızdaki hiçbir şüpheli ile eşleştirilmedi çünkü karşılaştırma örneklerimiz yok.'",
+      "choices": [],
+      "addEvidence": "ses_kayitlari",
+      "addCharacterNote": "Gizli kayıt: 3 parça, tarihsiz. Victor'la bir erkek konuşuyor. Sağlık, vakıf önerisi, Victor'un şüpheleri. 'Bu gece bitirmemiz lazım' deniyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_012",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Telefon kayıtları NYPD Dijital Suçlar birimi tarafından derlendi.\n\n25 Mart (cinayet günü):\n\nVictor: Sabah 09:02'de Diana Ortiz'i aradı (noter randevusu). 16:45'te Marcus'u aradı (1.5 dk). 17:55'te Elena'yı aradı (cevapsız). 18:03'te James'i aradı (45 sn). 18:10'da Philip'i aradı (cevapsız).\n\nJames: 18:03'te Victor'dan arama aldı (45 sn). 19:45'te bilinmeyen numaraya SMS gönderdi. 21:15'te sekreterini aradı (20 sn).\n\nElena: 17:55'te Victor'dan cevapsız arama. 18:30 ve 22:15'te Ray Chen'i aradı.\n\nPhilip: 18:10'da Victor'dan cevapsız arama. 20:40'ta bilinmeyen prepaid hattan arama aldı (2 dk).\n\nMarcus: 16:45'te Victor'dan arama aldı (1.5 dk). 20:45'te karısını aradı (50 sn).\n\nRay: Elena'dan 18:30 ve 22:15'te arama aldı. 22:20'de bilinmeyen numaraya kısa bir arama yaptı.\n\nDiana: 09:02'de Victor'dan arama aldı.",
+      "choices": [],
+      "addEvidence": "telefon_kayitlari",
+      "addCharacterNote": "Victor cinayet günü herkesi aramış. Elena ve Philip cevaplamamış. James kısa konuşmuş. Elena o gece Ray'i iki kez aramış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_014",
+      "type": "investigation",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "The Harmon Heritage Foundation. Vakıf araştırması.\n\nIRS kayıtları çekildi. Delaware eyalet şirket sicili incelendi.\n\nDelaware kaydı: Kuruluş 14 Mart 2024. Kurucu ajan: Marcus Webb, Brooklyn, NY. Tüzel kişilik türü: kar amacı gütmeyen vakıf.\n\nIRS 501(c)(3) başvurusu: Haziran 2024'te onaylanmış. Vergi muafiyeti aktif.\n\nYönetim kurulu: Başkan Marcus Webb. Üye Thomas Aldridge (araştırma: Kasım 2023'te kalp krizinden vefat etmiş). Üye Patricia Simmons (araştırma: bu isimde kayıtlı kişi bulunamadı, sahte kimlik olabilir).\n\nMali durum: Kuruluştan bu yana tek gelir 500 dolarlık kuruluş sermayesi. Hiçbir bağış, hiçbir faaliyet, hiçbir rapor. Banka hesabı neredeyse boş.\n\nVakıf adresi: Posta kutusu, fiziksel ofis yok. Victor Harmon'un adı vakıf kayıtlarında hiçbir yerde geçmiyor.",
+      "choices": [],
+      "addEvidence": "vakif_kayitlari",
+      "addCharacterNote": "Vakfı Marcus Webb kurmuş. 2 yıl önce. Yönetim kurulundaki diğer isimler ölü veya sahte. Hiçbir faaliyet yok. Victor'un adı kayıtlarda yok.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_016",
+      "type": "investigation",
+      "background": "galeri",
+      "characterId": null,
+      "text": "Elena'nın galerisi, SoHo. Harmon Gallery. Küçük ama şık bir mekan. Duvarlarda çağdaş sanat eserleri asılı.\n\nGaleri müdürü Kate Barrett konuşuyor: 'Elena son 2 yıldır çok zor günler geçiriyor. Pandemi sonrası sanat piyasası toparlanamadı. Büyük koleksiyonerleri kaybettik.'\n\n'İflas başvurusu yapıldı, biliyorsunuz. Elena her şeyi denedi ama kira borçları birikti.'\n\nElena'nın ofisindeki belgeler:\n- Chapter 11 iflas başvurusu (8 Mart 2026)\n- Toplam borç: 1.135.000 dolar\n- Ray Chen'e ödeme makbuzları: 5.000 dolar peşin + 3 aylık 2.000 dolar\n- Elena'nın not defteri: 'Babam bir şeyler saklıyor. Miras konusunda güvence lazım. Ray'e söyledim, babasını takip etsin.'\n\nKate ekliyor: '25 Mart gecesi burada sergi açılışı vardı. Elena bütün gece buradaydı, 50'den fazla davetliyle. Ben de gördüm.'",
+      "choices": [
+        {
+          "id": "c016a",
+          "text": "Elena'yla konuş",
+          "nextSceneId": "scene_020",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "elena_mali",
+      "addCharacterNote": "Elena 1.1 milyon dolar borçlu. Ray'i babasını takip etmesi için tutmuş. Cinayet gecesi galeride sergi açılışındaydı, 50+ tanık.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_018",
+      "type": "investigation",
+      "background": "daire_philip",
+      "characterId": null,
+      "text": "Philip'in dairesi, Hell's Kitchen. Küçük, dağınık bir stüdyo. Lavaboda kirli tabaklar, masada boş bira şişeleri.\n\nPhilip'in telefonundaki mesajlar (NYPD izniyle):\n\n20 Mart: 'Cuma gününe kadar 50 bin. Yoksa biliyorsun.'\n23 Mart: 'Süre doluyor Philip. Babanın dükkandaki eşyaları güzel görünüyor.'\n25 Mart: 'Son gece. Ya para ya da konuşuruz yüz yüze.'\n\nBanka hesabı: 340 dolar.\n\nDairede bulunan: kumar siteleri açık laptop, 3 adet kredi kartı (hepsi limit dolu), bir adet Atlantic City Casino VIP kartı.\n\nKomşu (Mrs. Delgado): 'Philip iyi çocuktur ama sorunlu. Sürekli geceleri dışarıda. 25 Mart gecesi mi? Üst kattan ayak sesi duydum, televizyon sesi vardı. Saat kaç bilmiyorum ama geç saatti.'",
+      "choices": [
+        {
+          "id": "c018a",
+          "text": "Philip'le konuş",
+          "nextSceneId": "scene_026",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "philip_borc",
+      "addCharacterNote": "Philip 405 bin dolar borçlu. Tefeciler ölüm tehdidi gönderiyor. Hesabında 340 dolar. Cinayet gecesi dairesinde olduğunu söylüyor ama kesin alibisi yok.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020",
+      "type": "dialogue",
+      "background": "galeri",
+      "characterId": "suspect_elena",
+      "text": "Elena Harmon galerisinin arka odasında oturuyor. Zarif ama yorgun görünüyor.\n\n'Babam öldürüldü ve siz bana miras motifi mi soruyorsunuz? Evet, borçlarım var. Evet, mirasa ihtiyacım var. Ama babamı öldürmem mi? Saçmalık.'\n\nBir nefes alıyor: 'Dün gece burada sergi açılışı vardı. 50'den fazla davetli, kameralar, basın. Akşam 7'den gece 11'e kadar buradaydım. Kontrol edebilirsiniz.'\n\n'Babamla aramız iyi değildi, kabul ediyorum. Para yüzünden değil. Babam soğuk bir insandı. Bizi hiçbir zaman gerçekten sevmedi. Biz ona sadece miras olarak bakıyorduk çünkü o bize sadece cüzdanı olarak baktı.'\n\nSaçını kulağının arkasına atıyor: 'Vasiyeti değiştirdiğini dün akşam öğrendim. Tüm parayı bir vakfa bırakmış. Ne tür bir baba bunu yapar?'",
+      "choices": [
+        {
+          "id": "c020a",
+          "text": "Ray Chen'i neden tuttun?",
+          "nextSceneId": "scene_021",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "elena_mali"
+        },
+        {
+          "id": "c020b",
+          "text": "Philip hakkında ne düşünüyorsun?",
+          "nextSceneId": "scene_020b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Elena cinayet gecesi galeride sergi açılışındaydı (50+ tanık). Babasıyla arası kötüydü. Vasiyeti öğrenince şok olmuş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_020b",
+      "type": "dialogue",
+      "background": "galeri",
+      "characterId": "suspect_elena",
+      "text": "Elena'nın gözleri sertleşiyor.\n\n'Philip mi? Philip bir felaket. Kumara batmış, babamdan sürekli para istiyordu, reddedilince bağırıp çağırıyordu. 2 hafta önce dükkan da kavga ettiler, babam onu dışarı attı.'\n\n'Philip'in borçları korkunç. Tefecilerden tehdit mesajları alıyordu. Biliyorum çünkü bir keresinde benden de para istedi. 50 bin dolar. Reddettim.'\n\nBir an düşünüyor: 'Philip babamı öldürebilir mi? Bilmiyorum. Philip zayıf bir insan ama köşeye sıkışmış insanlar tehlikeli olur.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Elena, Philip'in tehlikeli olabileceğini düşünüyor. 2 hafta önce dükkanda kavga etmişler.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_021",
+      "type": "dialogue",
+      "background": "galeri",
+      "characterId": "suspect_elena",
+      "text": "Elena yüzüğüyle oynamaya başlıyor.\n\n'Ray Chen'i tuttum çünkü babamın varlıklarını sakladığından şüpheleniyordum. Boşanma davasından beri paralarını gizlemeye çalışıyordu. Annem hiçbir şey alamadı.'\n\n'Ray'e dedim ki babamı takip et, kiminle görüşüyor, bankaya ne zaman gidiyor, nerelere para aktarıyor. Babamın gizli hesapları olduğunu düşünüyordum.'\n\nDuraksıyor: 'Ray bana babamın notere gittiğini söyledi, 25 Mart günü. Vasiyetini mi değiştirdi diye sordum, Ray bilmiyordu. Ben de babamı aradım ama cevap vermedi.'\n\n'O gece Ray'i tekrar aradım. Saat 10:15 civarı. Ne gördün, ne öğrendin diye sordum. Ray, dükkanın kapandığını ve Victor'un içeride yalnız olduğunu söyledi. O kadar.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Elena, Ray'e babasını takip ettirmiş (varlık gizleme şüphesi). Cinayet gecesi Ray'i iki kez aramış. Ray, Victor'un içeride yalnız olduğunu söylemiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_023",
+      "type": "dialogue",
+      "background": "ofis_james",
+      "characterId": "suspect_james",
+      "text": "James Harmon'un Midtown'daki hukuk ofisi. Düzenli, minimalist. James takım elbisesiyle masasında oturuyor.\n\n'Babamın ölümü trajik. Ama size dürüst olacağım: babamla ilişkimiz karmaşıktı. Beni avukat olmaya itti, başardım. Ama hiçbir zaman yeterli değildim onun gözünde.'\n\n'Dün gece 20:00-22:30 arası burada müvekkil toplantısındaydım. Sekreterim Lisa ve müvekkilim Mr. Davidson teyit edebilir.'\n\nGözlüklerini çıkarıp siliyor: 'Vasiyeti değiştirdiğini bugün öğrendim. 12 milyon doları bir vakfa bırakmış. Biz üç kardeş sıfırla kaldık. Babam bizi cezalandırmak istedi. Elena'nın borçları, Philip'in kumarı... Beni de aynı kefeye koydu.'\n\n'Ama ben avukatım. Vasiyete itiraz edebilirim. Öldürmem gerekmiyor.'",
+      "choices": [
+        {
+          "id": "c023a",
+          "text": "Arabanız dükkanın önünde görüldü",
+          "nextSceneId": "scene_024",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "komsuluk_kamera"
+        },
+        {
+          "id": "c023b",
+          "text": "Kardeşlerin hakkında ne düşünüyorsun?",
+          "nextSceneId": "scene_023b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "James 20:00-22:30 müvekkil toplantısında olduğunu söylüyor. Vasiyete hukuki yoldan itiraz edebileceğini vurguluyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_023b",
+      "type": "dialogue",
+      "background": "ofis_james",
+      "characterId": "suspect_james",
+      "text": "James başını hafifçe eğiyor.\n\n'Elena zeki bir kadın ama para konusunda felaket. Galeriyi batırdı. Babamdan sürekli borç istiyordu, babam da veriyordu, ta ki bir noktaya kadar.'\n\n'Philip... Philip kayıp bir vaka. Kumar bağımlılığı onu yiyor. Tefecilere borçlu, hayatı tehlikede. Babam onu kurtarmayı denedi ama Philip her seferinde geri döndü kumara.'\n\nDüşünceli: 'Marcus mı? Marcus babamın tek gerçek dostuydu. 20 yıldır yanında. Babam insanlara güvenmezdi ama Marcus'a güvenirdi. Onun için üzülüyorum, cesedi bulan o.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "James: Elena para konusunda başarısız, Philip kayıp vaka, Marcus babamın tek gerçek dostu.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_024",
+      "type": "dialogue",
+      "background": "ofis_james",
+      "characterId": "suspect_james",
+      "text": "James donuyor. Gözlüklerini çıkarıp masaya koyuyor. Uzun bir sessizlik.\n\n'Tamam.' Kravatını gevşetiyor. 'Toplantıdan erken ayrıldım. Babamın vasiyeti değiştirdiğini öğrendim... Noter ofisindeki bir tanıdığım haber verdi. Babamla yüzleşmeye gittim.'\n\n'Saat 20:30 civarı dükkana girdim. Babamla tartıştık. Bağırdık. Ben ona nasıl yaparsın bunu dedim, o da siz hak etmiyorsunuz dedi. Yarım saat kadar sürdü.'\n\n'Saat 21:00 civarı çıktım. Babam beni kapıya kadar geçirdi. Sinirliydim ama ona dokunmadım. Kapıda beni uğurladı, hayattaydı.'\n\nYutkunuyor: 'Yalan söyledim çünkü avukat olarak orada olduğumun bilinmesini istemedim. Vasiyet davasını açacaktım, orada olduğum bilinirse çıkar çatışması olur.'\n\n'Ofise döndüm, 21:15'te sekreterimi aradım, toplantıya geri girdim. Kontrol edebilirsiniz.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "James itiraf: Toplantıdan çıkmış, 20:30-21:00 arası dükkanda babasıyla tartışmış. 21:03'te ayrılmış. Babası hayattaymış. Yalan söylemiş çünkü vasiyet davasını açacakmış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_026",
+      "type": "dialogue",
+      "background": "emniyet",
+      "characterId": "suspect_philip",
+      "text": "Philip Harmon sorgu odasında. Bacağı sürekli sallanıyor, tırnaklarını yiyor.\n\n'Ben babamı öldürmedim. Yemin ederim. Evet, borcum var. Evet, babamdan para istedim. Ama öldürmek mi? Ben böyle bir şey yapamam.'\n\n'Dün gece dairemdeydim. Uber Eats sipariş ettim, 21:30'da geldi. Televizyon izledim, uyudum. Tek başımaydım.'\n\nElleri titriyor: 'Tefeciler beni sıkıştırıyor, biliyorum. Ama babamı öldürsem bile miras bana gelmeyecekti, vasiyeti değiştirmiş zaten. Bunu bilmiyordum ama bilseydim bile... 12 milyon bir vakfa gitmiş. Bana ne faydası var?'\n\nGözleri doluyor: 'Babam beni sevmiyordu. Hiçbirimizi sevmiyordu. Ama ben onu seviyordum. Kumar yüzünden her şeyi mahvettim.'",
+      "choices": [
+        {
+          "id": "c026a",
+          "text": "Çakmağın olay yerinde bulundu",
+          "nextSceneId": "scene_027",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "philip_cakmak"
+        },
+        {
+          "id": "c026b",
+          "text": "Tefecilerin son mesajları hakkında",
+          "nextSceneId": "scene_026b",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "philip_borc"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Philip cinayet gecesi evindeydi diyor. Uber Eats siparişi dışında alibisi yok. Vasiyetin değiştiğini bilmiyormuş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_026b",
+      "type": "dialogue",
+      "background": "emniyet",
+      "characterId": "suspect_philip",
+      "text": "Philip başını ellerinin arasına alıyor.\n\n'Evet, tefeciler beni tehdit ediyor. 200 bin dolar borçlarım var sadece onlara. Süre verdiler, 25 Mart son geceydi.'\n\n'O gece babamın dükkanına gittim aslında.' Duraksıyor, gözleri korkuyla doluyor. 'Ama girmedim! Kapı kilitliydi. Birkaç kez vurdum, cevap gelmedi. Belki babam arkadaydı, duymadı. 5 dakika bekledim, sonra gittim.'\n\n'Para isteyecektim. Son bir kez. Ama kapı açılmadı. Eve döndüm.'\n\nSesi kısılıyor: 'Bunu polise söylemedim çünkü dükkanın yakınında olduğumu bilirlerse beni suçlarlar diye korktum. İşte suçluyorsunuz da.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Philip itiraf: O gece dükkana gitmiş ama kapı kilitliymiş, girememiş. 5 dk beklemiş, sonra dönmüş. Polise söylememiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_027",
+      "type": "dialogue",
+      "background": "emniyet",
+      "characterId": "suspect_philip",
+      "text": "Philip'in gözleri fal taşı gibi açılıyor.\n\n'Çakmağım mı? Olay yerinde mi? Bu... bu imkansız!'\n\nAyağa fırlıyor: 'O çakmağı haftalardır arıyorum! En son Elena'nın galerisinde görmüştüm. Sergi açılışına gitmiştim, 2 hafta önce falan. Çakmağımı bir yere koydum ve unutmuş olmalıyım.'\n\n'Birisi almış olmalı. Birisi beni suçlu göstermeye çalışıyor!'\n\nEllerini yüzüne basıyor: 'Düşünün, dükkanın arka odasında bulunmuş dediniz. Ben o gece ön kapıya gittim, kilitliydi, giremedim. Arka odaya nasıl gideyim? Arka kapının şifresini bile bilmiyorum!'\n\nGözleri doluyor: 'Birisi beni tuzağa düşürüyor. Lütfen inanın.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Philip çakmağın olay yerine bırakıldığını iddia ediyor. Son gördüğü yer Elena'nın galerisi. Arka kapı şifresini bilmediğini söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_029",
+      "type": "dialogue",
+      "background": "atolye_marcus",
+      "characterId": "suspect_marcus",
+      "text": "Marcus Webb atölyesinde oturuyor. Gözleri kırmızı, ağlamış belli. Elinde bir çay bardağı ama içmiyor.\n\n'Victor benim en yakın dostumdur... dostuydu. 20 yıl önce bu dükkana geldim, genç bir restorasyoncuydum. Victor bana her şeyi öğretti. Zamanla ortak olduk.'\n\nBardağa bakıyor: 'Bu sabah dükkana geldim, her zamanki gibi. Kapıyı açtım, ışıkları yaktım ve... Victor oradaydı. Yerde. Kan her yerde.' Sesi çatlıyor.\n\n'Dün akşam 8'de ayrıldım. Victor dükkanda kalmak istedi, bazı evrakları var dedi. Normal bir gece. Karıma söyledim, eve gittim. Bu sabah geldim ve...'\n\nEllerini ovuşturuyor: 'Kim yapmış olabilir? Bilmiyorum. Victor'un düşmanları yoktu. Ama çocuklarıyla arası kötüydü. Elena borçlarını ödeyemiyor, Philip kumar batağında, James... James soğuk bir adam, hesapçı.'\n\n'Victor son günlerde gergin görünüyordu. Vasiyeti değiştirmek istediğini söyledi. Çocuklarına güvenmiyordu.'",
+      "choices": [
+        {
+          "id": "c029a",
+          "text": "Vakıf hakkında ne biliyorsun?",
+          "nextSceneId": "scene_030",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "vakif_kayitlari"
+        },
+        {
+          "id": "c029b",
+          "text": "Victor'un sağlığı nasıldı?",
+          "nextSceneId": "scene_029b",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Marcus cesedi bulmuş, çok üzgün görünüyor. 20:00'de ayrılmış, karısı teyit ediyor. Victor'un çocuklarıyla ilişkisinin kötü olduğunu söylüyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_029b",
+      "type": "dialogue",
+      "background": "atolye_marcus",
+      "characterId": "suspect_marcus",
+      "text": "Marcus düşünceli bir ifadeyle başını sallıyor.\n\n'Victor son aylarda kendini iyi hissetmiyordu. Yorgunluk, mide bulantısı, baş ağrısı. Doktora gitti ama somut bir şey bulamadılar. Ben de yaşlanıyor diye düşündüm.'\n\n'Her gün birlikte çay içerdik. Öğleden sonra, atölyede. 20 yıllık alışkanlığımız. Yeşil çay, Victor çok severdi.'\n\nBir an duraksıyor: 'Son zamanlarda çay içtikten sonra midesi bulanıyordu. Ben de şekersiz için demiştim. Ama devam etti.'\n\n'Victor güçlü bir adamdı ama son 6 ayda değişti. Daha çabuk yoruluyordu, konsantrasyonu düşmüştü. Ben endişeleniyordum ama Victor doktora güvenmezdi.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Marcus: Victor son 6 ayda değişmiş, yorgunluk, bulantı. Her gün birlikte çay içerlermiş. Çaydan sonra Victor'un midesi bulanıyormuş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_030",
+      "type": "dialogue",
+      "background": "atolye_marcus",
+      "characterId": "suspect_marcus",
+      "text": "Marcus duraksıyor. Ellerini ovuşturuyor, gözleri bir an uzaklara dalıyor.\n\n'The Harmon Heritage Foundation... Victor'un fikriydi. Sanat koruma vakfı. Eserlerinin sonsuza kadar korunmasını istiyordu.'\n\nBir nefes alıyor: 'Ben kuruluş işlemlerini hallettim. Delaware kaydı, IRS başvurusu... Victor bu tür bürokratik işlerle uğraşmak istemezdi. Benim adım kurucu ajan olarak geçiyor çünkü evrakları ben doldurdum.'\n\n'Yönetim kurulu başkanlığı? Geçici bir düzenlemeydi. Victor her şey yerine oturduğunda kendisi devralacaktı. Diğer üyeler... Victor'un önerdiği isimlerdi, ben tanımıyorum.'\n\nEllerini masaya koyuyor: 'Bakın, ben bir restorasyoncuyum. Antika eşyaları onarırım. Vakıf, Victor'un hayaliydi. Ben sadece yardım ettim.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Marcus: Vakfı Victor'un isteğiyle kurduğunu söylüyor. Evrak işlerini o halletmiş. Yönetim kurulu başkanlığı geçiciymiş. Diğer isimleri tanımadığını iddia ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_032",
+      "type": "dialogue",
+      "background": "noter",
+      "characterId": "suspect_diana",
+      "text": "Diana Ortiz'in noter ofisi, Upper West Side. Düzenli, profesyonel bir mekan.\n\n'Victor Harmon uzun süredir müvekkilimdi. Vasiyetini 2019'da hazırlamıştım. Dün sabah acil randevu istedi, aynı gün geldi.'\n\nKalemini sıkıca tutuyor: 'Vasiyet değişikliği rutin bir işlemdir. Müvekkilin isteği doğrultusunda belgeyi düzenledim, imzalattım, tanıklar eşliğinde noter tasdiki yaptım.'\n\n'Victor geldiğinde... sakin görünmeye çalışıyordu ama huzursuz olduğu belliydi. Yine de kararından emindi. Çocuklarına güvenmediğini söyledi.'\n\nBir an susuyor: 'Noter olarak müvekkilimin özel bilgilerini paylaşmam doğru olmaz. Ama Victor öldürüldüyse... Elimden geleni yaparım.'\n\nGözlerini kaçırıyor: 'Cinayet gecesi evimdeyim. Kocam ve çocuklarım teyit edebilir.'",
+      "choices": [
+        {
+          "id": "c032a",
+          "text": "Victor sana bir zarf bırakmadı mı?",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "noter_belge"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Diana: Vasiyeti rutin bir işlem olarak anlatıyor. Victor huzursuzmuş ama kararından eminmiş. Cinayet gecesi evinde, ailesi teyit ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_033",
+      "type": "dialogue",
+      "background": "noter",
+      "characterId": "suspect_diana",
+      "text": "Diana'nın yüzü bembeyaz oluyor. Kalemini masaya bırakıyor.\n\n'Zarfı... biliyorsunuz.' Derin bir nefes alıyor.\n\n'Evet. Victor vasiyeti imzaladıktan sonra bana mühürlü bir zarf verdi. Başına bir şey gelirse açmamı istedi. Ben de... sakladım.'\n\nGözlerini kaçırıyor: 'Zarfı açmadım. Victor öldürülünce açtım. İçinde bir mektup var. Victor birinin kendisini zehirlediğinden şüpheleniyormuş.'\n\nSesi titriyor: 'Mektupta çaydan bahsediyor. Ve Marcus'tan. Bunu biliyordum ama polise söylemekten korktum. Müvekkil gizliliği... ve Marcus'un bunu öğrenmesi...'\n\nElini alnına koyuyor: 'Victor bana güvenmişti ve ben onu koruyamadım. O zarfı hemen polise vermeliydim.'",
+      "choices": [],
+      "addEvidence": "victor_mektup",
+      "addCharacterNote": "Diana zarfı saklıyormuş. Victor'un zehirlenme mektubu. Diana polise söylemekten korkmuş. Şimdi teslim etti.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_035",
+      "type": "dialogue",
+      "background": "ofis_ray",
+      "characterId": "suspect_ray",
+      "text": "Ray Chen'in ofisi, Chinatown. Küçük, sıkışık bir oda. Duvarda eski fotoğraflar, masada dosyalar.\n\nRay koltuğuna yaslanıyor, bacak bacak üstüne atıyor.\n\n'Evet, Elena Harmon'un özel dedektifiyim. 3 aydır Victor Harmon'u takip ediyordum. Elena babasının varlıklarını sakladığından şüpheleniyordu.'\n\n'Görevim gözlemekti. Victor'un kiminle görüştüğünü, nereye gittiğini, bankada ne yaptığını raporladım. O kadar.'\n\nOmuzlarını silkiyor: 'Cinayet gecesi Chinatown'daki ofisindeydim. Giriş kamerası var, 19:00'da girişim ve 23:30'da çıkışım kayıtlı.'\n\n'Victor'un öldürüldüğünü bugün haberlerde gördüm. Üzücü ama benim işim değil. Ben fotoğraf çeker, rapor yazarım. Cinayet benim branşım değil.'",
+      "choices": [
+        {
+          "id": "c035a",
+          "text": "GPS verileriniz sizi dükkanın yakınında gösteriyor",
+          "nextSceneId": "scene_036",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "ray_dosyasi"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ray: Elena'nın talimatıyla Victor'u takip ediyormuş. Ofiste olduğunu söylüyor. Profesyonel, soğukkanlı.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_036",
+      "type": "dialogue",
+      "background": "ofis_ray",
+      "characterId": "suspect_ray",
+      "text": "Ray'in çenesi kasılıyor. Bacağını indiriyor, öne eğiliyor.\n\n'GPS mi? Telefonumu takip mi ettiniz?' Derin bir nefes.\n\n'Tamam. Evet, dün gece dükkanın yakınındaydım. Elena beni aradı, babası notere gitmiş, ne olduğunu öğren dedi. Ben de gittim, gözledim.'\n\n'Dükkanın karşısında bekledim. Birinin geldiğini gördüm, takım elbiseli bir adam. Girdi, yarım saat sonra çıktı. Sonra genç bir adam geldi, kapıyı çaldı, giremedi, gitti.'\n\n'Ben de ayrıldım. Saat 21:50 civarı. Elena'ya rapor verdim: babası dükkanda, yalnız. O kadar.'\n\nGözleri kısılıyor: 'İçeri girmedim. Victor'a dokunmadım. GPS'e bakın, 21:50'de ayrıldığımı gösteriyor. Cinayet 22:47'de olmuş. Ben o saatte Chinatown'daydım.'",
+      "choices": [
+        {
+          "id": "c036a",
+          "text": "Philip'in çakmağını neden fotoğrafladın?",
+          "nextSceneId": "scene_036b",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "philip_cakmak"
+        }
+      ],
+      "addEvidence": null,
+      "addCharacterNote": "Ray itiraf: O gece dükkanın yakınındaymış. James'i ve Philip'i görmüş. 21:50'de ayrıldığını söylüyor. İçeri girmediğinde ısrar ediyor.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_036b",
+      "type": "dialogue",
+      "background": "ofis_ray",
+      "characterId": "suspect_ray",
+      "text": "Ray'in yüzü değişiyor. İlk kez poker suratu kırılıyor.\n\nUzun bir sessizlik.\n\n'Elena... Elena benden Philip'i devre dışı bırakmamı istedi. Miras davasında Philip'in suç geçmişi ortaya çıkarsa, mahkeme onu mirastan düşürebilir. Elena'nın payı artardı.'\n\nYutkunuyor: 'Çakmağı Elena'nın galerisinden aldım. Philip orada unutmuştu. Fotoğrafını çektim, sonra...'\n\nBaşını eğiyor: 'Evet. O gece dükkana girdim. Arka kapıdan. Alarm kodunu Elena'dan almıştım. Çakmağı arka odaya bıraktım. Philip suçlu görünsün diye.'\n\n'Ama Victor'a dokunmadım! İçeri girdiğimde Victor masasında oturuyordu, beni görmedi. Çakmağı bıraktım ve çıktım. 10 dakika bile kalmadım.'\n\nGözleri kısılıyor: 'Victor o saatte hayattaydı. Ben saat 21:00 civarı girdim, çakmağı bıraktım, 21:10'da çıktım. Cinayet 22:47'de olmuş.'",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": "Ray itiraf: Elena'nın talimatıyla çakmağı dükkana bırakmış. Philip'i suçlu göstermek için. Arka kapı kodunu Elena vermiş. Victor'u görmüş, hayattaymış. 21:00-21:10 arası girip çıkmış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_040",
+      "type": "investigation",
+      "background": "atolye_marcus",
+      "characterId": null,
+      "text": "Marcus'un restorasyon atölyesi, Harmon Antiques'in arka bölümünde. Büyük bir çalışma masası, raflar dolu malzeme, kimyasal dolap.\n\nAtölye düzenli ve profesyonel. Masada yarım kalmış bir restorasyon işi: 18. yüzyıl bronz heykel. Yanında kullanılan malzemeler sıralanmış.\n\nKimyasal dolap kilitsiz. İçinde çeşitli restorasyon malzemeleri: asetik asit, alkol, yağlar, reçineler, pigmentler. Ve bir şişe antimon trioksit (Sb2O3). 500 gramlık şişe, yarısı kullanılmış. Etiket tarihi: Ekim 2025.\n\nKöşede elektrikli su ısıtıcısı, iki çay bardağı ve bir kutu yeşil çay. Bardaklardan biri kullanılmış, içinde çay kalıntısı.\n\nDolaptaki kayıt defteri: Marcus her kimyasal kullanımını not ediyor. Antimon trioksit son kullanım kaydı: '5 Mart, bronz patina onarımı, 15g.' Ama şişede 500g'ın yarısından fazlası eksik. Kayıtlardaki toplam kullanım: yaklaşık 80g. Geri kalan 170g nerede?",
+      "choices": [
+        {
+          "id": "c040a",
+          "text": "Marcus'la konuş",
+          "nextSceneId": "scene_029",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "kimyasal_envanter",
+      "addCharacterNote": "Atölyede antimon trioksit var. Kayıtlara göre 80g kullanılmış ama şişeden 250g+ eksik. 170g açıklanamıyor. Çay yapma düzeni mevcut.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_042",
+      "type": "investigation",
+      "background": "noter",
+      "characterId": null,
+      "text": "Diana Ortiz'in noter ofisi, Upper West Side.\n\nOfis kayıtları inceleniyor.\n\nRandevu defteri: Victor Harmon, 25 Mart, 17:00. Randevu aynı gün 09:02'de telefonla alınmış. Not: 'Acil vasiyet değişikliği.'\n\nDiana'nın dosyasındaki el yazısı notlar:\n'Müvekkil çok huzursuzdu. Elleri titriyordu. Vasiyeti hızlıca imzalamak istedi. Onu yavaşlatmaya çalıştım ama ısrar etti. İmza sırasında iki kez duraksadı.'\n\n'İmzadan sonra bana mühürlü bir zarf verdi. Başına bir şey gelirse açmamı istedi.'\n\n'Not: Müvekkil vakfın adını verdi ama detay vermedi. Vakfı kendisinin kurduğunu ima etti.'\n\nOfis güvenlik kamerası: Victor 16:50'de gelmiş, 17:25'te ayrılmış. Yalnız.",
+      "choices": [
+        {
+          "id": "c042a",
+          "text": "Zarf hakkında Diana'yı sorgula",
+          "nextSceneId": "scene_033",
+          "creditCost": 0,
+          "isHidden": true,
+          "requiredEvidenceId": "noter_belge"
+        },
+        {
+          "id": "c042b",
+          "text": "Diana'yla konuş",
+          "nextSceneId": "scene_032",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "noter_belge",
+      "addCharacterNote": "Victor acil randevu almış. Huzursuzmuş, elleri titriyormuş. Diana'ya mühürlü zarf bırakmış. Victor yalnız gelmiş, yalnız gitmiş.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_044",
+      "type": "investigation",
+      "background": "adli_tip",
+      "characterId": null,
+      "text": "NYU Langone Toksikoloji Bölümü. Dr. Patricia Reeves raporu sunuyor.\n\n'Victor Harmon'un kan ve doku örneklerinde detaylı antimon analizi yaptık.'\n\n'Kan seviyesi: 0.18 mg/L. Normal değerin 18 katı. Bu ciddi bir kronik maruziyet.'\n\n'Saç analizi: Son 6 aylık büyüme segmentlerinde artan antimon birikimi. İlk aylarda düşük, son 2 ayda belirgin artış. Birisi dozajı artırmış.'\n\n'Karaciğer enzimleri yüksek, böbrekler zorlanıyor. Tedavi olmadan 6-12 ay içinde organ yetmezliği gelişirdi.'\n\nDr. Reeves ekliyor: 'Antimon trioksit suda çözünür. Tadı ve kokusu yok. Sıcak içeceklerde daha hızlı çözünür. Günlük 2-3 gram gibi düşük dozlarla bu tabloya ulaşmak mümkün. Kişi hiçbir şey fark etmez.'\n\n'Mide içeriğinde yeşil çay kalıntısı bulduk. Çayda antimon izleri var mı test edemedik, çay maddesi antimon bağlanmasını zorlaştırıyor. Ama maruziyet yolu kesinlikle oral.'",
+      "choices": [],
+      "addEvidence": "antimon_raporu",
+      "addCharacterNote": "Kronik antimon zehirlenmesi kesin. 6 aydır. Dozaj artırılmış. Antimon trioksit tatsız, kokusuz, sıcak içecekte çözünür. Mide: yeşil çay.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_045",
+      "type": "investigation",
+      "background": "ofis_ray",
+      "characterId": null,
+      "text": "Ray Chen'in ofisi, Chinatown. NYPD arama emriyle girildi.\n\nBilgisayar: Elena Harmon'a gönderilen haftalık raporlar. Victor'un hareketleri, buluşmaları, banka ziyaretleri.\n\nFotoğraf arşivi:\n- Victor'un dükkana giriş/çıkışları (3 haftalık)\n- Victor ve Marcus birlikte yemekte (22 Mart)\n- Victor'un Diana Ortiz'in ofisine girişi (25 Mart, 16:50)\n- Philip Harmon'un çeşitli fotoğrafları: Kumar salonlarında, dairesinin önünde\n- Philip'in PH monogramlı çakmağının yakın çekim fotoğrafı (tarih: 18 Mart, konum: Elena'nın galerisi)\n\nGPS geçmişi (25 Mart):\n- 18:00-19:00: Chinatown ofis\n- 19:15: Hareket, kuzeye\n- 19:45-21:50: Madison Avenue civarında sabit\n- 21:50: Hareket, güneye\n- 22:10: Chinatown'a dönüş\n\nÖdeme kayıtları: Elena Harmon'dan 5.000 dolar peşin (Aralık 2025) + aylık 2.000 dolar (Ocak-Mart 2026).",
+      "choices": [
+        {
+          "id": "c045a",
+          "text": "Ray'le konuş",
+          "nextSceneId": "scene_035",
+          "creditCost": 0,
+          "isHidden": false,
+          "requiredEvidenceId": null
+        }
+      ],
+      "addEvidence": "ray_dosyasi",
+      "addCharacterNote": "Ray'in ofisinde Philip'in çakmağının fotoğrafı (18 Mart, Elena'nın galerisinde). GPS: olay gecesi 19:45-21:50 dükkan yakınında. Elena'dan 11.000 dolar almış.",
+      "requiresEvidence": null,
+      "creditCost": null
+    },
+    {
+      "id": "scene_053",
+      "type": "narration",
+      "background": "emniyet",
+      "characterId": null,
+      "text": "Olası Cezalar Analizi (pozisyona göre):\n\nCinayet faili (kim olursa olsun): Birinci derece cinayet (tasarlanmış). New York eyalet yasalarına göre 25 yıl - müebbet hapis. Kronik zehirleme kanıtlanırsa ağırlaştırılmış cinayet: müebbet, şartlı tahliye hakkı olmadan.\n\nDelil karartma / olay yerine müdahale: Olay yerine delil yerleştirme veya başkasını suçlamak için delil manipülasyonu. 3-7 yıl hapis. Profesyonel lisans iptali (varsa).\n\nYalan beyan: Polise yanlış ifade verme, alibide yalan söyleme. 1-3 yıl hapis.\n\nDelil gizleme / görevini ihmal: Müvekkilden gelen kritik bilgiyi saklamak, bildirim yükümlülüğünü yerine getirmemek. 1-2 yıl hapis.\n\nSuça iştirak / yönlendirme: Cinayet planına dolaylı katılım veya cinayet sonrası bilerek yardım. 5-15 yıl hapis.\n\nMiras dolandırıcılığı: Sahte vakıf, sahte yönetim kurulu, mali belgelerde tahrifat. Federal suç, 10-20 yıl hapis.",
+      "choices": [],
+      "addEvidence": null,
+      "addCharacterNote": null,
+      "requiresEvidence": null,
+      "creditCost": null
+    }
+  ],
+  "endings": [
+    {
+      "id": "correct_perfect",
+      "title": "Sadık Ortak",
+      "description": "Marcus Webb'i tüm kritik delillerle suçladınız.",
+      "suspectAccused": "suspect_marcus",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 3,
+      "epilogueText": "Marcus Webb gözaltına alındı. Tüm delil zinciri tamamlandı.\n\nMarcus 2 yıl önce The Harmon Heritage Foundation'ı kurmuştu. Yönetim kurulundaki isimler sahteydi. Vakıf boş bir kabuktu, tek amacı Victor'un mirasını devralmaktı.\n\n6 aydır Victor'un çayına düşük dozlarda antimon trioksit ekliyordu. Amaç Victor'u öldürmek değil, yavaşça zayıflatmak ve karar alma yetisini bozmaktı. Zayıflayan Victor, Marcus'un etkisi altında vasiyetini vakfa bırakmaya ikna oldu.\n\nAma 25 Mart'ta işler değişti. Victor doktorundan gelen kan testi sonuçlarını gördü ve şüphelenmeye başladı. Vasiyeti imzaladıktan sonra Diana'ya mühürlü bir mektup bıraktı. O gece Marcus'la yüzleşti. Marcus, Victor'un her şeyi öğreneceğini anladı ve vitrindeki Osmanlı hançeriyle onu öldürdü.\n\nOlay yerine Philip'in çakmağını Ray Chen bırakmıştı. Ray, Elena'nın talimatıyla dükkana girmiş ve Philip'i suçlu göstermek için çakmağı oraya koymuştu. Elena mirastan pay almak için Philip'i devre dışı bırakmak istiyordu.\n\nJames o gece gerçekten dükkana gitmişti ama 21:03'te ayrılmıştı. Babasıyla vasiyet yüzünden tartışmış ama ona dokunmamıştı.\n\nMarcus Webb birinci derece cinayet ve ağırlaştırılmış zehirleme suçlarından yargılanacak. Olası ceza: müebbet hapis. Elena ve Ray delilleri karartmaktan soruşturulacak."
+    },
+    {
+      "id": "correct_good",
+      "title": "Doğru İsim, Eksik Zincir",
+      "description": "Marcus Webb'i suçladınız ama bazı kritik deliller eksik.",
+      "suspectAccused": "suspect_marcus",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 2,
+      "epilogueText": "Marcus Webb gözaltına alındı. Doğru kişiyi buldunuz.\n\nMarcus 2 yıl önce vakfı kurmuş, 6 aydır Victor'u zehirlemiş ve sonunda onu öldürmüştü. 12 milyon dolarlık miras tamamen Marcus'un kontrolündeki sahte vakfa gidecekti.\n\nVictor o gece Marcus'la yüzleşti. Marcus, Victor'un şüphelerinin büyüdüğünü görünce onu vitrindeki hançerle öldürdü.\n\nAma delil zincirinde boşluklar var. Marcus'un avukatı bazı kanıtları çürütmeyi başardı. Zehirleme suçlaması düşürülebilir, cinayet davası uzayabilir. Marcus daha hafif bir cezayla kurtulma şansına sahip."
+    },
+    {
+      "id": "correct_weak",
+      "title": "Şanslı Tahmin",
+      "description": "Marcus Webb'i suçladınız ama çok az deliliniz vardı.",
+      "suspectAccused": "suspect_marcus",
+      "isCorrect": true,
+      "requiredEvidence": [],
+      "starsEarned": 1,
+      "epilogueText": "Marcus Webb gözaltına alındı ama elinizde yeterli delil yok.\n\nMarcus'un vakıf bağlantısı, zehirleme geçmişi ve cinayet gecesi dükkana dönüşü... Bunların hepsini kanıtlamak gerekiyor ama delilleriniz yetersiz.\n\nMarcus'un avukatı kefaletle serbest bırakılmasını sağladı. Uzun bir yargılama süreci başlayacak ve Marcus'un ülkeyi terk etme riski var."
+    },
+    {
+      "id": "wrong_elena",
+      "title": "Yanlış Kişi",
+      "description": "Elena Harmon'u suçladınız.",
+      "suspectAccused": "suspect_elena",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Elena Harmon gözaltına alındı. Evet, mali sıkıntıdaydı. Evet, Ray Chen'i tutmuştu. Ama Elena cinayet gecesi 50 kişinin önünde sergi açılışındaydı.\n\nYanlış kişiyi suçladınız. Gerçek katil dışarıda ve delillerin kaybolmasıyla birlikte Victor Harmon cinayeti çözümsüz kaldı."
+    },
+    {
+      "id": "wrong_james",
+      "title": "Yanlış Kişi",
+      "description": "James Harmon'u suçladınız.",
+      "suspectAccused": "suspect_james",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "James Harmon gözaltına alındı. Evet, o gece dükkandaydı. Evet, alibi konusunda yalan söylemişti. Ama James 21:03'te ayrılmıştı ve cinayet 22:47'de işlenmişti.\n\nYanlış kişiyi suçladınız. Gerçek katil dışarıda ve delillerin kaybolmasıyla birlikte Victor Harmon cinayeti çözümsüz kaldı."
+    },
+    {
+      "id": "wrong_philip",
+      "title": "Yanlış Kişi",
+      "description": "Philip Harmon'u suçladınız.",
+      "suspectAccused": "suspect_philip",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Philip Harmon gözaltına alındı. Çakmağı olay yerindeydi, borçları vardı, motifi vardı. Ama çakmak oraya başkası tarafından bırakılmıştı ve Philip'in o gece dükkana girdiğine dair somut kanıt yoktu.\n\nYanlış kişiyi suçladınız. Gerçek katil dışarıda ve delillerin kaybolmasıyla birlikte Victor Harmon cinayeti çözümsüz kaldı."
+    },
+    {
+      "id": "wrong_diana",
+      "title": "Yanlış Kişi",
+      "description": "Diana Ortiz'i suçladınız.",
+      "suspectAccused": "suspect_diana",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Diana Ortiz gözaltına alındı ama avukatı hemen serbest bıraktırdı. Diana bir şeyler saklıyordu ama katil değildi. O gece evindeydi, ailesi teyit etti.\n\nYanlış kişiyi suçladınız. Gerçek katil dışarıda ve delillerin kaybolmasıyla birlikte Victor Harmon cinayeti çözümsüz kaldı."
+    },
+    {
+      "id": "wrong_ray",
+      "title": "Yanlış Kişi",
+      "description": "Ray Chen'i suçladınız.",
+      "suspectAccused": "suspect_ray",
+      "isCorrect": false,
+      "requiredEvidence": [],
+      "starsEarned": 0,
+      "epilogueText": "Ray Chen gözaltına alındı. Evet, olay gecesi dükkanın yakınındaydı. Evet, olay yerine girmiş olabilir. Ama Ray'in Victor'u öldürmek için hiçbir motifi yoktu. O sadece Elena'nın tuttuğu bir dedektifti.\n\nYanlış kişiyi suçladınız. Gerçek katil dışarıda ve delillerin kaybolmasıyla birlikte Victor Harmon cinayeti çözümsüz kaldı."
+    }
+  ],
+  "hqLocations": [
+    {
+      "sceneId": "scene_002",
+      "label": "Antika Dükkan (Olay Yeri)",
+      "icon": "house.fill"
+    },
+    {
+      "sceneId": "scene_004",
+      "label": "Adli Tıp Raporu",
+      "icon": "cross.case.fill"
+    },
+    {
+      "sceneId": "scene_006",
+      "label": "Güvenlik Kamerası",
+      "icon": "video.fill"
+    },
+    {
+      "sceneId": "scene_008",
+      "label": "Vasiyet Belgesi",
+      "icon": "doc.text.fill"
+    },
+    {
+      "sceneId": "scene_010",
+      "label": "Ses Kayıtları",
+      "icon": "waveform"
+    },
+    {
+      "sceneId": "scene_012",
+      "label": "Telefon Kayıtları",
+      "icon": "phone.fill"
+    },
+    {
+      "sceneId": "scene_014",
+      "label": "Vakıf Kayıtları",
+      "icon": "building.columns.fill"
+    },
+    {
+      "sceneId": "scene_016",
+      "label": "Elena'nın Galerisi",
+      "icon": "paintpalette.fill"
+    },
+    {
+      "sceneId": "scene_018",
+      "label": "Philip'in Dairesi",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_023",
+      "label": "James'in Ofisi",
+      "icon": "briefcase.fill"
+    },
+    {
+      "sceneId": "scene_040",
+      "label": "Marcus'un Atölyesi",
+      "icon": "folder.fill"
+    },
+    {
+      "sceneId": "scene_042",
+      "label": "Noter Ofisi",
+      "icon": "doc.append.fill"
+    },
+    {
+      "sceneId": "scene_044",
+      "label": "Toksikoloji Raporu",
+      "icon": "flask.fill"
+    },
+    {
+      "sceneId": "scene_045",
+      "label": "Ray'in Ofisi",
+      "icon": "briefcase.fill"
+    },
+    {
+      "sceneId": "scene_053",
+      "label": "Olası Cezalar",
+      "icon": "folder.fill"
+    }
+  ],
+  "suspectNetwork": {
+    "nodes": [
+      {
+        "id": "victim_victor",
+        "label": "Victor Harmon",
+        "type": "victim",
+        "portraitImage": "portrait_victor"
+      },
+      {
+        "id": "suspect_elena",
+        "label": "Elena",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_james",
+        "label": "James",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_philip",
+        "label": "Philip",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_marcus",
+        "label": "Marcus",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_diana",
+        "label": "Diana",
+        "type": "suspect"
+      },
+      {
+        "id": "suspect_ray",
+        "label": "Ray",
+        "type": "suspect"
+      },
+      {
+        "id": "npc_foundation",
+        "label": "Harmon Heritage Foundation",
+        "type": "npc"
+      }
+    ],
+    "connections": [
+      {
+        "from": "victim_victor",
+        "to": "suspect_elena",
+        "type": "family",
+        "label": "Büyük Kızı",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_james",
+        "type": "family",
+        "label": "Ortanca Oğlu",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_philip",
+        "type": "family",
+        "label": "Küçük Oğlu",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_marcus",
+        "type": "business",
+        "label": "20 Yıllık İş Ortağı",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "victim_victor",
+        "to": "suspect_diana",
+        "type": "business",
+        "label": "Vasiyet Noteri",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_elena",
+        "to": "suspect_james",
+        "type": "family",
+        "label": "Kardeş (Soğuk)",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_elena",
+        "to": "suspect_philip",
+        "type": "family",
+        "label": "Kardeş",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_james",
+        "to": "suspect_philip",
+        "type": "family",
+        "label": "Kardeş",
+        "strength": 1,
+        "requires": []
+      },
+      {
+        "from": "suspect_elena",
+        "to": "suspect_ray",
+        "type": "business",
+        "label": "Özel Dedektif",
+        "strength": 2,
+        "requires": []
+      },
+      {
+        "from": "suspect_marcus",
+        "to": "npc_foundation",
+        "type": "suspicious",
+        "label": "Vakıf Kurucusu",
+        "strength": 3,
+        "requires": [
+          "vakif_kayitlari"
+        ]
+      },
+      {
+        "from": "victim_victor",
+        "to": "npc_foundation",
+        "type": "business",
+        "label": "Vasiyet ile Bağışlanan",
+        "strength": 3,
+        "requires": []
+      },
+      {
+        "from": "suspect_philip",
+        "to": "suspect_elena",
+        "type": "suspicious",
+        "label": "Kumar Borcu",
+        "strength": 2,
+        "requires": [
+          "philip_borc"
+        ]
+      },
+      {
+        "from": "suspect_ray",
+        "to": "victim_victor",
+        "type": "suspicious",
+        "label": "Takip",
+        "strength": 2,
+        "requires": [
+          "ray_dosyasi"
+        ]
+      }
+    ]
+  },
+  "newspaperArticles": [
+    {
+      "id": "news_initial",
+      "requires": null,
+      "headline": "MANHATTAN'DA ŞOK CİNAYET: ANTİKACI VICTOR HARMON ÖLÜ BULUNDU",
+      "subheadline": "Madison Avenue'deki dükkanda hançerle öldürüldü, 12 milyon dolarlık vasiyet 5 saat önce değiştirilmişti",
+      "body": "Manhattan'ın Upper East Side bölgesindeki Harmon Antiques'in 68 yaşındaki sahibi Victor Harmon, dün gece dükkanında ölü bulundu. Cesedi sabah saatlerinde uzun yıllık iş ortağı Marcus Webb tarafından keşfedildi. Polis cinayet aletinin vitrindeki 17. yüzyıldan kalma bir Osmanlı hançeri olduğunu açıkladı. Olayın bir gün öncesinde Harmon'un vasiyetini tamamen değiştirdiği, 12 milyon dolarlık servetini çocuklarından alıp bir vakfa bıraktığı ortaya çıktı.",
+      "source": "The New York Times"
+    },
+    {
+      "id": "news_investigation",
+      "requires": null,
+      "headline": "HARMON DAVASI: 6 ŞÜPHELİ, KIRIK ALİBİLER",
+      "subheadline": "NYPD soruşturmayı genişletiyor",
+      "body": "Victor Harmon cinayeti soruşturmasında NYPD altı kişiyi mercek altına aldı: Harmon'un üç çocuğu Elena, James ve Philip; iş ortağı Marcus Webb; vasiyeti düzenleyen noter Diana Ortiz; ve aile tarafından tutulduğu öğrenilen özel dedektif Ray Chen. Yetkililer bu altı kişinin alibilerinde 'önemli boşluklar' olduğunu söylüyor.",
+      "source": "Daily News"
+    },
+    {
+      "id": "news_foundation",
+      "requires": [
+        "vakif_kayitlari"
+      ],
+      "headline": "HARMON HERITAGE FOUNDATION SAHTE ÇIKTI",
+      "subheadline": "Yönetim kurulu üyelerinin gerçekte var olmadığı tespit edildi",
+      "body": "Victor Harmon'un cinayet gününden saatler önce 12 milyon dolarını bağışladığı 'The Harmon Heritage Foundation' adlı vakfın kuruluş belgeleri inceleniyor. NYPD finansal suçlar birimi yönetim kurulu üyelerinin gerçek kişiler olmadığını, vakfın yalnızca bir bankaya kayıtlı boş bir kabuk şirket olduğunu bildirdi. Vakfı 2 yıl önce kuran isim bir aile yakını olarak öne çıkıyor.",
+      "source": "The Wall Street Journal"
+    },
+    {
+      "id": "news_poison",
+      "requires": [
+        "antimon_raporu"
+      ],
+      "headline": "VICTOR HARMON AYLARDIR YAVAŞ YAVAŞ ZEHİRLENİYORMUŞ",
+      "subheadline": "Otopside antimon tespit edildi, kronik maruziyet 4-6 ay sürmüş",
+      "body": "Victor Harmon'un ölümünün ardından yapılan rutin kan tahlilleri, antikacının aylardır düşük dozda antimon trioksite maruz kaldığını ortaya koydu. Adli tıp uzmanlarına göre bu seviye 'rastlantısal değil, sistematik bir uygulama'. Soruşturmacılar artık cinayetin yalnızca hançerleme değil, çok daha uzun zamandır planlanmış bir süreç olduğu görüşünde.",
+      "source": "The New York Times"
+    },
+    {
+      "id": "news_reputation_high",
+      "requires": null,
+      "headline": "DEDEKTİF HARMON DAVASINA HAKİM",
+      "subheadline": "Soruşturma kritik bir aşamada",
+      "body": "Harmon Antiques cinayet soruşturmasını yürüten dedektifin önemli delilleri birleştirdiği ve davayı çözüme yaklaştırdığı bildirildi. Polis kaynaklarına göre tutuklama yakın.",
+      "source": "Daily News"
+    },
+    {
+      "id": "news_reputation_low",
+      "requires": null,
+      "headline": "HARMON DAVASI ÇIKMAZDA",
+      "subheadline": "Aile ve halk cevap bekliyor",
+      "body": "Manhattan antikacısı Victor Harmon cinayetinin üzerinden günler geçmesine rağmen henüz tutuklama yapılmadı. Hem aile yakınları hem kamuoyu NYPD'den sonuç bekliyor.",
+      "source": "New York Post"
+    }
+  ]
+}

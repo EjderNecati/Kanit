@@ -56,7 +56,8 @@ class CaseLoader {
             "london-003",
             "girne-005",
             "napoli-004",
-            "paris-002"
+            "paris-002",
+            "manhattan-006"
         ]
     }
 
@@ -66,7 +67,8 @@ class CaseLoader {
         "paris-002": "paris-002",
         "london-003": "london-003",
         "napoli-004": "napoli-004",
-        "girne-005": "girne-005"
+        "girne-005": "girne-005",
+        "manhattan-006": "manhattan-006"
     ]
 
     /// Tum vakalari yukle (onbellekli, dil destekli)
